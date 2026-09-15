@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exporte_le": "2026-09-15T01:30:33.425990+00:00",
+  "exporte_le": "2026-09-15T01:47:10.341825+00:00",
   "competitions": [
     {
       "code": "UCL",
@@ -5012,7 +5012,7 @@
           "selection": "1",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166528+00:00"
+          "releve_le": "2026-09-15T01:47:09.026207+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5020,7 +5020,7 @@
           "selection": "2",
           "valeur": 3.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166528+00:00"
+          "releve_le": "2026-09-15T01:47:09.026207+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5028,7 +5028,7 @@
           "selection": "N",
           "valeur": 3.45,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166528+00:00"
+          "releve_le": "2026-09-15T01:47:09.026207+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5036,7 +5036,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166543+00:00"
+          "releve_le": "2026-09-15T01:47:09.026232+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5044,7 +5044,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166543+00:00"
+          "releve_le": "2026-09-15T01:47:09.026232+00:00"
         }
       ],
       "contexte": null,
@@ -5432,7 +5432,7 @@
           "selection": "1",
           "valeur": 1.87,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166578+00:00"
+          "releve_le": "2026-09-15T01:47:09.026272+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5440,7 +5440,7 @@
           "selection": "2",
           "valeur": 4.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166578+00:00"
+          "releve_le": "2026-09-15T01:47:09.026272+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5448,7 +5448,7 @@
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166578+00:00"
+          "releve_le": "2026-09-15T01:47:09.026272+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5456,7 +5456,7 @@
           "selection": "over",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166590+00:00"
+          "releve_le": "2026-09-15T01:47:09.026287+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5464,7 +5464,7 @@
           "selection": "under",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166590+00:00"
+          "releve_le": "2026-09-15T01:47:09.026287+00:00"
         }
       ],
       "contexte": null,
@@ -5852,7 +5852,7 @@
           "selection": "1",
           "valeur": 11.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166645+00:00"
+          "releve_le": "2026-09-15T01:47:09.026324+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5860,7 +5860,7 @@
           "selection": "2",
           "valeur": 1.235,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166645+00:00"
+          "releve_le": "2026-09-15T01:47:09.026324+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5868,7 +5868,7 @@
           "selection": "N",
           "valeur": 7.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166645+00:00"
+          "releve_le": "2026-09-15T01:47:09.026324+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5876,7 +5876,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166679+00:00"
+          "releve_le": "2026-09-15T01:47:09.026352+00:00"
         },
         {
           "bookmaker": "espn",
@@ -5884,7 +5884,7 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166679+00:00"
+          "releve_le": "2026-09-15T01:47:09.026352+00:00"
         }
       ],
       "contexte": null,
@@ -6272,7 +6272,7 @@
           "selection": "1",
           "valeur": 2.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166826+00:00"
+          "releve_le": "2026-09-15T01:47:09.026442+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6280,7 +6280,7 @@
           "selection": "2",
           "valeur": 3.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166826+00:00"
+          "releve_le": "2026-09-15T01:47:09.026442+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6288,7 +6288,7 @@
           "selection": "N",
           "valeur": 3.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166826+00:00"
+          "releve_le": "2026-09-15T01:47:09.026442+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6296,7 +6296,7 @@
           "selection": "over",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166839+00:00"
+          "releve_le": "2026-09-15T01:47:09.026455+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6304,7 +6304,7 @@
           "selection": "under",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166839+00:00"
+          "releve_le": "2026-09-15T01:47:09.026455+00:00"
         }
       ],
       "contexte": null,
@@ -6692,7 +6692,7 @@
           "selection": "1",
           "valeur": 1.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166743+00:00"
+          "releve_le": "2026-09-15T01:47:09.026392+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6700,7 +6700,7 @@
           "selection": "2",
           "valeur": 7.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166743+00:00"
+          "releve_le": "2026-09-15T01:47:09.026392+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6708,7 +6708,7 @@
           "selection": "N",
           "valeur": 4.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166743+00:00"
+          "releve_le": "2026-09-15T01:47:09.026392+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6716,7 +6716,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166778+00:00"
+          "releve_le": "2026-09-15T01:47:09.026406+00:00"
         },
         {
           "bookmaker": "espn",
@@ -6724,7 +6724,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166778+00:00"
+          "releve_le": "2026-09-15T01:47:09.026406+00:00"
         }
       ],
       "contexte": null,
@@ -7112,7 +7112,7 @@
           "selection": "1",
           "valeur": 3.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166932+00:00"
+          "releve_le": "2026-09-15T01:47:09.026540+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7120,7 +7120,7 @@
           "selection": "2",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166932+00:00"
+          "releve_le": "2026-09-15T01:47:09.026540+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7128,7 +7128,7 @@
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166932+00:00"
+          "releve_le": "2026-09-15T01:47:09.026540+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7136,7 +7136,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166946+00:00"
+          "releve_le": "2026-09-15T01:47:09.026554+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7144,7 +7144,7 @@
           "selection": "under",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166946+00:00"
+          "releve_le": "2026-09-15T01:47:09.026554+00:00"
         }
       ],
       "contexte": null,
@@ -7532,7 +7532,7 @@
           "selection": "1",
           "valeur": 1.056,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166881+00:00"
+          "releve_le": "2026-09-15T01:47:09.026491+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7540,7 +7540,7 @@
           "selection": "2",
           "valeur": 23.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166881+00:00"
+          "releve_le": "2026-09-15T01:47:09.026491+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7548,7 +7548,7 @@
           "selection": "N",
           "valeur": 17.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166881+00:00"
+          "releve_le": "2026-09-15T01:47:09.026491+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7556,7 +7556,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166895+00:00"
+          "releve_le": "2026-09-15T01:47:09.026505+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7564,7 +7564,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166895+00:00"
+          "releve_le": "2026-09-15T01:47:09.026505+00:00"
         }
       ],
       "contexte": null,
@@ -7952,7 +7952,7 @@
           "selection": "1",
           "valeur": 1.769,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166980+00:00"
+          "releve_le": "2026-09-15T01:47:09.026589+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7960,7 +7960,7 @@
           "selection": "2",
           "valeur": 5.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166980+00:00"
+          "releve_le": "2026-09-15T01:47:09.026589+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7968,7 +7968,7 @@
           "selection": "N",
           "valeur": 3.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166980+00:00"
+          "releve_le": "2026-09-15T01:47:09.026589+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7976,7 +7976,7 @@
           "selection": "over",
           "valeur": 2.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166993+00:00"
+          "releve_le": "2026-09-15T01:47:09.026602+00:00"
         },
         {
           "bookmaker": "espn",
@@ -7984,7 +7984,7 @@
           "selection": "under",
           "valeur": 1.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.166993+00:00"
+          "releve_le": "2026-09-15T01:47:09.026602+00:00"
         }
       ],
       "contexte": null,
@@ -8372,7 +8372,7 @@
           "selection": "1",
           "valeur": 3.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167027+00:00"
+          "releve_le": "2026-09-15T01:47:09.026638+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8380,7 +8380,7 @@
           "selection": "2",
           "valeur": 1.952,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167027+00:00"
+          "releve_le": "2026-09-15T01:47:09.026638+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8388,7 +8388,7 @@
           "selection": "N",
           "valeur": 3.85,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167027+00:00"
+          "releve_le": "2026-09-15T01:47:09.026638+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8396,7 +8396,7 @@
           "selection": "over",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167039+00:00"
+          "releve_le": "2026-09-15T01:47:09.026652+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8404,7 +8404,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167039+00:00"
+          "releve_le": "2026-09-15T01:47:09.026652+00:00"
         }
       ],
       "contexte": null,
@@ -8792,7 +8792,7 @@
           "selection": "1",
           "valeur": 2.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169037+00:00"
+          "releve_le": "2026-09-15T01:47:09.028703+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8800,7 +8800,7 @@
           "selection": "2",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169037+00:00"
+          "releve_le": "2026-09-15T01:47:09.028703+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8808,7 +8808,7 @@
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169037+00:00"
+          "releve_le": "2026-09-15T01:47:09.028703+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8816,7 +8816,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169053+00:00"
+          "releve_le": "2026-09-15T01:47:09.028718+00:00"
         },
         {
           "bookmaker": "espn",
@@ -8824,7 +8824,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169053+00:00"
+          "releve_le": "2026-09-15T01:47:09.028718+00:00"
         }
       ],
       "contexte": null,
@@ -9212,7 +9212,7 @@
           "selection": "1",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168050+00:00"
+          "releve_le": "2026-09-15T01:47:09.027690+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9220,7 +9220,7 @@
           "selection": "2",
           "valeur": 3.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168050+00:00"
+          "releve_le": "2026-09-15T01:47:09.027690+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9228,7 +9228,7 @@
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168050+00:00"
+          "releve_le": "2026-09-15T01:47:09.027690+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9236,7 +9236,7 @@
           "selection": "over",
           "valeur": 2.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168065+00:00"
+          "releve_le": "2026-09-15T01:47:09.027705+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9244,7 +9244,7 @@
           "selection": "under",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168065+00:00"
+          "releve_le": "2026-09-15T01:47:09.027705+00:00"
         }
       ],
       "contexte": null,
@@ -9632,7 +9632,7 @@
           "selection": "1",
           "valeur": 2.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165322+00:00"
+          "releve_le": "2026-09-15T01:47:09.024882+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9640,7 +9640,7 @@
           "selection": "2",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165322+00:00"
+          "releve_le": "2026-09-15T01:47:09.024882+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9648,7 +9648,7 @@
           "selection": "N",
           "valeur": 3.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165322+00:00"
+          "releve_le": "2026-09-15T01:47:09.024882+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9656,7 +9656,7 @@
           "selection": "over",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165401+00:00"
+          "releve_le": "2026-09-15T01:47:09.025000+00:00"
         },
         {
           "bookmaker": "espn",
@@ -9664,7 +9664,7 @@
           "selection": "under",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165401+00:00"
+          "releve_le": "2026-09-15T01:47:09.025000+00:00"
         }
       ],
       "contexte": null,
@@ -10052,7 +10052,7 @@
           "selection": "1",
           "valeur": 1.87,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167073+00:00"
+          "releve_le": "2026-09-15T01:47:09.026687+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10060,7 +10060,7 @@
           "selection": "2",
           "valeur": 4.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167073+00:00"
+          "releve_le": "2026-09-15T01:47:09.026687+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10068,7 +10068,7 @@
           "selection": "N",
           "valeur": 3.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167073+00:00"
+          "releve_le": "2026-09-15T01:47:09.026687+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10076,7 +10076,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167086+00:00"
+          "releve_le": "2026-09-15T01:47:09.026701+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10084,7 +10084,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167086+00:00"
+          "releve_le": "2026-09-15T01:47:09.026701+00:00"
         }
       ],
       "contexte": null,
@@ -10472,7 +10472,7 @@
           "selection": "1",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165461+00:00"
+          "releve_le": "2026-09-15T01:47:09.025056+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10480,7 +10480,7 @@
           "selection": "2",
           "valeur": 3.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165461+00:00"
+          "releve_le": "2026-09-15T01:47:09.025056+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10488,7 +10488,7 @@
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165461+00:00"
+          "releve_le": "2026-09-15T01:47:09.025056+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10496,7 +10496,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165477+00:00"
+          "releve_le": "2026-09-15T01:47:09.025074+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10504,7 +10504,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165477+00:00"
+          "releve_le": "2026-09-15T01:47:09.025074+00:00"
         }
       ],
       "contexte": null,
@@ -10892,7 +10892,7 @@
           "selection": "1",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167123+00:00"
+          "releve_le": "2026-09-15T01:47:09.026736+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10900,7 +10900,7 @@
           "selection": "2",
           "valeur": 3.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167123+00:00"
+          "releve_le": "2026-09-15T01:47:09.026736+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10908,7 +10908,7 @@
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167123+00:00"
+          "releve_le": "2026-09-15T01:47:09.026736+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10916,7 +10916,7 @@
           "selection": "over",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167137+00:00"
+          "releve_le": "2026-09-15T01:47:09.026750+00:00"
         },
         {
           "bookmaker": "espn",
@@ -10924,7 +10924,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167137+00:00"
+          "releve_le": "2026-09-15T01:47:09.026750+00:00"
         }
       ],
       "contexte": null,
@@ -11312,7 +11312,7 @@
           "selection": "1",
           "valeur": 1.87,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169086+00:00"
+          "releve_le": "2026-09-15T01:47:09.028754+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11320,7 +11320,7 @@
           "selection": "2",
           "valeur": 3.85,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169086+00:00"
+          "releve_le": "2026-09-15T01:47:09.028754+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11328,7 +11328,7 @@
           "selection": "N",
           "valeur": 3.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169086+00:00"
+          "releve_le": "2026-09-15T01:47:09.028754+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11336,7 +11336,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169100+00:00"
+          "releve_le": "2026-09-15T01:47:09.028767+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11344,7 +11344,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169100+00:00"
+          "releve_le": "2026-09-15T01:47:09.028767+00:00"
         }
       ],
       "contexte": null,
@@ -11732,7 +11732,7 @@
           "selection": "1",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169133+00:00"
+          "releve_le": "2026-09-15T01:47:09.028802+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11740,7 +11740,7 @@
           "selection": "2",
           "valeur": 3.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169133+00:00"
+          "releve_le": "2026-09-15T01:47:09.028802+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11748,7 +11748,7 @@
           "selection": "N",
           "valeur": 3.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169133+00:00"
+          "releve_le": "2026-09-15T01:47:09.028802+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11756,7 +11756,7 @@
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169147+00:00"
+          "releve_le": "2026-09-15T01:47:09.028834+00:00"
         },
         {
           "bookmaker": "espn",
@@ -11764,7 +11764,7 @@
           "selection": "under",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169147+00:00"
+          "releve_le": "2026-09-15T01:47:09.028834+00:00"
         }
       ],
       "contexte": null,
@@ -12152,7 +12152,7 @@
           "selection": "1",
           "valeur": 1.741,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165604+00:00"
+          "releve_le": "2026-09-15T01:47:09.025169+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12160,7 +12160,7 @@
           "selection": "2",
           "valeur": 4.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165604+00:00"
+          "releve_le": "2026-09-15T01:47:09.025169+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12168,7 +12168,7 @@
           "selection": "N",
           "valeur": 3.85,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165604+00:00"
+          "releve_le": "2026-09-15T01:47:09.025169+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12176,7 +12176,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165628+00:00"
+          "releve_le": "2026-09-15T01:47:09.025184+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12184,7 +12184,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165628+00:00"
+          "releve_le": "2026-09-15T01:47:09.025184+00:00"
         }
       ],
       "contexte": null,
@@ -12572,7 +12572,7 @@
           "selection": "1",
           "valeur": 1.588,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165668+00:00"
+          "releve_le": "2026-09-15T01:47:09.025221+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12580,7 +12580,7 @@
           "selection": "2",
           "valeur": 5.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165668+00:00"
+          "releve_le": "2026-09-15T01:47:09.025221+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12588,7 +12588,7 @@
           "selection": "N",
           "valeur": 4.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165668+00:00"
+          "releve_le": "2026-09-15T01:47:09.025221+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12596,7 +12596,7 @@
           "selection": "over",
           "valeur": 1.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165700+00:00"
+          "releve_le": "2026-09-15T01:47:09.025236+00:00"
         },
         {
           "bookmaker": "espn",
@@ -12604,7 +12604,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165700+00:00"
+          "releve_le": "2026-09-15T01:47:09.025236+00:00"
         }
       ],
       "contexte": null,
@@ -13002,7 +13002,7 @@
           "selection": "1",
           "valeur": 4.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165515+00:00"
+          "releve_le": "2026-09-15T01:47:09.025116+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13010,7 +13010,7 @@
           "selection": "2",
           "valeur": 1.69,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165515+00:00"
+          "releve_le": "2026-09-15T01:47:09.025116+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13018,7 +13018,7 @@
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165515+00:00"
+          "releve_le": "2026-09-15T01:47:09.025116+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13026,7 +13026,7 @@
           "selection": "over",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165529+00:00"
+          "releve_le": "2026-09-15T01:47:09.025132+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13034,7 +13034,7 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165529+00:00"
+          "releve_le": "2026-09-15T01:47:09.025132+00:00"
         }
       ],
       "contexte": null,
@@ -13432,7 +13432,7 @@
           "selection": "1",
           "valeur": 1.645,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167170+00:00"
+          "releve_le": "2026-09-15T01:47:09.026785+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13440,7 +13440,7 @@
           "selection": "2",
           "valeur": 5.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167170+00:00"
+          "releve_le": "2026-09-15T01:47:09.026785+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13448,7 +13448,7 @@
           "selection": "N",
           "valeur": 3.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167170+00:00"
+          "releve_le": "2026-09-15T01:47:09.026785+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13456,7 +13456,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167183+00:00"
+          "releve_le": "2026-09-15T01:47:09.026799+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13464,7 +13464,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167183+00:00"
+          "releve_le": "2026-09-15T01:47:09.026799+00:00"
         }
       ],
       "contexte": null,
@@ -13862,7 +13862,7 @@
           "selection": "1",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168105+00:00"
+          "releve_le": "2026-09-15T01:47:09.027741+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13870,7 +13870,7 @@
           "selection": "2",
           "valeur": 3.45,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168105+00:00"
+          "releve_le": "2026-09-15T01:47:09.027741+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13878,7 +13878,7 @@
           "selection": "N",
           "valeur": 3.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168105+00:00"
+          "releve_le": "2026-09-15T01:47:09.027741+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13886,7 +13886,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168118+00:00"
+          "releve_le": "2026-09-15T01:47:09.027755+00:00"
         },
         {
           "bookmaker": "espn",
@@ -13894,7 +13894,7 @@
           "selection": "under",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168118+00:00"
+          "releve_le": "2026-09-15T01:47:09.027755+00:00"
         }
       ],
       "contexte": null,
@@ -14282,7 +14282,7 @@
           "selection": "1",
           "valeur": 2.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169179+00:00"
+          "releve_le": "2026-09-15T01:47:09.028873+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14290,7 +14290,7 @@
           "selection": "2",
           "valeur": 2.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169179+00:00"
+          "releve_le": "2026-09-15T01:47:09.028873+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14298,7 +14298,7 @@
           "selection": "N",
           "valeur": 3.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169179+00:00"
+          "releve_le": "2026-09-15T01:47:09.028873+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14306,7 +14306,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169193+00:00"
+          "releve_le": "2026-09-15T01:47:09.028887+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14314,7 +14314,7 @@
           "selection": "under",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169193+00:00"
+          "releve_le": "2026-09-15T01:47:09.028887+00:00"
         }
       ],
       "contexte": null,
@@ -14722,7 +14722,7 @@
           "selection": "1",
           "valeur": 1.667,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165738+00:00"
+          "releve_le": "2026-09-15T01:47:09.025271+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14730,7 +14730,7 @@
           "selection": "2",
           "valeur": 4.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165738+00:00"
+          "releve_le": "2026-09-15T01:47:09.025271+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14738,7 +14738,7 @@
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165738+00:00"
+          "releve_le": "2026-09-15T01:47:09.025271+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14746,7 +14746,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165751+00:00"
+          "releve_le": "2026-09-15T01:47:09.025286+00:00"
         },
         {
           "bookmaker": "espn",
@@ -14754,7 +14754,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165751+00:00"
+          "releve_le": "2026-09-15T01:47:09.025286+00:00"
         }
       ],
       "contexte": null,
@@ -15152,7 +15152,7 @@
           "selection": "1",
           "valeur": 1.769,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167217+00:00"
+          "releve_le": "2026-09-15T01:47:09.026858+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15160,7 +15160,7 @@
           "selection": "2",
           "valeur": 4.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167217+00:00"
+          "releve_le": "2026-09-15T01:47:09.026858+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15168,7 +15168,7 @@
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167217+00:00"
+          "releve_le": "2026-09-15T01:47:09.026858+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15176,7 +15176,7 @@
           "selection": "over",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167229+00:00"
+          "releve_le": "2026-09-15T01:47:09.026873+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15184,7 +15184,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167229+00:00"
+          "releve_le": "2026-09-15T01:47:09.026873+00:00"
         }
       ],
       "contexte": null,
@@ -15572,7 +15572,7 @@
           "selection": "1",
           "valeur": 3.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169225+00:00"
+          "releve_le": "2026-09-15T01:47:09.028922+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15580,7 +15580,7 @@
           "selection": "2",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169225+00:00"
+          "releve_le": "2026-09-15T01:47:09.028922+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15588,7 +15588,7 @@
           "selection": "N",
           "valeur": 3.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169225+00:00"
+          "releve_le": "2026-09-15T01:47:09.028922+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15596,7 +15596,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169239+00:00"
+          "releve_le": "2026-09-15T01:47:09.028936+00:00"
         },
         {
           "bookmaker": "espn",
@@ -15604,7 +15604,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169239+00:00"
+          "releve_le": "2026-09-15T01:47:09.028936+00:00"
         }
       ],
       "contexte": null,
@@ -15992,7 +15992,7 @@
           "selection": "1",
           "valeur": 1.833,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168292+00:00"
+          "releve_le": "2026-09-15T01:47:09.027965+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16000,7 +16000,7 @@
           "selection": "2",
           "valeur": 4.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168292+00:00"
+          "releve_le": "2026-09-15T01:47:09.027965+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16008,7 +16008,7 @@
           "selection": "N",
           "valeur": 3.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168292+00:00"
+          "releve_le": "2026-09-15T01:47:09.027965+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16016,7 +16016,7 @@
           "selection": "over",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168311+00:00"
+          "releve_le": "2026-09-15T01:47:09.027978+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16024,7 +16024,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168311+00:00"
+          "releve_le": "2026-09-15T01:47:09.027978+00:00"
         }
       ],
       "contexte": null,
@@ -16412,7 +16412,7 @@
           "selection": "1",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168246+00:00"
+          "releve_le": "2026-09-15T01:47:09.027916+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16420,7 +16420,7 @@
           "selection": "2",
           "valeur": 3.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168246+00:00"
+          "releve_le": "2026-09-15T01:47:09.027916+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16428,7 +16428,7 @@
           "selection": "N",
           "valeur": 3.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168246+00:00"
+          "releve_le": "2026-09-15T01:47:09.027916+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16436,7 +16436,7 @@
           "selection": "over",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168259+00:00"
+          "releve_le": "2026-09-15T01:47:09.027930+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16444,7 +16444,7 @@
           "selection": "under",
           "valeur": 1.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168259+00:00"
+          "releve_le": "2026-09-15T01:47:09.027930+00:00"
         }
       ],
       "contexte": null,
@@ -16832,7 +16832,7 @@
           "selection": "1",
           "valeur": 2.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168199+00:00"
+          "releve_le": "2026-09-15T01:47:09.027866+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16840,7 +16840,7 @@
           "selection": "2",
           "valeur": 2.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168199+00:00"
+          "releve_le": "2026-09-15T01:47:09.027866+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16848,7 +16848,7 @@
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168199+00:00"
+          "releve_le": "2026-09-15T01:47:09.027866+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16856,7 +16856,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168212+00:00"
+          "releve_le": "2026-09-15T01:47:09.027881+00:00"
         },
         {
           "bookmaker": "espn",
@@ -16864,7 +16864,7 @@
           "selection": "under",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168212+00:00"
+          "releve_le": "2026-09-15T01:47:09.027881+00:00"
         }
       ],
       "contexte": null,
@@ -17262,7 +17262,7 @@
           "selection": "1",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168153+00:00"
+          "releve_le": "2026-09-15T01:47:09.027789+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17270,7 +17270,7 @@
           "selection": "2",
           "valeur": 3.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168153+00:00"
+          "releve_le": "2026-09-15T01:47:09.027789+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17278,7 +17278,7 @@
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168153+00:00"
+          "releve_le": "2026-09-15T01:47:09.027789+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17286,7 +17286,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168166+00:00"
+          "releve_le": "2026-09-15T01:47:09.027803+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17294,7 +17294,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168166+00:00"
+          "releve_le": "2026-09-15T01:47:09.027803+00:00"
         }
       ],
       "contexte": null,
@@ -17682,7 +17682,7 @@
           "selection": "1",
           "valeur": 11.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167263+00:00"
+          "releve_le": "2026-09-15T01:47:09.026908+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17690,7 +17690,7 @@
           "selection": "2",
           "valeur": 1.235,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167263+00:00"
+          "releve_le": "2026-09-15T01:47:09.026908+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17698,7 +17698,7 @@
           "selection": "N",
           "valeur": 6.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167263+00:00"
+          "releve_le": "2026-09-15T01:47:09.026908+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17706,7 +17706,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167276+00:00"
+          "releve_le": "2026-09-15T01:47:09.026923+00:00"
         },
         {
           "bookmaker": "espn",
@@ -17714,7 +17714,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167276+00:00"
+          "releve_le": "2026-09-15T01:47:09.026923+00:00"
         }
       ],
       "contexte": null,
@@ -18102,7 +18102,7 @@
           "selection": "1",
           "valeur": 3.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169275+00:00"
+          "releve_le": "2026-09-15T01:47:09.028972+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18110,7 +18110,7 @@
           "selection": "2",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169275+00:00"
+          "releve_le": "2026-09-15T01:47:09.028972+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18118,7 +18118,7 @@
           "selection": "N",
           "valeur": 3.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169275+00:00"
+          "releve_le": "2026-09-15T01:47:09.028972+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18126,7 +18126,7 @@
           "selection": "over",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169289+00:00"
+          "releve_le": "2026-09-15T01:47:09.028986+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18134,7 +18134,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169289+00:00"
+          "releve_le": "2026-09-15T01:47:09.028986+00:00"
         }
       ],
       "contexte": null,
@@ -18522,7 +18522,7 @@
           "selection": "1",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167311+00:00"
+          "releve_le": "2026-09-15T01:47:09.026959+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18530,7 +18530,7 @@
           "selection": "2",
           "valeur": 3.85,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167311+00:00"
+          "releve_le": "2026-09-15T01:47:09.026959+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18538,7 +18538,7 @@
           "selection": "N",
           "valeur": 3.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167311+00:00"
+          "releve_le": "2026-09-15T01:47:09.026959+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18546,7 +18546,7 @@
           "selection": "over",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167323+00:00"
+          "releve_le": "2026-09-15T01:47:09.026973+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18554,7 +18554,7 @@
           "selection": "under",
           "valeur": 2.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167323+00:00"
+          "releve_le": "2026-09-15T01:47:09.026973+00:00"
         }
       ],
       "contexte": null,
@@ -18942,7 +18942,7 @@
           "selection": "1",
           "valeur": 5.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169322+00:00"
+          "releve_le": "2026-09-15T01:47:09.029022+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18950,7 +18950,7 @@
           "selection": "2",
           "valeur": 1.476,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169322+00:00"
+          "releve_le": "2026-09-15T01:47:09.029022+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18958,7 +18958,7 @@
           "selection": "N",
           "valeur": 4.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169322+00:00"
+          "releve_le": "2026-09-15T01:47:09.029022+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18966,7 +18966,7 @@
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169335+00:00"
+          "releve_le": "2026-09-15T01:47:09.029036+00:00"
         },
         {
           "bookmaker": "espn",
@@ -18974,7 +18974,7 @@
           "selection": "under",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169335+00:00"
+          "releve_le": "2026-09-15T01:47:09.029036+00:00"
         }
       ],
       "contexte": null,
@@ -19362,7 +19362,7 @@
           "selection": "1",
           "valeur": 3.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169368+00:00"
+          "releve_le": "2026-09-15T01:47:09.029071+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19370,7 +19370,7 @@
           "selection": "2",
           "valeur": 2.45,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169368+00:00"
+          "releve_le": "2026-09-15T01:47:09.029071+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19378,7 +19378,7 @@
           "selection": "N",
           "valeur": 2.85,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169368+00:00"
+          "releve_le": "2026-09-15T01:47:09.029071+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19386,7 +19386,7 @@
           "selection": "over",
           "valeur": 1.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169381+00:00"
+          "releve_le": "2026-09-15T01:47:09.029085+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19394,7 +19394,7 @@
           "selection": "under",
           "valeur": 2.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169381+00:00"
+          "releve_le": "2026-09-15T01:47:09.029085+00:00"
         }
       ],
       "contexte": null,
@@ -19802,7 +19802,7 @@
           "selection": "1",
           "valeur": 2.7,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168350+00:00"
+          "releve_le": "2026-09-15T01:47:09.028012+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19810,7 +19810,7 @@
           "selection": "2",
           "valeur": 2.45,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168350+00:00"
+          "releve_le": "2026-09-15T01:47:09.028012+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19818,7 +19818,7 @@
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168350+00:00"
+          "releve_le": "2026-09-15T01:47:09.028012+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19826,7 +19826,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168363+00:00"
+          "releve_le": "2026-09-15T01:47:09.028026+00:00"
         },
         {
           "bookmaker": "espn",
@@ -19834,7 +19834,7 @@
           "selection": "under",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168363+00:00"
+          "releve_le": "2026-09-15T01:47:09.028026+00:00"
         }
       ],
       "contexte": null,
@@ -20242,7 +20242,7 @@
           "selection": "1",
           "valeur": 1.294,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165877+00:00"
+          "releve_le": "2026-09-15T01:47:09.025509+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20250,7 +20250,7 @@
           "selection": "2",
           "valeur": 9.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165877+00:00"
+          "releve_le": "2026-09-15T01:47:09.025509+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20258,7 +20258,7 @@
           "selection": "N",
           "valeur": 5.75,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165877+00:00"
+          "releve_le": "2026-09-15T01:47:09.025509+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20266,7 +20266,7 @@
           "selection": "over",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165890+00:00"
+          "releve_le": "2026-09-15T01:47:09.025524+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20274,7 +20274,7 @@
           "selection": "under",
           "valeur": 2.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165890+00:00"
+          "releve_le": "2026-09-15T01:47:09.025524+00:00"
         }
       ],
       "contexte": null,
@@ -20662,7 +20662,7 @@
           "selection": "1",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165832+00:00"
+          "releve_le": "2026-09-15T01:47:09.025452+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20670,7 +20670,7 @@
           "selection": "2",
           "valeur": 4.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165832+00:00"
+          "releve_le": "2026-09-15T01:47:09.025452+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20678,7 +20678,7 @@
           "selection": "N",
           "valeur": 3.75,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165832+00:00"
+          "releve_le": "2026-09-15T01:47:09.025452+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20686,7 +20686,7 @@
           "selection": "over",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165845+00:00"
+          "releve_le": "2026-09-15T01:47:09.025467+00:00"
         },
         {
           "bookmaker": "espn",
@@ -20694,7 +20694,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165845+00:00"
+          "releve_le": "2026-09-15T01:47:09.025467+00:00"
         }
       ],
       "contexte": null,
@@ -21082,7 +21082,7 @@
           "selection": "1",
           "valeur": 3.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165785+00:00"
+          "releve_le": "2026-09-15T01:47:09.025385+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21090,7 +21090,7 @@
           "selection": "2",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165785+00:00"
+          "releve_le": "2026-09-15T01:47:09.025385+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21098,7 +21098,7 @@
           "selection": "N",
           "valeur": 3.85,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165785+00:00"
+          "releve_le": "2026-09-15T01:47:09.025385+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21106,7 +21106,7 @@
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165798+00:00"
+          "releve_le": "2026-09-15T01:47:09.025411+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21114,7 +21114,7 @@
           "selection": "under",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165798+00:00"
+          "releve_le": "2026-09-15T01:47:09.025411+00:00"
         }
       ],
       "contexte": null,
@@ -21502,7 +21502,7 @@
           "selection": "1",
           "valeur": 4.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167359+00:00"
+          "releve_le": "2026-09-15T01:47:09.027032+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21510,7 +21510,7 @@
           "selection": "2",
           "valeur": 1.833,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167359+00:00"
+          "releve_le": "2026-09-15T01:47:09.027032+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21518,7 +21518,7 @@
           "selection": "N",
           "valeur": 3.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167359+00:00"
+          "releve_le": "2026-09-15T01:47:09.027032+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21526,7 +21526,7 @@
           "selection": "over",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167372+00:00"
+          "releve_le": "2026-09-15T01:47:09.027048+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21534,7 +21534,7 @@
           "selection": "under",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167372+00:00"
+          "releve_le": "2026-09-15T01:47:09.027048+00:00"
         }
       ],
       "contexte": null,
@@ -21922,7 +21922,7 @@
           "selection": "1",
           "valeur": 3.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168396+00:00"
+          "releve_le": "2026-09-15T01:47:09.028060+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21930,7 +21930,7 @@
           "selection": "2",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168396+00:00"
+          "releve_le": "2026-09-15T01:47:09.028060+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21938,7 +21938,7 @@
           "selection": "N",
           "valeur": 3.45,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168396+00:00"
+          "releve_le": "2026-09-15T01:47:09.028060+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21946,7 +21946,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168409+00:00"
+          "releve_le": "2026-09-15T01:47:09.028074+00:00"
         },
         {
           "bookmaker": "espn",
@@ -21954,7 +21954,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168409+00:00"
+          "releve_le": "2026-09-15T01:47:09.028074+00:00"
         }
       ],
       "contexte": null,
@@ -22342,7 +22342,7 @@
           "selection": "1",
           "valeur": 3.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165923+00:00"
+          "releve_le": "2026-09-15T01:47:09.025568+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22350,7 +22350,7 @@
           "selection": "2",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165923+00:00"
+          "releve_le": "2026-09-15T01:47:09.025568+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22358,7 +22358,7 @@
           "selection": "N",
           "valeur": 3.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165923+00:00"
+          "releve_le": "2026-09-15T01:47:09.025568+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22366,7 +22366,7 @@
           "selection": "over",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165936+00:00"
+          "releve_le": "2026-09-15T01:47:09.025582+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22374,7 +22374,7 @@
           "selection": "under",
           "valeur": 2.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.165936+00:00"
+          "releve_le": "2026-09-15T01:47:09.025582+00:00"
         }
       ],
       "contexte": null,
@@ -22762,7 +22762,7 @@
           "selection": "1",
           "valeur": 1.645,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169414+00:00"
+          "releve_le": "2026-09-15T01:47:09.029120+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22770,7 +22770,7 @@
           "selection": "2",
           "valeur": 4.7,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169414+00:00"
+          "releve_le": "2026-09-15T01:47:09.029120+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22778,7 +22778,7 @@
           "selection": "N",
           "valeur": 3.7,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169414+00:00"
+          "releve_le": "2026-09-15T01:47:09.029120+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22786,7 +22786,7 @@
           "selection": "over",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169426+00:00"
+          "releve_le": "2026-09-15T01:47:09.029134+00:00"
         },
         {
           "bookmaker": "espn",
@@ -22794,7 +22794,7 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169426+00:00"
+          "releve_le": "2026-09-15T01:47:09.029134+00:00"
         }
       ],
       "contexte": null,
@@ -23192,7 +23192,7 @@
           "selection": "1",
           "valeur": 1.571,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167452+00:00"
+          "releve_le": "2026-09-15T01:47:09.027138+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23200,7 +23200,7 @@
           "selection": "2",
           "valeur": 5.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167452+00:00"
+          "releve_le": "2026-09-15T01:47:09.027138+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23208,7 +23208,7 @@
           "selection": "N",
           "valeur": 4.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167452+00:00"
+          "releve_le": "2026-09-15T01:47:09.027138+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23216,7 +23216,7 @@
           "selection": "over",
           "valeur": 2.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167464+00:00"
+          "releve_le": "2026-09-15T01:47:09.027153+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23224,7 +23224,7 @@
           "selection": "under",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167464+00:00"
+          "releve_le": "2026-09-15T01:47:09.027153+00:00"
         }
       ],
       "contexte": null,
@@ -23612,7 +23612,7 @@
           "selection": "1",
           "valeur": 2.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167406+00:00"
+          "releve_le": "2026-09-15T01:47:09.027083+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23620,7 +23620,7 @@
           "selection": "2",
           "valeur": 2.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167406+00:00"
+          "releve_le": "2026-09-15T01:47:09.027083+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23628,7 +23628,7 @@
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167406+00:00"
+          "releve_le": "2026-09-15T01:47:09.027083+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23636,7 +23636,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167418+00:00"
+          "releve_le": "2026-09-15T01:47:09.027098+00:00"
         },
         {
           "bookmaker": "espn",
@@ -23644,7 +23644,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167418+00:00"
+          "releve_le": "2026-09-15T01:47:09.027098+00:00"
         }
       ],
       "contexte": null,
@@ -24032,7 +24032,7 @@
           "selection": "1",
           "valeur": 1.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169459+00:00"
+          "releve_le": "2026-09-15T01:47:09.029168+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24040,7 +24040,7 @@
           "selection": "2",
           "valeur": 9.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169459+00:00"
+          "releve_le": "2026-09-15T01:47:09.029168+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24048,7 +24048,7 @@
           "selection": "N",
           "valeur": 5.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169459+00:00"
+          "releve_le": "2026-09-15T01:47:09.029168+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24056,7 +24056,7 @@
           "selection": "over",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169472+00:00"
+          "releve_le": "2026-09-15T01:47:09.029182+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24064,7 +24064,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.169472+00:00"
+          "releve_le": "2026-09-15T01:47:09.029182+00:00"
         }
       ],
       "contexte": null,
@@ -24452,7 +24452,7 @@
           "selection": "1",
           "valeur": 6.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168443+00:00"
+          "releve_le": "2026-09-15T01:47:09.028127+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24460,7 +24460,7 @@
           "selection": "2",
           "valeur": 1.417,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168443+00:00"
+          "releve_le": "2026-09-15T01:47:09.028127+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24468,7 +24468,7 @@
           "selection": "N",
           "valeur": 5.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168443+00:00"
+          "releve_le": "2026-09-15T01:47:09.028127+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24476,7 +24476,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168456+00:00"
+          "releve_le": "2026-09-15T01:47:09.028143+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24484,7 +24484,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.168456+00:00"
+          "releve_le": "2026-09-15T01:47:09.028143+00:00"
         }
       ],
       "contexte": null,
@@ -24872,7 +24872,7 @@
           "selection": "1",
           "valeur": 2.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167497+00:00"
+          "releve_le": "2026-09-15T01:47:09.027188+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24880,7 +24880,7 @@
           "selection": "2",
           "valeur": 2.5,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167497+00:00"
+          "releve_le": "2026-09-15T01:47:09.027188+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24888,7 +24888,7 @@
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167497+00:00"
+          "releve_le": "2026-09-15T01:47:09.027188+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24896,7 +24896,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167509+00:00"
+          "releve_le": "2026-09-15T01:47:09.027202+00:00"
         },
         {
           "bookmaker": "espn",
@@ -24904,7 +24904,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-15T01:30:32.167509+00:00"
+          "releve_le": "2026-09-15T01:47:09.027202+00:00"
         }
       ],
       "contexte": null,
