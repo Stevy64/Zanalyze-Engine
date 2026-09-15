@@ -27,21 +27,63 @@ TOURNOIS: dict[str, dict[str, Any]] = {
         'code': 'UCL', 'nom': 'Ligue des champions', 'pays': 'Europe',
         'ordre': 10, 'espn_league_id': 775,
     },
+    # Angleterre
     'eng.1': {
         'code': 'PL', 'nom': 'Premier League', 'pays': 'Angleterre',
         'ordre': 20, 'espn_league_id': 700,
     },
+    'eng.fa': {
+        'code': 'FAC', 'nom': 'FA Cup', 'pays': 'Angleterre',
+        'ordre': 21, 'espn_league_id': 3918,
+    },
+    'eng.league_cup': {
+        'code': 'EFL', 'nom': 'EFL Cup', 'pays': 'Angleterre',
+        'ordre': 22, 'espn_league_id': 3920,
+    },
+    # Espagne
     'esp.1': {
         'code': 'LIGA', 'nom': 'LaLiga', 'pays': 'Espagne',
         'ordre': 30, 'espn_league_id': 701,
     },
+    'esp.copa_del_rey': {
+        'code': 'CDR', 'nom': 'Copa del Rey', 'pays': 'Espagne',
+        'ordre': 31, 'espn_league_id': 3951,
+    },
+    # Allemagne
+    'ger.1': {
+        'code': 'BL', 'nom': 'Bundesliga', 'pays': 'Allemagne',
+        'ordre': 35, 'espn_league_id': 720,
+    },
+    'ger.dfb_pokal': {
+        'code': 'DFB', 'nom': 'DFB-Pokal', 'pays': 'Allemagne',
+        'ordre': 36, 'espn_league_id': 3954,
+    },
+    # France
     'fra.1': {
         'code': 'L1', 'nom': 'Ligue 1', 'pays': 'France',
         'ordre': 40, 'espn_league_id': 710,
     },
+    'fra.coupe_de_france': {
+        'code': 'CDF', 'nom': 'Coupe de France', 'pays': 'France',
+        'ordre': 41, 'espn_league_id': 3952,
+    },
+    # Italie
     'ita.1': {
         'code': 'SA', 'nom': 'Serie A', 'pays': 'Italie',
         'ordre': 50, 'espn_league_id': 702,
+    },
+    'ita.coppa_italia': {
+        'code': 'CI', 'nom': 'Coppa Italia', 'pays': 'Italie',
+        'ordre': 51, 'espn_league_id': 3956,
+    },
+    # Portugal
+    'por.1': {
+        'code': 'LP', 'nom': 'Liga Portugal', 'pays': 'Portugal',
+        'ordre': 60, 'espn_league_id': 715,
+    },
+    'por.taca.portugal': {
+        'code': 'TDP', 'nom': 'Taça de Portugal', 'pays': 'Portugal',
+        'ordre': 61, 'espn_league_id': 20922,
     },
 }
 

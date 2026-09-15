@@ -18,13 +18,28 @@ except ImportError:  # pragma: no cover - environnement sans curl_cffi
 
 BASE = 'https://api.sofascore.com/api/v1'
 
-# uniqueTournament id → code interne ZanalyZ
+# uniqueTournament id → code interne Zanalyze
 TOURNOIS = {
     7: {'code': 'UCL', 'nom': 'Ligue des champions', 'pays': 'Europe', 'ordre': 10},
+    # Angleterre
     17: {'code': 'PL', 'nom': 'Premier League', 'pays': 'Angleterre', 'ordre': 20},
+    19: {'code': 'FAC', 'nom': 'FA Cup', 'pays': 'Angleterre', 'ordre': 21},
+    21: {'code': 'EFL', 'nom': 'EFL Cup', 'pays': 'Angleterre', 'ordre': 22},
+    # Espagne
     8: {'code': 'LIGA', 'nom': 'LaLiga', 'pays': 'Espagne', 'ordre': 30},
+    329: {'code': 'CDR', 'nom': 'Copa del Rey', 'pays': 'Espagne', 'ordre': 31},
+    # Allemagne
+    35: {'code': 'BL', 'nom': 'Bundesliga', 'pays': 'Allemagne', 'ordre': 35},
+    217: {'code': 'DFB', 'nom': 'DFB-Pokal', 'pays': 'Allemagne', 'ordre': 36},
+    # France
     34: {'code': 'L1', 'nom': 'Ligue 1', 'pays': 'France', 'ordre': 40},
+    335: {'code': 'CDF', 'nom': 'Coupe de France', 'pays': 'France', 'ordre': 41},
+    # Italie
     23: {'code': 'SA', 'nom': 'Serie A', 'pays': 'Italie', 'ordre': 50},
+    328: {'code': 'CI', 'nom': 'Coppa Italia', 'pays': 'Italie', 'ordre': 51},
+    # Portugal
+    238: {'code': 'LP', 'nom': 'Liga Portugal', 'pays': 'Portugal', 'ordre': 60},
+    336: {'code': 'TDP', 'nom': 'Taça de Portugal', 'pays': 'Portugal', 'ordre': 61},
 }
 
 

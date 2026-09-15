@@ -6,7 +6,7 @@ L’écran **« Choose a workflow »** apparaît si aucun YAML n’est sur `main
 
 Par défaut le moteur utilise **ESPN** (JSON public, sans clé) :
 
-- calendrier PL / LIGA / L1 / SA / UCL
+- calendrier UCL, Big 5 (+ coupes), Liga Portugal (+ Taça)
 - scores
 - cotes 1X2 + OU 2.5
 

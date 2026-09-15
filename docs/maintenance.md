@@ -12,8 +12,10 @@ Logs Actions : onglet **Actions** → dernier **Refresh snapshot**.
 
 ## Ajouter une compétition
 
-1. `engine/sofascore.py` → dict `TOURNOIS` (id SofaScore `uniqueTournament`).
-2. Relancer `refresh`. Le code (`PL`, `LIGA`, …) doit rester aligné avec la PWA.
+1. **ESPN (défaut)** : `engine/espn.py` → dict `TOURNOIS` (slug ESPN + `espn_league_id`).
+2. **SofaScore (option)** : `engine/sofascore.py` → même codes (`PL`, `LP`, `FAC`, …).
+3. PWA : drapeaux dans `static/js/app.js` (`FLAG_BY_CODE` / `FLAG_BY_PAYS`) si besoin.
+4. Relancer `refresh`. Les `code` doivent rester alignés entre engine et PWA.
 
 ## Changer le moteur (v3.1)
 
