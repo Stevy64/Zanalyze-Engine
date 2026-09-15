@@ -12,7 +12,7 @@ Le Free Tier Ampere (ARM, `VM.Standard.A1.Flex`) a un **egress libre** : SofaSco
 
 ```bash
 sudo apt update && sudo apt install -y python3-venv python3-pip git
-git clone https://github.com/Stevy64/zanalyze-engine.git
+git clone https://github.com/Stevy64/Zanalyze-Engine.git
 cd zanalyze-engine
 python3 -m venv .venv
 source .venv/bin/activate

@@ -1,4 +1,9 @@
-"""API FastAPI — Zanalyze Engine."""
+"""
+API HTTP (optionnelle). La PWA PythonAnywhere n’a pas besoin de l’appeler :
+elle lit le JSON Git. L’API sert le VPS / le debug local (/docs).
+
+Auth : si ENGINE_TOKEN est vide, tout est ouvert (dev). Sinon Bearer ou X-Engine-Token.
+"""
 from __future__ import annotations
 
 import os

@@ -1,4 +1,4 @@
-"""Chemins data / exports (indépendants de Django)."""
+"""Chemins data/ et exports/ — surcharge ENGINE_DATA_DIR, ENGINE_DB_PATH, ENGINE_SNAPSHOT_PATH."""
 from __future__ import annotations
 
 import os

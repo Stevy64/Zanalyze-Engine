@@ -1,7 +1,7 @@
 """Client SofaScore (API non officielle).
 
-Préfère curl_cffi (empreinte Chrome) ; bascule sur urllib si absent
-(utile sur PythonAnywhere quand le quota disque bloque l’install).
+Préfère curl_cffi (empreinte Chrome). Timeout court pour ne pas geler un refresh Actions.
+TOURNOIS : ids uniqueTournament → codes PWA (PL, LIGA, …).
 """
 from __future__ import annotations
 

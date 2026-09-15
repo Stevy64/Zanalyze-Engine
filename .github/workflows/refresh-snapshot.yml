@@ -1,7 +1,16 @@
+# Refresh du snapshot matchs (contrat v1 pour la PWA Zanalyze).
+#
+# Le cron GitHub ne démarre PAS tant que Actions n’est pas autorisé :
+#   Settings → Actions → General → Allow all actions and reusable workflows
+# Puis onglet Actions → « Refresh snapshot » → Run workflow.
+#
+# SofaScore peut renvoyer 403 depuis les IP GitHub → docs/oracle.md
+
 name: Refresh snapshot
 
 on:
   schedule:
+    # Toutes les 2 h (UTC). Les crons GitHub peuvent glisser de quelques minutes.
     - cron: '15 */2 * * *'
   workflow_dispatch:
 

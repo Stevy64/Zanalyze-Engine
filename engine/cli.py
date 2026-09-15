@@ -1,4 +1,12 @@
-"""CLI : python -m engine refresh | serve | snapshot | sync"""
+"""
+Entrée unique : python -m engine <commande>
+
+refresh   sync SofaScore + analyses + JSON (ce que fait Actions)
+sync      ingest seulement
+analyser  recalcul SQLite sans HTTP
+snapshot  réécrit le JSON depuis la base
+serve     uvicorn engine.app:app
+"""
 from __future__ import annotations
 
 import argparse

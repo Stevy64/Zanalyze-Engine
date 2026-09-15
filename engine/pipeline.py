@@ -1,4 +1,12 @@
-"""Sync SofaScore → SQLite → analyses v3.1 → snapshot."""
+"""
+Pipeline métier (sans Django).
+
+1. sync()         — events SofaScore → SQLite (cotes hors transaction HTTP)
+2. analyser_jours — moteur v3.1 par journée civile (UTC date du coup d’envoi)
+3. refresh()      — 1 + 2 + écriture exports/matchs.json
+
+Erreurs SofaScore par événement : on continue (stats['erreurs']).
+"""
 from __future__ import annotations
 
 import json

@@ -1,4 +1,9 @@
-"""Snapshot v1 — même contrat que ZanalyZe (`paris.snapshot`)."""
+"""
+Export snapshot v1 — **même schéma** que paris.snapshot côté PWA Zanalyze.
+
+Ne pas renommer les clés (sofascore_id, competition_code, options, …)
+sans déployer la PWA en même temps.
+"""
 from __future__ import annotations
 
 import json

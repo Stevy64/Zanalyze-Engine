@@ -1,4 +1,9 @@
-"""Store SQLite du moteur (matchs, cotes, analyses)."""
+"""
+Persistance SQLite (fichier data/engine.sqlite3 par défaut).
+
+Pas d’ORM : upserts idempotents pour rejouer un refresh Actions.
+Les analyses sont un JSON blob (même forme que le moteur) pour l’export snapshot.
+"""
 from __future__ import annotations
 
 import json
