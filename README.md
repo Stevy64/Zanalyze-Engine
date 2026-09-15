@@ -8,6 +8,16 @@ Moteur d’analyse football **indépendant** de la PWA [ZanalyZe](https://github
 
 PythonAnywhere **ne peut pas** appeler SofaScore (whitelist). Ce repo tourne ailleurs (Actions, VPS, PC) et **pousse** `exports/matchs.json`.
 
+Si le dépôt GitHub n’existe pas encore (clone local uniquement) :
+
+```bash
+cd ../zanalyze-engine   # ou le chemin du repo
+# Installer GitHub CLI, puis :
+gh repo create zanalyze-engine --public --source=. --remote=origin --push
+```
+
+Active ensuite **Actions** sur le dépôt (Settings → Actions → allow).
+
 ## Local
 
 ```bash
