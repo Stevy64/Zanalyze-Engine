@@ -10,3 +10,6 @@ data/calibration.json
 .idea/
 .vscode/
 .DS_Store
+scripts/
+refresh-espn.log
+refresh-out.json
