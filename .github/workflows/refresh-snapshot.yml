@@ -1,0 +1,47 @@
+name: Refresh snapshot
+
+on:
+  schedule:
+    - cron: '15 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Restore SQLite cache
+        uses: actions/cache@v4
+        with:
+          path: data/engine.sqlite3
+          key: engine-sqlite-${{ github.run_id }}
+          restore-keys: |
+            engine-sqlite-
+
+      - name: Sync + analyse + snapshot
+        run: python -m engine refresh --pages 1 --passes 1 --jours 21
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "zanalyze-engine-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add exports/matchs.json
+          if git diff --cached --quiet; then
+            echo "Pas de changement snapshot"
+          else
+            git commit -m "chore: refresh match snapshot"
+            git push
+          fi

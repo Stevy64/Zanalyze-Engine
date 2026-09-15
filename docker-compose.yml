@@ -1,0 +1,29 @@
+services:
+  moteur:
+    build: .
+    image: zanalyze-engine:latest
+    container_name: zanalyze-engine
+    ports:
+      - "8001:8001"
+    environment:
+      ENGINE_TOKEN: ${ENGINE_TOKEN:-}
+    volumes:
+      - ./data:/app/data
+      - ./exports:/app/exports
+    restart: unless-stopped
+
+  worker:
+    image: zanalyze-engine:latest
+    container_name: zanalyze-engine-worker
+    command: ["sh", "/app/deploy/worker-loop.sh"]
+    environment:
+      ENGINE_WORKER_INTERVAL: ${ENGINE_WORKER_INTERVAL:-7200}
+      ENGINE_SYNC_PAGES: ${ENGINE_SYNC_PAGES:-1}
+      ENGINE_SYNC_PASSES: ${ENGINE_SYNC_PASSES:-1}
+    volumes:
+      - ./data:/app/data
+      - ./exports:/app/exports
+    restart: unless-stopped
+    depends_on:
+      - moteur
+    profiles: ["worker"]

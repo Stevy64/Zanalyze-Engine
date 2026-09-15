@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*.sqlite3
+data/engine.sqlite3
+data/calibration.json
+*.log
+.env
+.idea/
+.vscode/
+.DS_Store
