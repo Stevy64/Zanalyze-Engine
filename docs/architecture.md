@@ -5,7 +5,7 @@ Deux dépôts GitHub :
 | Repo | Rôle |
 |------|------|
 | [Zanalyze-Engine](https://github.com/Stevy64/Zanalyze-Engine) | Ingest + modèles + snapshot |
-| [ZanalyZ](https://github.com/Stevy64/ZanalyZ) | PWA **Zanalyze** (affichage, VIP, admin) |
+| [Zanalyze](https://github.com/Stevy64/Zanalyze) | PWA (affichage, VIP, admin) |
 
 ```text
 SofaScore ──► pipeline.py ──► SQLite ──► snapshot v1 JSON

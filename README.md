@@ -1,6 +1,6 @@
 # Zanalyze Engine
 
-Moteur d’analyse football **indépendant** de la PWA **[Zanalyze](https://github.com/Stevy64/ZanalyZ)**.
+Moteur d’analyse football **indépendant** de la PWA **[Zanalyze](https://github.com/Stevy64/Zanalyze)**.
 
 - Ingest **SofaScore** (calendrier, cotes, scores)
 - Modèles **v3.1** (de-vig, Poisson / Dixon–Coles, calibration, tips)
