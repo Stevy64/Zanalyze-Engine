@@ -63,12 +63,23 @@ jobs:
 
       - name: Commit snapshot
         run: |
+          set -euo pipefail
           git config user.name "zanalyze-engine-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add exports/matchs.json
           if git diff --cached --quiet; then
             echo "Pas de changement snapshot"
-          else
-            git commit -m "chore: refresh match snapshot (espn)"
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh match snapshot (espn)"
+          # Evite le rejet si main a avancé pendant le job (push manuel / run parallèle).
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejeté (tentative $i) — rebase sur origin/main…"
+            git fetch origin main
+            git rebase origin/main
+          done
+          echo "::error::Impossible de pousser le snapshot après 3 tentatives."
+          exit 1
