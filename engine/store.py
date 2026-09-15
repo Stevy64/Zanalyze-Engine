@@ -246,9 +246,21 @@ def save_analyse(conn: sqlite3.Connection, sofascore_id: int, payload: dict[str,
 
 
 def matchs_a_analyser(conn: sqlite3.Connection, jour: str | None = None) -> list[sqlite3.Row]:
+    """
+    Matchs à venir / en cours, plus les terminés récents sans analyse
+    (pour archiver un bilan OK/KO même si le tip a été calculé après coup).
+    """
     sql = """
       SELECT m.* FROM matchs m
-      WHERE m.statut NOT IN ('termine', 'reporte')
+      WHERE (
+        m.statut NOT IN ('termine', 'reporte')
+        OR (
+          m.statut = 'termine'
+          AND NOT EXISTS (
+            SELECT 1 FROM analyses a WHERE a.sofascore_id = m.sofascore_id
+          )
+        )
+      )
     """
     params: list[Any] = []
     if jour:

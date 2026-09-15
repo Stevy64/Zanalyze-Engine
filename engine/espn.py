@@ -1,11 +1,11 @@
 """
 Client ESPN (JSON public, sans clé API).
 
-Fonctionne depuis GitHub Actions (contrairement à SofaScore).
+Fonctionne depuis GitHub Actions.
 Fournit calendrier, scores et cotes 1X2 / OU 2.5 (DraftKings via ESPN).
 
 Les ids d’événements ESPN sont stockés dans la colonne `sofascore_id`
-(contrat snapshot v1) — espace numérique distinct des ids SofaScore usuels.
+(contrat snapshot v1 — nom de champ legacy, ne pas renommer).
 """
 from __future__ import annotations
 
@@ -346,7 +346,7 @@ def collecter_matchs(
             norm = normaliser_event(slug, meta, ev)
             if not norm:
                 continue
-            if avec_cotes and norm['statut'] in ('a_venir', 'en_cours'):
+            if avec_cotes and norm['statut'] in ('a_venir', 'en_cours', 'termine'):
                 try:
                     cotes = cotes_depuis_event(
                         slug, str(norm['event_id']), norm.get('competition_id'),
@@ -357,9 +357,8 @@ def collecter_matchs(
                     norm['odds_1x2'] = None
                     norm['odds_ou25'] = None
             else:
-                # Matchs terminés : tenter quand même les cotes si absentes (optionnel)
-                norm['odds_1x2'] = None
-                norm['odds_ou25'] = None
+                norm.setdefault('odds_1x2', None)
+                norm.setdefault('odds_ou25', None)
             out.append(norm)
         time.sleep(0.4)
     return out

@@ -1,11 +1,11 @@
 """
 Pipeline métier (sans Django).
 
-1. sync()         — ESPN (défaut, OK GitHub Actions) ou SofaScore → SQLite
-2. analyser_jours — moteur v3.1 par journée civile
+1. sync()         — ESPN (défaut, OK GitHub Actions) → SQLite
+2. analyser_jours — moteur v3.1 + règlement OK/KO si terminé
 3. refresh()      — 1 + 2 + écriture exports/matchs.json
 
-Provider : ENGINE_PROVIDER=espn|sofascore (défaut espn).
+Provider : ENGINE_PROVIDER=espn (défaut).
 """
 from __future__ import annotations
 
@@ -336,9 +336,10 @@ def analyser_jours(jours: list[str] | None = None) -> dict[str, int]:
         if jours:
             lots_jours = jours
         else:
+            # Inclut aussi les jours passés (bilan tips sur matchs terminés).
             extra = conn.execute(
                 """SELECT DISTINCT substr(coup_denvoi,1,10) AS j FROM matchs
-                   WHERE statut NOT IN ('termine','reporte')
+                   WHERE statut NOT IN ('reporte')
                    ORDER BY j"""
             ).fetchall()
             lots_jours = [r['j'] for r in extra] or [
@@ -389,6 +390,20 @@ def analyser_jours(jours: list[str] | None = None) -> dict[str, int]:
                 if sid:
                     save_analyse(conn, sid, payload)
                     n_ok += 1
+                    mrow = conn.execute(
+                        'SELECT statut, buts_dom, buts_ext, buts_dom_mt, buts_ext_mt '
+                        'FROM matchs WHERE sofascore_id=?',
+                        (sid,),
+                    ).fetchone()
+                    if (
+                        mrow and mrow['statut'] == 'termine'
+                        and mrow['buts_dom'] is not None
+                        and mrow['buts_ext'] is not None
+                    ):
+                        _regler_analyse(
+                            conn, sid, int(mrow['buts_dom']), int(mrow['buts_ext']),
+                            mrow['buts_dom_mt'], mrow['buts_ext_mt'],
+                        )
     return {'analyses': n_ok, 'ignores': n_skip}
 
 

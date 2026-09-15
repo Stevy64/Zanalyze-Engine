@@ -1,7 +1,6 @@
 # Refresh du snapshot matchs (contrat v1 pour la PWA Zanalyze).
 #
-# Source par défaut : ESPN (JSON public) — fonctionne sur les IP GitHub Actions.
-# SofaScore reste disponible en local : ENGINE_PROVIDER=sofascore
+# Source : ESPN (JSON public) — fonctionne sur les IP GitHub Actions.
 
 name: Refresh snapshot
 

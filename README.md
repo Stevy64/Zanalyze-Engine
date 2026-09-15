@@ -2,7 +2,7 @@
 
 Moteur d’analyse football **indépendant** de la PWA **[Zanalyze](https://github.com/Stevy64/Zanalyze)**.
 
-- Ingest **ESPN** (défaut, OK GitHub Actions) — SofaScore en option local
+- Ingest **ESPN** (défaut, OK GitHub Actions)
 - Modèles **v3.1** (de-vig, Poisson / Dixon–Coles, calibration, tips)
 - Sortie : **snapshot JSON v1** → `importer_snapshot` côté PWA
 

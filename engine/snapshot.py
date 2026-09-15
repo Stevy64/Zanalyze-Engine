@@ -62,11 +62,7 @@ def exporter_snapshot(*, jours: int | None = 21) -> dict[str, Any]:
                 if not fiche.get('recents') and not fiche.get('forme'):
                     fiche = fiche_equipe_locale(conn, e['slug'])
                 logo = e['logo_externe'] or ''
-                if not logo and e['sofascore_id']:
-                    logo = (
-                        f"https://img.sofascore.com/api/v1/team/"
-                        f"{int(e['sofascore_id'])}/image"
-                    )
+                # Pas de fallback SofaScore : les ids ESPN ne sont pas des team ids SofaScore.
                 equipes.append({
                     'nom': e['nom'],
                     'nom_court': e['nom_court'],
