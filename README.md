@@ -28,7 +28,15 @@ python -m engine serve   # http://127.0.0.1:8001/docs
 
 ## GitHub Actions
 
-Le YAML est déjà dans `.github/workflows/`. Si tu vois les **modèles** Docker/Django au lieu de « Refresh snapshot », suis **[docs/actions.md](docs/actions.md)** (Settings → autoriser Actions, **Read and write**, puis Run workflow).
+Le YAML est déjà dans `.github/workflows/`. Si tu vois les **modèles** Docker/Django au lieu de « Refresh snapshot », suis **[docs/actions.md](docs/actions.md)**.
+
+**SofaScore bloque souvent les IP Actions** → le job échoue volontairement (pas de JSON vide).  
+Refresh fiable depuis ton PC :
+
+```bash
+python -m engine refresh --pages 1 --passes 1
+git add exports/matchs.json && git commit -m "chore: refresh match snapshot" && git push
+```
 
 URL du JSON pour la PWA :
 

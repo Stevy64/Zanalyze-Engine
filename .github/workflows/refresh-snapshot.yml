@@ -1,16 +1,14 @@
 # Refresh du snapshot matchs (contrat v1 pour la PWA Zanalyze).
 #
-# Le cron GitHub ne démarre PAS tant que Actions n’est pas autorisé :
-#   Settings → Actions → General → Allow all actions and reusable workflows
-# Puis onglet Actions → « Refresh snapshot » → Run workflow.
-#
-# SofaScore peut renvoyer 403 depuis les IP GitHub → docs/oracle.md
+# SofaScore bloque souvent les IP GitHub Actions (sync → 0 matchs).
+# Dans ce cas le job ÉCHOUE et ne pousse PAS un JSON vide.
+# Contournement : refresh en local / Oracle → push exports/matchs.json
+#   docs/oracle.md · docs/actions.md
 
 name: Refresh snapshot
 
 on:
   schedule:
-    # Toutes les 2 h (UTC). Les crons GitHub peuvent glisser de quelques minutes.
     - cron: '15 */2 * * *'
   workflow_dispatch:
 
@@ -22,9 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: pip
@@ -33,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Restore SQLite cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: data/engine.sqlite3
           key: engine-sqlite-${{ github.run_id }}
@@ -41,7 +39,31 @@ jobs:
             engine-sqlite-
 
       - name: Sync + analyse + snapshot
-        run: python -m engine refresh --pages 1 --passes 1 --jours 21
+        id: refresh
+        run: |
+          set -euo pipefail
+          python -m engine refresh --pages 1 --passes 1 --jours 21 | tee refresh-out.json
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          raw = Path('refresh-out.json').read_text(encoding='utf-8')
+          # refresh prints a single JSON object (possibly pretty-printed)
+          data = json.loads(raw[raw.find('{'):])
+          sync = data.get('sync') or {}
+          n = int(sync.get('crees_ou_maj') or 0)
+          err = int(sync.get('erreurs') or 0)
+          snap = json.loads(Path('exports/matchs.json').read_text(encoding='utf-8'))
+          n_matchs = len(snap.get('matchs') or [])
+          print(f"sync crees_ou_maj={n} erreurs={err} snapshot_matchs={n_matchs}")
+          if n_matchs == 0:
+              print(
+                  '::error::Snapshot vide — SofaScore inaccessible depuis GitHub Actions. '
+                  'Lance `python -m engine refresh` en local (ou Oracle) puis push exports/matchs.json. '
+                  'Voir docs/oracle.md',
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+          PY
 
       - name: Commit snapshot
         run: |

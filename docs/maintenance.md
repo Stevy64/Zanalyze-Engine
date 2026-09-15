@@ -22,14 +22,26 @@ Ne pas importer Django.
 
 ## Le snapshot PWA est vide / périmé
 
-1. Vérifier qu’Actions a bien commité `exports/matchs.json`.
-2. Sur PA : `importer_snapshot --url …` (raw GitHub).
-3. Filtre date de l’UI = matchs dans la fenêtre `--jours 21`.
+1. Ouvre le dernier **Refresh snapshot** : si `crees_ou_maj=0` / `erreurs=10`,
+   SofaScore a refusé les IP Actions.
+2. **Ne compte pas sur Actions** pour l’ingest : lance en local :
 
-## SofaScore 403
+```bash
+python -m engine refresh --pages 1 --passes 1
+git add exports/matchs.json && git commit -m "chore: refresh match snapshot" && git push
+```
 
-- En local : souvent User-Agent / `curl_cffi` (déjà le défaut).
-- Sur Actions : IP datacenter bloquée → VM Oracle ([oracle.md](oracle.md)).
+3. Sur PA : `importer_snapshot --url …` (raw GitHub).
+4. Filtre date de l’UI = matchs dans la fenêtre `--jours 21`.
+
+## SofaScore 403 / snapshot vide sur Actions
+
+Confirmé : le runner GitHub reçoit souvent des erreurs sur *tous* les tournois
+(∼10 erreurs = 5 ligues × next/last). Le workflow échoue volontairement pour
+ne pas écraser un bon JSON.
+
+- En local / Oracle : egress libre → OK.
+- Sur Actions : bascule [oracle.md](oracle.md) ou refresh manuel depuis ton PC.
 
 ## Ne pas faire
 

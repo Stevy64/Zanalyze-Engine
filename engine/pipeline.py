@@ -157,19 +157,28 @@ def _regler_analyse(conn, sid: int, bd: int, be: int, bdm, bem) -> None:
 
 def sync(*, pages: int = 1, passes: int = 1, avec_contexte: bool = False) -> dict[str, Any]:
     init_db()
-    stats = {'crees_ou_maj': 0, 'erreurs': 0, 'jours': []}
+    stats: dict[str, Any] = {
+        'crees_ou_maj': 0,
+        'erreurs': 0,
+        'jours': [],
+        'detail_erreurs': [],
+    }
     jours: set[str] = set()
     with connect() as conn:
         for tid, meta in sofa.TOURNOIS.items():
             events: list[dict] = []
             try:
                 events.extend(sofa.evenements_suivants(tid, pages=pages))
-            except sofa.SofaScoreErreur:
+            except sofa.SofaScoreErreur as e:
                 stats['erreurs'] += 1
+                if len(stats['detail_erreurs']) < 5:
+                    stats['detail_erreurs'].append(f"{meta['code']} next: {e}")
             try:
                 events.extend(sofa.evenements_passes(tid, pages=passes))
-            except sofa.SofaScoreErreur:
+            except sofa.SofaScoreErreur as e:
                 stats['erreurs'] += 1
+                if len(stats['detail_erreurs']) < 5:
+                    stats['detail_erreurs'].append(f"{meta['code']} last: {e}")
             by_id: dict[int, dict] = {}
             for ev in events:
                 eid = ev.get('id')
@@ -182,8 +191,10 @@ def sync(*, pages: int = 1, passes: int = 1, avec_contexte: bool = False) -> dic
                     if jour:
                         jours.add(jour)
                         stats['crees_ou_maj'] += 1
-                except Exception:  # noqa: BLE001
+                except Exception as e:  # noqa: BLE001
                     stats['erreurs'] += 1
+                    if len(stats['detail_erreurs']) < 5:
+                        stats['detail_erreurs'].append(f"event {ev.get('id')}: {e}")
     stats['jours'] = sorted(jours)
     return stats
 

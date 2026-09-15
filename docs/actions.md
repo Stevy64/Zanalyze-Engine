@@ -47,8 +47,20 @@ Recharge **Actions** (barre du haut). Colonne de gauche :
 2. **Run workflow** → branche `main` → **Run workflow**.
 3. Ouvre le run : étapes Install → Sync → Commit snapshot.
 
-Succès → `exports/matchs.json` mis à jour sur `main`.  
-Échec **403 SofaScore** → IP GitHub filtrées : voir [oracle.md](oracle.md).
+**Important :** SofaScore **bloque souvent les IP GitHub Actions**. Dans ce cas le job
+échoue avec « Snapshot vide » et **ne pousse pas** un JSON vide.
+
+Contournements (recommandés) :
+
+```bash
+# Sur ton PC (egress libre) :
+python -m engine refresh --pages 1 --passes 1
+git add exports/matchs.json
+git commit -m "chore: refresh match snapshot (local)"
+git push
+```
+
+Ou VM Always Free : [oracle.md](oracle.md).
 
 ## 4. Côté PWA Zanalyze (PythonAnywhere)
 
