@@ -98,7 +98,7 @@ def init_db() -> None:
 
 
 def upsert_competition(conn: sqlite3.Connection, *, code: str, nom: str,
-                       pays: str, ordre: int, sofascore_id: int) -> None:
+                       pays: str, ordre: int, sofascore_id: int | None) -> None:
     conn.execute(
         """INSERT INTO competitions(code, nom, pays, ordre, actif, sofascore_id)
            VALUES (?, ?, ?, ?, 1, ?)
@@ -259,7 +259,7 @@ def matchs_a_analyser(conn: sqlite3.Connection, jour: str | None = None) -> list
 
 
 def cotes_prioritaires(conn: sqlite3.Connection, sofascore_id: int) -> dict[tuple[str, str], float]:
-    prio = {'sofascore': 0, 'consensus': 1, 'PMUG': 2}
+    prio = {'espn': 0, 'sofascore': 0, 'consensus': 1, 'PMUG': 2}
     meilleurs: dict[tuple[str, str], tuple[int, str, float]] = {}
     for row in conn.execute(
         'SELECT bookmaker, marche, selection, valeur, releve_le FROM cotes WHERE sofascore_id=?',

@@ -2,18 +2,16 @@
 
 Moteur d’analyse football **indépendant** de la PWA **[Zanalyze](https://github.com/Stevy64/Zanalyze)**.
 
-- Ingest **SofaScore** (calendrier, cotes, scores)
+- Ingest **ESPN** (défaut, OK GitHub Actions) — SofaScore en option local
 - Modèles **v3.1** (de-vig, Poisson / Dixon–Coles, calibration, tips)
-- Sortie : **snapshot JSON v1** → `python manage.py importer_snapshot` côté PWA
-
-PythonAnywhere **blackliste** SofaScore. Ici on tourne sur **GitHub Actions** (gratuit) ou un VPS, et on publie `exports/matchs.json`.
+- Sortie : **snapshot JSON v1** → `importer_snapshot` côté PWA
 
 | Doc | Contenu |
 |-----|---------|
-| [docs/actions.md](docs/actions.md) | **Activer Actions** (l’écran « Choose a workflow ») |
+| [docs/actions.md](docs/actions.md) | Activer Actions + provider ESPN |
 | [docs/architecture.md](docs/architecture.md) | Modules, contrat snapshot |
-| [docs/maintenance.md](docs/maintenance.md) | Routine, 403, compétitions |
-| [docs/oracle.md](docs/oracle.md) | Always Free si Actions est bloqué |
+| [docs/maintenance.md](docs/maintenance.md) | Routine, providers |
+| [docs/oracle.md](docs/oracle.md) | Always Free (optionnel) |
 
 ## Prise en main locale
 
@@ -22,21 +20,13 @@ python -m venv .venv
 # Windows : .venv\Scripts\activate
 pip install -r requirements-dev.txt
 pytest
-python -m engine refresh --pages 1 --passes 1
+python -m engine refresh --provider espn --jours 21
 python -m engine serve   # http://127.0.0.1:8001/docs
 ```
 
 ## GitHub Actions
 
-Le YAML est déjà dans `.github/workflows/`. Si tu vois les **modèles** Docker/Django au lieu de « Refresh snapshot », suis **[docs/actions.md](docs/actions.md)**.
-
-**SofaScore bloque souvent les IP Actions** → le job échoue volontairement (pas de JSON vide).  
-Refresh fiable depuis ton PC :
-
-```bash
-python -m engine refresh --pages 1 --passes 1
-git add exports/matchs.json && git commit -m "chore: refresh match snapshot" && git push
-```
+Workflow **Refresh snapshot** : `ENGINE_PROVIDER=espn`, toutes les ~2 h.
 
 URL du JSON pour la PWA :
 

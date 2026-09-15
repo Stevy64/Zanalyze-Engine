@@ -1,9 +1,7 @@
 # Refresh du snapshot matchs (contrat v1 pour la PWA Zanalyze).
 #
-# SofaScore bloque souvent les IP GitHub Actions (sync → 0 matchs).
-# Dans ce cas le job ÉCHOUE et ne pousse PAS un JSON vide.
-# Contournement : refresh en local / Oracle → push exports/matchs.json
-#   docs/oracle.md · docs/actions.md
+# Source par défaut : ESPN (JSON public) — fonctionne sur les IP GitHub Actions.
+# SofaScore reste disponible en local : ENGINE_PROVIDER=sofascore
 
 name: Refresh snapshot
 
@@ -14,6 +12,9 @@ on:
 
 permissions:
   contents: write
+
+env:
+  ENGINE_PROVIDER: espn
 
 jobs:
   refresh:
@@ -38,30 +39,25 @@ jobs:
           restore-keys: |
             engine-sqlite-
 
-      - name: Sync + analyse + snapshot
+      - name: Sync ESPN + analyse + snapshot
         id: refresh
         run: |
           set -euo pipefail
-          python -m engine refresh --pages 1 --passes 1 --jours 21 | tee refresh-out.json
+          python -m engine refresh --provider espn --jours 21 | tee refresh-out.json
           python - <<'PY'
           import json, sys
           from pathlib import Path
           raw = Path('refresh-out.json').read_text(encoding='utf-8')
-          # refresh prints a single JSON object (possibly pretty-printed)
           data = json.loads(raw[raw.find('{'):])
           sync = data.get('sync') or {}
           n = int(sync.get('crees_ou_maj') or 0)
           err = int(sync.get('erreurs') or 0)
+          cotes = int(sync.get('avec_cotes_1x2') or 0)
           snap = json.loads(Path('exports/matchs.json').read_text(encoding='utf-8'))
           n_matchs = len(snap.get('matchs') or [])
-          print(f"sync crees_ou_maj={n} erreurs={err} snapshot_matchs={n_matchs}")
+          print(f"provider={sync.get('provider')} crees={n} cotes_1x2={cotes} erreurs={err} snapshot={n_matchs}")
           if n_matchs == 0:
-              print(
-                  '::error::Snapshot vide — SofaScore inaccessible depuis GitHub Actions. '
-                  'Lance `python -m engine refresh` en local (ou Oracle) puis push exports/matchs.json. '
-                  'Voir docs/oracle.md',
-                  file=sys.stderr,
-              )
+              print('::error::Snapshot vide après sync ESPN.', file=sys.stderr)
               sys.exit(1)
           PY
 
@@ -73,6 +69,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Pas de changement snapshot"
           else
-            git commit -m "chore: refresh match snapshot"
+            git commit -m "chore: refresh match snapshot (espn)"
             git push
           fi

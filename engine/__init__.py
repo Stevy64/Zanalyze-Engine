@@ -5,7 +5,8 @@ Cartographie
 ------------
 paths.py              chemins data/ / exports/ (surchargeables par env)
 store.py              SQLite (compétitions, équipes, matchs, cotes, analyses)
-sofascore.py          HTTP calendrier / cotes (curl_cffi)
+espn.py               ingest ESPN (défaut Actions) — calendrier + cotes
+sofascore.py          ingest SofaScore (optionnel, souvent 403 sur cloud)
 moteur.py + calibrage.py   probabilités v3.1 (pures)
 pipeline.py           sync → analyser → snapshot
 snapshot.py           JSON v1 consommé par la PWA Zanalyze

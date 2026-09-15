@@ -1,19 +1,21 @@
 """
 Pipeline métier (sans Django).
 
-1. sync()         — events SofaScore → SQLite (cotes hors transaction HTTP)
-2. analyser_jours — moteur v3.1 par journée civile (UTC date du coup d’envoi)
+1. sync()         — ESPN (défaut, OK GitHub Actions) ou SofaScore → SQLite
+2. analyser_jours — moteur v3.1 par journée civile
 3. refresh()      — 1 + 2 + écriture exports/matchs.json
 
-Erreurs SofaScore par événement : on continue (stats['erreurs']).
+Provider : ENGINE_PROVIDER=espn|sofascore (défaut espn).
 """
 from __future__ import annotations
 
 import json
+import os
 from collections import defaultdict
 from datetime import datetime, timezone
 from typing import Any
 
+from engine import espn
 from engine import sofascore as sofa
 from engine.evaluation import evaluer
 from engine.moteur import AnalyseInvalide, analyser, classer_journee
@@ -32,7 +34,73 @@ from engine.store import (
 )
 
 
-def _fetch_remote(ev: dict, *, avec_contexte: bool) -> dict[str, Any]:
+def _provider() -> str:
+    return (os.environ.get('ENGINE_PROVIDER') or 'espn').strip().lower()
+
+
+def _persist_norm(conn, row: dict[str, Any]) -> str | None:
+    """Persiste un match normalisé (ESPN)."""
+    eid = int(row['event_id'])
+    meta = row['meta']
+    home, away = row['home'], row['away']
+    upsert_competition(
+        conn,
+        code=meta['code'],
+        nom=meta['nom'],
+        pays=meta['pays'],
+        ordre=meta['ordre'],
+        sofascore_id=int(meta.get('espn_league_id') or 0) or None,
+    )
+    dslug = upsert_equipe(
+        conn,
+        slug=home['slug'],
+        nom=home['nom'],
+        nom_court=home['nom_court'],
+        sofascore_id=home.get('id'),
+        logo_externe=home.get('logo') or '',
+    )
+    eslug = upsert_equipe(
+        conn,
+        slug=away['slug'],
+        nom=away['nom'],
+        nom_court=away['nom_court'],
+        sofascore_id=away.get('id'),
+        logo_externe=away.get('logo') or '',
+    )
+    statut = row['statut']
+    coup = row['coup_denvoi']
+    if isinstance(coup, datetime):
+        coup_iso = coup.astimezone(timezone.utc).isoformat()
+    else:
+        coup_iso = str(coup)
+    upsert_match(conn, {
+        'sofascore_id': eid,
+        'competition_code': meta['code'],
+        'domicile_slug': dslug,
+        'exterieur_slug': eslug,
+        'coup_denvoi': coup_iso,
+        'journee': row.get('journee') or '',
+        'statut': statut,
+        'buts_dom': row.get('buts_dom'),
+        'buts_ext': row.get('buts_ext'),
+        'buts_dom_mt': row.get('buts_dom_mt'),
+        'buts_ext_mt': row.get('buts_ext_mt'),
+    })
+    odds = row.get('odds_1x2')
+    if odds:
+        upsert_cotes(conn, eid, 'espn', '1X2', list(zip(('1', 'N', '2'), odds)))
+    ou = row.get('odds_ou25')
+    if ou:
+        upsert_cotes(conn, eid, 'espn', 'OU25', list(zip(('over', 'under'), ou)))
+    if statut == 'termine' and row.get('buts_dom') is not None and row.get('buts_ext') is not None:
+        _regler_analyse(
+            conn, eid, int(row['buts_dom']), int(row['buts_ext']),
+            row.get('buts_dom_mt'), row.get('buts_ext_mt'),
+        )
+    return coup_iso[:10]
+
+
+def _fetch_remote_sofa(ev: dict, *, avec_contexte: bool) -> dict[str, Any]:
     eid = ev.get('id')
     out: dict[str, Any] = {'odds_1x2': None, 'odds_ou25': None, 'contexte': None}
     if not eid:
@@ -64,7 +132,7 @@ def _fetch_remote(ev: dict, *, avec_contexte: bool) -> dict[str, Any]:
     return out
 
 
-def _persist_event(conn, tid: int, meta: dict, ev: dict, remote: dict) -> str | None:
+def _persist_event_sofa(conn, tid: int, meta: dict, ev: dict, remote: dict) -> str | None:
     eid = ev.get('id')
     ts = ev.get('startTimestamp')
     if not eid or not ts:
@@ -155,9 +223,58 @@ def _regler_analyse(conn, sid: int, bd: int, be: int, bdm, bem) -> None:
         save_analyse(conn, sid, payload)
 
 
-def sync(*, pages: int = 1, passes: int = 1, avec_contexte: bool = False) -> dict[str, Any]:
+def sync_espn(
+    *,
+    jours_passes: int = 14,
+    jours_futurs: int = 21,
+) -> dict[str, Any]:
     init_db()
     stats: dict[str, Any] = {
+        'provider': 'espn',
+        'crees_ou_maj': 0,
+        'erreurs': 0,
+        'jours': [],
+        'detail_erreurs': [],
+        'avec_cotes_1x2': 0,
+    }
+    jours: set[str] = set()
+    try:
+        rows = espn.collecter_matchs(
+            jours_passes=jours_passes,
+            jours_futurs=jours_futurs,
+            avec_cotes=True,
+        )
+    except Exception as e:  # noqa: BLE001
+        stats['erreurs'] += 1
+        stats['detail_erreurs'].append(f'collecte: {e}')
+        return stats
+
+    with connect() as conn:
+        for row in rows:
+            try:
+                jour = _persist_norm(conn, row)
+                if jour:
+                    jours.add(jour)
+                    stats['crees_ou_maj'] += 1
+                    if row.get('odds_1x2'):
+                        stats['avec_cotes_1x2'] += 1
+            except Exception as e:  # noqa: BLE001
+                stats['erreurs'] += 1
+                if len(stats['detail_erreurs']) < 8:
+                    stats['detail_erreurs'].append(f"event {row.get('event_id')}: {e}")
+    stats['jours'] = sorted(jours)
+    return stats
+
+
+def sync_sofascore(
+    *,
+    pages: int = 1,
+    passes: int = 1,
+    avec_contexte: bool = False,
+) -> dict[str, Any]:
+    init_db()
+    stats: dict[str, Any] = {
+        'provider': 'sofascore',
         'crees_ou_maj': 0,
         'erreurs': 0,
         'jours': [],
@@ -186,8 +303,8 @@ def sync(*, pages: int = 1, passes: int = 1, avec_contexte: bool = False) -> dic
                     by_id[int(eid)] = ev
             for ev in by_id.values():
                 try:
-                    remote = _fetch_remote(ev, avec_contexte=avec_contexte)
-                    jour = _persist_event(conn, tid, meta, ev, remote)
+                    remote = _fetch_remote_sofa(ev, avec_contexte=avec_contexte)
+                    jour = _persist_event_sofa(conn, tid, meta, ev, remote)
                     if jour:
                         jours.add(jour)
                         stats['crees_ou_maj'] += 1
@@ -199,6 +316,19 @@ def sync(*, pages: int = 1, passes: int = 1, avec_contexte: bool = False) -> dic
     return stats
 
 
+def sync(
+    *,
+    pages: int = 1,
+    passes: int = 1,
+    avec_contexte: bool = False,
+    provider: str | None = None,
+) -> dict[str, Any]:
+    prov = (provider or _provider()).lower()
+    if prov == 'sofascore':
+        return sync_sofascore(pages=pages, passes=passes, avec_contexte=avec_contexte)
+    return sync_espn()
+
+
 def analyser_jours(jours: list[str] | None = None) -> dict[str, int]:
     init_db()
     n_ok = n_skip = 0
@@ -206,14 +336,14 @@ def analyser_jours(jours: list[str] | None = None) -> dict[str, int]:
         if jours:
             lots_jours = jours
         else:
-            today = datetime.now(timezone.utc).date().isoformat()
-            lots_jours = [today]
             extra = conn.execute(
                 """SELECT DISTINCT substr(coup_denvoi,1,10) AS j FROM matchs
                    WHERE statut NOT IN ('termine','reporte')
                    ORDER BY j"""
             ).fetchall()
-            lots_jours = [r['j'] for r in extra] or lots_jours
+            lots_jours = [r['j'] for r in extra] or [
+                datetime.now(timezone.utc).date().isoformat()
+            ]
 
         grouped: dict[str, list] = defaultdict(list)
         for jour in lots_jours:
@@ -268,8 +398,19 @@ def refresh(
     passes: int = 1,
     avec_contexte: bool = False,
     jours_snapshot: int = 21,
+    provider: str | None = None,
 ) -> dict[str, Any]:
-    sync_stats = sync(pages=pages, passes=passes, avec_contexte=avec_contexte)
+    sync_stats = sync(
+        pages=pages,
+        passes=passes,
+        avec_contexte=avec_contexte,
+        provider=provider,
+    )
     ana = analyser_jours(sync_stats.get('jours') or None)
     path = ecrire_snapshot(jours=jours_snapshot)
-    return {'sync': sync_stats, 'analyses': ana, 'snapshot': str(path)}
+    return {
+        'sync': sync_stats,
+        'analyses': ana,
+        'snapshot': str(path),
+        'provider': sync_stats.get('provider') or _provider(),
+    }

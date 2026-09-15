@@ -8,18 +8,19 @@ Deux dépôts GitHub :
 | [Zanalyze](https://github.com/Stevy64/Zanalyze) | PWA (affichage, VIP, admin) |
 
 ```text
-SofaScore ──► pipeline.py ──► SQLite ──► snapshot v1 JSON
-                 │                              │
-                 └── moteur.py v3.1             └── PWA importer_snapshot
+ESPN (défaut) ──► pipeline.py ──► SQLite ──► snapshot v1 JSON
+SofaScore (opt) ─►      │                              │
+                        └── moteur.py v3.1             └── PWA importer_snapshot
 ```
 
-PythonAnywhere ne peut pas joindre SofaScore. L’engine tourne sur Actions (ou Oracle) et **pousse** le JSON ; la PWA **tire**.
+PythonAnywhere ne joint pas SofaScore. L’engine tourne sur **Actions avec ESPN** et pousse le JSON.
 
 ## Modules `engine/`
 
 | Fichier | Responsabilité | Toucher quand |
 |---------|----------------|---------------|
-| `sofascore.py` | HTTP API non officielle, tournois PL/LIGA/L1/SA/UCL | nouveau championnat, 403, parsing cotes |
+| `sofascore.py` | Legacy ingest SofaScore | debug local `ENGINE_PROVIDER=sofascore` |
+| `espn.py` | Ingest ESPN (Actions) | calendrier, cotes, nouveau championnat |
 | `store.py` | Schéma SQLite | nouveau champ persisté |
 | `moteur.py` | De-vig, Poisson/Dixon–Coles, tips journée | maths / version moteur |
 | `calibrage.py` + `calibration_par_marche.json` | Courbes par marché | recalibrage |
