@@ -1,16 +1,22 @@
 # Refresh du snapshot matchs (contrat v1 pour la PWA Zanalyze).
 #
 # Source : ESPN (JSON public) — fonctionne sur les IP GitHub Actions.
+# ~12 runs/jour × ~1 min ≈ 360 min/mois (OK free privé ; illimité si repo public).
 
 name: Refresh snapshot
 
 on:
   schedule:
+    # Toutes les 2 h (UTC). Évite le pic :xx:00 des crons GitHub.
     - cron: '15 */2 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: refresh-snapshot
+  cancel-in-progress: true
 
 env:
   ENGINE_PROVIDER: espn
@@ -18,7 +24,8 @@ env:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Jobs réels ~30–90 s ; plafond bas pour rester loin des quotas free.
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v6
 
@@ -34,8 +41,10 @@ jobs:
         uses: actions/cache@v5
         with:
           path: data/engine.sqlite3
-          key: engine-sqlite-${{ github.run_id }}
+          # Clé journalière : réutilise le cache entre runs (évite resync total).
+          key: engine-sqlite-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}
           restore-keys: |
+            engine-sqlite-${{ runner.os }}-${{ github.ref_name }}-
             engine-sqlite-
 
       - name: Sync ESPN + analyse + snapshot
@@ -45,6 +54,7 @@ jobs:
           python -m engine refresh --provider espn --jours 21 | tee refresh-out.json
           python - <<'PY'
           import json, sys
+          from collections import Counter
           from pathlib import Path
           raw = Path('refresh-out.json').read_text(encoding='utf-8')
           data = json.loads(raw[raw.find('{'):])
@@ -53,11 +63,24 @@ jobs:
           err = int(sync.get('erreurs') or 0)
           cotes = int(sync.get('avec_cotes_1x2') or 0)
           snap = json.loads(Path('exports/matchs.json').read_text(encoding='utf-8'))
-          n_matchs = len(snap.get('matchs') or [])
-          print(f"provider={sync.get('provider')} crees={n} cotes_1x2={cotes} erreurs={err} snapshot={n_matchs}")
+          matchs = snap.get('matchs') or []
+          n_matchs = len(matchs)
+          codes = Counter(m.get('competition_code') for m in matchs)
+          n_termine = sum(1 for m in matchs if m.get('statut') == 'termine')
+          print(
+              f"provider={sync.get('provider')} crees={n} cotes_1x2={cotes} "
+              f"erreurs={err} snapshot={n_matchs} termine={n_termine} "
+              f"UCL={codes.get('UCL', 0)} UEL={codes.get('UEL', 0)}"
+          )
           if n_matchs == 0:
               print('::error::Snapshot vide après sync ESPN.', file=sys.stderr)
               sys.exit(1)
+          # Garde-fou : UEL doit rester dans le calendrier (sinon régression code).
+          if codes.get('UEL', 0) == 0:
+              print(
+                  '::warning::Aucune UEL dans le snapshot '
+                  '(hors saison ou régression TOURNOIS).',
+              )
           PY
 
       - name: Commit snapshot

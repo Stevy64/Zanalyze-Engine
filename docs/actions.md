@@ -22,9 +22,33 @@ Forcer SofaScore en local : `ENGINE_PROVIDER=sofascore` (nécessite `curl_cffi`)
 
 Actions → **Refresh snapshot** → **Run workflow**.
 
-Le job publie `exports/matchs.json` non vide (~toutes les 2 h ensuite).
+Le job publie `exports/matchs.json` non vide (**cron toutes les 2 h**, UTC `15 */2`).
+
+### Quotas GitHub Actions (free)
+
+| Type de repo | Minutes |
+|--------------|---------|
+| **Public** | Illimité (runners standard) |
+| **Privé** | ~2 000 min/mois |
+
+Ce workflow : ~12 runs/jour, ~1 min chacun ≈ **360 min/mois** → largement sous le plafond privé.  
+`timeout-minutes: 15` + cache SQLite + `concurrency` (1 run à la fois).
 
 ## 3. Côté PWA Zanalyze (PythonAnywhere)
+
+**Ne pas** mettre `ZANALYZ_SYNC_LIVE=1` sur PA : SofaScore / enrichissement live y sont bloqués ou inutiles.  
+Les scores et bilans viennent **uniquement** du snapshot Engine.
+
+Scheduled task PA (toutes les 2 h, décalée du cron Engine, ex. `25 */2 * * *`) :
+
+```bash
+cd ~/Zanalyze
+source ~/.virtualenvs/zanalyz/bin/activate
+set -a && source .env && set +a
+python manage.py importer_snapshot --url "$ZANALYZ_SNAPSHOT_URL"
+```
+
+Import manuel :
 
 ```bash
 python manage.py importer_snapshot --url https://raw.githubusercontent.com/Stevy64/Zanalyze-Engine/main/exports/matchs.json
