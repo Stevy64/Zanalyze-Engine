@@ -21,6 +21,7 @@ BASE = 'https://api.sofascore.com/api/v1'
 # uniqueTournament id → code interne Zanalyze
 TOURNOIS = {
     7: {'code': 'UCL', 'nom': 'Ligue des champions', 'pays': 'Europe', 'ordre': 10},
+    679: {'code': 'UEL', 'nom': 'Ligue Europa', 'pays': 'Europe', 'ordre': 11},
     # Angleterre
     17: {'code': 'PL', 'nom': 'Premier League', 'pays': 'Angleterre', 'ordre': 20},
     19: {'code': 'FAC', 'nom': 'FA Cup', 'pays': 'Angleterre', 'ordre': 21},

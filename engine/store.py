@@ -247,8 +247,9 @@ def save_analyse(conn: sqlite3.Connection, sofascore_id: int, payload: dict[str,
 
 def matchs_a_analyser(conn: sqlite3.Connection, jour: str | None = None) -> list[sqlite3.Row]:
     """
-    Matchs à venir / en cours, plus les terminés récents sans analyse
-    (pour archiver un bilan OK/KO même si le tip a été calculé après coup).
+    Matchs à venir / en cours, plus les terminés à (re)analyser :
+    - sans analyse, ou
+    - analyse encore en « attente » (score arrivé après le tip).
     """
     sql = """
       SELECT m.* FROM matchs m
@@ -256,8 +257,15 @@ def matchs_a_analyser(conn: sqlite3.Connection, jour: str | None = None) -> list
         m.statut NOT IN ('termine', 'reporte')
         OR (
           m.statut = 'termine'
-          AND NOT EXISTS (
-            SELECT 1 FROM analyses a WHERE a.sofascore_id = m.sofascore_id
+          AND (
+            NOT EXISTS (
+              SELECT 1 FROM analyses a WHERE a.sofascore_id = m.sofascore_id
+            )
+            OR EXISTS (
+              SELECT 1 FROM analyses a
+              WHERE a.sofascore_id = m.sofascore_id
+                AND a.payload LIKE '%"resultat": "attente"%'
+            )
           )
         )
       )

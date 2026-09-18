@@ -322,11 +322,13 @@ def sync(
     passes: int = 1,
     avec_contexte: bool = False,
     provider: str | None = None,
+    jours_passes: int = 14,
+    jours_futurs: int = 21,
 ) -> dict[str, Any]:
     prov = (provider or _provider()).lower()
     if prov == 'sofascore':
         return sync_sofascore(pages=pages, passes=passes, avec_contexte=avec_contexte)
-    return sync_espn()
+    return sync_espn(jours_passes=jours_passes, jours_futurs=jours_futurs)
 
 
 def analyser_jours(jours: list[str] | None = None) -> dict[str, int]:
@@ -420,6 +422,8 @@ def refresh(
         passes=passes,
         avec_contexte=avec_contexte,
         provider=provider,
+        jours_passes=min(14, max(3, jours_snapshot)),
+        jours_futurs=min(21, max(3, jours_snapshot)),
     )
     ana = analyser_jours(sync_stats.get('jours') or None)
     path = ecrire_snapshot(jours=jours_snapshot)

@@ -27,6 +27,10 @@ TOURNOIS: dict[str, dict[str, Any]] = {
         'code': 'UCL', 'nom': 'Ligue des champions', 'pays': 'Europe',
         'ordre': 10, 'espn_league_id': 775,
     },
+    'uefa.europa': {
+        'code': 'UEL', 'nom': 'Ligue Europa', 'pays': 'Europe',
+        'ordre': 11, 'espn_league_id': 776,
+    },
     # Angleterre
     'eng.1': {
         'code': 'PL', 'nom': 'Premier League', 'pays': 'Angleterre',
@@ -153,15 +157,23 @@ def _parse_iso(dt: str | None) -> datetime | None:
         return None
 
 
-def _chunk_dates(debut: datetime, fin: datetime, max_jours: int = 7) -> list[str]:
-    """ESPN accepte souvent une plage YYYYMMDD-YYYYMMDD (≤ ~7–10 j)."""
+def _chunk_dates(debut: datetime, fin: datetime, max_jours: int = 1) -> list[str]:
+    """
+    ESPN scoreboard : une date YYYYMMDD (ou parfois une plage).
+    Les plages multi-jours renvoient souvent HTTP 400 → on itère jour par jour.
+    """
     out: list[str] = []
     cur = debut.date()
     end = fin.date()
+    step = max(1, int(max_jours))
     while cur <= end:
-        stop = min(cur + timedelta(days=max_jours - 1), end)
-        out.append(f"{cur.strftime('%Y%m%d')}-{stop.strftime('%Y%m%d')}")
-        cur = stop + timedelta(days=1)
+        if step == 1:
+            out.append(cur.strftime('%Y%m%d'))
+            cur = cur + timedelta(days=1)
+        else:
+            stop = min(cur + timedelta(days=step - 1), end)
+            out.append(f"{cur.strftime('%Y%m%d')}-{stop.strftime('%Y%m%d')}")
+            cur = stop + timedelta(days=1)
     return out
 
 
@@ -176,14 +188,18 @@ def evenements_fenetre(
     debut = now - timedelta(days=jours_passes)
     fin = now + timedelta(days=jours_futurs)
     by_id: dict[str, dict] = {}
-    for plage in _chunk_dates(debut, fin):
+    for plage in _chunk_dates(debut, fin, max_jours=1):
         url = f'{BASE_SITE}/{slug}/scoreboard?dates={plage}'
-        data = _get(url)
+        try:
+            data = _get(url)
+        except EspnErreur:
+            # Ligues sans calendrier ce jour-là → ignorer.
+            continue
         for ev in data.get('events') or []:
             eid = str(ev.get('id') or '')
             if eid:
                 by_id[eid] = ev
-        time.sleep(0.35)
+        time.sleep(0.2)
     return list(by_id.values())
 
 
