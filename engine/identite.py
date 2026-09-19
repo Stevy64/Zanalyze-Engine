@@ -97,6 +97,16 @@ ALIAS = {
     'west-ham-united': 'west-ham',
     'newcastle-united': 'newcastle',
     'leeds-united': 'leeds',
+    'deportivo-alaves': 'alaves',
+    'deportivo-alaves-sad': 'alaves',
+    'rc-lens': 'lens',
+    'racing-club-de-lens': 'lens',
+    'rc-strasbourg': 'strasbourg',
+    'rc-strasbourg-alsace': 'strasbourg',
+    'stade-brestois': 'brest',
+    'stade-brestois-29': 'brest',
+    'racing-de-santander': 'racing-santander',
+    'hull-city': 'hull',
 }
 
 _NETTOYAGE = re.compile(r'[^a-z0-9]+')
