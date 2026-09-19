@@ -170,8 +170,10 @@ def meme_club(nom_a: str, nom_b: str) -> bool:
 
     Après normalisation, un fournisseur ajoute souvent la ville
     (« Feyenoord » / « Feyenoord Rotterdam ») ou un préfixe
-    (« Slovan Bratislava » / « SK Slovan Bratislava »). L'inclusion des
-    jetons tranche ces cas sans table à maintenir.
+    (« Sk Slovan Bratislava » / « Slovan Bratislava »). L'inclusion des
+    jetons tranche ces cas — **seulement à partir de 2 jetons**, sinon
+    « Paris » ⊂ « Paris Saint-Germain » fusionnerait Paris FC et le PSG.
+    Les cas à un jeton passent par `ALIAS` / `cle_equipe`.
     """
     ka, kb = cle_equipe(nom_a), cle_equipe(nom_b)
     if ka == kb:
@@ -179,7 +181,11 @@ def meme_club(nom_a: str, nom_b: str) -> bool:
     ja, jb = frozenset(jetons(nom_a)), frozenset(jetons(nom_b))
     if not ja or not jb:
         return False
-    if ja <= jb or jb <= ja:
+    if ja == jb:
+        return True
+    if ja < jb and len(ja) >= 2:
+        return True
+    if jb < ja and len(jb) >= 2:
         return True
     # « bodoglimt » vs « bodo glimt » : comparer aussi la forme accolée.
     return ''.join(sorted(ja)) == ''.join(sorted(jb))

@@ -38,6 +38,8 @@ def test_clubs_distincts_le_restent():
         ('Real Madrid', 'Real Sociedad'),
         ('Borussia Dortmund', 'Borussia Mönchengladbach'),
         ('Sporting CP', 'Sporting Gijón'),
+        ('Paris FC', 'Paris Saint-Germain'),
+        ('Paris', 'Paris Saint-Germain'),
     ]:
         assert not meme_club(a, b), f'{a} et {b} ne sont pas le même club'
         assert cle_equipe(a) != cle_equipe(b)
