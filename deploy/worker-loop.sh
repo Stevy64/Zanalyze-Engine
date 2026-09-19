@@ -1,20 +1,18 @@
 #!/bin/sh
-# Worker Zanalyze Engine — sync SofaScore → analyses → snapshot JSON
+# Worker Zanalyze Engine — cycle complet toutes les N secondes.
 set -eu
 INTERVAL="${ENGINE_WORKER_INTERVAL:-7200}"
-PAGES="${ENGINE_SYNC_PAGES:-1}"
-PASSES="${ENGINE_SYNC_PASSES:-1}"
+JOURS="${ENGINE_JOURS_SNAPSHOT:-21}"
 
-echo ">>> zanalyze-engine worker (interval=${INTERVAL}s)"
+echo ">>> zanalyze-engine worker (intervalle=${INTERVAL}s)"
 run() {
   echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) refresh ==="
-  python -m engine refresh --pages "$PAGES" --passes "$PASSES" \
-    || echo "WARN refresh échoué"
+  python -m engine refresh --jours "$JOURS" || echo "WARN refresh échoué"
 }
 
 run
 while true; do
-  echo ">>> sleep ${INTERVAL}s"
+  echo ">>> pause ${INTERVAL}s"
   sleep "$INTERVAL"
   run
 done

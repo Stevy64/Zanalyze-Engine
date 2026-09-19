@@ -1,4 +1,4 @@
-"""Chemins data/ et exports/ — surcharge ENGINE_DATA_DIR, ENGINE_DB_PATH, ENGINE_SNAPSHOT_PATH."""
+"""Chemins data/ et exports/ — surcharge par ENGINE_DATA_DIR, ENGINE_DB_PATH, …"""
 from __future__ import annotations
 
 import os
@@ -15,9 +15,10 @@ CALIBRATION_FILE = Path(
 SNAPSHOT_PATH = Path(
     os.environ.get('ENGINE_SNAPSHOT_PATH', EXPORTS_DIR / 'matchs.json')
 )
+# Mémoire longue du moteur : versionnée avec le dépôt, pas dans le cache CI.
+ARCHIVE_DIR = Path(os.environ.get('ENGINE_ARCHIVE_DIR', DATA_DIR / 'archive'))
 
 
 def ensure_dirs() -> None:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    EXPORTS_DIR.mkdir(parents=True, exist_ok=True)
-    SNAPSHOT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    for d in (DATA_DIR, EXPORTS_DIR, ARCHIVE_DIR, SNAPSHOT_PATH.parent):
+        d.mkdir(parents=True, exist_ok=True)

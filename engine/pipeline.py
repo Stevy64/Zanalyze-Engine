@@ -1,435 +1,425 @@
 """
 Pipeline métier (sans Django).
 
-1. sync()         — ESPN (défaut, OK GitHub Actions) → SQLite
-2. analyser_jours — moteur v3.1 + règlement OK/KO si terminé
-3. refresh()      — 1 + 2 + écriture exports/matchs.json
+    ingestion → contrôle qualité → analyse figée → règlement → archive → snapshot
 
-Provider : ENGINE_PROVIDER=espn (défaut).
+Deux règles non négociables
+---------------------------
+1. **Un match commencé n'est jamais analysé.** Ses cotes contiennent déjà ce
+   qui se passe sur le terrain ; s'en servir reviendrait à prédire le passé.
+2. **Une prédiction n'est jamais réécrite.** Chaque calcul est ajouté à
+   l'historique avec son horodatage. Le bilan porte sur la dernière
+   prédiction antérieure au coup d'envoi, et sur elle seule.
 """
 from __future__ import annotations
 
 import json
-import os
 from collections import defaultdict
 from datetime import datetime, timezone
 from typing import Any
 
 from engine import espn
-from engine import sofascore as sofa
 from engine.evaluation import evaluer
-from engine.moteur import AnalyseInvalide, analyser, classer_journee
+from engine.moteur import (
+    AnalyseInvalide, analyser, analyser_sans_marche, classer_journee,
+)
+from engine.qualite import auditer, est_bloquant, verifier_cotes
 from engine.snapshot import ecrire_snapshot
 from engine.store import (
-    cotes_prioritaires,
-    init_db,
     connect,
+    cotes_utilisables,
+    enregistrer_prediction,
+    init_db,
+    marquer_suspect,
     matchs_a_analyser,
+    reinitialiser_suspects,
+    resoudre_equipe,
     save_analyse,
     upsert_competition,
-    upsert_contexte,
     upsert_cotes,
-    upsert_equipe,
     upsert_match,
 )
 
 
-def _provider() -> str:
-    return (os.environ.get('ENGINE_PROVIDER') or 'espn').strip().lower()
+def _maintenant() -> datetime:
+    return datetime.now(timezone.utc)
 
 
-def _persist_norm(conn, row: dict[str, Any]) -> str | None:
-    """Persiste un match normalisé (ESPN)."""
-    eid = int(row['event_id'])
+def _iso(valeur: Any) -> str:
+    if isinstance(valeur, datetime):
+        return valeur.astimezone(timezone.utc).isoformat()
+    return str(valeur)
+
+
+# --------------------------------------------------------------------------
+# Ingestion
+# --------------------------------------------------------------------------
+
+def _persister(conn, row: dict[str, Any]) -> str | None:
+    """Écrit une rencontre normalisée et ses cotes. Renvoie le jour concerné."""
     meta = row['meta']
-    home, away = row['home'], row['away']
     upsert_competition(
-        conn,
-        code=meta['code'],
-        nom=meta['nom'],
-        pays=meta['pays'],
-        ordre=meta['ordre'],
-        sofascore_id=int(meta.get('espn_league_id') or 0) or None,
+        conn, code=meta['code'], nom=meta['nom'], pays=meta['pays'],
+        ordre=meta['ordre'], sofascore_id=None,
     )
-    dslug = upsert_equipe(
-        conn,
-        slug=home['slug'],
-        nom=home['nom'],
-        nom_court=home['nom_court'],
-        sofascore_id=home.get('id'),
-        logo_externe=home.get('logo') or '',
+    provider = row.get('provider') or 'espn'
+    cle_dom = resoudre_equipe(
+        conn, nom=row['home']['nom'], provider=provider,
+        provider_id=row['home'].get('id'), logo=row['home'].get('logo') or '',
+        nom_court_fourni=row['home'].get('nom_court') or '',
     )
-    eslug = upsert_equipe(
-        conn,
-        slug=away['slug'],
-        nom=away['nom'],
-        nom_court=away['nom_court'],
-        sofascore_id=away.get('id'),
-        logo_externe=away.get('logo') or '',
+    cle_ext = resoudre_equipe(
+        conn, nom=row['away']['nom'], provider=provider,
+        provider_id=row['away'].get('id'), logo=row['away'].get('logo') or '',
+        nom_court_fourni=row['away'].get('nom_court') or '',
     )
-    statut = row['statut']
-    coup = row['coup_denvoi']
-    if isinstance(coup, datetime):
-        coup_iso = coup.astimezone(timezone.utc).isoformat()
-    else:
-        coup_iso = str(coup)
+    if cle_dom == cle_ext:
+        return None  # identité non résolue : on n'écrit rien plutôt qu'une absurdité
+
+    cle = row['cle']
+    coup_iso = _iso(row['coup_denvoi'])
     upsert_match(conn, {
-        'sofascore_id': eid,
+        'cle': cle,
         'competition_code': meta['code'],
-        'domicile_slug': dslug,
-        'exterieur_slug': eslug,
+        'domicile_cle': cle_dom,
+        'exterieur_cle': cle_ext,
         'coup_denvoi': coup_iso,
         'journee': row.get('journee') or '',
-        'statut': statut,
+        'statut': row['statut'],
         'buts_dom': row.get('buts_dom'),
         'buts_ext': row.get('buts_ext'),
         'buts_dom_mt': row.get('buts_dom_mt'),
         'buts_ext_mt': row.get('buts_ext_mt'),
+        'espn_id': row.get('event_id') if provider == 'espn' else None,
+        'sofascore_id': row.get('event_id') if provider == 'sofascore' else None,
     })
-    odds = row.get('odds_1x2')
-    if odds:
-        upsert_cotes(conn, eid, 'espn', '1X2', list(zip(('1', 'N', '2'), odds)))
-    ou = row.get('odds_ou25')
-    if ou:
-        upsert_cotes(conn, eid, 'espn', 'OU25', list(zip(('over', 'under'), ou)))
-    if statut == 'termine' and row.get('buts_dom') is not None and row.get('buts_ext') is not None:
-        _regler_analyse(
-            conn, eid, int(row['buts_dom']), int(row['buts_ext']),
-            row.get('buts_dom_mt'), row.get('buts_ext_mt'),
+
+    cotes = row.get('cotes') or {}
+    book = cotes.get('book') or provider
+    for champ, phase in (('1x2', 'courante'), ('ouverture_1x2', 'ouverture')):
+        trio = cotes.get(champ)
+        if not trio:
+            continue
+        if verifier_cotes(trio):
+            continue
+        upsert_cotes(
+            conn, cle, book, '1X2', list(zip(('1', 'N', '2'), trio)), phase=phase,
+        )
+    for champ, phase in (('totaux', 'courante'), ('ouverture_totaux', 'ouverture')):
+        tot = cotes.get(champ)
+        if not tot:
+            continue
+        over, under, ligne = tot
+        if verifier_cotes(None, ligne, (over, under)):
+            continue
+        upsert_cotes(
+            conn, cle, book, 'TOTAUX', [('over', over), ('under', under)],
+            ligne=float(ligne), phase=phase,
         )
     return coup_iso[:10]
 
 
-def _fetch_remote_sofa(ev: dict, *, avec_contexte: bool) -> dict[str, Any]:
-    eid = ev.get('id')
-    out: dict[str, Any] = {'odds_1x2': None, 'odds_ou25': None, 'contexte': None}
-    if not eid:
-        return out
+def sync(*, jours_passes: int = 14, jours_futurs: int = 21) -> dict[str, Any]:
+    """Ingestion ESPN complète, suivie d'un audit qualité."""
+    init_db()
+    stats: dict[str, Any] = {
+        'provider': 'espn', 'crees_ou_maj': 0, 'erreurs': 0, 'jours': [],
+        'detail_erreurs': [], 'avec_cotes_1x2': 0, 'avec_ligne_totaux': 0,
+        'identites_non_resolues': 0,
+    }
     try:
-        out['odds_1x2'] = sofa.cotes_1x2(int(eid))
-    except sofa.SofaScoreErreur:
-        pass
-    try:
-        out['odds_ou25'] = sofa.cotes_ou25(int(eid))
-    except sofa.SofaScoreErreur:
-        pass
-    if avec_contexte:
-        home = ev.get('homeTeam') or {}
-        away = ev.get('awayTeam') or {}
-        try:
-            out['contexte'] = sofa.collecter_contexte_match(
-                int(eid),
-                home_team_id=home.get('id'),
-                away_team_id=away.get('id'),
-                nom_dom=home.get('shortName') or home.get('name') or 'Dom',
-                nom_ext=away.get('shortName') or away.get('name') or 'Ext',
-                event=ev,
-                tournament_id=(ev.get('tournament') or {}).get('uniqueId')
-                or (ev.get('uniqueTournament') or {}).get('id'),
-            )
-        except Exception:  # noqa: BLE001
-            pass
-    return out
+        rows = espn.collecter_matchs(
+            jours_passes=jours_passes, jours_futurs=jours_futurs, avec_cotes=True,
+        )
+    except Exception as e:  # noqa: BLE001
+        stats['erreurs'] += 1
+        stats['detail_erreurs'].append(f'collecte : {e}')
+        return stats
+
+    jours: set[str] = set()
+    with connect() as conn:
+        for row in rows:
+            try:
+                jour = _persister(conn, row)
+            except Exception as e:  # noqa: BLE001
+                stats['erreurs'] += 1
+                if len(stats['detail_erreurs']) < 8:
+                    stats['detail_erreurs'].append(f"{row.get('cle')} : {e}")
+                continue
+            if jour is None:
+                stats['identites_non_resolues'] += 1
+                continue
+            jours.add(jour)
+            stats['crees_ou_maj'] += 1
+            cotes = row.get('cotes') or {}
+            if cotes.get('1x2'):
+                stats['avec_cotes_1x2'] += 1
+            if cotes.get('totaux'):
+                stats['avec_ligne_totaux'] += 1
+    stats['jours'] = sorted(jours)
+    stats['qualite'] = controler_qualite()
+    return stats
 
 
-def _persist_event_sofa(conn, tid: int, meta: dict, ev: dict, remote: dict) -> str | None:
-    eid = ev.get('id')
-    ts = ev.get('startTimestamp')
-    if not eid or not ts:
-        return None
-    home = ev.get('homeTeam') or {}
-    away = ev.get('awayTeam') or {}
-    nom_dom = (home.get('name') or 'Équipe')[:80]
-    nom_ext = (away.get('name') or 'Équipe')[:80]
-    court_dom = (home.get('shortName') or sofa.nom_court(nom_dom))[:24]
-    court_ext = (away.get('shortName') or sofa.nom_court(nom_ext))[:24]
-    hid, aid = home.get('id'), away.get('id')
-    slug_dom = sofa.slugify_nom(home.get('slug') or nom_dom)
-    slug_ext = sofa.slugify_nom(away.get('slug') or nom_ext)
-    logo_dom = f'https://img.sofascore.com/api/v1/team/{int(hid)}/image' if hid else ''
-    logo_ext = f'https://img.sofascore.com/api/v1/team/{int(aid)}/image' if aid else ''
-
-    upsert_competition(
-        conn, code=meta['code'], nom=meta['nom'], pays=meta['pays'],
-        ordre=meta['ordre'], sofascore_id=tid,
-    )
-    dslug = upsert_equipe(
-        conn, slug=slug_dom, nom=nom_dom, nom_court=court_dom,
-        sofascore_id=int(hid) if hid else None, logo_externe=logo_dom,
-    )
-    eslug = upsert_equipe(
-        conn, slug=slug_ext, nom=nom_ext, nom_court=court_ext,
-        sofascore_id=int(aid) if aid else None, logo_externe=logo_ext,
-    )
-    status_code = (ev.get('status') or {}).get('code')
-    statut = sofa.statut_depuis_code(status_code)
-    bd = be = bdm = bem = None
-    if statut == 'termine':
-        bd, be, bdm, bem = sofa.scores_depuis_event(ev)
-
-    coup = sofa.ts_to_aware(ts).isoformat()
-    upsert_match(conn, {
-        'sofascore_id': int(eid),
-        'competition_code': meta['code'],
-        'domicile_slug': dslug,
-        'exterieur_slug': eslug,
-        'coup_denvoi': coup,
-        'journee': str((ev.get('roundInfo') or {}).get('round') or ''),
-        'statut': statut,
-        'buts_dom': bd,
-        'buts_ext': be,
-        'buts_dom_mt': bdm,
-        'buts_ext_mt': bem,
-    })
-    odds = remote.get('odds_1x2')
-    if odds:
-        upsert_cotes(conn, int(eid), 'sofascore', '1X2', list(zip(('1', 'N', '2'), odds)))
-    ou = remote.get('odds_ou25')
-    if ou:
-        upsert_cotes(conn, int(eid), 'sofascore', 'OU25', list(zip(('over', 'under'), ou)))
-    ctx = remote.get('contexte') or {}
-    if ctx:
-        upsert_contexte(conn, int(eid), ctx)
-
-    if statut == 'termine' and bd is not None and be is not None:
-        _regler_analyse(conn, int(eid), bd, be, bdm, bem)
-
-    return coup[:10]
+def controler_qualite() -> dict[str, Any]:
+    """Audite la base et met de côté les rencontres invraisemblables."""
+    init_db()
+    resume: dict[str, int] = defaultdict(int)
+    ecartes = 0
+    with connect() as conn:
+        reinitialiser_suspects(conn)
+        matchs = [
+            {
+                'cle': r['cle'], 'competition_code': r['competition_code'],
+                'domicile_slug': r['domicile_cle'], 'exterieur_slug': r['exterieur_cle'],
+                'coup_denvoi': r['coup_denvoi'], 'statut': r['statut'],
+                'buts_dom': r['buts_dom'], 'buts_ext': r['buts_ext'],
+                'buts_dom_mt': r['buts_dom_mt'], 'buts_ext_mt': r['buts_ext_mt'],
+            }
+            for r in conn.execute('SELECT * FROM matchs')
+        ]
+        anomalies = auditer(matchs)
+        for cle, liste in anomalies.items():
+            for a in liste:
+                resume[a.code] += 1
+            if est_bloquant(liste):
+                marquer_suspect(conn, cle, ' | '.join(a.texte() for a in liste))
+                ecartes += 1
+    return {'anomalies': dict(resume), 'matchs_ecartes': ecartes}
 
 
-def _regler_analyse(conn, sid: int, bd: int, be: int, bdm, bem) -> None:
-    row = conn.execute('SELECT payload FROM analyses WHERE sofascore_id=?', (sid,)).fetchone()
+# --------------------------------------------------------------------------
+# Analyse
+# --------------------------------------------------------------------------
+
+def _regler(conn, cle: str) -> bool:
+    """Marque gagné / perdu les options d'une analyse dont le score est connu.
+
+    Renvoie True si quelque chose a changé. Idempotent : une option déjà
+    réglée n'est jamais revisitée.
+    """
+    m = conn.execute(
+        """SELECT buts_dom, buts_ext, buts_dom_mt, buts_ext_mt
+             FROM matchs WHERE cle = ?""", (cle,),
+    ).fetchone()
+    if not m or m['buts_dom'] is None or m['buts_ext'] is None:
+        return False
+    row = conn.execute('SELECT payload FROM analyses WHERE cle = ?', (cle,)).fetchone()
     if not row:
-        return
+        return False
     try:
         payload = json.loads(row['payload'])
     except json.JSONDecodeError:
-        return
-    changed = False
+        return False
+    change = False
     for o in payload.get('options') or []:
         if o.get('resultat') not in (None, '', 'attente'):
             continue
         try:
-            won = evaluer(o.get('code'), bd, be, bdm, bem)
+            gagne = evaluer(
+                o.get('code'), m['buts_dom'], m['buts_ext'],
+                m['buts_dom_mt'], m['buts_ext_mt'],
+            )
         except (ValueError, TypeError):
             continue
-        if won is True:
+        if gagne is True:
             o['resultat'] = 'gagne'
-            changed = True
-        elif won is False:
+            change = True
+        elif gagne is False:
             o['resultat'] = 'perdu'
-            changed = True
-    if changed:
-        save_analyse(conn, sid, payload)
+            change = True
+    if change:
+        save_analyse(conn, cle, payload)
+    return change
 
 
-def sync_espn(
-    *,
-    jours_passes: int = 14,
-    jours_futurs: int = 21,
-) -> dict[str, Any]:
+def regler_termines() -> int:
+    """Règle les analyses dont le match est désormais terminé.
+
+    Renvoie le nombre d'analyses effectivement mises à jour, pas le nombre
+    de matchs examinés : rejouer la commande ne gonfle donc pas le compte.
+    """
     init_db()
-    stats: dict[str, Any] = {
-        'provider': 'espn',
-        'crees_ou_maj': 0,
-        'erreurs': 0,
-        'jours': [],
-        'detail_erreurs': [],
-        'avec_cotes_1x2': 0,
-    }
-    jours: set[str] = set()
-    try:
-        rows = espn.collecter_matchs(
-            jours_passes=jours_passes,
-            jours_futurs=jours_futurs,
-            avec_cotes=True,
+    n = 0
+    with connect() as conn:
+        cles = [
+            r['cle'] for r in conn.execute(
+                """SELECT a.cle FROM analyses a
+                     JOIN matchs m ON m.cle = a.cle
+                    WHERE m.statut = 'termine'
+                      AND m.buts_dom IS NOT NULL AND m.buts_ext IS NOT NULL"""
+            )
+        ]
+        for cle in cles:
+            if _regler(conn, cle):
+                n += 1
+    return n
+
+
+def _forces_par_ligue(conn) -> dict:
+    """Forces d'équipe ajustées sur l'historique durable, une fois par cycle.
+
+    Elles ne servent qu'aux rencontres sans cotes. Mesuré sur 4 247 matchs,
+    le mélange forces + marché ne bat jamais le marché seul : la place des
+    forces est là où il n'y a pas de marché, pas à côté de lui.
+    """
+    from engine.force import ajuster_par_ligue
+
+    lignes = [
+        {'ligue': r['competition_code'], 'date': r['coup_denvoi'][:10],
+         'dom': r['domicile_cle'], 'ext': r['exterieur_cle'],
+         'bd': r['buts_dom'], 'be': r['buts_ext']}
+        for r in conn.execute(
+            """SELECT competition_code, coup_denvoi, domicile_cle, exterieur_cle,
+                      buts_dom, buts_ext
+                 FROM resultats
+                WHERE buts_dom IS NOT NULL AND buts_ext IS NOT NULL
+                ORDER BY coup_denvoi"""
         )
-    except Exception as e:  # noqa: BLE001
-        stats['erreurs'] += 1
-        stats['detail_erreurs'].append(f'collecte: {e}')
-        return stats
-
-    with connect() as conn:
-        for row in rows:
-            try:
-                jour = _persist_norm(conn, row)
-                if jour:
-                    jours.add(jour)
-                    stats['crees_ou_maj'] += 1
-                    if row.get('odds_1x2'):
-                        stats['avec_cotes_1x2'] += 1
-            except Exception as e:  # noqa: BLE001
-                stats['erreurs'] += 1
-                if len(stats['detail_erreurs']) < 8:
-                    stats['detail_erreurs'].append(f"event {row.get('event_id')}: {e}")
-    stats['jours'] = sorted(jours)
-    return stats
+    ]
+    if not lignes:
+        return {}
+    try:
+        return ajuster_par_ligue(lignes)
+    except Exception:  # noqa: BLE001 — une estimation absente n'arrête rien
+        return {}
 
 
-def sync_sofascore(
-    *,
-    pages: int = 1,
-    passes: int = 1,
-    avec_contexte: bool = False,
-) -> dict[str, Any]:
+def analyser_jours(jours: list[str] | None = None) -> dict[str, Any]:
+    """Analyse les rencontres à venir, par lot d'une journée.
+
+    Le lot est la bonne maille : c'est à l'échelle d'une journée que se joue
+    la diversification. Analyser match par match ramènerait la répétition
+    que la v3.1 produisait.
+    """
     init_db()
-    stats: dict[str, Any] = {
-        'provider': 'sofascore',
-        'crees_ou_maj': 0,
-        'erreurs': 0,
-        'jours': [],
-        'detail_erreurs': [],
-    }
-    jours: set[str] = set()
+    stats = {'analyses': 0, 'ignores': 0, 'refuses': 0, 'sans_ligne': 0,
+             'lots': 0, 'sans_cotes_estimes': 0}
+    maintenant = _maintenant()
+
     with connect() as conn:
-        for tid, meta in sofa.TOURNOIS.items():
-            events: list[dict] = []
-            try:
-                events.extend(sofa.evenements_suivants(tid, pages=pages))
-            except sofa.SofaScoreErreur as e:
-                stats['erreurs'] += 1
-                if len(stats['detail_erreurs']) < 5:
-                    stats['detail_erreurs'].append(f"{meta['code']} next: {e}")
-            try:
-                events.extend(sofa.evenements_passes(tid, pages=passes))
-            except sofa.SofaScoreErreur as e:
-                stats['erreurs'] += 1
-                if len(stats['detail_erreurs']) < 5:
-                    stats['detail_erreurs'].append(f"{meta['code']} last: {e}")
-            by_id: dict[int, dict] = {}
-            for ev in events:
-                eid = ev.get('id')
-                if eid:
-                    by_id[int(eid)] = ev
-            for ev in by_id.values():
-                try:
-                    remote = _fetch_remote_sofa(ev, avec_contexte=avec_contexte)
-                    jour = _persist_event_sofa(conn, tid, meta, ev, remote)
-                    if jour:
-                        jours.add(jour)
-                        stats['crees_ou_maj'] += 1
-                except Exception as e:  # noqa: BLE001
-                    stats['erreurs'] += 1
-                    if len(stats['detail_erreurs']) < 5:
-                        stats['detail_erreurs'].append(f"event {ev.get('id')}: {e}")
-    stats['jours'] = sorted(jours)
-    return stats
-
-
-def sync(
-    *,
-    pages: int = 1,
-    passes: int = 1,
-    avec_contexte: bool = False,
-    provider: str | None = None,
-    jours_passes: int = 14,
-    jours_futurs: int = 21,
-) -> dict[str, Any]:
-    prov = (provider or _provider()).lower()
-    if prov == 'sofascore':
-        return sync_sofascore(pages=pages, passes=passes, avec_contexte=avec_contexte)
-    return sync_espn(jours_passes=jours_passes, jours_futurs=jours_futurs)
-
-
-def analyser_jours(jours: list[str] | None = None) -> dict[str, int]:
-    init_db()
-    n_ok = n_skip = 0
-    with connect() as conn:
+        forces = _forces_par_ligue(conn)
         if jours:
-            lots_jours = jours
+            candidats = []
+            for jour in jours:
+                candidats.extend(matchs_a_analyser(conn, jour))
         else:
-            # Inclut aussi les jours passés (bilan tips sur matchs terminés).
-            extra = conn.execute(
-                """SELECT DISTINCT substr(coup_denvoi,1,10) AS j FROM matchs
-                   WHERE statut NOT IN ('reporte')
-                   ORDER BY j"""
-            ).fetchall()
-            lots_jours = [r['j'] for r in extra] or [
-                datetime.now(timezone.utc).date().isoformat()
-            ]
+            candidats = matchs_a_analyser(conn)
 
-        grouped: dict[str, list] = defaultdict(list)
-        for jour in lots_jours:
-            for m in matchs_a_analyser(conn, jour):
-                grouped[jour].append(m)
+        par_jour: dict[str, list] = defaultdict(list)
+        for m in candidats:
+            par_jour[m['coup_denvoi'][:10]].append(m)
 
-        for jour, matchs in grouped.items():
-            items = []
-            refs = {}
+        for jour, matchs in sorted(par_jour.items()):
+            lot: list[dict[str, Any]] = []
             for m in matchs:
-                by = cotes_prioritaires(conn, m['sofascore_id'])
-                try:
-                    c1, cn, c2 = by[('1X2', '1')], by[('1X2', 'N')], by[('1X2', '2')]
-                except KeyError:
-                    n_skip += 1
+                cotes = cotes_utilisables(conn, m['cle'])
+                noms = {}
+                for role, cle_eq in (('dom', m['domicile_cle']), ('ext', m['exterieur_cle'])):
+                    r = conn.execute(
+                        'SELECT nom_court FROM equipes WHERE cle = ?', (cle_eq,)
+                    ).fetchone()
+                    noms[role] = r['nom_court'] if r else cle_eq
+
+                if not cotes.get('1x2'):
+                    # Sans cotes, la v3.1 n'affichait rien du tout. Les forces
+                    # d'équipe donnent une estimation plus faible que le
+                    # marché, mais bien meilleure que le silence.
+                    f = forces.get(m['competition_code'])
+                    lam = f.lambdas(m['domicile_cle'], m['exterieur_cle']) if f else None
+                    if not lam:
+                        stats['ignores'] += 1
+                        continue
+                    payload = analyser_sans_marche(
+                        lam[0], lam[1], noms['dom'], noms['ext'],
+                        ligue=m['competition_code'],
+                    )
+                    payload['cle'] = m['cle']
+                    payload['source_cotes'] = 'forces'
+                    stats['sans_cotes_estimes'] += 1
+                    lot.append(payload)
                     continue
-                ou = None
-                if ('OU25', 'over') in by and ('OU25', 'under') in by:
-                    ou = (by[('OU25', 'over')], by[('OU25', 'under')])
-                nom_dom = conn.execute(
-                    'SELECT nom_court FROM equipes WHERE slug=?', (m['domicile_slug'],)
-                ).fetchone()
-                nom_ext = conn.execute(
-                    'SELECT nom_court FROM equipes WHERE slug=?', (m['exterieur_slug'],)
-                ).fetchone()
+
+                if not cotes.get('totaux'):
+                    stats['sans_ligne'] += 1
                 try:
                     payload = analyser(
-                        (c1, cn, c2), ou,
-                        (nom_dom['nom_court'] if nom_dom else 'Dom'),
-                        (nom_ext['nom_court'] if nom_ext else 'Ext'),
+                        cotes['1x2'], cotes.get('totaux'),
+                        noms['dom'], noms['ext'],
+                        mouvement=cotes.get('mouvement'),
+                        ligue=m['competition_code'],
                     )
                 except AnalyseInvalide:
-                    n_skip += 1
+                    stats['refuses'] += 1
                     continue
-                payload['ref'] = str(m['sofascore_id'])
-                items.append(payload)
-                refs[str(m['sofascore_id'])] = m['sofascore_id']
-            if not items:
-                continue
-            classer_journee(items)
-            for payload in items:
-                sid = refs.get(str(payload.get('ref')))
-                if sid:
-                    save_analyse(conn, sid, payload)
-                    n_ok += 1
-                    mrow = conn.execute(
-                        'SELECT statut, buts_dom, buts_ext, buts_dom_mt, buts_ext_mt '
-                        'FROM matchs WHERE sofascore_id=?',
-                        (sid,),
-                    ).fetchone()
-                    if (
-                        mrow and mrow['statut'] == 'termine'
-                        and mrow['buts_dom'] is not None
-                        and mrow['buts_ext'] is not None
-                    ):
-                        _regler_analyse(
-                            conn, sid, int(mrow['buts_dom']), int(mrow['buts_ext']),
-                            mrow['buts_dom_mt'], mrow['buts_ext_mt'],
-                        )
-    return {'analyses': n_ok, 'ignores': n_skip}
+                payload['cle'] = m['cle']
+                payload['source_cotes'] = cotes.get('source')
+                lot.append(payload)
 
+            if not lot:
+                continue
+            classer_journee(lot)
+            stats['lots'] += 1
+
+            for payload in lot:
+                cle = payload['cle']
+                coup = conn.execute(
+                    'SELECT coup_denvoi FROM matchs WHERE cle = ?', (cle,)
+                ).fetchone()
+                minutes = None
+                if coup:
+                    try:
+                        depart = datetime.fromisoformat(
+                            str(coup['coup_denvoi']).replace('Z', '+00:00')
+                        )
+                        minutes = int((depart - maintenant).total_seconds() // 60)
+                    except ValueError:
+                        minutes = None
+                enregistrer_prediction(
+                    conn, cle, payload,
+                    minutes_avant=minutes,
+                    avant_match=(minutes is None or minutes > 0),
+                )
+                save_analyse(conn, cle, payload)
+                stats['analyses'] += 1
+    return stats
+
+
+# --------------------------------------------------------------------------
+# Cycle complet
+# --------------------------------------------------------------------------
 
 def refresh(
-    *,
-    pages: int = 1,
-    passes: int = 1,
-    avec_contexte: bool = False,
-    jours_snapshot: int = 21,
-    provider: str | None = None,
+    *, jours_snapshot: int = 21, recalibrer: bool = True, archiver: bool = True,
 ) -> dict[str, Any]:
+    """Ingestion, analyse, règlement, archive, recalibration, snapshot."""
     sync_stats = sync(
-        pages=pages,
-        passes=passes,
-        avec_contexte=avec_contexte,
-        provider=provider,
         jours_passes=min(14, max(3, jours_snapshot)),
         jours_futurs=min(21, max(3, jours_snapshot)),
     )
-    ana = analyser_jours(sync_stats.get('jours') or None)
+    ana = analyser_jours()
+    regles = regler_termines()
+
+    archive_stats: dict[str, Any] = {}
+    calib: dict[str, Any] = {}
+    with connect() as conn:
+        if archiver:
+            from engine import archive
+            archive_stats = {
+                'observations': archive.exporter(conn),
+                'resultats': archive.exporter_resultats(conn),
+            }
+        if recalibrer:
+            from engine.apprentissage import recalibrer as lancer_recalibration
+            calib = lancer_recalibration(conn)
+
     path = ecrire_snapshot(jours=jours_snapshot)
     return {
         'sync': sync_stats,
         'analyses': ana,
+        'options_reglees': regles,
+        'archive': archive_stats,
+        'calibration': calib,
         'snapshot': str(path),
-        'provider': sync_stats.get('provider') or _provider(),
+        'provider': 'espn',
     }

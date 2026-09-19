@@ -18,8 +18,7 @@ services:
     command: ["sh", "/app/deploy/worker-loop.sh"]
     environment:
       ENGINE_WORKER_INTERVAL: ${ENGINE_WORKER_INTERVAL:-7200}
-      ENGINE_SYNC_PAGES: ${ENGINE_SYNC_PAGES:-1}
-      ENGINE_SYNC_PASSES: ${ENGINE_SYNC_PASSES:-1}
+      ENGINE_JOURS_SNAPSHOT: ${ENGINE_JOURS_SNAPSHOT:-21}
     volumes:
       - ./data:/app/data
       - ./exports:/app/exports

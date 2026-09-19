@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from engine.calibrage import CALIBRATION_MARCHE_DEFAUT
+from engine.calibrage import CALIBRATION_MARCHE_DEFAUT, SEP_LIGUE
 from engine.paths import CALIBRATION_FILE, ensure_dirs
 
 
@@ -15,7 +15,29 @@ def chemin_calibration() -> Path:
     return CALIBRATION_FILE
 
 
+# Anciennes clés « famille » du schéma v3.0. Leur correction unique cassait
+# la cohérence des complémentaires : on les ignore si elles traînent encore.
+_CLES_FAMILLE_OBSOLETES = frozenset({
+    'Total buts', 'Mi-temps', 'Handicap', 'BTTS', 'Double chance', '1X2',
+    'Ecart de buts', 'Une équipe marque', 'Une equipe marque',
+    "Total d'une équipe",
+})
+
+
+def _cle_valide(cle: str) -> bool:
+    """Une clé est soit un marché connu, soit « LIGUE|marché »."""
+    if cle in _CLES_FAMILLE_OBSOLETES:
+        return False
+    if cle in CALIBRATION_MARCHE_DEFAUT:
+        return True
+    if SEP_LIGUE in cle:
+        _, _, marche = cle.partition(SEP_LIGUE)
+        return marche in CALIBRATION_MARCHE_DEFAUT
+    return False
+
+
 def charger_overrides_marche() -> dict[str, list[tuple[float, float]]]:
+    """Courbes apprises, lues depuis `data/calibration.json`."""
     path = chemin_calibration()
     if not path.is_file():
         return {}
@@ -23,19 +45,10 @@ def charger_overrides_marche() -> dict[str, list[tuple[float, float]]]:
         raw = json.loads(path.read_text(encoding='utf-8'))
     except (OSError, json.JSONDecodeError):
         return {}
-    learned = raw.get('tables') or {}
     out: dict[str, list[tuple[float, float]]] = {}
-    for cle, points in learned.items():
-        if not isinstance(points, list) or len(points) < 2:
+    for cle, points in (raw.get('tables') or {}).items():
+        if not isinstance(points, list) or len(points) < 2 or not _cle_valide(cle):
             continue
-        if cle not in CALIBRATION_MARCHE_DEFAUT and not str(cle).startswith(
-            ('+', 'MT', 'HC', 'BTTS', 'dom', 'ext')
-        ):
-            if cle in (
-                'Total buts', 'Mi-temps', 'Handicap', 'BTTS',
-                'Une équipe marque', 'Une equipe marque',
-            ):
-                continue
         try:
             out[cle] = [(float(a), float(b)) for a, b in points]
         except (TypeError, ValueError):

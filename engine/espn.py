@@ -1,103 +1,77 @@
 """
-Client ESPN (JSON public, sans clé API).
+Client ESPN (JSON public, sans clé API) — fournisseur par défaut.
 
-Fonctionne depuis GitHub Actions.
-Fournit calendrier, scores et cotes 1X2 / OU 2.5 (DraftKings via ESPN).
-
-Les ids d’événements ESPN sont stockés dans la colonne `sofascore_id`
-(contrat snapshot v1 — nom de champ legacy, ne pas renommer).
+Corrections v4 par rapport à v3.1
+---------------------------------
+* **La ligne de totaux est lue.** v3.1 rangeait tous les prix over/under sous
+  « OU25 » sans consulter `overUnder`. Or DraftKings cote Bayern – Bodø sur
+  5,5 buts et PSG – Slovan sur 4,5. Le moteur croyait lire « plus de 2,5 buts
+  à 43 % » là où le marché disait « plus de 5,5 buts à 43 % ». Tous les
+  marchés dérivés en héritaient.
+* **L'ouverture et la clôture sont conservées** (`open` / `close` / `current`),
+  ce qui rend le mouvement de cote observable.
+* **Le score à la mi-temps est reconstruit** depuis les buts horodatés :
+  `linescores` est vide en football chez ESPN, ce qui laissait toutes les
+  options mi-temps éternellement « en attente ».
 """
 from __future__ import annotations
 
 import json
+import re
 import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
-from engine.sofascore import nom_court, slugify_nom
+from engine.identite import cle_equipe, cle_match, nom_court
 
 BASE_SITE = 'https://site.api.espn.com/apis/site/v2/sports/soccer'
 BASE_CORE = 'https://sports.core.api.espn.com/v2/sports/soccer'
 
-# slug ESPN → meta alignée PWA
+# slug ESPN → meta alignée sur les codes de la PWA
 TOURNOIS: dict[str, dict[str, Any]] = {
-    'uefa.champions': {
-        'code': 'UCL', 'nom': 'Ligue des champions', 'pays': 'Europe',
-        'ordre': 10, 'espn_league_id': 775,
-    },
-    'uefa.europa': {
-        'code': 'UEL', 'nom': 'Ligue Europa', 'pays': 'Europe',
-        'ordre': 11, 'espn_league_id': 776,
-    },
-    # Angleterre
-    'eng.1': {
-        'code': 'PL', 'nom': 'Premier League', 'pays': 'Angleterre',
-        'ordre': 20, 'espn_league_id': 700,
-    },
-    'eng.fa': {
-        'code': 'FAC', 'nom': 'FA Cup', 'pays': 'Angleterre',
-        'ordre': 21, 'espn_league_id': 3918,
-    },
-    'eng.league_cup': {
-        'code': 'EFL', 'nom': 'EFL Cup', 'pays': 'Angleterre',
-        'ordre': 22, 'espn_league_id': 3920,
-    },
-    # Espagne
-    'esp.1': {
-        'code': 'LIGA', 'nom': 'LaLiga', 'pays': 'Espagne',
-        'ordre': 30, 'espn_league_id': 701,
-    },
-    'esp.copa_del_rey': {
-        'code': 'CDR', 'nom': 'Copa del Rey', 'pays': 'Espagne',
-        'ordre': 31, 'espn_league_id': 3951,
-    },
-    # Allemagne
-    'ger.1': {
-        'code': 'BL', 'nom': 'Bundesliga', 'pays': 'Allemagne',
-        'ordre': 35, 'espn_league_id': 720,
-    },
-    'ger.dfb_pokal': {
-        'code': 'DFB', 'nom': 'DFB-Pokal', 'pays': 'Allemagne',
-        'ordre': 36, 'espn_league_id': 3954,
-    },
-    # France
-    'fra.1': {
-        'code': 'L1', 'nom': 'Ligue 1', 'pays': 'France',
-        'ordre': 40, 'espn_league_id': 710,
-    },
-    'fra.coupe_de_france': {
-        'code': 'CDF', 'nom': 'Coupe de France', 'pays': 'France',
-        'ordre': 41, 'espn_league_id': 3952,
-    },
-    # Italie
-    'ita.1': {
-        'code': 'SA', 'nom': 'Serie A', 'pays': 'Italie',
-        'ordre': 50, 'espn_league_id': 702,
-    },
-    'ita.coppa_italia': {
-        'code': 'CI', 'nom': 'Coppa Italia', 'pays': 'Italie',
-        'ordre': 51, 'espn_league_id': 3956,
-    },
-    # Portugal
-    'por.1': {
-        'code': 'LP', 'nom': 'Liga Portugal', 'pays': 'Portugal',
-        'ordre': 60, 'espn_league_id': 715,
-    },
-    'por.taca.portugal': {
-        'code': 'TDP', 'nom': 'Taça de Portugal', 'pays': 'Portugal',
-        'ordre': 61, 'espn_league_id': 20922,
-    },
+    'uefa.champions': {'code': 'UCL', 'nom': 'Ligue des champions', 'pays': 'Europe',
+                       'ordre': 10, 'espn_league_id': 775},
+    'uefa.europa': {'code': 'UEL', 'nom': 'Ligue Europa', 'pays': 'Europe',
+                    'ordre': 11, 'espn_league_id': 776},
+    'eng.1': {'code': 'PL', 'nom': 'Premier League', 'pays': 'Angleterre',
+              'ordre': 20, 'espn_league_id': 700},
+    'eng.fa': {'code': 'FAC', 'nom': 'FA Cup', 'pays': 'Angleterre',
+               'ordre': 21, 'espn_league_id': 3918},
+    'eng.league_cup': {'code': 'EFL', 'nom': 'EFL Cup', 'pays': 'Angleterre',
+                       'ordre': 22, 'espn_league_id': 3920},
+    'esp.1': {'code': 'LIGA', 'nom': 'LaLiga', 'pays': 'Espagne',
+              'ordre': 30, 'espn_league_id': 701},
+    'esp.copa_del_rey': {'code': 'CDR', 'nom': 'Copa del Rey', 'pays': 'Espagne',
+                         'ordre': 31, 'espn_league_id': 3951},
+    'ger.1': {'code': 'BL', 'nom': 'Bundesliga', 'pays': 'Allemagne',
+              'ordre': 35, 'espn_league_id': 720},
+    'ger.dfb_pokal': {'code': 'DFB', 'nom': 'DFB-Pokal', 'pays': 'Allemagne',
+                      'ordre': 36, 'espn_league_id': 3954},
+    'fra.1': {'code': 'L1', 'nom': 'Ligue 1', 'pays': 'France',
+              'ordre': 40, 'espn_league_id': 710},
+    'fra.coupe_de_france': {'code': 'CDF', 'nom': 'Coupe de France', 'pays': 'France',
+                            'ordre': 41, 'espn_league_id': 3952},
+    'ita.1': {'code': 'SA', 'nom': 'Serie A', 'pays': 'Italie',
+              'ordre': 50, 'espn_league_id': 702},
+    'ita.coppa_italia': {'code': 'CI', 'nom': 'Coppa Italia', 'pays': 'Italie',
+                         'ordre': 51, 'espn_league_id': 3956},
+    'por.1': {'code': 'LP', 'nom': 'Liga Portugal', 'pays': 'Portugal',
+              'ordre': 60, 'espn_league_id': 715},
+    'por.taca.portugal': {'code': 'TDP', 'nom': 'Taça de Portugal', 'pays': 'Portugal',
+                          'ordre': 61, 'espn_league_id': 20922},
 }
 
 _HEADERS = {
     'User-Agent': (
-        'Mozilla/5.0 (compatible; ZanalyzeEngine/1.0; '
+        'Mozilla/5.0 (compatible; ZanalyzeEngine/4.0; '
         '+https://github.com/Stevy64/Zanalyze-Engine)'
     ),
     'Accept': 'application/json',
 }
+
+_MINUTE = re.compile(r'(\d+)')
 
 
 class EspnErreur(RuntimeError):
@@ -130,18 +104,57 @@ def american_to_decimal(ml: float | int | None) -> float | None:
     return round(1.0 + 100.0 / abs(v), 3)
 
 
+def _decimale(bloc: Any) -> float | None:
+    """Prix décimal d'un bloc ESPN (`{'decimal': 1.83, 'american': '-120'}`)."""
+    if bloc is None:
+        return None
+    if isinstance(bloc, (int, float)):
+        return float(bloc)
+    if isinstance(bloc, dict):
+        for champ in ('decimal', 'value'):
+            v = bloc.get(champ)
+            if isinstance(v, (int, float)) and v >= 1.01:
+                return float(v)
+        am = bloc.get('american')
+        if am is not None:
+            try:
+                return american_to_decimal(float(str(am).replace('+', '')))
+            except (TypeError, ValueError):
+                return None
+    return None
+
+
+def _ligne(bloc: Any, repli: Any = None) -> float | None:
+    """Ligne de totaux (`total`), en nombre."""
+    for source in (bloc, repli):
+        if isinstance(source, dict):
+            for champ in ('total', 'line', 'overUnder'):
+                v = source.get(champ)
+                if v is None:
+                    continue
+                try:
+                    return float(str(v))
+                except (TypeError, ValueError):
+                    continue
+        elif source is not None:
+            try:
+                return float(str(source))
+            except (TypeError, ValueError):
+                continue
+    return None
+
+
 def _statut_espn(status_type: dict | None) -> str:
     if not status_type:
         return 'a_venir'
     state = (status_type.get('state') or '').lower()
     name = (status_type.get('name') or '').lower()
-    completed = bool(status_type.get('completed'))
-    if completed or state == 'post' or 'final' in name:
+    if 'postpon' in name or 'cancel' in name or 'abandon' in name or 'forfeit' in name:
+        return 'reporte'
+    if bool(status_type.get('completed')) or state == 'post' or 'final' in name:
         return 'termine'
     if state == 'in' or 'progress' in name or 'half' in name:
         return 'en_cours'
-    if 'postpon' in name or 'cancel' in name or 'abandon' in name:
-        return 'reporte'
     return 'a_venir'
 
 
@@ -149,7 +162,6 @@ def _parse_iso(dt: str | None) -> datetime | None:
     if not dt:
         return None
     try:
-        # 2026-09-20T13:00Z
         if dt.endswith('Z'):
             dt = dt[:-1] + '+00:00'
         return datetime.fromisoformat(dt).astimezone(timezone.utc)
@@ -157,44 +169,26 @@ def _parse_iso(dt: str | None) -> datetime | None:
         return None
 
 
-def _chunk_dates(debut: datetime, fin: datetime, max_jours: int = 1) -> list[str]:
-    """
-    ESPN scoreboard : une date YYYYMMDD (ou parfois une plage).
-    Les plages multi-jours renvoient souvent HTTP 400 → on itère jour par jour.
-    """
+def _dates(debut: datetime, fin: datetime) -> list[str]:
+    """ESPN accepte une date AAAAMMJJ ; les plages renvoient souvent 400."""
     out: list[str] = []
-    cur = debut.date()
-    end = fin.date()
-    step = max(1, int(max_jours))
+    cur, end = debut.date(), fin.date()
     while cur <= end:
-        if step == 1:
-            out.append(cur.strftime('%Y%m%d'))
-            cur = cur + timedelta(days=1)
-        else:
-            stop = min(cur + timedelta(days=step - 1), end)
-            out.append(f"{cur.strftime('%Y%m%d')}-{stop.strftime('%Y%m%d')}")
-            cur = stop + timedelta(days=1)
+        out.append(cur.strftime('%Y%m%d'))
+        cur += timedelta(days=1)
     return out
 
 
 def evenements_fenetre(
-    slug: str,
-    *,
-    jours_passes: int = 14,
-    jours_futurs: int = 21,
+    slug: str, *, jours_passes: int = 14, jours_futurs: int = 21,
 ) -> list[dict[str, Any]]:
-    """Tous les matchs d’une ligue dans la fenêtre (scoreboard ESPN)."""
     now = datetime.now(timezone.utc)
-    debut = now - timedelta(days=jours_passes)
-    fin = now + timedelta(days=jours_futurs)
     by_id: dict[str, dict] = {}
-    for plage in _chunk_dates(debut, fin, max_jours=1):
-        url = f'{BASE_SITE}/{slug}/scoreboard?dates={plage}'
+    for jour in _dates(now - timedelta(days=jours_passes), now + timedelta(days=jours_futurs)):
         try:
-            data = _get(url)
+            data = _get(f'{BASE_SITE}/{slug}/scoreboard?dates={jour}')
         except EspnErreur:
-            # Ligues sans calendrier ce jour-là → ignorer.
-            continue
+            continue  # ligue sans calendrier ce jour-là
         for ev in data.get('events') or []:
             eid = str(ev.get('id') or '')
             if eid:
@@ -203,21 +197,19 @@ def evenements_fenetre(
     return list(by_id.values())
 
 
-def _extract_teams(comp: dict) -> tuple[dict[str, Any], dict[str, Any]]:
-    home = away = {
-        'id': None, 'nom': 'Équipe', 'nom_court': 'Équipe', 'slug': 'equipe', 'logo': '',
-    }
+def _equipes(comp: dict) -> tuple[dict[str, Any] | None, dict[str, Any] | None]:
+    home = away = None
     for c in comp.get('competitors') or []:
         team = c.get('team') or {}
+        nom = (team.get('displayName') or team.get('name') or '').strip()
+        if not nom:
+            continue
         bloc = {
             'id': int(team['id']) if str(team.get('id') or '').isdigit() else None,
-            'nom': (team.get('displayName') or team.get('name') or 'Équipe')[:80],
+            'nom': nom[:80],
             'nom_court': (
-                team.get('shortDisplayName')
-                or team.get('abbreviation')
-                or nom_court(team.get('displayName') or 'Équipe')
+                team.get('shortDisplayName') or team.get('abbreviation') or nom_court(nom)
             )[:24],
-            'slug': slugify_nom(team.get('slug') or team.get('displayName') or 'equipe'),
             'logo': (team.get('logo') or '').strip(),
             'score': c.get('score'),
         }
@@ -228,44 +220,92 @@ def _extract_teams(comp: dict) -> tuple[dict[str, Any], dict[str, Any]]:
     return home, away
 
 
+def score_mi_temps(comp: dict, id_dom: int | None, id_ext: int | None):
+    """Reconstruit le score à la pause depuis les buts horodatés.
+
+    `linescores` est vide en football chez ESPN : sans cette reconstruction,
+    les sept options de mi-temps d'un match restent « en attente » pour
+    toujours et ne peuvent jamais être recalibrées.
+
+    Un but contre son camp compte pour l'équipe adverse.
+    """
+    plays = comp.get('details') or comp.get('scoringPlays') or []
+    if not plays or (id_dom is None and id_ext is None):
+        return None, None
+    dom = ext = 0
+    vu = False
+    for p in plays:
+        if not (p.get('scoringPlay') or p.get('scoreValue')):
+            continue
+        type_info = p.get('type') or {}
+        libelle = f"{type_info.get('text') or ''} {p.get('text') or ''}".lower()
+        if 'penalty shootout' in libelle or 'shootout' in libelle:
+            continue
+        horloge = (p.get('clock') or {}).get('displayValue') or ''
+        m = _MINUTE.search(str(horloge))
+        if not m:
+            continue
+        minute = int(m.group(1))
+        vu = True
+        if minute > 45:
+            continue
+        equipe_id = (p.get('team') or {}).get('id')
+        try:
+            equipe_id = int(equipe_id)
+        except (TypeError, ValueError):
+            continue
+        contre_son_camp = bool(p.get('ownGoal')) or 'own goal' in libelle
+        marque_pour_dom = (equipe_id == id_dom) != contre_son_camp
+        if marque_pour_dom:
+            dom += 1
+        else:
+            ext += 1
+    if not vu:
+        return None, None
+    return dom, ext
+
+
 def _scores(comp: dict, home: dict, away: dict, statut: str):
-    bd = be = bdm = bem = None
     if statut != 'termine':
-        return bd, be, bdm, bem
-    try:
-        if home.get('score') is not None and str(home['score']).strip() != '':
-            bd = int(float(home['score']))
-        if away.get('score') is not None and str(away['score']).strip() != '':
-            be = int(float(away['score']))
-    except (TypeError, ValueError):
-        pass
-    # Mi-temps parfois dans details / linescores
-    for side, target in (('home', 'bdm'), ('away', 'bem')):
-        pass
-    for c in comp.get('competitors') or []:
-        lines = c.get('linescores') or []
-        if len(lines) >= 1:
-            try:
-                val = int(float(lines[0].get('value')))
-            except (TypeError, ValueError, AttributeError):
-                continue
-            if c.get('homeAway') == 'home':
-                bdm = val
-            elif c.get('homeAway') == 'away':
-                bem = val
+        return None, None, None, None
+    bd = be = None
+    for bloc, cible in ((home, 'bd'), (away, 'be')):
+        val = bloc.get('score')
+        if val is None or str(val).strip() == '':
+            continue
+        try:
+            n = int(float(val))
+        except (TypeError, ValueError):
+            continue
+        if cible == 'bd':
+            bd = n
+        else:
+            be = n
+    bdm, bem = score_mi_temps(comp, home.get('id'), away.get('id'))
+    if bd is not None and bdm is not None and bdm > bd:
+        bdm = bem = None
+    if be is not None and bem is not None and bem > be:
+        bdm = bem = None
     return bd, be, bdm, bem
 
 
-def cotes_depuis_event(slug: str, event_id: str, competition_id: str | None = None) -> dict[str, Any]:
-    """Récupère 1X2 + OU2.5 pour un match ESPN (best effort)."""
-    out: dict[str, Any] = {'odds_1x2': None, 'odds_ou25': None}
+def cotes_depuis_event(
+    slug: str, event_id: str, competition_id: str | None = None,
+) -> dict[str, Any]:
+    """1X2 et totaux d'un match, avec **la ligne** et l'ouverture.
+
+    Renvoie `{'1x2', 'totaux', 'ouverture_1x2', 'ouverture_totaux', 'book'}`.
+    `totaux` vaut `(over, under, ligne)` ou None. Sans ligne exploitable, on
+    ne renvoie **aucun** total : mieux vaut ajuster sur le seul 1X2 que sur
+    un prix rattaché à la mauvaise ligne.
+    """
+    out: dict[str, Any] = {
+        '1x2': None, 'totaux': None,
+        'ouverture_1x2': None, 'ouverture_totaux': None, 'book': 'espn',
+    }
     cid = competition_id or event_id
-    idx_url = (
-        f'{BASE_CORE}/leagues/{slug}/events/{event_id}/'
-        f'competitions/{cid}/odds'
-    )
     try:
-        idx = _get(idx_url)
+        idx = _get(f'{BASE_CORE}/leagues/{slug}/events/{event_id}/competitions/{cid}/odds')
     except EspnErreur:
         return out
     items = idx.get('items') or []
@@ -279,79 +319,103 @@ def cotes_depuis_event(slug: str, event_id: str, competition_id: str | None = No
     except EspnErreur:
         return out
 
-    h_ml = (od.get('homeTeamOdds') or {}).get('moneyLine')
-    a_ml = (od.get('awayTeamOdds') or {}).get('moneyLine')
-    d_ml = (od.get('drawOdds') or {}).get('moneyLine')
-    c1 = american_to_decimal(h_ml)
-    c2 = american_to_decimal(a_ml)
-    cn = american_to_decimal(d_ml)
-    if c1 and cn and c2 and min(c1, cn, c2) >= 1.01:
-        out['odds_1x2'] = (c1, cn, c2)
+    fournisseur = ((od.get('provider') or {}).get('name') or 'espn').lower()
+    out['book'] = 'espn' if fournisseur in ('', 'espn') else fournisseur[:40]
 
-    # OU 2.5 — décimales dans current.over / current.under
-    current = od.get('current') or {}
-    over = current.get('over') or {}
-    under = current.get('under') or {}
-    o_dec = over.get('decimal')
-    u_dec = under.get('decimal')
-    if o_dec is None:
-        o_dec = american_to_decimal(od.get('overOdds'))
-    if u_dec is None:
-        u_dec = american_to_decimal(od.get('underOdds'))
-    try:
-        if o_dec is not None and u_dec is not None:
-            o_f, u_f = float(o_dec), float(u_dec)
-            if min(o_f, u_f) >= 1.01:
-                out['odds_ou25'] = (round(o_f, 3), round(u_f, 3))
-    except (TypeError, ValueError):
-        pass
+    def trio(bloc: dict | None, racine: dict) -> tuple[float, float, float] | None:
+        if isinstance(bloc, dict) and bloc:
+            c1 = _decimale(bloc.get('homeOdds') or bloc.get('home'))
+            c2 = _decimale(bloc.get('awayOdds') or bloc.get('away'))
+            cn = _decimale(bloc.get('drawOdds') or bloc.get('draw'))
+            if c1 and cn and c2:
+                return (c1, cn, c2)
+        c1 = american_to_decimal((racine.get('homeTeamOdds') or {}).get('moneyLine'))
+        c2 = american_to_decimal((racine.get('awayTeamOdds') or {}).get('moneyLine'))
+        cn = american_to_decimal((racine.get('drawOdds') or {}).get('moneyLine'))
+        if c1 and cn and c2:
+            return (c1, cn, c2)
+        return None
+
+    def totaux(bloc: dict | None, racine: dict):
+        if isinstance(bloc, dict) and bloc:
+            o = _decimale(bloc.get('over'))
+            u = _decimale(bloc.get('under'))
+            lg = _ligne(bloc, racine.get('overUnder'))
+            if o and u and lg is not None:
+                return (o, u, lg)
+        o = _decimale(racine.get('overOdds'))
+        u = _decimale(racine.get('underOdds'))
+        if o is None:
+            o = american_to_decimal(racine.get('overOdds'))
+        if u is None:
+            u = american_to_decimal(racine.get('underOdds'))
+        lg = _ligne(racine.get('overUnder'))
+        if o and u and lg is not None:
+            return (o, u, lg)
+        return None
+
+    courant = od.get('current') or od.get('close') or {}
+    ouverture = od.get('open') or {}
+    out['1x2'] = trio(courant, od)
+    out['totaux'] = totaux(courant, od)
+    out['ouverture_1x2'] = trio(ouverture, {})
+    out['ouverture_totaux'] = totaux(ouverture, {})
     return out
 
 
-def normaliser_event(slug: str, meta: dict[str, Any], ev: dict[str, Any]) -> dict[str, Any] | None:
-    """Transforme un event scoreboard ESPN en enregistrement pipeline."""
+def normaliser_event(
+    slug: str, meta: dict[str, Any], ev: dict[str, Any],
+) -> dict[str, Any] | None:
+    """Event ESPN → enregistrement canonique prêt pour la persistance."""
     eid = ev.get('id')
     if not eid:
         return None
     comp = (ev.get('competitions') or [{}])[0]
-    status = _statut_espn((comp.get('status') or {}).get('type') or (ev.get('status') or {}).get('type'))
-    home, away = _extract_teams(comp)
+    statut = _statut_espn(
+        (comp.get('status') or {}).get('type') or (ev.get('status') or {}).get('type')
+    )
+    home, away = _equipes(comp)
+    if not home or not away:
+        return None
     coup = _parse_iso(comp.get('date') or ev.get('date'))
     if coup is None:
         return None
-    bd, be, bdm, bem = _scores(comp, home, away, status)
+    bd, be, bdm, bem = _scores(comp, home, away, statut)
+
     journee = ''
     for note in comp.get('notes') or []:
-        if note.get('type') == 'event' and note.get('headline'):
+        if note.get('headline'):
             journee = str(note['headline'])[:40]
             break
+
+    cle_dom, cle_ext = cle_equipe(home['nom']), cle_equipe(away['nom'])
     return {
         'provider': 'espn',
         'event_id': int(eid),
         'competition_id': str(comp.get('id') or eid),
         'league_slug': slug,
         'meta': meta,
+        'cle': cle_match(meta['code'], coup, cle_dom, cle_ext),
         'coup_denvoi': coup,
         'journee': journee,
-        'statut': status,
+        'statut': statut,
         'home': home,
         'away': away,
         'buts_dom': bd,
         'buts_ext': be,
         'buts_dom_mt': bdm,
         'buts_ext_mt': bem,
+        'cotes': None,
     }
 
 
 def collecter_matchs(
-    *,
-    jours_passes: int = 14,
-    jours_futurs: int = 21,
-    avec_cotes: bool = True,
+    *, jours_passes: int = 14, jours_futurs: int = 21, avec_cotes: bool = True,
+    tournois: dict[str, dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
-    """Liste normalisée + cotes pour toutes les ligues suivies."""
+    """Liste canonique des rencontres, cotes comprises."""
     out: list[dict[str, Any]] = []
-    for slug, meta in TOURNOIS.items():
+    for slug, meta in (tournois or TOURNOIS).items():
         try:
             events = evenements_fenetre(
                 slug, jours_passes=jours_passes, jours_futurs=jours_futurs,
@@ -362,19 +426,15 @@ def collecter_matchs(
             norm = normaliser_event(slug, meta, ev)
             if not norm:
                 continue
-            if avec_cotes and norm['statut'] in ('a_venir', 'en_cours', 'termine'):
+            # Les cotes n'ont de sens que tant que le match n'a pas commencé.
+            if avec_cotes and norm['statut'] == 'a_venir':
                 try:
-                    cotes = cotes_depuis_event(
+                    norm['cotes'] = cotes_depuis_event(
                         slug, str(norm['event_id']), norm.get('competition_id'),
                     )
-                    norm.update(cotes)
                     time.sleep(0.25)
-                except Exception:  # noqa: BLE001
-                    norm['odds_1x2'] = None
-                    norm['odds_ou25'] = None
-            else:
-                norm.setdefault('odds_1x2', None)
-                norm.setdefault('odds_ou25', None)
+                except Exception:  # noqa: BLE001 — une cote absente n'arrête rien
+                    norm['cotes'] = None
             out.append(norm)
         time.sleep(0.4)
     return out

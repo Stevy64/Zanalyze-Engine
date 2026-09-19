@@ -1,8 +1,11 @@
 # Zanalyze Engine sur Oracle Cloud Always Free
 
-À utiliser si **GitHub Actions** est bloqué par SofaScore (HTTP 403) ou si tu veux une API 24/7.
+**Optionnel.** GitHub Actions suffit au fonctionnement courant : il ingère,
+analyse, archive, recalibre et publie le snapshot. Cette page ne sert que si
+tu veux en plus une **API joignable en permanence**, par exemple pour
+interroger `/v1/analyser` depuis un autre outil.
 
-Le Free Tier Ampere (ARM, `VM.Standard.A1.Flex`) a un **egress libre** : SofaScore fonctionne, contrairement à PythonAnywhere.
+Le Free Tier Ampere (ARM, `VM.Standard.A1.Flex`) a un egress libre.
 
 ## Instance
 

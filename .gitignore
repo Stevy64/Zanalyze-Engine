@@ -2,14 +2,19 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
-data/*.sqlite3
-data/engine.sqlite3
-data/calibration.json
-*.log
 .env
 .idea/
 .vscode/
 .DS_Store
-scripts/
-refresh-espn.log
+*.log
 refresh-out.json
+
+# Base de travail : reconstructible à chaque refresh, jamais versionnée.
+data/*.sqlite3
+data/*.sqlite3-wal
+data/*.sqlite3-shm
+
+# NE PAS ignorer ce qui constitue la mémoire du moteur :
+#   data/calibration.json  — les courbes apprises
+#   data/archive/*.csv     — les prédictions réglées et les résultats
+# Sans elles, chaque exécution de GitHub Actions repartirait de zéro.

@@ -1,45 +1,50 @@
 # Activer GitHub Actions
 
-L’écran **« Choose a workflow »** apparaît si aucun YAML n’est sur `main`, ou si Actions est désactivé.
+L'écran **« Choose a workflow »** apparaît si aucun YAML n'est sur `main`, ou
+si Actions est désactivé sur le dépôt.
 
-## Source de données (ESPN)
+## Source de données
 
-Par défaut le moteur utilise **ESPN** (JSON public, sans clé) :
-
-- calendrier UCL, Ligue Europa, Big 5 (+ coupes), Liga Portugal (+ Taça)
-- scores
-- cotes 1X2 + OU 2.5
-
-SofaScore est **bloqué** sur les IP GitHub ; ESPN fonctionne.  
-Forcer SofaScore en local : `ENGINE_PROVIDER=sofascore` (nécessite `curl_cffi`).
+Le moteur utilise **ESPN** (JSON public, sans clé) : calendrier, scores, cotes
+1X2 et totaux **avec leur ligne**. C'est le seul fournisseur depuis la v4 ;
+voir [architecture.md](architecture.md) pour la raison.
 
 ## 1. Autoriser les workflows (une fois)
 
-1. Repo **Zanalyze-Engine** → **Settings** → **Actions** → **General**.
-2. **Allow all actions** + **Read and write** → **Save**.
+1. Dépôt **Zanalyze-Engine** → **Settings** → **Actions** → **General**.
+2. **Allow all actions** + **Read and write permissions** → **Save**.
+
+La permission d'écriture est indispensable : le workflow commite le snapshot,
+l'archive et la calibration.
 
 ## 2. Lancer Refresh snapshot
 
 Actions → **Refresh snapshot** → **Run workflow**.
 
-Le job publie `exports/matchs.json` non vide (**cron toutes les 2 h**, UTC `15 */2`).
+Le job publie `exports/matchs.json`, met à jour `data/archive/` et, si la
+recalibration gagne hors échantillon, `data/calibration.json`. Cron : toutes
+les 2 h, à `15 */2` UTC.
 
-### Quotas GitHub Actions (free)
+Il échoue volontairement si le snapshot est vide, s'il contient deux fois la
+même rencontre, ou si deux équipes partagent un identifiant : ce sont les
+régressions que la v4 a supprimées.
 
-| Type de repo | Minutes |
-|--------------|---------|
-| **Public** | Illimité (runners standard) |
-| **Privé** | ~2 000 min/mois |
+### Quotas GitHub Actions (offre gratuite)
 
-Ce workflow : ~12 runs/jour, ~1 min chacun ≈ **360 min/mois** → largement sous le plafond privé.  
-`timeout-minutes: 15` + cache SQLite + `concurrency` (1 run à la fois).
+| Type de dépôt | Minutes |
+|---|---|
+| **Public** | illimité (runners standard) |
+| **Privé** | ~2 000 min/mois |
+
+Ce workflow : ~12 exécutions/jour, 1 à 2 min chacune, soit environ
+**500 min/mois** — largement sous le plafond privé. `timeout-minutes: 20`,
+cache SQLite et `concurrency` limitent les dérives.
 
 ## 3. Côté PWA Zanalyze (PythonAnywhere)
 
-**Ne pas** mettre `ZANALYZ_SYNC_LIVE=1` sur PA : SofaScore / enrichissement live y sont bloqués ou inutiles.  
-Les scores et bilans viennent **uniquement** du snapshot Engine.
+Les scores et bilans viennent **uniquement** du snapshot du moteur.
 
-Scheduled task PA (toutes les 2 h, décalée du cron Engine, ex. `25 */2 * * *`) :
+Tâche planifiée PA, toutes les 2 h, décalée du cron du moteur :
 
 ```bash
 cd ~/Zanalyze
@@ -53,3 +58,11 @@ Import manuel :
 ```bash
 python manage.py importer_snapshot --url https://raw.githubusercontent.com/Stevy64/Zanalyze-Engine/main/exports/matchs.json
 ```
+
+### Au premier import de la v4
+
+Les slugs d'équipes changent pour les clubs dont l'identité était corrompue.
+`_upsert_equipe` côté PWA retrouve les lignes par slug puis par nom, et
+`_upsert_match` par `(domicile, exterieur, coup_denvoi)` : la reprise se fait
+donc toute seule, import après import. Vérifier ensuite dans l'admin qu'aucune
+équipe ne porte encore un nom en « (ancien … ) ».

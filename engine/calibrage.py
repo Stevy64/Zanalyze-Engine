@@ -192,15 +192,32 @@ def cle_marche(libelle: str, dom: str = '', ext: str = '') -> Any:
     return None
 
 
-def corriger(p: float, marche: Any, tables: dict | None = None) -> float:
+SEP_LIGUE = '|'
+
+
+def _table(tmap: dict, marche: str, ligue: str | None):
+    """Courbe applicable : celle de la ligue si elle existe, sinon la générale.
+
+    Une courbe par ligue n'est publiée par l'apprentissage que lorsqu'elle
+    repose sur assez d'observations ; ici on se contente de la préférer.
+    """
+    if ligue:
+        t = tmap.get(f'{ligue}{SEP_LIGUE}{marche}')
+        if t:
+            return t
+    return tmap.get(marche)
+
+
+def corriger(p: float, marche: Any, tables: dict | None = None,
+             ligue: str | None = None) -> float:
     """Corrige une proba CALCULÉE. Ne jamais appliquer aux cotes marché."""
     if marche is None:
         return float(p)
     tmap = tables if tables is not None else tables_marche()
     if isinstance(marche, tuple) and marche and marche[0] == COMPLEMENT:
-        t = tmap.get(marche[1])
+        t = _table(tmap, marche[1], ligue)
         return 1.0 - _interp(1.0 - float(p), t) if t else float(p)
-    t = tmap.get(marche) if isinstance(marche, str) else None
+    t = _table(tmap, marche, ligue) if isinstance(marche, str) else None
     return _interp(float(p), t) if t else float(p)
 
 
