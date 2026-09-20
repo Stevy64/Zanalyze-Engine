@@ -229,5 +229,9 @@ TDP:2026-09-19:mafra:tirsense,2026-09-19T17:00:00+00:00,TDP,mafra,tirsense,2,2,,
 TDP:2026-09-19:o-elvas:uniao-leiria,2026-09-19T17:00:00+00:00,TDP,o-elvas,uniao-leiria,0,2,,
 L1:2026-09-19:angers:troyes,2026-09-19T18:45:00+00:00,L1,angers,troyes,2,0,1,0
 L1:2026-09-19:le-mans:lorient,2026-09-19T18:45:00+00:00,L1,le-mans,lorient,2,1,1,0
+L1:2026-09-19:lyon:stade-rennais,2026-09-19T18:45:00+00:00,L1,lyon,stade-rennais,4,0,2,0
 L1:2026-09-19:toulouse:le-havre,2026-09-19T18:45:00+00:00,L1,toulouse,le-havre,3,2,0,0
 SA:2026-09-19:venezia:lazio,2026-09-19T18:45:00+00:00,SA,venezia,lazio,0,2,0,0
+LIGA:2026-09-19:seville:barcelona,2026-09-19T19:00:00+00:00,LIGA,seville,barcelona,1,3,1,1
+TDP:2026-09-19:beira-mar:os-belenenses,2026-09-19T19:00:00+00:00,TDP,beira-mar,os-belenenses,0,2,,
+LP:2026-09-19:sporting-cp:arouca,2026-09-19T19:30:00+00:00,LP,sporting-cp,arouca,2,2,2,0
