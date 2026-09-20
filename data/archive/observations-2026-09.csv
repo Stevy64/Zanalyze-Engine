@@ -1445,3 +1445,327 @@ TDP:2026-09-20:sintrense:avs,2026-09-20T14:00:00+00:00,TDP,UN_1.5,+1.5,1,0.22860
 TDP:2026-09-20:sintrense:avs,2026-09-20T14:00:00+00:00,TDP,UN_2.5,+2.5,1,0.474394,0.474394,marche,gagne,4.0.0
 TDP:2026-09-20:sintrense:avs,2026-09-20T14:00:00+00:00,TDP,UN_3.5,+3.5,1,0.696975,0.696975,calcul,gagne,4.0.0
 TDP:2026-09-20:sintrense:avs,2026-09-20T14:00:00+00:00,TDP,UN_4.5,+4.5,1,0.851188,0.857212,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,1X2_1,1,0,0.27771,0.27771,marche,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,1X2_2,2,0,0.471654,0.471654,marche,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,1X2_N,N,0,0.250636,0.250636,marche,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.364191,0.364191,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.635809,0.635809,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,DC_12,12,0,0.749364,0.749364,marche,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,DC_1X,1X,0,0.528346,0.528346,marche,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,DC_X2,X2,0,0.72229,0.72229,marche,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.40223,0.40223,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.749136,0.749136,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.547869,0.582677,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.84059,0.862982,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.871947,0.885758,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.733457,0.762358,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HT_1,MT 1,0,0.244901,0.221863,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HT_2,MT 2,0,0.364483,0.395116,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HT_N,MT N,0,0.390616,0.374385,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.7518,0.7518,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.423204,0.421969,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.2482,0.2482,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.576796,0.578031,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.266543,0.237642,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,MRG_A_3,HC dom -2,0,0.120524,0.106448,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.128053,0.114044,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,OV_0.5,+0.5,0,0.953917,0.954825,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,OV_1.5,+1.5,0,0.837369,0.837369,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,OV_2.5,+2.5,0,0.624072,0.650212,calcul,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,OV_3.5,+3.5,0,0.405063,0.405063,marche,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,OV_4.5,+4.5,0,0.222801,0.212434,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,UN_0.5,+0.5,1,0.046083,0.045175,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,UN_1.5,+1.5,1,0.162631,0.162631,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,UN_2.5,+2.5,1,0.375928,0.349788,calcul,perdu,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,UN_3.5,+3.5,1,0.594937,0.594937,marche,gagne,4.0.0
+LIGA:2026-09-20:atletico-madrid:real-madrid,2026-09-20T14:15:00+00:00,LIGA,UN_4.5,+4.5,1,0.777199,0.787566,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,1X2_1,1,0,0.46654,0.46654,marche,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,1X2_2,2,0,0.25654,0.25654,marche,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,1X2_N,N,0,0.27692,0.27692,marche,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,BTTS_N,BTTS oui,1,0.472279,0.472279,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,BTTS_O,BTTS oui,0,0.527721,0.527721,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,DC_12,12,0,0.72308,0.72308,marche,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,DC_1X,1X,0,0.74346,0.74346,marche,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,DC_X2,X2,0,0.53346,0.53346,marche,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.45462,0.45462,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,DOM_MARQUE,dom marque,0,0.785065,0.785065,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.296392,0.312748,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,EXT_MARQUE,ext marque,0,0.662942,0.681816,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.757622,0.785292,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.897186,0.908534,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HT_1,MT 1,0,0.345335,0.346811,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HT_2,MT 2,0,0.217917,0.214909,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HT_N,MT N,0,0.436747,0.443128,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.680439,0.680439,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.329091,0.315822,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.319561,0.319561,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.670909,0.684178,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,MRG_A_2,HC dom -1,0,0.102814,0.09101,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,MRG_H_2,HC dom -1,0,0.242378,0.214708,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,MRG_H_3,HC dom -2,0,0.097878,0.087131,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,OV_0.5,+0.5,0,0.920287,0.922647,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,OV_1.5,+1.5,0,0.744659,0.744659,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,OV_2.5,+2.5,0,0.490617,0.490617,marche,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,OV_3.5,+3.5,0,0.269431,0.269431,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,OV_4.5,+4.5,0,0.126125,0.120803,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,UN_0.5,+0.5,1,0.079713,0.077353,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,UN_1.5,+1.5,1,0.255341,0.255341,calcul,perdu,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,UN_2.5,+2.5,1,0.509383,0.509383,marche,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,UN_3.5,+3.5,1,0.730569,0.730569,calcul,gagne,4.0.0
+LP:2026-09-20:estrela:academico-de-viseu,2026-09-20T14:30:00+00:00,LP,UN_4.5,+4.5,1,0.873875,0.879197,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,1X2_1,1,0,0.679422,0.679422,marche,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,1X2_2,2,0,0.115751,0.115751,marche,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,1X2_N,N,0,0.204827,0.204827,marche,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,BTTS_N,BTTS oui,1,0.550101,0.550101,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,BTTS_O,BTTS oui,0,0.449899,0.449899,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,DC_12,12,0,0.795173,0.795173,marche,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,DC_1X,1X,0,0.884249,0.884249,marche,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,DC_X2,X2,0,0.320578,0.320578,marche,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.605831,0.605831,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,DOM_MARQUE,dom marque,0,0.870519,0.870519,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.160771,0.194782,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,EXT_MARQUE,ext marque,0,0.510437,0.533378,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.565532,0.57836,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.967845,0.97133,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HT_1,MT 1,0,0.48381,0.493632,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HT_2,MT 2,0,0.120142,0.129498,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HT_N,MT N,0,0.396048,0.38248,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.699489,0.699489,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.349372,0.341288,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.300511,0.300511,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.650628,0.658712,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,MRG_H_2,HC dom -1,0,0.434468,0.42164,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,MRG_H_3,HC dom -2,0,0.224579,0.210449,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,OV_0.5,+0.5,0,0.931058,0.941468,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,OV_1.5,+1.5,0,0.767308,0.767308,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,OV_2.5,+2.5,0,0.52,0.52,marche,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,OV_3.5,+3.5,0,0.298836,0.298836,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,OV_4.5,+4.5,0,0.145913,0.14006,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,UN_0.5,+0.5,1,0.068942,0.058532,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,UN_1.5,+1.5,1,0.232692,0.232692,calcul,perdu,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,UN_2.5,+2.5,1,0.48,0.48,marche,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,UN_3.5,+3.5,1,0.701164,0.701164,calcul,gagne,4.0.0
+LP:2026-09-20:vitoria-de-guimaraes:moreirense,2026-09-20T14:30:00+00:00,LP,UN_4.5,+4.5,1,0.854087,0.85994,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,1X2_1,1,0,0.828454,0.828454,marche,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,1X2_2,2,0,0.049337,0.049337,marche,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,1X2_N,N,0,0.12221,0.12221,marche,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,BTTS_N,BTTS oui,1,0.690301,0.690301,calcul,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,BTTS_O,BTTS oui,0,0.309699,0.309699,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,DC_12,12,0,0.87779,0.87779,marche,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,DC_1X,1X,0,0.950663,0.950663,marche,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,DC_X2,X2,0,0.171546,0.171546,marche,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,DOM_2PLUS,dom +1.5,0,0.714599,0.714599,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,DOM_MARQUE,dom marque,0,0.918672,0.918672,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,EXT_2PLUS,ext +1.5,0,0.063096,0.112003,calcul,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,EXT_MARQUE,ext marque,0,0.333512,0.421005,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,HCP_A_+1,HC dom +1,0,0.385468,0.411721,calcul,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,HCP_H_+1,HC dom +1,0,0.992964,0.992945,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,MRG_H_2,HC dom -1,0,0.614532,0.588279,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,MRG_H_3,HC dom -2,0,0.378083,0.339291,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,OV_0.5,+0.5,0,0.942485,0.955222,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,OV_1.5,+1.5,0,0.791103,0.791103,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,OV_2.5,+2.5,0,0.555556,0.555556,marche,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,OV_3.5,+3.5,0,0.333732,0.333732,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,OV_4.5,+4.5,0,0.170661,0.163355,calcul,gagne,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,UN_0.5,+0.5,1,0.057515,0.044778,calcul,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,UN_1.5,+1.5,1,0.208897,0.208897,calcul,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,UN_2.5,+2.5,1,0.444444,0.444444,marche,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,UN_3.5,+3.5,1,0.666268,0.666268,calcul,perdu,4.0.0
+TDP:2026-09-20:paredes:maria-da-fonte,2026-09-20T15:00:00+00:00,TDP,UN_4.5,+4.5,1,0.829339,0.836645,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,1X2_1,1,0,0.287171,0.287171,marche,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,1X2_2,2,0,0.438693,0.438693,marche,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,1X2_N,N,0,0.274136,0.274136,marche,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,BTTS_N,BTTS oui,1,0.43395,0.43395,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,BTTS_O,BTTS oui,0,0.56605,0.56605,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,DC_12,12,0,0.725864,0.725864,marche,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,DC_1X,1X,0,0.561307,0.561307,marche,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,DC_X2,X2,0,0.712829,0.712829,marche,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,DOM_2PLUS,dom +1.5,0,0.348012,0.348012,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,DOM_MARQUE,dom marque,0,0.707564,0.707564,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,EXT_2PLUS,ext +1.5,0,0.462273,0.464049,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,EXT_MARQUE,ext marque,0,0.790006,0.820906,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HCP_A_+1,HC dom +1,0,0.874771,0.888307,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HCP_H_+1,HC dom +1,0,0.7722,0.798033,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HT_1,MT 1,0,0.241846,0.219797,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HT_2,MT 2,0,0.333818,0.367116,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HT_N,MT N,0,0.424336,0.424633,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HT_OV_0.5,MT +0.5,0,0.702106,0.702106,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HT_OV_1.5,MT +1.5,0,0.355913,0.348436,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HT_UN_0.5,MT +0.5,1,0.297894,0.297894,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,HT_UN_1.5,MT +1.5,1,0.644087,0.651564,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,MRG_A_2,HC dom -1,0,0.2278,0.201967,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,MRG_A_3,HC dom -2,0,0.09211,0.08221,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,MRG_H_2,HC dom -1,0,0.125229,0.111466,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,OV_0.5,+0.5,0,0.93152,0.941322,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,OV_1.5,+1.5,0,0.774316,0.774316,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,OV_2.5,+2.5,0,0.531915,0.531915,marche,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,OV_3.5,+3.5,0,0.30588,0.30588,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,OV_4.5,+4.5,0,0.150799,0.144658,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,UN_0.5,+0.5,1,0.06848,0.058678,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,UN_1.5,+1.5,1,0.225684,0.225684,calcul,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,UN_2.5,+2.5,1,0.468085,0.468085,marche,perdu,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,UN_3.5,+3.5,1,0.69412,0.69412,calcul,gagne,4.0.0
+L1:2026-09-20:nice:lille,2026-09-20T15:15:00+00:00,L1,UN_4.5,+4.5,1,0.849201,0.855342,calcul,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,1X2_1,1,0,0.497767,0.497767,marche,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,1X2_2,2,0,0.254879,0.254879,marche,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,1X2_N,N,0,0.247353,0.247353,marche,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,BTTS_N,BTTS oui,1,0.36466,0.36466,calcul,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,BTTS_O,BTTS oui,0,0.63534,0.63534,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,DC_12,12,0,0.752647,0.752647,marche,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,DC_1X,1X,0,0.745121,0.745121,marche,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,DC_X2,X2,0,0.502233,0.502233,marche,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,DOM_2PLUS,dom +1.5,0,0.569945,0.569945,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,DOM_MARQUE,dom marque,0,0.852369,0.852369,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,EXT_2PLUS,ext +1.5,0,0.387621,0.400394,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,EXT_MARQUE,ext marque,0,0.738408,0.774502,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,HCP_A_+1,HC dom +1,0,0.710483,0.740412,calcul,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,HCP_H_+1,HC dom +1,0,0.884645,0.897217,calcul,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,MRG_A_2,HC dom -1,0,0.115355,0.102455,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,MRG_H_2,HC dom -1,0,0.289517,0.259588,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,MRG_H_3,HC dom -2,0,0.135349,0.119094,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,OV_0.5,+0.5,0,0.955437,0.952151,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,OV_1.5,+1.5,0,0.841658,0.841658,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,OV_2.5,+2.5,0,0.631253,0.653239,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,OV_3.5,+3.5,0,0.413265,0.413265,marche,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,OV_4.5,+4.5,0,0.229069,0.218335,calcul,perdu,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,UN_0.5,+0.5,1,0.044563,0.047849,calcul,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,UN_1.5,+1.5,1,0.158342,0.158342,calcul,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,UN_2.5,+2.5,1,0.368747,0.346761,calcul,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,UN_3.5,+3.5,1,0.586735,0.586735,marche,gagne,4.0.0
+BL:2026-09-20:schalke:elversberg,2026-09-20T15:30:00+00:00,BL,UN_4.5,+4.5,1,0.770931,0.781665,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,1X2_1,1,0,0.271917,0.271917,marche,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,1X2_2,2,0,0.482438,0.482438,marche,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,1X2_N,N,0,0.245645,0.245645,marche,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,BTTS_N,BTTS oui,1,0.367489,0.367489,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,BTTS_O,BTTS oui,0,0.632511,0.632511,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,DC_12,12,0,0.754355,0.754355,marche,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,DC_1X,1X,0,0.517562,0.517562,marche,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,DC_X2,X2,0,0.728083,0.728083,marche,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,DOM_2PLUS,dom +1.5,0,0.3937,0.3937,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,DOM_MARQUE,dom marque,0,0.742912,0.742912,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,EXT_2PLUS,ext +1.5,0,0.552684,0.587671,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,EXT_MARQUE,ext marque,0,0.8432,0.865153,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HCP_A_+1,HC dom +1,0,0.877235,0.89053,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HCP_H_+1,HC dom +1,0,0.726268,0.75549,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HT_1,MT 1,0,0.239511,0.218219,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HT_2,MT 2,0,0.369971,0.398874,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HT_N,MT N,0,0.390518,0.374239,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HT_OV_0.5,MT +0.5,0,0.750985,0.750985,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HT_OV_1.5,MT +1.5,0,0.421953,0.420602,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HT_UN_0.5,MT +0.5,1,0.249015,0.249015,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,HT_UN_1.5,MT +1.5,1,0.578047,0.579398,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,MRG_A_2,HC dom -1,0,0.273732,0.24451,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,MRG_A_3,HC dom -2,0,0.124828,0.11012,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,MRG_H_2,HC dom -1,0,0.122765,0.109218,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,OV_0.5,+0.5,0,0.953602,0.95538,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,OV_1.5,+1.5,0,0.836331,0.836331,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,OV_2.5,+2.5,0,0.622413,0.649512,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,OV_3.5,+3.5,0,0.402036,0.402036,marche,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,OV_4.5,+4.5,0,0.221371,0.211089,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,UN_0.5,+0.5,1,0.046398,0.04462,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,UN_1.5,+1.5,1,0.163669,0.163669,calcul,perdu,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,UN_2.5,+2.5,1,0.377587,0.350488,calcul,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,UN_3.5,+3.5,1,0.597964,0.597964,marche,gagne,4.0.0
+PL:2026-09-20:fulham:manchester-united,2026-09-20T15:30:00+00:00,PL,UN_4.5,+4.5,1,0.778629,0.788911,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,1X2_1,1,0,0.567787,0.567787,marche,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,1X2_2,2,0,0.188377,0.188377,marche,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,1X2_N,N,0,0.243836,0.243836,marche,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,BTTS_N,BTTS oui,1,0.4926,0.4926,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,BTTS_O,BTTS oui,0,0.5074,0.5074,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,DC_12,12,0,0.756164,0.756164,marche,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,DC_1X,1X,0,0.811623,0.811623,marche,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,DC_X2,X2,0,0.432213,0.432213,marche,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,DOM_2PLUS,dom +1.5,0,0.529274,0.529274,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,DOM_MARQUE,dom marque,0,0.830286,0.830286,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,EXT_2PLUS,ext +1.5,0,0.236371,0.249507,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,EXT_MARQUE,ext marque,0,0.603137,0.615058,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HCP_A_+1,HC dom +1,0,0.674099,0.705658,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HCP_H_+1,HC dom +1,0,0.935385,0.943004,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HT_1,MT 1,0,0.408263,0.420719,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HT_2,MT 2,0,0.171345,0.177144,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HT_N,MT N,0,0.420392,0.418755,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HT_OV_0.5,MT +0.5,0,0.690686,0.690686,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HT_OV_1.5,MT +1.5,0,0.340466,0.330121,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HT_UN_0.5,MT +0.5,1,0.309314,0.309314,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,HT_UN_1.5,MT +1.5,1,0.659534,0.669879,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,MRG_A_2,HC dom -1,0,0.064615,0.056691,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,MRG_H_2,HC dom -1,0,0.325901,0.294342,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,MRG_H_3,HC dom -2,0,0.148829,0.132004,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,OV_0.5,+0.5,0,0.926023,0.937148,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,OV_1.5,+1.5,0,0.757565,0.757565,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,OV_2.5,+2.5,0,0.505319,0.505319,marche,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,OV_3.5,+3.5,0,0.285424,0.285424,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,OV_4.5,+4.5,0,0.136765,0.131174,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,UN_0.5,+0.5,1,0.073977,0.062852,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,UN_1.5,+1.5,1,0.242435,0.242435,calcul,perdu,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,UN_2.5,+2.5,1,0.494681,0.494681,marche,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,UN_3.5,+3.5,1,0.714576,0.714576,calcul,gagne,4.0.0
+SA:2026-09-20:juventus:atalanta,2026-09-20T16:00:00+00:00,SA,UN_4.5,+4.5,1,0.863235,0.868826,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,1X2_1,1,0,0.242945,0.242945,marche,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,1X2_2,2,0,0.507306,0.507306,marche,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,1X2_N,N,0,0.249749,0.249749,marche,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.43107,0.43107,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.56893,0.56893,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,DC_12,12,0,0.750251,0.750251,marche,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,DC_1X,1X,0,0.492694,0.492694,marche,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,DC_X2,X2,0,0.757055,0.757055,marche,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.317069,0.317069,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.681478,0.681478,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.52009,0.544876,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.825063,0.850067,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.902597,0.913417,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.718093,0.747681,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HT_1,MT 1,0,0.212027,0.199641,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HT_2,MT 2,0,0.376025,0.403019,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HT_N,MT N,0,0.411948,0.406172,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.714387,0.714387,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.371256,0.365202,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.285613,0.285613,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.628744,0.634798,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.281907,0.252319,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,MRG_A_3,HC dom -2,0,0.124875,0.11016,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.097403,0.086072,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,OV_0.5,+0.5,0,0.937611,0.940442,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,OV_1.5,+1.5,0,0.790057,0.790057,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,OV_2.5,+2.5,0,0.551181,0.551181,marche,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,OV_3.5,+3.5,0,0.327557,0.327557,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,OV_4.5,+4.5,0,0.166183,0.15914,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,UN_0.5,+0.5,1,0.062389,0.059558,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,UN_1.5,+1.5,1,0.209943,0.209943,calcul,perdu,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,UN_2.5,+2.5,1,0.448819,0.448819,marche,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,UN_3.5,+3.5,1,0.672443,0.672443,calcul,gagne,4.0.0
+LIGA:2026-09-20:deportivo:real-betis,2026-09-20T16:30:00+00:00,LIGA,UN_4.5,+4.5,1,0.833817,0.84086,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,1X2_1,1,0,0.622621,0.622621,marche,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,1X2_2,2,0,0.17563,0.17563,marche,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,1X2_N,N,0,0.201748,0.201748,marche,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.41322,0.41322,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.58678,0.58678,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,DC_12,12,0,0.798252,0.798252,marche,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,DC_1X,1X,0,0.82437,0.82437,marche,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,DC_X2,X2,0,0.377379,0.377379,marche,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.639632,0.639632,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.886547,0.886547,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.288632,0.303607,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.655737,0.672966,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.603833,0.625012,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.937021,0.944481,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HT_1,MT 1,0,0.458058,0.473343,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HT_2,MT 2,0,0.169399,0.175566,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HT_N,MT N,0,0.372542,0.347453,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.754986,0.754986,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.42609,0.425122,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.245014,0.245014,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.57391,0.574878,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.062979,0.055281,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.396167,0.374988,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,MRG_H_3,HC dom -2,0,0.207808,0.193082,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,OV_0.5,+0.5,0,0.955504,0.952033,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,OV_1.5,+1.5,0,0.839728,0.839728,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,OV_2.5,+2.5,0,0.628939,0.652264,calcul,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,OV_3.5,+3.5,0,0.405063,0.405063,marche,gagne,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,OV_4.5,+4.5,0,0.227034,0.216419,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,UN_0.5,+0.5,1,0.044496,0.047967,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,UN_1.5,+1.5,1,0.160272,0.160272,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,UN_2.5,+2.5,1,0.371061,0.347736,calcul,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,UN_3.5,+3.5,1,0.594937,0.594937,marche,perdu,4.0.0
+LIGA:2026-09-20:villarreal:levante,2026-09-20T16:30:00+00:00,LIGA,UN_4.5,+4.5,1,0.772966,0.783581,calcul,gagne,4.0.0
