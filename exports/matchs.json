@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exporte_le": "2026-09-22T05:06:10.811409+00:00",
+  "exporte_le": "2026-09-22T11:47:02.556880+00:00",
   "competitions": [
     {
       "code": "UCL",
@@ -49872,6 +49872,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.339,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695743+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 6.0,
           "nb_sources": 1,
@@ -49992,6 +50000,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 6.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695743+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.9,
           "nb_sources": 1,
@@ -50108,6 +50124,14 @@
           "valeur": 5.0,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.532273+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695743+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -50115,7 +50139,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532306+00:00"
+          "releve_le": "2026-09-22T11:47:01.695771+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -50123,7 +50147,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532306+00:00"
+          "releve_le": "2026-09-22T11:47:01.695771+00:00"
         }
       ],
       "contexte": null,
@@ -50632,6 +50656,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696789+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.0,
           "nb_sources": 1,
@@ -50696,6 +50728,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696789+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -50756,6 +50796,14 @@
           "valeur": 3.65,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.533593+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696789+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -50763,7 +50811,7 @@
           "selection": "over",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533622+00:00"
+          "releve_le": "2026-09-22T11:47:01.696816+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -50771,7 +50819,7 @@
           "selection": "under",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533622+00:00"
+          "releve_le": "2026-09-22T11:47:01.696816+00:00"
         }
       ],
       "contexte": null,
@@ -51304,6 +51352,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.693959+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.9,
           "nb_sources": 1,
@@ -51368,6 +51424,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.693959+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.25,
           "nb_sources": 1,
@@ -51431,11 +51495,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.693959+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530088+00:00"
+          "releve_le": "2026-09-22T11:47:01.693983+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -51443,7 +51515,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530088+00:00"
+          "releve_le": "2026-09-22T11:47:01.693983+00:00"
         }
       ],
       "contexte": null,
@@ -52050,6 +52122,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.357,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692026+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 9.0,
           "nb_sources": 1,
@@ -52170,6 +52250,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 8.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692026+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 5.25,
           "nb_sources": 1,
@@ -52286,6 +52374,14 @@
           "valeur": 4.9,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.527677+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692026+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -52293,7 +52389,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527712+00:00"
+          "releve_le": "2026-09-22T11:47:01.692052+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -52301,7 +52397,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527712+00:00"
+          "releve_le": "2026-09-22T11:47:01.692052+00:00"
         }
       ],
       "contexte": null,
@@ -52359,11 +52455,11 @@
             "libelle": "Arsenal ne perd pas",
             "probabilite": 0.8955798870983125,
             "cote_juste": 1.1165949731631533,
-            "niveau": "prudente",
+            "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": 88,
-            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité lue directement sur le marché."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "Double chance",
@@ -52383,11 +52479,11 @@
             "libelle": "Pas de match nul",
             "probabilite": 0.8221329882348644,
             "cote_juste": 1.2163482238403054,
-            "niveau": "detail",
+            "niveau": "prudente",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 81,
+            "explication": "Probabilité lue directement sur le marché."
           },
           {
             "famille": "Total buts",
@@ -52718,10 +52814,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -52810,6 +52906,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694032+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.3,
           "nb_sources": 1,
@@ -52874,6 +52978,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694032+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
@@ -52934,6 +53046,14 @@
           "valeur": 3.35,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530150+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694032+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -52941,7 +53061,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530180+00:00"
+          "releve_le": "2026-09-22T11:47:01.694054+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -52949,7 +53069,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530180+00:00"
+          "releve_le": "2026-09-22T11:47:01.694054+00:00"
         }
       ],
       "contexte": null,
@@ -53378,10 +53498,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -53544,6 +53664,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695814+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.85,
           "nb_sources": 1,
@@ -53664,6 +53792,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695814+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -53783,11 +53919,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695814+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532394+00:00"
+          "releve_le": "2026-09-22T11:47:01.695838+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -53795,7 +53939,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532394+00:00"
+          "releve_le": "2026-09-22T11:47:01.695838+00:00"
         }
       ],
       "contexte": null,
@@ -54236,10 +54380,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -54384,6 +54528,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 7.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695878+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.19,
           "nb_sources": 1,
@@ -54504,6 +54656,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695878+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 7.0,
           "nb_sources": 1,
@@ -54623,11 +54783,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 7.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695878+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU4.5",
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532469+00:00"
+          "releve_le": "2026-09-22T11:47:01.695896+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -54635,7 +54803,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532469+00:00"
+          "releve_le": "2026-09-22T11:47:01.695896+00:00"
         }
       ],
       "contexte": null,
@@ -55052,10 +55220,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -55200,6 +55368,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695935+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.3,
           "nb_sources": 1,
@@ -55320,6 +55496,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695935+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -55436,6 +55620,14 @@
           "valeur": 3.6,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.532519+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695935+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -55443,7 +55635,7 @@
           "selection": "over",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532538+00:00"
+          "releve_le": "2026-09-22T11:47:01.695950+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -55451,7 +55643,7 @@
           "selection": "under",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532538+00:00"
+          "releve_le": "2026-09-22T11:47:01.695950+00:00"
         }
       ],
       "contexte": null,
@@ -55892,10 +56084,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -56040,6 +56232,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695991+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.588,
           "nb_sources": 1,
@@ -56160,6 +56360,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.556,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695991+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -56276,6 +56484,14 @@
           "valeur": 4.2,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.532589+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.695991+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -56283,7 +56499,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532609+00:00"
+          "releve_le": "2026-09-22T11:47:01.696013+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -56291,7 +56507,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532609+00:00"
+          "releve_le": "2026-09-22T11:47:01.696013+00:00"
         }
       ],
       "contexte": null,
@@ -56720,10 +56936,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -56886,6 +57102,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692093+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.7,
           "nb_sources": 1,
@@ -57006,6 +57230,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692093+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -57125,40 +57357,48 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.45,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692093+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
-          "valeur": 1.71,
+          "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527797+00:00"
+          "releve_le": "2026-09-22T11:47:01.692133+00:00"
         },
         {
           "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "under",
-          "valeur": 2.05,
+          "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527797+00:00"
+          "releve_le": "2026-09-22T11:47:01.692133+00:00"
         }
       ],
       "contexte": null,
       "analyse": {
-        "buts_dom_attendus": 1.419615652059229,
-        "buts_ext_attendus": 1.4363405873391568,
-        "p1": 0.36216421395803927,
-        "pn": 0.2681186836862667,
-        "p2": 0.36971710235569405,
+        "buts_dom_attendus": 1.4234167781372502,
+        "buts_ext_attendus": 1.4738444455333528,
+        "p1": 0.35470054429579767,
+        "pn": 0.26792229840197757,
+        "p2": 0.3773771573022247,
         "score_probable": "1-1",
         "profil": "equilibre",
-        "marge_marche": 0.06662731982425063,
-        "residu": 0.005242657792629102,
+        "marge_marche": 0.06721356302980608,
+        "residu": 0.007928297602495879,
         "version_moteur": "4.0.0",
         "options": [
           {
             "famille": "1X2",
             "code": "1X2_1",
             "libelle": "Aston Villa gagne",
-            "probabilite": 0.36216421395803927,
-            "cote_juste": 2.761178386652694,
+            "probabilite": 0.35470054429579767,
+            "cote_juste": 2.8192795756356768,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -57169,20 +57409,20 @@
             "famille": "1X2",
             "code": "1X2_N",
             "libelle": "Match nul",
-            "probabilite": 0.2681186836862667,
-            "cote_juste": 3.7296915912437067,
+            "probabilite": 0.26792229840197757,
+            "cote_juste": 3.732425430673369,
             "niveau": "recommandee",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": 27,
+            "confiance": 26,
             "explication": "Probabilité lue directement sur le marché."
           },
           {
             "famille": "1X2",
             "code": "1X2_2",
             "libelle": "Brentford gagne",
-            "probabilite": 0.36971710235569405,
-            "cote_juste": 2.704770738568456,
+            "probabilite": 0.3773771573022247,
+            "cote_juste": 2.649868919329275,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -57193,8 +57433,8 @@
             "famille": "Double chance",
             "code": "DC_1X",
             "libelle": "Aston Villa ne perd pas",
-            "probabilite": 0.630282897644306,
-            "cote_juste": 1.5865891391588103,
+            "probabilite": 0.6226228426977752,
+            "cote_juste": 1.6061087570560044,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -57205,8 +57445,8 @@
             "famille": "Double chance",
             "code": "DC_X2",
             "libelle": "Brentford ne perd pas",
-            "probabilite": 0.6378357860419608,
-            "cote_juste": 1.567801653471688,
+            "probabilite": 0.6452994557042022,
+            "cote_juste": 1.5496681287429883,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -57217,8 +57457,8 @@
             "famille": "Double chance",
             "code": "DC_12",
             "libelle": "Pas de match nul",
-            "probabilite": 0.7318813163137333,
-            "cote_juste": 1.3663417520161603,
+            "probabilite": 0.7320777015980224,
+            "cote_juste": 1.3659752206864666,
             "niveau": "prudente",
             "origine": "marche",
             "resultat": "attente",
@@ -57229,8 +57469,8 @@
             "famille": "Total buts",
             "code": "OV_0.5",
             "libelle": "Au moins 1 but",
-            "probabilite": 0.9400786250008483,
-            "cote_juste": 1.063740812103985,
+            "probabilite": 0.9412614561139834,
+            "cote_juste": 1.0624040679712095,
             "niveau": "filet",
             "origine": "calcul",
             "resultat": "attente",
@@ -57241,8 +57481,8 @@
             "famille": "Total buts",
             "code": "UN_0.5",
             "libelle": "Aucun but",
-            "probabilite": 0.05992137499915173,
-            "cote_juste": 16.688535602097854,
+            "probabilite": 0.05873854388601629,
+            "cote_juste": 17.02459635261859,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57253,8 +57493,8 @@
             "famille": "Total buts",
             "code": "OV_1.5",
             "libelle": "Au moins 2 buts",
-            "probabilite": 0.7853142170076449,
-            "cote_juste": 1.2733756480436482,
+            "probabilite": 0.7919169987722438,
+            "cote_juste": 1.2627585991339494,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57265,8 +57505,8 @@
             "famille": "Total buts",
             "code": "UN_1.5",
             "libelle": "Moins de 2 buts",
-            "probabilite": 0.2146857829923552,
-            "cote_juste": 4.65797029529249,
+            "probabilite": 0.20808300122775625,
+            "cote_juste": 4.805774590426322,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57277,20 +57517,20 @@
             "famille": "Total buts",
             "code": "OV_2.5",
             "libelle": "Au moins 3 buts",
-            "probabilite": 0.5452127659574468,
-            "cote_juste": 1.8341463414634145,
-            "niveau": "detail",
+            "probabilite": 0.5555555555555556,
+            "cote_juste": 1.7999999999999998,
+            "niveau": "equilibree",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 55,
+            "explication": "Probabilité lue directement sur le marché ; totaux cotés sur la ligne 2.5."
           },
           {
             "famille": "Total buts",
             "code": "UN_2.5",
             "libelle": "Moins de 3 buts",
-            "probabilite": 0.45478723404255317,
-            "cote_juste": 2.1988304093567255,
+            "probabilite": 0.4444444444444444,
+            "cote_juste": 2.25,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -57301,8 +57541,8 @@
             "famille": "Total buts",
             "code": "OV_3.5",
             "libelle": "Au moins 4 buts",
-            "probabilite": 0.32053435939603975,
-            "cote_juste": 3.1197903459842165,
+            "probabilite": 0.3297640492317643,
+            "cote_juste": 3.0324712543094154,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57313,20 +57553,20 @@
             "famille": "Total buts",
             "code": "UN_3.5",
             "libelle": "Moins de 4 buts",
-            "probabilite": 0.6794656406039604,
-            "cote_juste": 1.4717447656530864,
-            "niveau": "equilibree",
+            "probabilite": 0.6702359507682356,
+            "cote_juste": 1.4920118785836292,
+            "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": 64,
-            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité dérivée du modèle puis recalibrée ; totaux cotés sur la ligne 2.5."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "Total buts",
             "code": "OV_4.5",
             "libelle": "Au moins 5 buts",
-            "probabilite": 0.1543940434938699,
-            "cote_juste": 6.476933807616122,
+            "probabilite": 0.16064201232886452,
+            "cote_juste": 6.22502162107389,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57337,8 +57577,8 @@
             "famille": "Total buts",
             "code": "UN_4.5",
             "libelle": "Moins de 5 buts",
-            "probabilite": 0.8456059565061301,
-            "cote_juste": 1.1825839119343415,
+            "probabilite": 0.8393579876711353,
+            "cote_juste": 1.1913867678492922,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57349,8 +57589,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_H_2",
             "libelle": "Aston Villa gagne par 2 buts ou plus",
-            "probabilite": 0.1539066388939592,
-            "cote_juste": 6.497445511034741,
+            "probabilite": 0.15102670197381962,
+            "cote_juste": 6.621345675504119,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57361,8 +57601,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_A_2",
             "libelle": "Brentford gagne par 2 buts ou plus",
-            "probabilite": 0.1584346245005914,
-            "cote_juste": 6.311751633534293,
+            "probabilite": 0.16466502477258954,
+            "cote_juste": 6.072935047263673,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57373,8 +57613,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_H_3",
             "libelle": "Aston Villa gagne par 3 buts ou plus",
-            "probabilite": 0.05791411707762744,
-            "cote_juste": 17.266947170404258,
+            "probabilite": 0.05680537578166964,
+            "cote_juste": 17.603967692133235,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57385,8 +57625,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_A_3",
             "libelle": "Brentford gagne par 3 buts ou plus",
-            "probabilite": 0.06022863860686539,
-            "cote_juste": 16.603397040523696,
+            "probabilite": 0.06383841990872435,
+            "cote_juste": 15.664548111149864,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57397,8 +57637,8 @@
             "famille": "Handicap",
             "code": "HCP_H_+1",
             "libelle": "Aston Villa +1 (ne perd pas de plus d’un but)",
-            "probabilite": 0.8415653754994085,
-            "cote_juste": 1.1882618143677453,
+            "probabilite": 0.8353349752274103,
+            "cote_juste": 1.1971245424361185,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57409,8 +57649,8 @@
             "famille": "Handicap",
             "code": "HCP_A_+1",
             "libelle": "Brentford +1 (ne perd pas de plus d’un but)",
-            "probabilite": 0.8460933611060407,
-            "cote_juste": 1.1819026669737338,
+            "probabilite": 0.8489732980261804,
+            "cote_juste": 1.1778933475586912,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57421,8 +57661,8 @@
             "famille": "Mi-temps",
             "code": "HT_1",
             "libelle": "Aston Villa mène à la pause",
-            "probabilite": 0.2703184826493278,
-            "cote_juste": 3.6993400902492333,
+            "probabilite": 0.26644764875480287,
+            "cote_juste": 3.7530824710720005,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57433,8 +57673,8 @@
             "famille": "Mi-temps",
             "code": "HT_N",
             "libelle": "Nul à la pause",
-            "probabilite": 0.41964652529874746,
-            "cote_juste": 2.3829578936417914,
+            "probabilite": 0.4146574374140483,
+            "cote_juste": 2.411629238429574,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57445,20 +57685,20 @@
             "famille": "Mi-temps",
             "code": "HT_2",
             "libelle": "Brentford mène à la pause",
-            "probabilite": 0.3052346705232123,
-            "cote_juste": 3.276167803237649,
-            "niveau": "detail",
+            "probabilite": 0.3144972547616559,
+            "cote_juste": 3.1796779935578687,
+            "niveau": "audacieuse",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 28,
+            "explication": "Probabilité dérivée du modèle puis recalibrée."
           },
           {
             "famille": "Mi-temps",
             "code": "HT_OV_0.5",
             "libelle": "Au moins 1 but avant la pause",
-            "probabilite": 0.7102429278739486,
-            "cote_juste": 1.4079689649193894,
+            "probabilite": 0.7152933048085208,
+            "cote_juste": 1.3980279044659774,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57469,20 +57709,20 @@
             "famille": "Mi-temps",
             "code": "HT_OV_1.5",
             "libelle": "Au moins 2 buts avant la pause",
-            "probabilite": 0.36004774327659017,
-            "cote_juste": 2.777409437147328,
-            "niveau": "audacieuse",
+            "probabilite": 0.3672365963549946,
+            "cote_juste": 2.723040159737608,
+            "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": 32,
-            "explication": "Probabilité dérivée du modèle puis recalibrée."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "Mi-temps",
             "code": "HT_UN_0.5",
             "libelle": "Aucun but avant la pause",
-            "probabilite": 0.2897570721260516,
-            "cote_juste": 3.451166843530828,
+            "probabilite": 0.2847066951914792,
+            "cote_juste": 3.5123866663109244,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57493,8 +57733,8 @@
             "famille": "Mi-temps",
             "code": "HT_UN_1.5",
             "libelle": "Moins de 1,5 but avant la pause",
-            "probabilite": 0.6399522567234099,
-            "cote_juste": 1.5626165694298102,
+            "probabilite": 0.6327634036450054,
+            "cote_juste": 1.5803695255438992,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57505,8 +57745,8 @@
             "famille": "BTTS",
             "code": "BTTS_O",
             "libelle": "Les deux équipes marquent",
-            "probabilite": 0.5849323353393225,
-            "cote_juste": 1.709599452080033,
+            "probabilite": 0.5921863026013624,
+            "cote_juste": 1.6886577680152162,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57517,8 +57757,8 @@
             "famille": "BTTS",
             "code": "BTTS_N",
             "libelle": "Au moins une équipe ne marque pas",
-            "probabilite": 0.41506766466067746,
-            "cote_juste": 2.4092457330240635,
+            "probabilite": 0.4078136973986375,
+            "cote_juste": 2.4521000799600436,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57529,8 +57769,8 @@
             "famille": "Une équipe marque",
             "code": "DOM_MARQUE",
             "libelle": "Aston Villa marque",
-            "probabilite": 0.7581930619696158,
-            "cote_juste": 1.3189252845472155,
+            "probabilite": 0.7591104559265079,
+            "cote_juste": 1.317331347754237,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57541,8 +57781,8 @@
             "famille": "Une équipe marque",
             "code": "EXT_MARQUE",
             "libelle": "Brentford marque",
-            "probabilite": 0.7977800881913976,
-            "cote_juste": 1.2534782640001003,
+            "probabilite": 0.805060968369308,
+            "cote_juste": 1.2421419486098686,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57553,8 +57793,8 @@
             "famille": "Total d'une équipe",
             "code": "DOM_2PLUS",
             "libelle": "Aston Villa marque 2 buts ou plus",
-            "probabilite": 0.41492014796516635,
-            "cote_juste": 2.410102292945178,
+            "probabilite": 0.41622423721446694,
+            "cote_juste": 2.4025511024835686,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57565,8 +57805,8 @@
             "famille": "Total d'une équipe",
             "code": "EXT_2PLUS",
             "libelle": "Brentford marque 2 buts ou plus",
-            "probabilite": 0.4235351810247127,
-            "cote_juste": 2.3610789488150012,
+            "probabilite": 0.43245900292463335,
+            "cote_juste": 2.3123579188713865,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -57578,10 +57818,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -57726,6 +57966,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.769,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692182+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.9,
           "nb_sources": 1,
@@ -57846,6 +58094,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692182+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
@@ -57962,6 +58218,14 @@
           "valeur": 4.0,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.527849+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692182+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -57969,7 +58233,7 @@
           "selection": "over",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527869+00:00"
+          "releve_le": "2026-09-22T11:47:01.692199+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -57977,7 +58241,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527869+00:00"
+          "releve_le": "2026-09-22T11:47:01.692199+00:00"
         }
       ],
       "contexte": null,
@@ -58406,10 +58670,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -58554,6 +58818,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692238+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.5,
           "nb_sources": 1,
@@ -58674,6 +58946,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692238+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -58790,6 +59070,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.527917+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692238+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -58797,7 +59085,7 @@
           "selection": "over",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527938+00:00"
+          "releve_le": "2026-09-22T11:47:01.692254+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -58805,7 +59093,7 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.527938+00:00"
+          "releve_le": "2026-09-22T11:47:01.692254+00:00"
         }
       ],
       "contexte": null,
@@ -59246,10 +59534,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -59298,6 +59586,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692292+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.4,
           "nb_sources": 1,
@@ -59322,6 +59618,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692292+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.4,
           "nb_sources": 1,
@@ -59342,6 +59646,14 @@
           "valeur": 3.4,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.527985+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692292+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -59349,7 +59661,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528018+00:00"
+          "releve_le": "2026-09-22T11:47:01.692310+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -59357,7 +59669,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528018+00:00"
+          "releve_le": "2026-09-22T11:47:01.692310+00:00"
         }
       ],
       "contexte": null,
@@ -59499,11 +59811,11 @@
             "libelle": "Au moins 3 buts",
             "probabilite": 0.5040650406504065,
             "cote_juste": 1.9838709677419357,
-            "niveau": "detail",
+            "niveau": "audacieuse",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 50,
+            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité lue directement sur le marché ; totaux cotés sur la ligne 2.5."
           },
           {
             "famille": "Total buts",
@@ -59511,11 +59823,11 @@
             "libelle": "Moins de 3 buts",
             "probabilite": 0.49593495934959353,
             "cote_juste": 2.0163934426229506,
-            "niveau": "audacieuse",
+            "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": 49,
-            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité lue directement sur le marché ; totaux cotés sur la ligne 2.5."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "Total buts",
@@ -59798,10 +60110,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -59890,6 +60202,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694099+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.952,
           "nb_sources": 1,
@@ -59954,6 +60274,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694099+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -60014,6 +60342,14 @@
           "valeur": 3.6,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530233+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694099+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -60021,7 +60357,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530256+00:00"
+          "releve_le": "2026-09-22T11:47:01.694119+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -60029,7 +60365,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530256+00:00"
+          "releve_le": "2026-09-22T11:47:01.694119+00:00"
         }
       ],
       "contexte": null,
@@ -60458,10 +60794,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -60568,6 +60904,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.417,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696859+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 7.0,
           "nb_sources": 1,
@@ -60628,6 +60972,14 @@
           "valeur": 7.0,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.533676+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 7.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696859+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -60695,11 +61047,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696859+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533695+00:00"
+          "releve_le": "2026-09-22T11:47:01.696875+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -60707,7 +61067,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533695+00:00"
+          "releve_le": "2026-09-22T11:47:01.696875+00:00"
         }
       ],
       "contexte": null,
@@ -60789,11 +61149,11 @@
             "libelle": "Pas de match nul",
             "probabilite": 0.8079661433632775,
             "cote_juste": 1.2376756231855872,
-            "niveau": "prudente",
+            "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": 80,
-            "explication": "Proche du niveau habituel : peu spécifique à cette rencontre ; probabilité lue directement sur le marché."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "Total buts",
@@ -60885,11 +61245,11 @@
             "libelle": "Moins de 4 buts",
             "probabilite": 0.6717945465574748,
             "cote_juste": 1.488550338975468,
-            "niveau": "equilibree",
+            "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": 63,
-            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité dérivée du modèle puis recalibrée ; totaux cotés sur la ligne 2.5."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "Total buts",
@@ -60909,11 +61269,11 @@
             "libelle": "Moins de 5 buts",
             "probabilite": 0.8404194957454036,
             "cote_juste": 1.1898819637841191,
-            "niveau": "detail",
+            "niveau": "prudente",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 80,
+            "explication": "Probabilité dérivée du modèle puis recalibrée ; totaux cotés sur la ligne 2.5."
           },
           {
             "famille": "Ecart de buts",
@@ -61041,11 +61401,11 @@
             "libelle": "Moins de 1,5 but avant la pause",
             "probabilite": 0.6356515666313709,
             "cote_juste": 1.5731889174748517,
-            "niveau": "detail",
+            "niveau": "equilibree",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 59,
+            "explication": "Probabilité dérivée du modèle puis recalibrée."
           },
           {
             "famille": "BTTS",
@@ -61124,10 +61484,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -61194,6 +61554,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.69,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692357+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.3,
           "nb_sources": 1,
@@ -61218,6 +61586,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692357+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.1,
           "nb_sources": 1,
@@ -61238,6 +61614,14 @@
           "valeur": 4.1,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.528073+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692357+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -61245,7 +61629,7 @@
           "selection": "over",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528099+00:00"
+          "releve_le": "2026-09-22T11:47:01.692375+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -61253,7 +61637,7 @@
           "selection": "under",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528099+00:00"
+          "releve_le": "2026-09-22T11:47:01.692375+00:00"
         }
       ],
       "contexte": null,
@@ -61682,10 +62066,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -61774,6 +62158,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.04,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694158+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 26.0,
           "nb_sources": 1,
@@ -61838,6 +62230,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 23.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694158+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 15.0,
           "nb_sources": 1,
@@ -61898,35 +62298,43 @@
           "valeur": 14.0,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530311+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 14.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694158+00:00"
         },
         {
           "bookmaker": "draftkings",
           "marche": "OU4.5",
           "selection": "over",
-          "valeur": 2.1,
+          "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530333+00:00"
+          "releve_le": "2026-09-22T11:47:01.694177+00:00"
         },
         {
           "bookmaker": "draftkings",
           "marche": "OU4.5",
           "selection": "under",
-          "valeur": 1.64,
+          "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530333+00:00"
+          "releve_le": "2026-09-22T11:47:01.694177+00:00"
         }
       ],
       "contexte": null,
       "analyse": {
-        "buts_dom_attendus": 4.0116346949366415,
-        "buts_ext_attendus": 0.33748446175381996,
+        "buts_dom_attendus": 3.979461863050494,
+        "buts_ext_attendus": 0.3240914349867955,
         "p1": 0.9503702056174079,
         "pn": 0.03254364834898908,
         "p2": 0.01708614603360293,
-        "score_probable": "4-0",
+        "score_probable": "3-0",
         "profil": "desequilibre",
         "marge_marche": 0.07644529383659804,
-        "residu": 0.011354143364104624,
+        "residu": 0.011648506958371638,
         "version_moteur": "4.0.0",
         "options": [
           {
@@ -61935,11 +62343,11 @@
             "libelle": "Barcelona gagne",
             "probabilite": 0.9503702056174079,
             "cote_juste": 1.052221538605948,
-            "niveau": "detail",
+            "niveau": "audacieuse",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 94,
+            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité lue directement sur le marché."
           },
           {
             "famille": "1X2",
@@ -62029,8 +62437,8 @@
             "famille": "Total buts",
             "code": "OV_1.5",
             "libelle": "Au moins 2 buts",
-            "probabilite": 0.9319293035294677,
-            "cote_juste": 1.073042768601363,
+            "probabilite": 0.9293214834203664,
+            "cote_juste": 1.0760538929106658,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62041,8 +62449,8 @@
             "famille": "Total buts",
             "code": "UN_1.5",
             "libelle": "Moins de 2 buts",
-            "probabilite": 0.06807069647053221,
-            "cote_juste": 14.690609202638315,
+            "probabilite": 0.07067851657963375,
+            "cote_juste": 14.148570858491295,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62053,8 +62461,8 @@
             "famille": "Total buts",
             "code": "OV_2.5",
             "libelle": "Au moins 3 buts",
-            "probabilite": 0.8082436951360855,
-            "cote_juste": 1.2372506040169333,
+            "probabilite": 0.8026271895978954,
+            "cote_juste": 1.2459084528409579,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62065,8 +62473,8 @@
             "famille": "Total buts",
             "code": "UN_2.5",
             "libelle": "Moins de 3 buts",
-            "probabilite": 0.19175630486391448,
-            "cote_juste": 5.2149523881870765,
+            "probabilite": 0.19737281040210464,
+            "cote_juste": 5.066553989694503,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62077,8 +62485,8 @@
             "famille": "Total buts",
             "code": "OV_3.5",
             "libelle": "Au moins 4 buts",
-            "probabilite": 0.6315081966033095,
-            "cote_juste": 1.5835107214422486,
+            "probabilite": 0.6233863850852703,
+            "cote_juste": 1.604141546760304,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62089,8 +62497,8 @@
             "famille": "Total buts",
             "code": "UN_3.5",
             "libelle": "Moins de 4 buts",
-            "probabilite": 0.3684918033966904,
-            "cote_juste": 2.713764568932557,
+            "probabilite": 0.37661361491472967,
+            "cote_juste": 2.6552412350424808,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62101,8 +62509,8 @@
             "famille": "Total buts",
             "code": "OV_4.5",
             "libelle": "Au moins 5 buts",
-            "probabilite": 0.4385026737967914,
-            "cote_juste": 2.280487804878049,
+            "probabilite": 0.4297082228116711,
+            "cote_juste": 2.3271604938271606,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -62113,32 +62521,32 @@
             "famille": "Total buts",
             "code": "UN_4.5",
             "libelle": "Moins de 5 buts",
-            "probabilite": 0.5614973262032086,
-            "cote_juste": 1.7809523809523808,
+            "probabilite": 0.5702917771883289,
+            "cote_juste": 1.7534883720930232,
             "niveau": "equilibree",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": 55,
+            "confiance": 56,
             "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité lue directement sur le marché ; totaux cotés sur la ligne 4.5."
           },
           {
             "famille": "Ecart de buts",
             "code": "MRG_H_2",
             "libelle": "Barcelona gagne par 2 buts ou plus",
-            "probabilite": 0.8395623925212299,
-            "cote_juste": 1.1910967057456818,
+            "probabilite": 0.8385015770281617,
+            "cote_juste": 1.1926036007519807,
             "niveau": "recommandee",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": 81,
+            "confiance": 80,
             "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité dérivée du modèle puis recalibrée."
           },
           {
             "famille": "Ecart de buts",
             "code": "MRG_H_3",
             "libelle": "Barcelona gagne par 3 buts ou plus",
-            "probabilite": 0.666720229487599,
-            "cote_juste": 1.4998794933349175,
+            "probabilite": 0.6639017884852847,
+            "cote_juste": 1.506246883716845,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62161,8 +62569,8 @@
             "famille": "Handicap",
             "code": "HCP_A_+1",
             "libelle": "Getafe +1 (ne perd pas de plus d’un but)",
-            "probabilite": 0.16043760747877,
-            "cote_juste": 6.232952583341942,
+            "probabilite": 0.1614984229718384,
+            "cote_juste": 6.192010928641557,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62173,8 +62581,8 @@
             "famille": "Mi-temps",
             "code": "HT_1",
             "libelle": "Barcelona mène à la pause",
-            "probabilite": 0.7938345755210233,
-            "cote_juste": 1.2597082954514327,
+            "probabilite": 0.793018325414829,
+            "cote_juste": 1.2610049073921445,
             "niveau": "prudente",
             "origine": "calcul",
             "resultat": "attente",
@@ -62185,8 +62593,8 @@
             "famille": "Mi-temps",
             "code": "HT_N",
             "libelle": "Nul à la pause",
-            "probabilite": 0.20403840287787456,
-            "cote_juste": 4.9010381668128495,
+            "probabilite": 0.20568997337763736,
+            "cote_juste": 4.861685689287566,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62197,8 +62605,8 @@
             "famille": "Mi-temps",
             "code": "HT_2",
             "libelle": "Getafe mène à la pause",
-            "probabilite": 0.028408985550194884,
-            "cote_juste": 35.20013054437067,
+            "probabilite": 0.027619833230307148,
+            "cote_juste": 36.20586669229789,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62209,8 +62617,8 @@
             "famille": "Mi-temps",
             "code": "HT_OV_0.5",
             "libelle": "Au moins 1 but avant la pause",
-            "probabilite": 0.8514101481326103,
-            "cote_juste": 1.174522058720219,
+            "probabilite": 0.8484994275044667,
+            "cote_juste": 1.1785511782148324,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62221,8 +62629,8 @@
             "famille": "Mi-temps",
             "code": "HT_OV_1.5",
             "libelle": "Au moins 2 buts avant la pause",
-            "probabilite": 0.5823167483978788,
-            "cote_juste": 1.7172784446803018,
+            "probabilite": 0.5766757576026029,
+            "cote_juste": 1.7340767091671592,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62233,8 +62641,8 @@
             "famille": "Mi-temps",
             "code": "HT_UN_0.5",
             "libelle": "Aucun but avant la pause",
-            "probabilite": 0.14858985186738993,
-            "cote_juste": 6.729934698989115,
+            "probabilite": 0.1515005724955334,
+            "cote_juste": 6.600635123207092,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62245,8 +62653,8 @@
             "famille": "Mi-temps",
             "code": "HT_UN_1.5",
             "libelle": "Moins de 1,5 but avant la pause",
-            "probabilite": 0.41768325160212116,
-            "cote_juste": 2.3941587223434686,
+            "probabilite": 0.4233242423973971,
+            "cote_juste": 2.3622554530228075,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62257,20 +62665,20 @@
             "famille": "BTTS",
             "code": "BTTS_O",
             "libelle": "Les deux équipes marquent",
-            "probabilite": 0.28229955208045976,
-            "cote_juste": 3.5423364742533647,
-            "niveau": "audacieuse",
+            "probabilite": 0.27268578750114914,
+            "cote_juste": 3.6672244973375663,
+            "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": 23,
-            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité dérivée du modèle puis recalibrée."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "BTTS",
             "code": "BTTS_N",
             "libelle": "Au moins une équipe ne marque pas",
-            "probabilite": 0.7177004479195402,
-            "cote_juste": 1.3933389659972844,
+            "probabilite": 0.7273142124988509,
+            "cote_juste": 1.374921571468095,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62281,8 +62689,8 @@
             "famille": "Une équipe marque",
             "code": "DOM_MARQUE",
             "libelle": "Barcelona marque",
-            "probabilite": 0.9818911296715507,
-            "cote_juste": 1.018442849498505,
+            "probabilite": 0.9812994252457301,
+            "cote_juste": 1.019056950685146,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62293,8 +62701,8 @@
             "famille": "Une équipe marque",
             "code": "EXT_MARQUE",
             "libelle": "Getafe marque",
-            "probabilite": 0.3617220332907935,
-            "cote_juste": 2.7645537400705855,
+            "probabilite": 0.3496058384103199,
+            "cote_juste": 2.860364130493541,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62305,8 +62713,8 @@
             "famille": "Total d'une équipe",
             "code": "DOM_2PLUS",
             "libelle": "Barcelona marque 2 buts ou plus",
-            "probabilite": 0.9092449571758349,
-            "cote_juste": 1.0998136333975999,
+            "probabilite": 0.906881201193988,
+            "cote_juste": 1.1026802614095574,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62317,8 +62725,8 @@
             "famille": "Total d'une équipe",
             "code": "EXT_2PLUS",
             "libelle": "Getafe marque 2 buts ou plus",
-            "probabilite": 0.0812593545214676,
-            "cote_juste": 12.306275454548606,
+            "probabilite": 0.07566063960659458,
+            "cote_juste": 13.21691179455533,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -62330,10 +62738,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -62478,6 +62886,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.513,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696081+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.7,
           "nb_sources": 1,
@@ -62598,6 +63014,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696081+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.5,
           "nb_sources": 1,
@@ -62714,6 +63138,14 @@
           "valeur": 4.4,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.532692+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696081+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -62721,7 +63153,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532711+00:00"
+          "releve_le": "2026-09-22T11:47:01.696099+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -62729,7 +63161,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532711+00:00"
+          "releve_le": "2026-09-22T11:47:01.696099+00:00"
         }
       ],
       "contexte": null,
@@ -63158,10 +63590,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -63268,6 +63700,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.714,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696914+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -63332,6 +63772,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696914+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.95,
           "nb_sources": 1,
@@ -63392,6 +63840,14 @@
           "valeur": 3.95,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.533744+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.95,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696914+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -63399,7 +63855,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533765+00:00"
+          "releve_le": "2026-09-22T11:47:01.696932+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -63407,7 +63863,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533765+00:00"
+          "releve_le": "2026-09-22T11:47:01.696932+00:00"
         }
       ],
       "contexte": null,
@@ -63429,11 +63885,11 @@
             "libelle": "Monaco gagne",
             "probabilite": 0.5595031682803174,
             "cote_juste": 1.787299977359536,
-            "niveau": "equilibree",
+            "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": 55,
-            "explication": "Probabilité lue directement sur le marché."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "1X2",
@@ -63621,11 +64077,11 @@
             "libelle": "Monaco gagne par 2 buts ou plus",
             "probabilite": 0.29620739781650474,
             "cote_juste": 3.376012913153109,
-            "niveau": "detail",
+            "niveau": "audacieuse",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 26,
+            "explication": "Proche du niveau habituel : peu spécifique à cette rencontre ; probabilité dérivée du modèle puis recalibrée."
           },
           {
             "famille": "Ecart de buts",
@@ -63729,11 +64185,11 @@
             "libelle": "Au moins 2 buts avant la pause",
             "probabilite": 0.3812865798892814,
             "cote_juste": 2.622699178896833,
-            "niveau": "audacieuse",
+            "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": 34,
-            "explication": "Probabilité dérivée du modèle puis recalibrée."
+            "confiance": null,
+            "explication": null
           },
           {
             "famille": "Mi-temps",
@@ -63753,11 +64209,11 @@
             "libelle": "Moins de 1,5 but avant la pause",
             "probabilite": 0.6187134201107187,
             "cote_juste": 1.6162571676900916,
-            "niveau": "detail",
+            "niveau": "equilibree",
             "origine": "calcul",
             "resultat": "attente",
-            "confiance": null,
-            "explication": null
+            "confiance": 58,
+            "explication": "Probabilité dérivée du modèle puis recalibrée."
           },
           {
             "famille": "BTTS",
@@ -63836,10 +64292,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -63928,6 +64384,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696972+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.7,
           "nb_sources": 1,
@@ -63992,6 +64456,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696972+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -64052,6 +64524,14 @@
           "valeur": 3.65,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.533810+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696972+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -64059,7 +64539,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533828+00:00"
+          "releve_le": "2026-09-22T11:47:01.696992+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -64067,7 +64547,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533828+00:00"
+          "releve_le": "2026-09-22T11:47:01.696992+00:00"
         }
       ],
       "contexte": null,
@@ -64496,10 +64976,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -64588,6 +65068,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697029+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.35,
           "nb_sources": 1,
@@ -64652,6 +65140,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697029+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
@@ -64712,6 +65208,14 @@
           "valeur": 3.35,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.533874+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697029+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -64719,28 +65223,28 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533895+00:00"
+          "releve_le": "2026-09-22T11:47:01.697044+00:00"
         },
         {
           "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "under",
-          "valeur": 1.9,
+          "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533895+00:00"
+          "releve_le": "2026-09-22T11:47:01.697044+00:00"
         }
       ],
       "contexte": null,
       "analyse": {
-        "buts_dom_attendus": 1.2602477885466854,
-        "buts_ext_attendus": 1.4804632962216333,
+        "buts_dom_attendus": 1.2723926249720314,
+        "buts_ext_attendus": 1.4931504277028287,
         "p1": 0.31097065592645556,
         "pn": 0.2765454766755527,
         "p2": 0.41248386739799175,
         "score_probable": "1-1",
         "profil": "equilibre",
         "marge_marche": 0.0666234047155525,
-        "residu": 0.010136186784878359,
+        "residu": 0.011940412073220615,
         "version_moteur": "4.0.0",
         "options": [
           {
@@ -64819,8 +65323,8 @@
             "famille": "Total buts",
             "code": "OV_0.5",
             "libelle": "Au moins 1 but",
-            "probabilite": 0.9423519736161505,
-            "cote_juste": 1.0611746226440562,
+            "probabilite": 0.9418379075535451,
+            "cote_juste": 1.061753824070994,
             "niveau": "filet",
             "origine": "calcul",
             "resultat": "attente",
@@ -64831,8 +65335,8 @@
             "famille": "Total buts",
             "code": "UN_0.5",
             "libelle": "Aucun but",
-            "probabilite": 0.05764802638384947,
-            "cote_juste": 17.34664762574001,
+            "probabilite": 0.05816209244645487,
+            "cote_juste": 17.193329158860973,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64843,8 +65347,8 @@
             "famille": "Total buts",
             "code": "OV_1.5",
             "libelle": "Au moins 2 buts",
-            "probabilite": 0.7658558711450686,
-            "cote_juste": 1.305728711728554,
+            "probabilite": 0.7701644290565133,
+            "cote_juste": 1.29842402774307,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64855,8 +65359,8 @@
             "famille": "Total buts",
             "code": "UN_1.5",
             "libelle": "Moins de 2 buts",
-            "probabilite": 0.23414412885493152,
-            "cote_juste": 4.270873691731853,
+            "probabilite": 0.22983557094348672,
+            "cote_juste": 4.350936610442627,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64867,8 +65371,8 @@
             "famille": "Total buts",
             "code": "OV_2.5",
             "libelle": "Au moins 3 buts",
-            "probabilite": 0.5191256830601093,
-            "cote_juste": 1.9263157894736842,
+            "probabilite": 0.5256064690026954,
+            "cote_juste": 1.9025641025641027,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -64879,8 +65383,8 @@
             "famille": "Total buts",
             "code": "UN_2.5",
             "libelle": "Moins de 3 buts",
-            "probabilite": 0.4808743169398907,
-            "cote_juste": 2.0795454545454546,
+            "probabilite": 0.47439353099730464,
+            "cote_juste": 2.1079545454545454,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -64891,8 +65395,8 @@
             "famille": "Total buts",
             "code": "OV_3.5",
             "libelle": "Au moins 4 buts",
-            "probabilite": 0.29490261225741843,
-            "cote_juste": 3.3909499558013647,
+            "probabilite": 0.300406459791047,
+            "cote_juste": 3.3288232240264324,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64903,8 +65407,8 @@
             "famille": "Total buts",
             "code": "UN_3.5",
             "libelle": "Moins de 4 buts",
-            "probabilite": 0.7050973877425817,
-            "cote_juste": 1.4182438020392751,
+            "probabilite": 0.6995935402089529,
+            "cote_juste": 1.4294014202894474,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64915,8 +65419,8 @@
             "famille": "Total buts",
             "code": "OV_4.5",
             "libelle": "Au moins 5 buts",
-            "probabilite": 0.13745475269795598,
-            "cote_juste": 7.2751213062629185,
+            "probabilite": 0.14108037360748663,
+            "cote_juste": 7.088158150064139,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64927,8 +65431,8 @@
             "famille": "Total buts",
             "code": "UN_4.5",
             "libelle": "Moins de 5 buts",
-            "probabilite": 0.8625452473020443,
-            "cote_juste": 1.159359469115273,
+            "probabilite": 0.8589196263925134,
+            "cote_juste": 1.1642532889835433,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64939,8 +65443,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_H_2",
             "libelle": "Lorient gagne par 2 buts ou plus",
-            "probabilite": 0.12294549511394791,
-            "cote_juste": 8.13368557402761,
+            "probabilite": 0.12392964219378486,
+            "cote_juste": 8.069094546697164,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64951,8 +65455,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_A_2",
             "libelle": "Paris FC gagne par 2 buts ou plus",
-            "probabilite": 0.1830374291426806,
-            "cote_juste": 5.46336344803272,
+            "probabilite": 0.18409872074799125,
+            "cote_juste": 5.4318682712025925,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64963,8 +65467,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_A_3",
             "libelle": "Paris FC gagne par 3 buts ou plus",
-            "probabilite": 0.07172324231374734,
-            "cote_juste": 13.942481791684534,
+            "probabilite": 0.07252435528868444,
+            "cote_juste": 13.788471417904825,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64975,8 +65479,8 @@
             "famille": "Handicap",
             "code": "HCP_H_+1",
             "libelle": "Lorient +1 (ne perd pas de plus d’un but)",
-            "probabilite": 0.8169625708573195,
-            "cote_juste": 1.224046285193459,
+            "probabilite": 0.8159012792520086,
+            "cote_juste": 1.2256384754253198,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -64987,8 +65491,8 @@
             "famille": "Handicap",
             "code": "HCP_A_+1",
             "libelle": "Paris FC +1 (ne perd pas de plus d’un but)",
-            "probabilite": 0.8769563212571554,
-            "cote_juste": 1.1403076478956855,
+            "probabilite": 0.8759832115955303,
+            "cote_juste": 1.1415743895120816,
             "niveau": "prudente",
             "origine": "calcul",
             "resultat": "attente",
@@ -64999,8 +65503,8 @@
             "famille": "Mi-temps",
             "code": "HT_1",
             "libelle": "Lorient mène à la pause",
-            "probabilite": 0.2282739890869342,
-            "cote_juste": 4.380700595805365,
+            "probabilite": 0.22899895979111584,
+            "cote_juste": 4.366832062958548,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65011,8 +65515,8 @@
             "famille": "Mi-temps",
             "code": "HT_N",
             "libelle": "Nul à la pause",
-            "probabilite": 0.43255007816735636,
-            "cote_juste": 2.311871042161952,
+            "probabilite": 0.4294104966992337,
+            "cote_juste": 2.3287739999062405,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65023,20 +65527,20 @@
             "famille": "Mi-temps",
             "code": "HT_2",
             "libelle": "Paris FC mène à la pause",
-            "probabilite": 0.34081505875636736,
-            "cote_juste": 2.934142650999623,
+            "probabilite": 0.34233885847016526,
+            "cote_juste": 2.921082358189699,
             "niveau": "audacieuse",
             "origine": "calcul",
             "resultat": "attente",
             "confiance": 30,
-            "explication": "Probabilité dérivée du modèle puis recalibrée."
+            "explication": "Nettement plus probable ici que sur les autres matchs du lot ; probabilité dérivée du modèle puis recalibrée."
           },
           {
             "famille": "Mi-temps",
             "code": "HT_OV_0.5",
             "libelle": "Au moins 1 but avant la pause",
-            "probabilite": 0.6957057104245226,
-            "cote_juste": 1.4373893803312263,
+            "probabilite": 0.6989094926521776,
+            "cote_juste": 1.4308004262544256,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65047,8 +65551,8 @@
             "famille": "Mi-temps",
             "code": "HT_OV_1.5",
             "libelle": "Au moins 2 buts avant la pause",
-            "probabilite": 0.3395909395255104,
-            "cote_juste": 2.9447193184754537,
+            "probabilite": 0.3441615879626985,
+            "cote_juste": 2.905611883997884,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65059,8 +65563,8 @@
             "famille": "Mi-temps",
             "code": "HT_UN_0.5",
             "libelle": "Aucun but avant la pause",
-            "probabilite": 0.30429428957547766,
-            "cote_juste": 3.2862923632089993,
+            "probabilite": 0.3010905073478225,
+            "cote_juste": 3.3212604701774637,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65071,8 +65575,8 @@
             "famille": "Mi-temps",
             "code": "HT_UN_1.5",
             "libelle": "Moins de 1,5 but avant la pause",
-            "probabilite": 0.6604090604744898,
-            "cote_juste": 1.5142130231852382,
+            "probabilite": 0.6558384120373014,
+            "cote_juste": 1.524765828969353,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65083,8 +65587,8 @@
             "famille": "BTTS",
             "code": "BTTS_O",
             "libelle": "Les deux équipes marquent",
-            "probabilite": 0.5606316405083851,
-            "cote_juste": 1.783702395200514,
+            "probabilite": 0.5652925554295224,
+            "cote_juste": 1.7689955234598425,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65095,8 +65599,8 @@
             "famille": "BTTS",
             "code": "BTTS_N",
             "libelle": "Au moins une équipe ne marque pas",
-            "probabilite": 0.4393683594916151,
-            "cote_juste": 2.2759945690151224,
+            "probabilite": 0.4347074445704777,
+            "cote_juste": 2.3003976869732976,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65107,8 +65611,8 @@
             "famille": "Une équipe marque",
             "code": "DOM_MARQUE",
             "libelle": "Lorient marque",
-            "probabilite": 0.7164162507249966,
-            "cote_juste": 1.3958365670628259,
+            "probabilite": 0.7198394994640863,
+            "cote_juste": 1.3891985654364487,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65119,8 +65623,8 @@
             "famille": "Une équipe marque",
             "code": "EXT_MARQUE",
             "libelle": "Paris FC marque",
-            "probabilite": 0.8063178220859241,
-            "cote_juste": 1.240205750894883,
+            "probabilite": 0.8087038497137453,
+            "cote_juste": 1.2365466052300447,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65131,8 +65635,8 @@
             "famille": "Total d'une équipe",
             "code": "DOM_2PLUS",
             "libelle": "Lorient marque 2 buts ou plus",
-            "probabilite": 0.3590304578333956,
-            "cote_juste": 2.785279015141495,
+            "probabilite": 0.36336534477371685,
+            "cote_juste": 2.7520511088440283,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65143,8 +65647,8 @@
             "famille": "Total d'une équipe",
             "code": "EXT_2PLUS",
             "libelle": "Paris FC marque 2 buts ou plus",
-            "probabilite": 0.43402294542756936,
-            "cote_juste": 2.304025652410771,
+            "probabilite": 0.43701133691804733,
+            "cote_juste": 2.288270155763785,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -65156,10 +65660,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -65248,6 +65752,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697087+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 16.0,
           "nb_sources": 1,
@@ -65312,6 +65824,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 16.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697087+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 10.0,
           "nb_sources": 1,
@@ -65372,6 +65892,14 @@
           "valeur": 10.0,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.533948+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 10.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697087+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -65379,7 +65907,7 @@
           "selection": "over",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533969+00:00"
+          "releve_le": "2026-09-22T11:47:01.697104+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -65387,7 +65915,7 @@
           "selection": "under",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.533969+00:00"
+          "releve_le": "2026-09-22T11:47:01.697104+00:00"
         }
       ],
       "contexte": null,
@@ -65804,10 +66332,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -65914,6 +66442,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.263,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694227+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 9.0,
           "nb_sources": 1,
@@ -65978,6 +66514,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 8.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694227+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 6.5,
           "nb_sources": 1,
@@ -66038,6 +66582,14 @@
           "valeur": 6.5,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530381+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 6.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694227+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -66045,7 +66597,7 @@
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530400+00:00"
+          "releve_le": "2026-09-22T11:47:01.694243+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -66053,7 +66605,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530400+00:00"
+          "releve_le": "2026-09-22T11:47:01.694243+00:00"
         }
       ],
       "contexte": null,
@@ -66470,10 +67022,10 @@
         "douteuse": false,
         "source_cotes": "draftkings",
         "exposition_lot": {
-          "formes_distinctes": 18,
+          "formes_distinctes": 17,
           "facteurs": {
-            "issue": 0.375,
-            "buts": 0.425,
+            "issue": 0.388,
+            "buts": 0.412,
             "nul": 0.2
           },
           "matchs": 20
@@ -66598,6 +67150,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.85,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694280+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.5,
           "nb_sources": 1,
@@ -66662,6 +67222,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694280+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.15,
           "nb_sources": 1,
@@ -66722,6 +67290,14 @@
           "valeur": 3.15,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530448+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694280+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -66729,7 +67305,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530474+00:00"
+          "releve_le": "2026-09-22T11:47:01.694299+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -66737,7 +67313,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530474+00:00"
+          "releve_le": "2026-09-22T11:47:01.694299+00:00"
         }
       ],
       "contexte": null,
@@ -67218,6 +67794,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692416+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.6,
           "nb_sources": 1,
@@ -67242,6 +67826,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692416+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
@@ -67262,6 +67854,14 @@
           "valeur": 3.35,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.528150+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692416+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -67269,7 +67869,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528168+00:00"
+          "releve_le": "2026-09-22T11:47:01.692430+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -67277,7 +67877,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528168+00:00"
+          "releve_le": "2026-09-22T11:47:01.692430+00:00"
         }
       ],
       "contexte": null,
@@ -67770,6 +68370,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692468+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.05,
           "nb_sources": 1,
@@ -67794,6 +68402,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692468+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
@@ -67814,6 +68430,14 @@
           "valeur": 3.3,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.528216+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692468+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -67821,7 +68445,7 @@
           "selection": "over",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528234+00:00"
+          "releve_le": "2026-09-22T11:47:01.692483+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -67829,7 +68453,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528234+00:00"
+          "releve_le": "2026-09-22T11:47:01.692483+00:00"
         }
       ],
       "contexte": null,
@@ -68350,6 +68974,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697142+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.0,
           "nb_sources": 1,
@@ -68414,6 +69046,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697142+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -68474,6 +69114,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.534034+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697142+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -68481,7 +69129,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.534055+00:00"
+          "releve_le": "2026-09-22T11:47:01.697160+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -68489,28 +69137,28 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.534055+00:00"
+          "releve_le": "2026-09-22T11:47:01.697160+00:00"
         }
       ],
       "contexte": null,
       "analyse": {
-        "buts_dom_attendus": 1.5538024072040402,
-        "buts_ext_attendus": 1.2833602923465481,
-        "p1": 0.42996126187269507,
-        "pn": 0.2615554250079877,
-        "p2": 0.30848331311931726,
+        "buts_dom_attendus": 1.5581557284174645,
+        "buts_ext_attendus": 1.2762808591661368,
+        "p1": 0.4317857276624158,
+        "pn": 0.2633210675255699,
+        "p2": 0.3048932048120143,
         "score_probable": "1-1",
         "profil": "equilibre",
-        "marge_marche": 0.07359307359307343,
-        "residu": 0.0010069555088254019,
+        "marge_marche": 0.06812859271875649,
+        "residu": 0.0013566251794704827,
         "version_moteur": "4.0.0",
         "options": [
           {
             "famille": "1X2",
             "code": "1X2_1",
             "libelle": "Nice gagne",
-            "probabilite": 0.42996126187269507,
-            "cote_juste": 2.325790922755466,
+            "probabilite": 0.4317857276624158,
+            "cote_juste": 2.3159635345377434,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -68521,8 +69169,8 @@
             "famille": "1X2",
             "code": "1X2_N",
             "libelle": "Match nul",
-            "probabilite": 0.2615554250079877,
-            "cote_juste": 3.8232814324897326,
+            "probabilite": 0.2633210675255699,
+            "cote_juste": 3.7976452450121356,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -68533,8 +69181,8 @@
             "famille": "1X2",
             "code": "1X2_2",
             "libelle": "Strasbourg gagne",
-            "probabilite": 0.30848331311931726,
-            "cote_juste": 3.2416664288522252,
+            "probabilite": 0.3048932048120143,
+            "cote_juste": 3.2798369534557597,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -68545,20 +69193,20 @@
             "famille": "Double chance",
             "code": "DC_1X",
             "libelle": "Nice ne perd pas",
-            "probabilite": 0.6915166868806828,
-            "cote_juste": 1.4460967016007007,
+            "probabilite": 0.6951067951879857,
+            "cote_juste": 1.4386278582265313,
             "niveau": "recommandee",
             "origine": "marche",
             "resultat": "attente",
-            "confiance": 69,
+            "confiance": 70,
             "explication": "Proche du niveau habituel : peu spécifique à cette rencontre ; probabilité lue directement sur le marché."
           },
           {
             "famille": "Double chance",
             "code": "DC_X2",
             "libelle": "Strasbourg ne perd pas",
-            "probabilite": 0.5700387381273049,
-            "cote_juste": 1.7542667420905582,
+            "probabilite": 0.5682142723375843,
+            "cote_juste": 1.7598994757489752,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -68569,8 +69217,8 @@
             "famille": "Double chance",
             "code": "DC_12",
             "libelle": "Pas de match nul",
-            "probabilite": 0.7384445749920123,
-            "cote_juste": 1.354197774438003,
+            "probabilite": 0.7366789324744301,
+            "cote_juste": 1.3574434613476742,
             "niveau": "detail",
             "origine": "marche",
             "resultat": "attente",
@@ -68581,8 +69229,8 @@
             "famille": "Total buts",
             "code": "OV_0.5",
             "libelle": "Au moins 1 but",
-            "probabilite": 0.9404147266809626,
-            "cote_juste": 1.0633606340144564,
+            "probabilite": 0.9404651272789787,
+            "cote_juste": 1.0633036473061706,
             "niveau": "filet",
             "origine": "calcul",
             "resultat": "attente",
@@ -68593,8 +69241,8 @@
             "famille": "Total buts",
             "code": "UN_0.5",
             "libelle": "Aucun but",
-            "probabilite": 0.0595852733190374,
-            "cote_juste": 16.782670352885695,
+            "probabilite": 0.059534872721021315,
+            "cote_juste": 16.796878103459985,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68605,8 +69253,8 @@
             "famille": "Total buts",
             "code": "OV_1.5",
             "libelle": "Au moins 2 buts",
-            "probabilite": 0.7821844350061555,
-            "cote_juste": 1.278470850665969,
+            "probabilite": 0.7817308081496777,
+            "cote_juste": 1.2792127284415922,
             "niveau": "prudente",
             "origine": "calcul",
             "resultat": "attente",
@@ -68617,8 +69265,8 @@
             "famille": "Total buts",
             "code": "UN_1.5",
             "libelle": "Moins de 2 buts",
-            "probabilite": 0.21781556499384458,
-            "cote_juste": 4.591040130801763,
+            "probabilite": 0.21826919185032234,
+            "cote_juste": 4.581498614269613,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68653,8 +69301,8 @@
             "famille": "Total buts",
             "code": "OV_3.5",
             "libelle": "Au moins 4 buts",
-            "probabilite": 0.316340913878008,
-            "cote_juste": 3.161146586260526,
+            "probabilite": 0.31573299302829994,
+            "cote_juste": 3.1672331434503187,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68665,8 +69313,8 @@
             "famille": "Total buts",
             "code": "UN_3.5",
             "libelle": "Moins de 4 buts",
-            "probabilite": 0.683659086121992,
-            "cote_juste": 1.4627173401182008,
+            "probabilite": 0.6842670069717001,
+            "cote_juste": 1.4614178234686654,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68677,8 +69325,8 @@
             "famille": "Total buts",
             "code": "OV_4.5",
             "libelle": "Au moins 5 buts",
-            "probabilite": 0.1515849784337849,
-            "cote_juste": 6.596959740551194,
+            "probabilite": 0.15117928986430015,
+            "cote_juste": 6.614662635984127,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68689,8 +69337,8 @@
             "famille": "Total buts",
             "code": "UN_4.5",
             "libelle": "Moins de 5 buts",
-            "probabilite": 0.8484150215662152,
-            "cote_juste": 1.1786684282816582,
+            "probabilite": 0.8488207101356998,
+            "cote_juste": 1.1781050910505368,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68701,8 +69349,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_H_2",
             "libelle": "Nice gagne par 2 buts ou plus",
-            "probabilite": 0.19436676238289102,
-            "cote_juste": 5.144912575278993,
+            "probabilite": 0.19601002114068575,
+            "cote_juste": 5.101779971148782,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68713,8 +69361,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_A_2",
             "libelle": "Strasbourg gagne par 2 buts ou plus",
-            "probabilite": 0.12073155079441218,
-            "cote_juste": 8.28283902111761,
+            "probabilite": 0.11921988993124433,
+            "cote_juste": 8.387862130863509,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68725,8 +69373,8 @@
             "famille": "Ecart de buts",
             "code": "MRG_H_3",
             "libelle": "Nice gagne par 3 buts ou plus",
-            "probabilite": 0.07865993368386294,
-            "cote_juste": 12.712952492676074,
+            "probabilite": 0.07950651337262592,
+            "cote_juste": 12.57758588045819,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68737,8 +69385,8 @@
             "famille": "Handicap",
             "code": "HCP_H_+1",
             "libelle": "Nice +1 (ne perd pas de plus d’un but)",
-            "probabilite": 0.8791454357216277,
-            "cote_juste": 1.1374682269483336,
+            "probabilite": 0.8806401429876319,
+            "cote_juste": 1.1355376063228637,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68749,8 +69397,8 @@
             "famille": "Handicap",
             "code": "HCP_A_+1",
             "libelle": "Strasbourg +1 (ne perd pas de plus d’un but)",
-            "probabilite": 0.8056332376171089,
-            "cote_juste": 1.2412596120758206,
+            "probabilite": 0.8039899788593141,
+            "cote_juste": 1.2437965973391625,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68761,8 +69409,8 @@
             "famille": "Mi-temps",
             "code": "HT_1",
             "libelle": "Nice mène à la pause",
-            "probabilite": 0.32242832123614285,
-            "cote_juste": 3.1014645244752286,
+            "probabilite": 0.3244522751292337,
+            "cote_juste": 3.0821173918465714,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68773,8 +69421,8 @@
             "famille": "Mi-temps",
             "code": "HT_N",
             "libelle": "Nul à la pause",
-            "probabilite": 0.4199102165358343,
-            "cote_juste": 2.381461466333868,
+            "probabilite": 0.42006579179049247,
+            "cote_juste": 2.380579470033945,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68785,8 +69433,8 @@
             "famille": "Mi-temps",
             "code": "HT_2",
             "libelle": "Strasbourg mène à la pause",
-            "probabilite": 0.2466771934133212,
-            "cote_juste": 4.053881050626537,
+            "probabilite": 0.24425913687599646,
+            "cote_juste": 4.094012665359053,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68797,8 +69445,8 @@
             "famille": "Mi-temps",
             "code": "HT_OV_0.5",
             "libelle": "Au moins 1 but avant la pause",
-            "probabilite": 0.7079763615181189,
-            "cote_juste": 1.412476537854587,
+            "probabilite": 0.7076425094024389,
+            "cote_juste": 1.4131429170986904,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68809,8 +69457,8 @@
             "famille": "Mi-temps",
             "code": "HT_OV_1.5",
             "libelle": "Au moins 2 buts avant la pause",
-            "probabilite": 0.3566995831434148,
-            "cote_juste": 2.803479586904758,
+            "probabilite": 0.35621721748845203,
+            "cote_juste": 2.807275872431456,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68821,8 +69469,8 @@
             "famille": "Mi-temps",
             "code": "HT_UN_0.5",
             "libelle": "Aucun but avant la pause",
-            "probabilite": 0.29202363848188106,
-            "cote_juste": 3.4243803179722594,
+            "probabilite": 0.292357490597561,
+            "cote_juste": 3.4204699115321473,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68833,8 +69481,8 @@
             "famille": "Mi-temps",
             "code": "HT_UN_1.5",
             "libelle": "Moins de 1,5 but avant la pause",
-            "probabilite": 0.6433004168565851,
-            "cote_juste": 1.5544836810247802,
+            "probabilite": 0.6437827825115479,
+            "cote_juste": 1.5533189565877563,
             "niveau": "equilibree",
             "origine": "calcul",
             "resultat": "attente",
@@ -68845,8 +69493,8 @@
             "famille": "BTTS",
             "code": "BTTS_O",
             "libelle": "Les deux équipes marquent",
-            "probabilite": 0.5770548538561635,
-            "cote_juste": 1.7329375072707727,
+            "probabilite": 0.5761645178100854,
+            "cote_juste": 1.7356153825661627,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68857,8 +69505,8 @@
             "famille": "BTTS",
             "code": "BTTS_N",
             "libelle": "Au moins une équipe ne marque pas",
-            "probabilite": 0.4229451461438365,
-            "cote_juste": 2.3643728013370247,
+            "probabilite": 0.4238354821899146,
+            "cote_juste": 2.3594060479153427,
             "niveau": "audacieuse",
             "origine": "calcul",
             "resultat": "attente",
@@ -68869,8 +69517,8 @@
             "famille": "Une équipe marque",
             "code": "DOM_MARQUE",
             "libelle": "Nice marque",
-            "probabilite": 0.7885575444858198,
-            "cote_juste": 1.26813826967067,
+            "probabilite": 0.7894760206698889,
+            "cote_juste": 1.2666629179585172,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68881,8 +69529,8 @@
             "famille": "Une équipe marque",
             "code": "EXT_MARQUE",
             "libelle": "Strasbourg marque",
-            "probabilite": 0.7554495773147236,
-            "cote_juste": 1.3237150830827662,
+            "probabilite": 0.7530316530056492,
+            "cote_juste": 1.3279654261658216,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68893,8 +69541,8 @@
             "famille": "Total d'une équipe",
             "code": "DOM_2PLUS",
             "libelle": "Nice marque 2 buts ou plus",
-            "probabilite": 0.46001774812275353,
-            "cote_juste": 2.1738291708978905,
+            "probabilite": 0.46144687630743647,
+            "cote_juste": 2.1670966937779323,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -68905,8 +69553,8 @@
             "famille": "Total d'une équipe",
             "code": "EXT_2PLUS",
             "libelle": "Strasbourg marque 2 buts ou plus",
-            "probabilite": 0.3861341142874857,
-            "cote_juste": 2.589773767710866,
+            "probabilite": 0.3843686432616877,
+            "cote_juste": 2.60166904228755,
             "niveau": "detail",
             "origine": "calcul",
             "resultat": "attente",
@@ -69070,6 +69718,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696144+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -69158,6 +69814,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696144+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.75,
           "nb_sources": 1,
@@ -69242,6 +69906,14 @@
           "valeur": 3.75,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.532766+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696144+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -69249,7 +69921,7 @@
           "selection": "over",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532788+00:00"
+          "releve_le": "2026-09-22T11:47:01.696161+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -69257,7 +69929,7 @@
           "selection": "under",
           "valeur": 1.58,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532788+00:00"
+          "releve_le": "2026-09-22T11:47:01.696161+00:00"
         }
       ],
       "contexte": null,
@@ -69778,6 +70450,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.741,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694337+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.85,
           "nb_sources": 1,
@@ -69842,6 +70522,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694337+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -69902,6 +70590,14 @@
           "valeur": 3.7,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530524+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694337+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -69909,7 +70605,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530542+00:00"
+          "releve_le": "2026-09-22T11:47:01.694361+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -69917,7 +70613,7 @@
           "selection": "under",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530542+00:00"
+          "releve_le": "2026-09-22T11:47:01.694361+00:00"
         }
       ],
       "contexte": null,
@@ -70456,6 +71152,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.408,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697202+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 6.5,
           "nb_sources": 1,
@@ -70520,6 +71224,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 6.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697202+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 5.0,
           "nb_sources": 1,
@@ -70580,6 +71292,14 @@
           "valeur": 5.0,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.534109+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697202+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -70587,7 +71307,7 @@
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.534129+00:00"
+          "releve_le": "2026-09-22T11:47:01.697222+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -70595,7 +71315,7 @@
           "selection": "under",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.534129+00:00"
+          "releve_le": "2026-09-22T11:47:01.697222+00:00"
         }
       ],
       "contexte": null,
@@ -71064,6 +71784,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692521+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.35,
           "nb_sources": 1,
@@ -71088,6 +71816,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692521+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.6,
           "nb_sources": 1,
@@ -71108,6 +71844,14 @@
           "valeur": 3.6,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.528282+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692521+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71115,7 +71859,7 @@
           "selection": "over",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528301+00:00"
+          "releve_le": "2026-09-22T11:47:01.692535+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71123,7 +71867,7 @@
           "selection": "under",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528301+00:00"
+          "releve_le": "2026-09-22T11:47:01.692535+00:00"
         }
       ],
       "contexte": null,
@@ -71680,6 +72424,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.588,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696203+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.7,
           "nb_sources": 1,
@@ -71764,6 +72516,14 @@
           "valeur": 4.8,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.532844+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696203+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71855,11 +72615,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.696203+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.58,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532864+00:00"
+          "releve_le": "2026-09-22T11:47:01.696219+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71875,7 +72643,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.532864+00:00"
+          "releve_le": "2026-09-22T11:47:01.696219+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -72422,6 +73190,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.69,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694400+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 5.5,
           "nb_sources": 1,
@@ -72486,6 +73262,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694400+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -72546,6 +73330,14 @@
           "valeur": 3.95,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530590+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.95,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694400+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -72553,7 +73345,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530608+00:00"
+          "releve_le": "2026-09-22T11:47:01.694415+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -72561,7 +73353,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530608+00:00"
+          "releve_le": "2026-09-22T11:47:01.694415+00:00"
         }
       ],
       "contexte": null,
@@ -73100,6 +73892,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.55,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697262+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.909,
           "nb_sources": 1,
@@ -73164,6 +73964,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697262+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.75,
           "nb_sources": 1,
@@ -73224,6 +74032,14 @@
           "valeur": 3.75,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.534177+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.697262+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -73231,7 +74047,7 @@
           "selection": "over",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.534195+00:00"
+          "releve_le": "2026-09-22T11:47:01.697277+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -73239,7 +74055,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.534195+00:00"
+          "releve_le": "2026-09-22T11:47:01.697277+00:00"
         }
       ],
       "contexte": null,
@@ -73778,6 +74594,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694461+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -73842,6 +74666,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694461+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -73905,11 +74737,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.55,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694461+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530693+00:00"
+          "releve_le": "2026-09-22T11:47:01.694477+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -73917,7 +74757,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530693+00:00"
+          "releve_le": "2026-09-22T11:47:01.694477+00:00"
         }
       ],
       "contexte": null,
@@ -74452,6 +75292,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692574+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.1,
           "nb_sources": 1,
@@ -74476,6 +75324,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692574+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -74496,6 +75352,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.528350+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.692574+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -74503,7 +75367,7 @@
           "selection": "over",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528368+00:00"
+          "releve_le": "2026-09-22T11:47:01.692588+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -74511,7 +75375,7 @@
           "selection": "under",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.528368+00:00"
+          "releve_le": "2026-09-22T11:47:01.692588+00:00"
         }
       ],
       "contexte": null,
@@ -75008,6 +75872,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694515+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.7,
           "nb_sources": 1,
@@ -75048,6 +75920,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694515+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -75084,6 +75964,14 @@
           "valeur": 3.2,
           "nb_sources": 1,
           "releve_le": "2026-09-22T05:06:09.530742+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-22T11:47:01.694515+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -75091,7 +75979,7 @@
           "selection": "over",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530761+00:00"
+          "releve_le": "2026-09-22T11:47:01.694531+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -75099,7 +75987,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-22T05:06:09.530761+00:00"
+          "releve_le": "2026-09-22T11:47:01.694531+00:00"
         }
       ],
       "contexte": null,
