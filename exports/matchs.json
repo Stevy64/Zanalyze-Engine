@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exporte_le": "2026-09-24T21:37:07.498915+00:00",
+  "exporte_le": "2026-09-25T00:38:50.318094+00:00",
   "competitions": [
     {
       "code": "UCL",
@@ -49814,6 +49814,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.872827+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.05,
           "nb_sources": 1,
@@ -49894,6 +49902,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.872827+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.1,
           "nb_sources": 1,
@@ -49970,6 +49986,14 @@
           "valeur": 3.05,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401011+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.872827+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -49977,7 +50001,7 @@
           "selection": "over",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401054+00:00"
+          "releve_le": "2026-09-25T00:38:47.872885+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -49985,7 +50009,7 @@
           "selection": "under",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401054+00:00"
+          "releve_le": "2026-09-25T00:38:47.872885+00:00"
         }
       ],
       "contexte": null,
@@ -50658,6 +50682,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.339,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864561+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 6.0,
           "nb_sources": 1,
@@ -50874,6 +50906,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 6.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864561+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.9,
           "nb_sources": 1,
@@ -51086,6 +51126,14 @@
           "valeur": 5.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.394789+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864561+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -51093,7 +51141,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.394852+00:00"
+          "releve_le": "2026-09-25T00:38:47.864622+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -51101,7 +51149,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.394852+00:00"
+          "releve_le": "2026-09-25T00:38:47.864622+00:00"
         }
       ],
       "contexte": null,
@@ -51706,6 +51754,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867226+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.0,
           "nb_sources": 1,
@@ -51866,6 +51922,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867226+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -52022,6 +52086,14 @@
           "valeur": 3.7,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.396813+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867226+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -52029,7 +52101,7 @@
           "selection": "over",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.396862+00:00"
+          "releve_le": "2026-09-25T00:38:47.867300+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -52037,7 +52109,7 @@
           "selection": "under",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.396862+00:00"
+          "releve_le": "2026-09-25T00:38:47.867300+00:00"
         }
       ],
       "contexte": null,
@@ -52666,6 +52738,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860251+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.9,
           "nb_sources": 1,
@@ -52826,6 +52906,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860251+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.25,
           "nb_sources": 1,
@@ -52985,11 +53073,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860251+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391534+00:00"
+          "releve_le": "2026-09-25T00:38:47.860307+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -52997,7 +53093,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391534+00:00"
+          "releve_le": "2026-09-25T00:38:47.860307+00:00"
         }
       ],
       "contexte": null,
@@ -53546,6 +53642,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.872985+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.15,
           "nb_sources": 1,
@@ -53626,6 +53730,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.872985+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
@@ -53702,6 +53814,14 @@
           "valeur": 3.3,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401141+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.872985+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -53709,7 +53829,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401197+00:00"
+          "releve_le": "2026-09-25T00:38:47.873031+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -53717,7 +53837,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401197+00:00"
+          "releve_le": "2026-09-25T00:38:47.873031+00:00"
         }
       ],
       "contexte": null,
@@ -54390,6 +54510,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.37,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856176+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 9.0,
           "nb_sources": 1,
@@ -54602,6 +54730,14 @@
           "valeur": 7.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.388008+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 7.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856176+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -54821,11 +54957,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856176+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388113+00:00"
+          "releve_le": "2026-09-25T00:38:47.856277+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -54833,7 +54977,7 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388113+00:00"
+          "releve_le": "2026-09-25T00:38:47.856277+00:00"
         }
       ],
       "contexte": null,
@@ -55438,6 +55582,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860419+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.3,
           "nb_sources": 1,
@@ -55598,6 +55750,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860419+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
@@ -55754,6 +55914,14 @@
           "valeur": 3.35,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.391620+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860419+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -55761,7 +55929,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391660+00:00"
+          "releve_le": "2026-09-25T00:38:47.860465+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -55769,7 +55937,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391660+00:00"
+          "releve_le": "2026-09-25T00:38:47.860465+00:00"
         }
       ],
       "contexte": null,
@@ -56250,6 +56418,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.869994+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.2,
           "nb_sources": 1,
@@ -56274,6 +56450,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.869994+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.15,
           "nb_sources": 1,
@@ -56294,6 +56478,14 @@
           "valeur": 3.15,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.398863+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.869994+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -56301,7 +56493,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.398898+00:00"
+          "releve_le": "2026-09-25T00:38:47.870040+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -56309,7 +56501,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.398898+00:00"
+          "releve_le": "2026-09-25T00:38:47.870040+00:00"
         }
       ],
       "contexte": null,
@@ -56982,6 +57174,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864734+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.85,
           "nb_sources": 1,
@@ -57198,6 +57398,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864734+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -57413,11 +57621,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864734+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.394985+00:00"
+          "releve_le": "2026-09-25T00:38:47.864789+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -57425,7 +57641,7 @@
           "selection": "under",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.394985+00:00"
+          "releve_le": "2026-09-25T00:38:47.864789+00:00"
         }
       ],
       "contexte": null,
@@ -58110,6 +58326,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 7.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864884+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.19,
           "nb_sources": 1,
@@ -58326,6 +58550,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.19,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864884+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 7.0,
           "nb_sources": 1,
@@ -58538,6 +58770,14 @@
           "valeur": 7.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.395064+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 7.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.864884+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -58545,7 +58785,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395115+00:00"
+          "releve_le": "2026-09-25T00:38:47.864931+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -58553,7 +58793,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395115+00:00"
+          "releve_le": "2026-09-25T00:38:47.864931+00:00"
         }
       ],
       "contexte": null,
@@ -59214,6 +59454,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865028+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.3,
           "nb_sources": 1,
@@ -59430,6 +59678,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865028+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -59642,6 +59898,14 @@
           "valeur": 3.6,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.395194+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865028+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -59649,7 +59913,7 @@
           "selection": "over",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395224+00:00"
+          "releve_le": "2026-09-25T00:38:47.865065+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -59657,7 +59921,7 @@
           "selection": "under",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395224+00:00"
+          "releve_le": "2026-09-25T00:38:47.865065+00:00"
         }
       ],
       "contexte": null,
@@ -60342,6 +60606,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865168+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.588,
           "nb_sources": 1,
@@ -60558,6 +60830,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.556,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865168+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -60770,6 +61050,14 @@
           "valeur": 4.2,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.395305+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865168+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -60777,7 +61065,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395344+00:00"
+          "releve_le": "2026-09-25T00:38:47.865216+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -60785,7 +61073,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395344+00:00"
+          "releve_le": "2026-09-25T00:38:47.865216+00:00"
         }
       ],
       "contexte": null,
@@ -61476,6 +61764,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856397+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.7,
           "nb_sources": 1,
@@ -61692,6 +61988,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.55,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856397+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -61907,11 +62211,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856397+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388254+00:00"
+          "releve_le": "2026-09-25T00:38:47.856435+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -61919,7 +62231,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388254+00:00"
+          "releve_le": "2026-09-25T00:38:47.856435+00:00"
         }
       ],
       "contexte": null,
@@ -62604,6 +62916,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856537+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.9,
           "nb_sources": 1,
@@ -62820,6 +63140,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.85,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856537+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
@@ -63032,6 +63360,14 @@
           "valeur": 4.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.388343+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856537+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -63039,7 +63375,7 @@
           "selection": "over",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388387+00:00"
+          "releve_le": "2026-09-25T00:38:47.856584+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -63047,7 +63383,7 @@
           "selection": "under",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388387+00:00"
+          "releve_le": "2026-09-25T00:38:47.856584+00:00"
         }
       ],
       "contexte": null,
@@ -63720,6 +64056,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856678+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.5,
           "nb_sources": 1,
@@ -63936,6 +64280,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856678+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -64148,6 +64500,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.388481+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856678+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -64155,7 +64515,7 @@
           "selection": "over",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388517+00:00"
+          "releve_le": "2026-09-25T00:38:47.856729+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -64163,7 +64523,7 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388517+00:00"
+          "releve_le": "2026-09-25T00:38:47.856729+00:00"
         }
       ],
       "contexte": null,
@@ -64752,6 +65112,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856827+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.4,
           "nb_sources": 1,
@@ -64872,6 +65240,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856827+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.4,
           "nb_sources": 1,
@@ -64988,6 +65364,14 @@
           "valeur": 3.45,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.388594+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.45,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856827+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -64995,7 +65379,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388644+00:00"
+          "releve_le": "2026-09-25T00:38:47.856866+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -65003,7 +65387,7 @@
           "selection": "under",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388644+00:00"
+          "releve_le": "2026-09-25T00:38:47.856866+00:00"
         }
       ],
       "contexte": null,
@@ -65632,6 +66016,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860565+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.952,
           "nb_sources": 1,
@@ -65792,6 +66184,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860565+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -65948,6 +66348,14 @@
           "valeur": 3.6,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.391742+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860565+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -65955,7 +66363,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391769+00:00"
+          "releve_le": "2026-09-25T00:38:47.860602+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -65963,7 +66371,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391769+00:00"
+          "releve_le": "2026-09-25T00:38:47.860602+00:00"
         }
       ],
       "contexte": null,
@@ -66500,6 +66908,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873124+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.833,
           "nb_sources": 1,
@@ -66580,6 +66996,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.833,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873124+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -66656,6 +67080,14 @@
           "valeur": 3.2,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401268+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873124+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -66663,7 +67095,7 @@
           "selection": "over",
           "valeur": 2.4,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401298+00:00"
+          "releve_le": "2026-09-25T00:38:47.873171+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -66671,7 +67103,7 @@
           "selection": "under",
           "valeur": 1.48,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401298+00:00"
+          "releve_le": "2026-09-25T00:38:47.873171+00:00"
         }
       ],
       "contexte": null,
@@ -67288,6 +67720,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.435,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867404+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 7.0,
           "nb_sources": 1,
@@ -67444,6 +67884,14 @@
           "valeur": 6.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.396937+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 6.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867404+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -67607,11 +68055,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867404+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.396967+00:00"
+          "releve_le": "2026-09-25T00:38:47.867452+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -67619,7 +68075,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.396967+00:00"
+          "releve_le": "2026-09-25T00:38:47.867452+00:00"
         }
       ],
       "contexte": null,
@@ -68088,6 +68544,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.125,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870135+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 12.0,
           "nb_sources": 1,
@@ -68112,6 +68576,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 12.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870135+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 7.5,
           "nb_sources": 1,
@@ -68132,6 +68604,14 @@
           "valeur": 7.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.398972+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 7.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870135+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -68139,7 +68619,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399008+00:00"
+          "releve_le": "2026-09-25T00:38:47.870173+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -68147,7 +68627,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399008+00:00"
+          "releve_le": "2026-09-25T00:38:47.870173+00:00"
         }
       ],
       "contexte": null,
@@ -68712,6 +69192,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.69,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856967+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.3,
           "nb_sources": 1,
@@ -68832,6 +69320,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856967+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.1,
           "nb_sources": 1,
@@ -68948,6 +69444,14 @@
           "valeur": 4.1,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.388729+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.856967+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -68955,7 +69459,7 @@
           "selection": "over",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388764+00:00"
+          "releve_le": "2026-09-25T00:38:47.857005+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -68963,7 +69467,7 @@
           "selection": "under",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388764+00:00"
+          "releve_le": "2026-09-25T00:38:47.857005+00:00"
         }
       ],
       "contexte": null,
@@ -69580,6 +70084,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860700+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 26.0,
           "nb_sources": 1,
@@ -69740,6 +70252,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 23.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860700+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 15.0,
           "nb_sources": 1,
@@ -69896,6 +70416,14 @@
           "valeur": 14.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.391840+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 14.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860700+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -69903,7 +70431,7 @@
           "selection": "over",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391875+00:00"
+          "releve_le": "2026-09-25T00:38:47.860746+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -69911,7 +70439,7 @@
           "selection": "under",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391875+00:00"
+          "releve_le": "2026-09-25T00:38:47.860746+00:00"
         }
       ],
       "contexte": null,
@@ -70572,6 +71100,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.488,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865404+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.7,
           "nb_sources": 1,
@@ -70788,6 +71324,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865404+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.5,
           "nb_sources": 1,
@@ -71000,6 +71544,14 @@
           "valeur": 4.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.395472+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865404+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71007,7 +71559,7 @@
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395509+00:00"
+          "releve_le": "2026-09-25T00:38:47.865455+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71015,7 +71567,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395509+00:00"
+          "releve_le": "2026-09-25T00:38:47.865455+00:00"
         }
       ],
       "contexte": null,
@@ -71520,6 +72072,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 7.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873292+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.392,
           "nb_sources": 1,
@@ -71568,6 +72128,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.385,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873292+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.5,
           "nb_sources": 1,
@@ -71612,6 +72180,14 @@
           "valeur": 4.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401366+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873292+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71619,7 +72195,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401409+00:00"
+          "releve_le": "2026-09-25T00:38:47.873328+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -71627,7 +72203,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401409+00:00"
+          "releve_le": "2026-09-25T00:38:47.873328+00:00"
         }
       ],
       "contexte": null,
@@ -72232,6 +72808,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.667,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867550+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -72392,6 +72976,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867550+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.95,
           "nb_sources": 1,
@@ -72548,6 +73140,14 @@
           "valeur": 4.1,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.397051+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867550+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -72555,7 +73155,7 @@
           "selection": "over",
           "valeur": 1.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397100+00:00"
+          "releve_le": "2026-09-25T00:38:47.867601+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -72563,7 +73163,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397100+00:00"
+          "releve_le": "2026-09-25T00:38:47.867601+00:00"
         }
       ],
       "contexte": null,
@@ -73180,6 +73780,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.87,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867692+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.7,
           "nb_sources": 1,
@@ -73340,6 +73948,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867692+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -73496,6 +74112,14 @@
           "valeur": 3.75,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.397173+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867692+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -73503,7 +74127,7 @@
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397205+00:00"
+          "releve_le": "2026-09-25T00:38:47.867731+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -73511,7 +74135,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397205+00:00"
+          "releve_le": "2026-09-25T00:38:47.867731+00:00"
         }
       ],
       "contexte": null,
@@ -74128,6 +74752,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867818+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.35,
           "nb_sources": 1,
@@ -74288,6 +74920,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867818+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
@@ -74444,6 +75084,14 @@
           "valeur": 3.35,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.397277+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867818+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -74451,7 +75099,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397311+00:00"
+          "releve_le": "2026-09-25T00:38:47.867854+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -74459,7 +75107,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397311+00:00"
+          "releve_le": "2026-09-25T00:38:47.867854+00:00"
         }
       ],
       "contexte": null,
@@ -75076,6 +75724,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867954+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 16.0,
           "nb_sources": 1,
@@ -75236,6 +75892,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 16.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867954+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 10.0,
           "nb_sources": 1,
@@ -75392,6 +76056,14 @@
           "valeur": 10.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.397389+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 10.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.867954+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -75399,7 +76071,7 @@
           "selection": "over",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397421+00:00"
+          "releve_le": "2026-09-25T00:38:47.868004+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -75415,7 +76087,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397421+00:00"
+          "releve_le": "2026-09-25T00:38:47.868004+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -75892,6 +76564,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.435,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870284+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 5.5,
           "nb_sources": 1,
@@ -75916,6 +76596,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 5.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870284+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.4,
           "nb_sources": 1,
@@ -75936,6 +76624,14 @@
           "valeur": 4.4,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399089+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870284+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -75943,7 +76639,7 @@
           "selection": "over",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399125+00:00"
+          "releve_le": "2026-09-25T00:38:47.870331+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -75951,7 +76647,7 @@
           "selection": "under",
           "valeur": 1.54,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399125+00:00"
+          "releve_le": "2026-09-25T00:38:47.870331+00:00"
         }
       ],
       "contexte": null,
@@ -76556,6 +77252,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.286,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860838+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 9.0,
           "nb_sources": 1,
@@ -76716,6 +77420,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 8.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860838+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 6.5,
           "nb_sources": 1,
@@ -76872,6 +77584,14 @@
           "valeur": 6.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.391945+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 6.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860838+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -76879,7 +77599,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391976+00:00"
+          "releve_le": "2026-09-25T00:38:47.860880+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -76887,7 +77607,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.391976+00:00"
+          "releve_le": "2026-09-25T00:38:47.860880+00:00"
         }
       ],
       "contexte": null,
@@ -77412,6 +78132,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873431+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.9,
           "nb_sources": 1,
@@ -77492,6 +78220,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.95,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873431+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.25,
           "nb_sources": 1,
@@ -77568,6 +78304,14 @@
           "valeur": 3.3,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401502+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873431+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -77575,7 +78319,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401530+00:00"
+          "releve_le": "2026-09-25T00:38:47.873464+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -77583,7 +78327,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401530+00:00"
+          "releve_le": "2026-09-25T00:38:47.873464+00:00"
         }
       ],
       "contexte": null,
@@ -78064,6 +78808,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.45,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870422+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.55,
           "nb_sources": 1,
@@ -78088,6 +78840,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.55,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870422+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
@@ -78108,6 +78868,14 @@
           "valeur": 3.35,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399196+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870422+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -78115,7 +78883,7 @@
           "selection": "over",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399222+00:00"
+          "releve_le": "2026-09-25T00:38:47.870455+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -78123,7 +78891,7 @@
           "selection": "under",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399222+00:00"
+          "releve_le": "2026-09-25T00:38:47.870455+00:00"
         }
       ],
       "contexte": null,
@@ -78752,6 +79520,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.85,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860976+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.5,
           "nb_sources": 1,
@@ -78912,6 +79688,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860976+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.15,
           "nb_sources": 1,
@@ -79068,6 +79852,14 @@
           "valeur": 3.15,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.392046+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.860976+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -79075,7 +79867,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392096+00:00"
+          "releve_le": "2026-09-25T00:38:47.861019+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -79083,7 +79875,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392096+00:00"
+          "releve_le": "2026-09-25T00:38:47.861019+00:00"
         }
       ],
       "contexte": null,
@@ -79660,6 +80452,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857099+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.6,
           "nb_sources": 1,
@@ -79780,6 +80580,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857099+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.35,
           "nb_sources": 1,
@@ -79896,6 +80704,14 @@
           "valeur": 3.35,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.388843+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857099+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -79903,7 +80719,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388872+00:00"
+          "releve_le": "2026-09-25T00:38:47.857136+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -79911,7 +80727,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388872+00:00"
+          "releve_le": "2026-09-25T00:38:47.857136+00:00"
         }
       ],
       "contexte": null,
@@ -80500,6 +81316,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857225+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.05,
           "nb_sources": 1,
@@ -80620,6 +81444,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857225+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
@@ -80736,6 +81568,14 @@
           "valeur": 3.3,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.388943+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857225+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -80743,7 +81583,7 @@
           "selection": "over",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388979+00:00"
+          "releve_le": "2026-09-25T00:38:47.857297+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -80751,7 +81591,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.388979+00:00"
+          "releve_le": "2026-09-25T00:38:47.857297+00:00"
         }
       ],
       "contexte": null,
@@ -81368,6 +82208,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868098+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.0,
           "nb_sources": 1,
@@ -81528,6 +82376,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868098+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -81684,6 +82540,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.397493+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868098+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -81691,7 +82555,7 @@
           "selection": "over",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397539+00:00"
+          "releve_le": "2026-09-25T00:38:47.868140+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -81699,7 +82563,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397539+00:00"
+          "releve_le": "2026-09-25T00:38:47.868140+00:00"
         }
       ],
       "contexte": null,
@@ -82180,6 +83044,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.667,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870542+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.5,
           "nb_sources": 1,
@@ -82204,6 +83076,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870542+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -82224,6 +83104,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399290+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870542+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -82231,7 +83119,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399316+00:00"
+          "releve_le": "2026-09-25T00:38:47.870574+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -82239,7 +83127,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399316+00:00"
+          "releve_le": "2026-09-25T00:38:47.870574+00:00"
         }
       ],
       "contexte": null,
@@ -82720,6 +83608,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.95,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870670+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.87,
           "nb_sources": 1,
@@ -82744,6 +83640,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.87,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870670+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -82764,6 +83668,14 @@
           "valeur": 3.2,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399382+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870670+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -82771,7 +83683,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399409+00:00"
+          "releve_le": "2026-09-25T00:38:47.870703+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -82779,7 +83691,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399409+00:00"
+          "releve_le": "2026-09-25T00:38:47.870703+00:00"
         }
       ],
       "contexte": null,
@@ -83420,6 +84332,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865561+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -83604,6 +84524,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865561+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.75,
           "nb_sources": 1,
@@ -83784,6 +84712,14 @@
           "valeur": 3.75,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.395593+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865561+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -83791,7 +84727,7 @@
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395634+00:00"
+          "releve_le": "2026-09-25T00:38:47.865625+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -83799,7 +84735,7 @@
           "selection": "under",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395634+00:00"
+          "releve_le": "2026-09-25T00:38:47.865625+00:00"
         }
       ],
       "contexte": null,
@@ -84416,6 +85352,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.714,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861120+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.85,
           "nb_sources": 1,
@@ -84576,6 +85520,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861120+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -84732,6 +85684,14 @@
           "valeur": 3.8,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.392172+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861120+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -84739,7 +85699,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392207+00:00"
+          "releve_le": "2026-09-25T00:38:47.861163+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -84747,7 +85707,7 @@
           "selection": "under",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392207+00:00"
+          "releve_le": "2026-09-25T00:38:47.861163+00:00"
         }
       ],
       "contexte": null,
@@ -85284,6 +86244,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873557+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.95,
           "nb_sources": 1,
@@ -85364,6 +86332,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873557+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -85440,6 +86416,14 @@
           "valeur": 3.2,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401601+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873557+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -85447,7 +86431,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401632+00:00"
+          "releve_le": "2026-09-25T00:38:47.873609+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -85455,7 +86439,7 @@
           "selection": "under",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401632+00:00"
+          "releve_le": "2026-09-25T00:38:47.873609+00:00"
         }
       ],
       "contexte": null,
@@ -86072,6 +87056,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.408,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868283+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 6.5,
           "nb_sources": 1,
@@ -86232,6 +87224,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 6.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868283+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 5.0,
           "nb_sources": 1,
@@ -86388,6 +87388,14 @@
           "valeur": 5.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.397622+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868283+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -86395,7 +87403,7 @@
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397651+00:00"
+          "releve_le": "2026-09-25T00:38:47.868325+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -86403,7 +87411,7 @@
           "selection": "under",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397651+00:00"
+          "releve_le": "2026-09-25T00:38:47.868325+00:00"
         }
       ],
       "contexte": null,
@@ -86968,6 +87976,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857393+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.35,
           "nb_sources": 1,
@@ -87088,6 +88104,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857393+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.6,
           "nb_sources": 1,
@@ -87204,6 +88228,14 @@
           "valeur": 3.6,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.389052+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857393+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -87211,7 +88243,7 @@
           "selection": "over",
           "valeur": 1.54,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.389096+00:00"
+          "releve_le": "2026-09-25T00:38:47.857429+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -87219,7 +88251,7 @@
           "selection": "under",
           "valeur": 2.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.389096+00:00"
+          "releve_le": "2026-09-25T00:38:47.857429+00:00"
         }
       ],
       "contexte": null,
@@ -87872,6 +88904,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.588,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865724+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.7,
           "nb_sources": 1,
@@ -88052,6 +89092,14 @@
           "valeur": 4.8,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.395711+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865724+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -88239,11 +89287,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.865724+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.58,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395751+00:00"
+          "releve_le": "2026-09-25T00:38:47.865765+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -88259,7 +89315,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.395751+00:00"
+          "releve_le": "2026-09-25T00:38:47.865765+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -88748,6 +89804,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870788+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.8,
           "nb_sources": 1,
@@ -88772,6 +89836,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870788+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -88792,6 +89864,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399474+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870788+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -88799,7 +89879,7 @@
           "selection": "over",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399500+00:00"
+          "releve_le": "2026-09-25T00:38:47.870821+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -88807,7 +89887,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399500+00:00"
+          "releve_le": "2026-09-25T00:38:47.870821+00:00"
         }
       ],
       "contexte": null,
@@ -89424,6 +90504,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.645,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861277+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 5.5,
           "nb_sources": 1,
@@ -89584,6 +90672,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861277+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -89740,6 +90836,14 @@
           "valeur": 4.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.392283+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861277+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -89747,7 +90851,7 @@
           "selection": "over",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392312+00:00"
+          "releve_le": "2026-09-25T00:38:47.861315+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -89755,7 +90859,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392312+00:00"
+          "releve_le": "2026-09-25T00:38:47.861315+00:00"
         }
       ],
       "contexte": null,
@@ -90260,6 +91364,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.235,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873711+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 10.5,
           "nb_sources": 1,
@@ -90304,6 +91416,14 @@
           "valeur": 9.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401707+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 9.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873711+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -90355,11 +91475,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 6.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873711+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU3.5",
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401743+00:00"
+          "releve_le": "2026-09-25T00:38:47.873746+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -90367,7 +91495,7 @@
           "selection": "under",
           "valeur": 1.58,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401743+00:00"
+          "releve_le": "2026-09-25T00:38:47.873746+00:00"
         }
       ],
       "contexte": null,
@@ -90972,6 +92100,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868418+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.909,
           "nb_sources": 1,
@@ -91132,6 +92268,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.87,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868418+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.75,
           "nb_sources": 1,
@@ -91288,6 +92432,14 @@
           "valeur": 3.8,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.397717+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.868418+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -91295,7 +92447,7 @@
           "selection": "over",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397751+00:00"
+          "releve_le": "2026-09-25T00:38:47.868467+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -91303,7 +92455,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.397751+00:00"
+          "releve_le": "2026-09-25T00:38:47.868467+00:00"
         }
       ],
       "contexte": null,
@@ -91784,6 +92936,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 5.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870902+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.5,
           "nb_sources": 1,
@@ -91808,6 +92968,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870902+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.8,
           "nb_sources": 1,
@@ -91828,6 +92996,14 @@
           "valeur": 3.8,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399563+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.870902+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -91835,7 +93011,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399590+00:00"
+          "releve_le": "2026-09-25T00:38:47.870939+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -91843,7 +93019,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399590+00:00"
+          "releve_le": "2026-09-25T00:38:47.870939+00:00"
         }
       ],
       "contexte": null,
@@ -92448,6 +93624,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861418+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.55,
           "nb_sources": 1,
@@ -92608,6 +93792,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861418+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -92764,6 +93956,14 @@
           "valeur": 3.55,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.392393+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.55,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861418+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -92771,7 +93971,7 @@
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392427+00:00"
+          "releve_le": "2026-09-25T00:38:47.861455+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -92779,7 +93979,7 @@
           "selection": "under",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392427+00:00"
+          "releve_le": "2026-09-25T00:38:47.861455+00:00"
         }
       ],
       "contexte": null,
@@ -93316,6 +94516,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873833+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -93396,6 +94604,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873833+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.4,
           "nb_sources": 1,
@@ -93472,6 +94688,14 @@
           "valeur": 3.4,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401813+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873833+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -93479,7 +94703,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401842+00:00"
+          "releve_le": "2026-09-25T00:38:47.873866+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -93487,7 +94711,7 @@
           "selection": "under",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401842+00:00"
+          "releve_le": "2026-09-25T00:38:47.873866+00:00"
         }
       ],
       "contexte": null,
@@ -93968,6 +95192,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.556,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.871020+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 5.0,
           "nb_sources": 1,
@@ -93992,6 +95224,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 5.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.871020+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.75,
           "nb_sources": 1,
@@ -94012,6 +95252,14 @@
           "valeur": 3.75,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399656+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.871020+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -94019,7 +95267,7 @@
           "selection": "over",
           "valeur": 1.55,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399683+00:00"
+          "releve_le": "2026-09-25T00:38:47.871053+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -94027,7 +95275,7 @@
           "selection": "under",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399683+00:00"
+          "releve_le": "2026-09-25T00:38:47.871053+00:00"
         }
       ],
       "contexte": null,
@@ -94508,6 +95756,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.871134+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.9,
           "nb_sources": 1,
@@ -94532,6 +95788,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.871134+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.15,
           "nb_sources": 1,
@@ -94552,6 +95816,14 @@
           "valeur": 3.15,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.399746+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.871134+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -94559,7 +95831,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399772+00:00"
+          "releve_le": "2026-09-25T00:38:47.871167+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -94567,7 +95839,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.399772+00:00"
+          "releve_le": "2026-09-25T00:38:47.871167+00:00"
         }
       ],
       "contexte": null,
@@ -95144,6 +96416,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857530+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.1,
           "nb_sources": 1,
@@ -95264,6 +96544,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857530+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -95380,6 +96668,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.389175+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.857530+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -95387,7 +96683,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.389206+00:00"
+          "releve_le": "2026-09-25T00:38:47.857575+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -95395,7 +96691,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.389206+00:00"
+          "releve_le": "2026-09-25T00:38:47.857575+00:00"
         }
       ],
       "contexte": null,
@@ -95988,6 +97284,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861545+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.7,
           "nb_sources": 1,
@@ -96124,6 +97428,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861545+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.2,
           "nb_sources": 1,
@@ -96256,6 +97568,14 @@
           "valeur": 3.25,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.392500+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.861545+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -96263,7 +97583,7 @@
           "selection": "over",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392531+00:00"
+          "releve_le": "2026-09-25T00:38:47.861589+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -96271,7 +97591,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.392531+00:00"
+          "releve_le": "2026-09-25T00:38:47.861589+00:00"
         }
       ],
       "contexte": null,
@@ -96788,6 +98108,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.833,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873953+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -96832,6 +98160,14 @@
           "valeur": 4.4,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.401907+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873953+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -96883,11 +98219,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.873953+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401947+00:00"
+          "releve_le": "2026-09-25T00:38:47.873985+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -96895,7 +98239,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.401947+00:00"
+          "releve_le": "2026-09-25T00:38:47.873985+00:00"
         }
       ],
       "contexte": null,
@@ -97456,6 +98800,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.848737+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.7,
           "nb_sources": 1,
@@ -97560,6 +98912,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.848737+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.7,
           "nb_sources": 1,
@@ -97660,6 +99020,14 @@
           "valeur": 3.7,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.382231+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.848737+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -97667,7 +99035,7 @@
           "selection": "over",
           "valeur": 1.54,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382352+00:00"
+          "releve_le": "2026-09-25T00:38:47.848874+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -97675,7 +99043,7 @@
           "selection": "under",
           "valeur": 2.35,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382352+00:00"
+          "releve_le": "2026-09-25T00:38:47.848874+00:00"
         }
       ],
       "contexte": null,
@@ -98248,6 +99616,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.45,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849001+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.952,
           "nb_sources": 1,
@@ -98352,6 +99728,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.952,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849001+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -98452,6 +99836,14 @@
           "valeur": 3.65,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.382462+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849001+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -98459,7 +99851,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382517+00:00"
+          "releve_le": "2026-09-25T00:38:47.849048+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -98467,7 +99859,7 @@
           "selection": "under",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382517+00:00"
+          "releve_le": "2026-09-25T00:38:47.849048+00:00"
         }
       ],
       "contexte": null,
@@ -99028,6 +100420,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.278,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849153+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 9.5,
           "nb_sources": 1,
@@ -99132,6 +100532,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 9.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849153+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 5.5,
           "nb_sources": 1,
@@ -99232,6 +100640,14 @@
           "valeur": 5.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.382599+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849153+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -99239,7 +100655,7 @@
           "selection": "over",
           "valeur": 1.58,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382639+00:00"
+          "releve_le": "2026-09-25T00:38:47.849197+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -99247,7 +100663,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382639+00:00"
+          "releve_le": "2026-09-25T00:38:47.849197+00:00"
         }
       ],
       "contexte": null,
@@ -99796,6 +101212,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849340+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.75,
           "nb_sources": 1,
@@ -99900,6 +101324,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.85,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849340+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.7,
           "nb_sources": 1,
@@ -100000,6 +101432,14 @@
           "valeur": 3.75,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.382735+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849340+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -100007,7 +101447,7 @@
           "selection": "over",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382775+00:00"
+          "releve_le": "2026-09-25T00:38:47.849386+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -100015,7 +101455,7 @@
           "selection": "under",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382775+00:00"
+          "releve_le": "2026-09-25T00:38:47.849386+00:00"
         }
       ],
       "contexte": null,
@@ -100588,6 +102028,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 7.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849486+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.312,
           "nb_sources": 1,
@@ -100692,6 +102140,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.312,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849486+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 6.0,
           "nb_sources": 1,
@@ -100792,6 +102248,14 @@
           "valeur": 6.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.382854+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 6.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849486+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -100799,7 +102263,7 @@
           "selection": "over",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382886+00:00"
+          "releve_le": "2026-09-25T00:38:47.849526+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -100807,7 +102271,7 @@
           "selection": "under",
           "valeur": 1.6,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382886+00:00"
+          "releve_le": "2026-09-25T00:38:47.849526+00:00"
         }
       ],
       "contexte": null,
@@ -101356,6 +102820,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.278,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849619+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 9.0,
           "nb_sources": 1,
@@ -101460,6 +102932,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 9.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849619+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 5.75,
           "nb_sources": 1,
@@ -101560,6 +103040,14 @@
           "valeur": 5.75,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.382959+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.75,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849619+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -101567,7 +103055,7 @@
           "selection": "over",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382988+00:00"
+          "releve_le": "2026-09-25T00:38:47.849660+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -101575,7 +103063,7 @@
           "selection": "under",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.382988+00:00"
+          "releve_le": "2026-09-25T00:38:47.849660+00:00"
         }
       ],
       "contexte": null,
@@ -102124,6 +103612,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849752+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.1,
           "nb_sources": 1,
@@ -102228,6 +103724,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.1,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849752+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
@@ -102328,6 +103832,14 @@
           "valeur": 4.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383061+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849752+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -102335,7 +103847,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383104+00:00"
+          "releve_le": "2026-09-25T00:38:47.849792+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -102343,7 +103855,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383104+00:00"
+          "releve_le": "2026-09-25T00:38:47.849792+00:00"
         }
       ],
       "contexte": null,
@@ -102916,6 +104428,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 17.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849891+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.083,
           "nb_sources": 1,
@@ -103020,6 +104540,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.083,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849891+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 12.0,
           "nb_sources": 1,
@@ -103120,6 +104648,14 @@
           "valeur": 12.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383186+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 12.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.849891+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -103127,7 +104663,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383216+00:00"
+          "releve_le": "2026-09-25T00:38:47.849934+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -103135,7 +104671,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383216+00:00"
+          "releve_le": "2026-09-25T00:38:47.849934+00:00"
         }
       ],
       "contexte": null,
@@ -103684,6 +105220,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850021+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.95,
           "nb_sources": 1,
@@ -103788,6 +105332,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.95,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850021+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.45,
           "nb_sources": 1,
@@ -103888,6 +105440,14 @@
           "valeur": 3.45,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383283+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.45,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850021+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -103895,7 +105455,7 @@
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383310+00:00"
+          "releve_le": "2026-09-25T00:38:47.850058+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -103903,7 +105463,7 @@
           "selection": "under",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383310+00:00"
+          "releve_le": "2026-09-25T00:38:47.850058+00:00"
         }
       ],
       "contexte": null,
@@ -104432,6 +105992,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.35,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850145+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.909,
           "nb_sources": 1,
@@ -104504,6 +106072,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850145+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
@@ -104572,6 +106148,14 @@
           "valeur": 4.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383381+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850145+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -104579,7 +106163,7 @@
           "selection": "over",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383427+00:00"
+          "releve_le": "2026-09-25T00:38:47.850187+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -104587,7 +106171,7 @@
           "selection": "under",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383427+00:00"
+          "releve_le": "2026-09-25T00:38:47.850187+00:00"
         }
       ],
       "contexte": null,
@@ -105116,6 +106700,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 9.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850307+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.235,
           "nb_sources": 1,
@@ -105188,6 +106780,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.235,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850307+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 6.5,
           "nb_sources": 1,
@@ -105256,6 +106856,14 @@
           "valeur": 6.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383500+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 6.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850307+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -105263,7 +106871,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383527+00:00"
+          "releve_le": "2026-09-25T00:38:47.850352+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -105271,7 +106879,7 @@
           "selection": "under",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383527+00:00"
+          "releve_le": "2026-09-25T00:38:47.850352+00:00"
         }
       ],
       "contexte": null,
@@ -105788,6 +107396,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850442+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.0,
           "nb_sources": 1,
@@ -105860,6 +107476,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850442+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.85,
           "nb_sources": 1,
@@ -105928,6 +107552,14 @@
           "valeur": 3.85,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383598+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.85,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850442+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -105935,7 +107567,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383635+00:00"
+          "releve_le": "2026-09-25T00:38:47.850474+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -105943,7 +107575,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383635+00:00"
+          "releve_le": "2026-09-25T00:38:47.850474+00:00"
         }
       ],
       "contexte": null,
@@ -106484,6 +108116,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.714,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850563+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 4.4,
           "nb_sources": 1,
@@ -106556,6 +108196,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 4.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850563+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.9,
           "nb_sources": 1,
@@ -106624,6 +108272,14 @@
           "valeur": 3.9,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383709+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850563+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -106631,7 +108287,7 @@
           "selection": "over",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383734+00:00"
+          "releve_le": "2026-09-25T00:38:47.850603+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -106639,7 +108295,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383734+00:00"
+          "releve_le": "2026-09-25T00:38:47.850603+00:00"
         }
       ],
       "contexte": null,
@@ -107168,6 +108824,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850700+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.0,
           "nb_sources": 1,
@@ -107240,6 +108904,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850700+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.0,
           "nb_sources": 1,
@@ -107308,6 +108980,14 @@
           "valeur": 4.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383802+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850700+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -107315,7 +108995,7 @@
           "selection": "over",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383827+00:00"
+          "releve_le": "2026-09-25T00:38:47.850739+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -107323,7 +109003,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383827+00:00"
+          "releve_le": "2026-09-25T00:38:47.850739+00:00"
         }
       ],
       "contexte": null,
@@ -107864,6 +109544,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850831+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.9,
           "nb_sources": 1,
@@ -107936,6 +109624,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850831+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.9,
           "nb_sources": 1,
@@ -108004,6 +109700,14 @@
           "valeur": 3.9,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383898+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850831+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -108011,7 +109715,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383924+00:00"
+          "releve_le": "2026-09-25T00:38:47.850870+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -108019,7 +109723,7 @@
           "selection": "under",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.383924+00:00"
+          "releve_le": "2026-09-25T00:38:47.850870+00:00"
         }
       ],
       "contexte": null,
@@ -108560,6 +110264,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850957+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.45,
           "nb_sources": 1,
@@ -108632,6 +110344,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.45,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850957+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -108700,6 +110420,14 @@
           "valeur": 3.65,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.383990+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.850957+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -108707,7 +110435,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.384017+00:00"
+          "releve_le": "2026-09-25T00:38:47.850998+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -108715,7 +110443,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.384017+00:00"
+          "releve_le": "2026-09-25T00:38:47.850998+00:00"
         }
       ],
       "contexte": null,
@@ -109244,6 +110972,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.55,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.851086+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.55,
           "nb_sources": 1,
@@ -109316,6 +111052,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.55,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.851086+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -109384,6 +111128,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.384102+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.851086+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -109391,7 +111143,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.384132+00:00"
+          "releve_le": "2026-09-25T00:38:47.851126+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -109399,7 +111151,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.384132+00:00"
+          "releve_le": "2026-09-25T00:38:47.851126+00:00"
         }
       ],
       "contexte": null,
@@ -109940,6 +111692,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 7.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.851217+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.333,
           "nb_sources": 1,
@@ -110012,6 +111772,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.333,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.851217+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 5.5,
           "nb_sources": 1,
@@ -110080,6 +111848,14 @@
           "valeur": 5.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.384202+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.851217+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -110087,7 +111863,7 @@
           "selection": "over",
           "valeur": 1.95,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.384231+00:00"
+          "releve_le": "2026-09-25T00:38:47.851278+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -110095,7 +111871,7 @@
           "selection": "under",
           "valeur": 1.76,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.384231+00:00"
+          "releve_le": "2026-09-25T00:38:47.851278+00:00"
         }
       ],
       "contexte": null,
@@ -110572,6 +112348,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.312,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852702+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 8.0,
           "nb_sources": 1,
@@ -110600,6 +112384,14 @@
           "valeur": 8.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385295+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 8.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852702+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -110635,11 +112427,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852702+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU3.5",
           "selection": "over",
           "valeur": 2.3,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385330+00:00"
+          "releve_le": "2026-09-25T00:38:47.852741+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -110647,7 +112447,7 @@
           "selection": "under",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385330+00:00"
+          "releve_le": "2026-09-25T00:38:47.852741+00:00"
         }
       ],
       "contexte": null,
@@ -111124,6 +112924,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 4.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852838+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.625,
           "nb_sources": 1,
@@ -111156,6 +112964,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.625,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852838+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.2,
           "nb_sources": 1,
@@ -111184,6 +113000,14 @@
           "valeur": 4.2,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385409+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852838+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -111191,7 +113015,7 @@
           "selection": "over",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385442+00:00"
+          "releve_le": "2026-09-25T00:38:47.852879+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -111199,7 +113023,7 @@
           "selection": "under",
           "valeur": 1.58,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385442+00:00"
+          "releve_le": "2026-09-25T00:38:47.852879+00:00"
         }
       ],
       "contexte": null,
@@ -111688,6 +113512,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.15,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852965+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.05,
           "nb_sources": 1,
@@ -111720,6 +113552,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852965+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.65,
           "nb_sources": 1,
@@ -111748,6 +113588,14 @@
           "valeur": 3.65,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385508+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.65,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.852965+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -111755,7 +113603,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385534+00:00"
+          "releve_le": "2026-09-25T00:38:47.852997+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -111763,7 +113611,7 @@
           "selection": "under",
           "valeur": 2.2,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385534+00:00"
+          "releve_le": "2026-09-25T00:38:47.852997+00:00"
         }
       ],
       "contexte": null,
@@ -112252,6 +114100,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853087+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.85,
           "nb_sources": 1,
@@ -112284,6 +114140,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.85,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853087+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.3,
           "nb_sources": 1,
@@ -112312,6 +114176,14 @@
           "valeur": 3.3,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385604+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853087+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -112319,7 +114191,7 @@
           "selection": "over",
           "valeur": 1.83,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385633+00:00"
+          "releve_le": "2026-09-25T00:38:47.853126+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -112327,7 +114199,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385633+00:00"
+          "releve_le": "2026-09-25T00:38:47.853126+00:00"
         }
       ],
       "contexte": null,
@@ -112816,6 +114688,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.95,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853218+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.8,
           "nb_sources": 1,
@@ -112848,6 +114728,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853218+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.8,
           "nb_sources": 1,
@@ -112876,6 +114764,14 @@
           "valeur": 3.8,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385700+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853218+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -112883,7 +114779,7 @@
           "selection": "over",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385724+00:00"
+          "releve_le": "2026-09-25T00:38:47.853272+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -112891,7 +114787,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385724+00:00"
+          "releve_le": "2026-09-25T00:38:47.853272+00:00"
         }
       ],
       "contexte": null,
@@ -113380,6 +115276,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.357,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853366+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 7.5,
           "nb_sources": 1,
@@ -113412,6 +115316,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 7.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853366+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 5.0,
           "nb_sources": 1,
@@ -113440,6 +115352,14 @@
           "valeur": 5.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385793+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 5.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853366+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -113447,7 +115367,7 @@
           "selection": "over",
           "valeur": 1.57,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385818+00:00"
+          "releve_le": "2026-09-25T00:38:47.853398+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -113455,7 +115375,7 @@
           "selection": "under",
           "valeur": 2.25,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385818+00:00"
+          "releve_le": "2026-09-25T00:38:47.853398+00:00"
         }
       ],
       "contexte": null,
@@ -113932,6 +115852,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 5.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853480+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 1.513,
           "nb_sources": 1,
@@ -113960,6 +115888,14 @@
           "valeur": 1.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385881+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 1.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853480+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -113995,11 +115931,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853480+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU3.5",
           "selection": "over",
           "valeur": 2.05,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385905+00:00"
+          "releve_le": "2026-09-25T00:38:47.853513+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -114007,7 +115951,7 @@
           "selection": "under",
           "valeur": 1.71,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385905+00:00"
+          "releve_le": "2026-09-25T00:38:47.853513+00:00"
         }
       ],
       "contexte": null,
@@ -114496,6 +116440,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.3,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853602+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.9,
           "nb_sources": 1,
@@ -114524,6 +116476,14 @@
           "valeur": 2.9,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.385974+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.9,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853602+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -114559,11 +116519,19 @@
         },
         {
           "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853602+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
           "marche": "OU25",
           "selection": "over",
           "valeur": 1.74,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385998+00:00"
+          "releve_le": "2026-09-25T00:38:47.853633+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -114571,7 +116539,7 @@
           "selection": "under",
           "valeur": 2.0,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.385998+00:00"
+          "releve_le": "2026-09-25T00:38:47.853633+00:00"
         }
       ],
       "contexte": null,
@@ -115060,6 +117028,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.2,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853723+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 11.0,
           "nb_sources": 1,
@@ -115092,6 +117068,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 11.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853723+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 6.5,
           "nb_sources": 1,
@@ -115120,6 +117104,14 @@
           "valeur": 6.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.386087+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 6.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853723+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -115127,7 +117119,7 @@
           "selection": "over",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386124+00:00"
+          "releve_le": "2026-09-25T00:38:47.853762+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -115135,7 +117127,7 @@
           "selection": "under",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386124+00:00"
+          "releve_le": "2026-09-25T00:38:47.853762+00:00"
         }
       ],
       "contexte": null,
@@ -115612,6 +117604,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.222,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853855+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 11.0,
           "nb_sources": 1,
@@ -115644,6 +117644,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 11.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853855+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 6.0,
           "nb_sources": 1,
@@ -115672,6 +117680,14 @@
           "valeur": 6.0,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.386194+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 6.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853855+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -115679,7 +117695,7 @@
           "selection": "over",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386227+00:00"
+          "releve_le": "2026-09-25T00:38:47.853897+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -115687,7 +117703,7 @@
           "selection": "under",
           "valeur": 1.66,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386227+00:00"
+          "releve_le": "2026-09-25T00:38:47.853897+00:00"
         }
       ],
       "contexte": null,
@@ -116164,6 +118180,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853988+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 2.05,
           "nb_sources": 1,
@@ -116196,6 +118220,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 2.05,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853988+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.4,
           "nb_sources": 1,
@@ -116224,6 +118256,14 @@
           "valeur": 3.4,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.386297+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.4,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.853988+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -116231,7 +118271,7 @@
           "selection": "over",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386323+00:00"
+          "releve_le": "2026-09-25T00:38:47.854020+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -116239,7 +118279,7 @@
           "selection": "under",
           "valeur": 1.86,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386323+00:00"
+          "releve_le": "2026-09-25T00:38:47.854020+00:00"
         }
       ],
       "contexte": null,
@@ -116728,6 +118768,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854105+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.8,
           "nb_sources": 1,
@@ -116760,6 +118808,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854105+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.5,
           "nb_sources": 1,
@@ -116788,6 +118844,14 @@
           "valeur": 3.5,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.386387+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.5,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854105+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -116795,7 +118859,7 @@
           "selection": "over",
           "valeur": 1.8,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386417+00:00"
+          "releve_le": "2026-09-25T00:38:47.854138+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -116803,7 +118867,7 @@
           "selection": "under",
           "valeur": 1.9,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386417+00:00"
+          "releve_le": "2026-09-25T00:38:47.854138+00:00"
         }
       ],
       "contexte": null,
@@ -117292,6 +119356,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.909,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854223+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.6,
           "nb_sources": 1,
@@ -117324,6 +119396,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.6,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854223+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.8,
           "nb_sources": 1,
@@ -117352,6 +119432,14 @@
           "valeur": 3.8,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.386483+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.8,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854223+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -117359,7 +119447,7 @@
           "selection": "over",
           "valeur": 1.68,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386508+00:00"
+          "releve_le": "2026-09-25T00:38:47.854277+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -117367,7 +119455,7 @@
           "selection": "under",
           "valeur": 2.1,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386508+00:00"
+          "releve_le": "2026-09-25T00:38:47.854277+00:00"
         }
       ],
       "contexte": null,
@@ -117856,6 +119944,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 1.408,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854371+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 7.0,
           "nb_sources": 1,
@@ -117888,6 +119984,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 7.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854371+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 4.7,
           "nb_sources": 1,
@@ -117916,6 +120020,14 @@
           "valeur": 4.7,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.386575+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 4.7,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854371+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -117923,7 +120035,7 @@
           "selection": "over",
           "valeur": 1.62,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386600+00:00"
+          "releve_le": "2026-09-25T00:38:47.854404+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -117931,7 +120043,7 @@
           "selection": "under",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386600+00:00"
+          "releve_le": "2026-09-25T00:38:47.854404+00:00"
         }
       ],
       "contexte": null,
@@ -118462,6 +120574,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "1",
+          "valeur": 2.0,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854669+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "2",
           "valeur": 3.25,
           "nb_sources": 1,
@@ -118494,6 +120614,14 @@
         {
           "bookmaker": "draftkings",
           "marche": "1X2",
+          "selection": "2",
+          "valeur": 3.25,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854669+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
           "selection": "N",
           "valeur": 3.85,
           "nb_sources": 1,
@@ -118522,6 +120650,14 @@
           "valeur": 3.85,
           "nb_sources": 1,
           "releve_le": "2026-09-24T21:37:05.386805+00:00"
+        },
+        {
+          "bookmaker": "draftkings",
+          "marche": "1X2",
+          "selection": "N",
+          "valeur": 3.85,
+          "nb_sources": 1,
+          "releve_le": "2026-09-25T00:38:47.854669+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -118529,7 +120665,7 @@
           "selection": "over",
           "valeur": 2.15,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386830+00:00"
+          "releve_le": "2026-09-25T00:38:47.854701+00:00"
         },
         {
           "bookmaker": "draftkings",
@@ -118537,7 +120673,7 @@
           "selection": "under",
           "valeur": 1.64,
           "nb_sources": 1,
-          "releve_le": "2026-09-24T21:37:05.386830+00:00"
+          "releve_le": "2026-09-25T00:38:47.854701+00:00"
         }
       ],
       "contexte": null,
