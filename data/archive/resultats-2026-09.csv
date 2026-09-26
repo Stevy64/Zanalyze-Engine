@@ -287,3 +287,8 @@ L1:2026-09-20:marseille:paris-saint-germain,2026-09-20T18:45:00+00:00,L1,marseil
 SA:2026-09-20:milan:lecce,2026-09-20T18:45:00+00:00,SA,milan,lecce,3,0,1,0
 LIGA:2026-09-20:valencia:real-sociedad,2026-09-20T19:00:00+00:00,LIGA,valencia,real-sociedad,2,3,0,1
 LP:2026-09-20:porto:benfica,2026-09-20T19:30:00+00:00,LP,porto,benfica,3,1,1,0
+CDR:2026-09-26:anaitasuna:tedeon,2026-09-26T16:00:00+00:00,CDR,anaitasuna,tedeon,5,0,,
+CDR:2026-09-26:atletico-calatayud:baztan,2026-09-26T16:00:00+00:00,CDR,atletico-calatayud,baztan,2,0,,
+CDR:2026-09-26:ub-lebrijana:ceuta-de-junio,2026-09-26T16:00:00+00:00,CDR,ub-lebrijana,ceuta-de-junio,5,0,,
+CDR:2026-09-26:ribadesella:noja,2026-09-26T17:00:00+00:00,CDR,ribadesella,noja,1,0,,
+CDR:2026-09-26:atletico-pinatarense:atletico-melilla,2026-09-26T18:00:00+00:00,CDR,atletico-pinatarense,atletico-melilla,8,0,,
