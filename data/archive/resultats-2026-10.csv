@@ -30,3 +30,12 @@ SA:2026-10-10:inter:parma,2026-10-10T16:00:00+00:00,SA,inter,parma,3,0,3,0
 BL:2026-10-10:rb-leipzig:eintracht-frankfurt,2026-10-10T16:30:00+00:00,BL,rb-leipzig,eintracht-frankfurt,6,0,4,0
 LIGA:2026-10-10:barcelona:getafe,2026-10-10T16:30:00+00:00,LIGA,barcelona,getafe,3,0,2,0
 PL:2026-10-10:manchester-united:tottenham,2026-10-10T16:30:00+00:00,PL,manchester-united,tottenham,1,1,0,0
+LP:2026-10-10:maritimo:porto,2026-10-10T17:00:00+00:00,LP,maritimo,porto,1,2,1,1
+L1:2026-10-10:brest:angers,2026-10-10T18:45:00+00:00,L1,brest,angers,5,1,4,0
+L1:2026-10-10:lorient:paris,2026-10-10T18:45:00+00:00,L1,lorient,paris,1,0,0,0
+L1:2026-10-10:monaco:toulouse,2026-10-10T18:45:00+00:00,L1,monaco,toulouse,2,2,2,0
+L1:2026-10-10:paris-saint-germain:le-mans,2026-10-10T18:45:00+00:00,L1,paris-saint-germain,le-mans,3,1,1,0
+SA:2026-10-10:naples:frosinone,2026-10-10T18:45:00+00:00,SA,naples,frosinone,3,0,2,0
+LIGA:2026-10-10:real-madrid:villarreal,2026-10-10T19:00:00+00:00,LIGA,real-madrid,villarreal,1,0,0,0
+LP:2026-10-10:academico-de-viseu:estoril,2026-10-10T19:30:00+00:00,LP,academico-de-viseu,estoril,2,1,1,0
+LP:2026-10-10:casa-pia:santa-clara,2026-10-10T19:30:00+00:00,LP,casa-pia,santa-clara,0,1,0,0
