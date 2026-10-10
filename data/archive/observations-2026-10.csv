@@ -169,3 +169,31 @@ LP:2026-10-09:braga:sporting-cp,2026-10-09T19:15:00+00:00,LP,UN_1.5,+1.5,1,0.416
 LP:2026-10-09:braga:sporting-cp,2026-10-09T19:15:00+00:00,LP,UN_2.5,+2.5,1,0.677898,0.692084,calcul,perdu,4.0.0
 LP:2026-10-09:braga:sporting-cp,2026-10-09T19:15:00+00:00,LP,UN_3.5,+3.5,1,0.857937,0.857937,calcul,perdu,4.0.0
 LP:2026-10-09:braga:sporting-cp,2026-10-09T19:15:00+00:00,LP,UN_4.5,+4.5,1,0.947753,0.950075,calcul,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,1X2_1,1,0,0.353855,0.353855,marche,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,1X2_2,2,0,0.368102,0.368102,marche,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,1X2_N,N,0,0.278043,0.278043,marche,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.461253,0.461253,calcul,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.538747,0.538747,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,DC_12,12,0,0.721957,0.721957,marche,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,DC_1X,1X,0,0.631898,0.631898,marche,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,DC_X2,X2,0,0.646145,0.646145,marche,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.369644,0.369644,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.72474,0.72474,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.380425,0.395352,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.733,0.76786,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.840795,0.857983,calcul,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.831316,0.849698,calcul,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.168684,0.150302,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,MRG_A_3,HC dom -2,0,0.059528,0.053969,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.159205,0.142017,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,MRG_H_3,HC dom -2,0,0.055028,0.049965,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,OV_0.5,+0.5,0,0.918994,0.919377,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,OV_1.5,+1.5,0,0.742157,0.742157,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,OV_2.5,+2.5,0,0.484127,0.484127,marche,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,OV_3.5,+3.5,0,0.266295,0.266295,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,OV_4.5,+4.5,0,0.124072,0.118802,calcul,perdu,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,UN_0.5,+0.5,1,0.081006,0.080623,calcul,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,UN_1.5,+1.5,1,0.257843,0.257843,calcul,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,UN_2.5,+2.5,1,0.515873,0.515873,marche,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,UN_3.5,+3.5,1,0.733705,0.733705,calcul,gagne,4.0.0
+LIGA:2026-10-10:rayo-vallecano:athletic-bilbao,2026-10-10T12:00:00+00:00,LIGA,UN_4.5,+4.5,1,0.875928,0.881198,calcul,gagne,4.0.0
