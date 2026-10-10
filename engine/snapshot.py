@@ -184,9 +184,10 @@ def exporter_snapshot(*, jours: int | None = 21) -> dict[str, Any]:
                 'cotes': cotes,
                 'contexte': contexte,
                 'analyse': analyse,
-                # Ajouts v4, ignorés par la PWA actuelle.
+                # Ajouts v4.
                 'ligne_totaux': ligne_totaux,
                 'cle_moteur': m['cle'],
+                'mouvement': _mouvement(conn, m['cle']),
             })
 
     return {
@@ -201,6 +202,61 @@ def exporter_snapshot(*, jours: int | None = 21) -> dict[str, Any]:
 def _slug(conn, cle_equipe: str) -> str:
     row = conn.execute('SELECT slug FROM equipes WHERE cle = ?', (cle_equipe,)).fetchone()
     return row['slug'] if row else cle_equipe
+
+
+def _mouvement(conn, cle: str) -> dict[str, Any] | None:
+    """Déplacement des probabilités 1X2 entre le premier et le dernier relevé.
+
+    La série brute vit dans `cotes_historique` — jusqu'à 83 points par match,
+    médiane 60 — et n'a pas sa place dans l'instantané : elle le faisait peser
+    9,4 Mo. Ce qui est publié est son résumé : où le marché est parti, où il
+    en est, de combien il a bougé.
+
+    À ce stade c'est une **information affichée, pas un signal utilisé** : sur
+    les 59 matchs réglés qui portaient une série, la dernière cote n'était pas
+    meilleure que la première et la direction du mouvement ne prédisait rien.
+    Trop peu pour conclure. Le calcul reste donc à l'écart jusqu'à 200 matchs
+    réglés, et le moteur se contente de conserver proprement la mesure.
+    """
+    # L'historique n'enregistre que les changements : à un horodatage donné,
+    # une seule sélection peut avoir bougé. On reconstitue donc l'état du
+    # marché en reportant la dernière valeur connue des deux autres.
+    courant: dict[str, float] = {}
+    points: list[tuple[str, float, float, float]] = []
+    for r in conn.execute(
+        """SELECT selection, valeur, releve_le FROM cotes_historique
+            WHERE cle = ? AND marche = '1X2'
+            ORDER BY releve_le, id""",
+        (cle,),
+    ):
+        courant[r['selection']] = float(r['valeur'])
+        if not {'1', 'N', '2'} <= set(courant):
+            continue
+        if any(courant[k] <= 1.0 for k in ('1', 'N', '2')):
+            continue
+        somme = sum(1.0 / courant[k] for k in ('1', 'N', '2'))
+        point = (
+            r['releve_le'],
+            (1.0 / courant['1']) / somme,
+            (1.0 / courant['N']) / somme,
+            (1.0 / courant['2']) / somme,
+        )
+        if points and point[1:] == points[-1][1:]:
+            continue        # même état : pas un relevé de plus
+        points.append(point)
+    if len(points) < 2:
+        return None
+    debut, fin = points[0], points[-1]
+    return {
+        'releves': len(points),
+        'premier_le': debut[0],
+        'dernier_le': fin[0],
+        'p1_debut': round(debut[1], 4), 'p1_fin': round(fin[1], 4),
+        'pn_debut': round(debut[2], 4), 'pn_fin': round(fin[2], 4),
+        'p2_debut': round(debut[3], 4), 'p2_fin': round(fin[3], 4),
+        'derive_points': round(100 * max(
+            abs(fin[k] - debut[k]) for k in (1, 2, 3)), 2),
+    }
 
 
 def _bloc_analyse(payload: dict[str, Any]) -> dict[str, Any]:
@@ -229,6 +285,12 @@ def _bloc_analyse(payload: dict[str, Any]) -> dict[str, Any]:
                 # Ajouts v4.
                 'confiance': o.get('confiance'),
                 'explication': o.get('explication'),
+                'p_brute': (float(o['p_brute'])
+                            if o.get('p_brute') is not None else None),
+                # False quand aucune courbe ne couvrait cette probabilité :
+                # l'option est publiée brute, et l'app doit pouvoir le dire
+                # au lieu de laisser croire à une correction mesurée.
+                'calibree': bool(o.get('calibree')),
             }
             for o in payload.get('options') or []
         ],

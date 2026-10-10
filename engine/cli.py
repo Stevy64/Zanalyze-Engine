@@ -98,9 +98,12 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.cmd == 'audit':
-        from engine.pipeline import controler_qualite
-        _afficher(controler_qualite())
-        return 0
+        from engine.pipeline import alertes, controler_qualite
+        liste = alertes()
+        _afficher({'qualite': controler_qualite(), 'alertes': liste})
+        # Une alerte n'est pas une anomalie de donnée : c'est une panne de la
+        # chaîne. Elle doit faire sortir en erreur, ici comme dans Actions.
+        return 1 if liste else 0
 
     if args.cmd == 'calibrer':
         from engine.apprentissage import (
@@ -144,14 +147,20 @@ def main(argv: list[str] | None = None) -> int:
         if not lignes:
             print('Aucune option réglée pour le moment.')
             return 0
-        print(f'{"Marché":<14}{"n":>7}{"annoncé":>10}{"observé":>10}'
+        print(f'{"Marché":<14}{"n":>7}{"couv.":>8}{"annoncé":>10}{"observé":>10}'
               f'{"écart":>9}{"marge":>8}  significatif')
         for b in lignes:
+            couv = f"{b['couverture']:>7.0f}%" if b['couverture'] is not None else '      —'
             print(
-                f"{b['marche']:<14}{b['observations']:>7}{b['annonce']:>9.1f}%"
+                f"{b['marche']:<14}{b['observations']:>7}{couv}"
+                f"{b['annonce']:>9.1f}%"
                 f"{b['observe']:>9.1f}%{b['ecart_points']:>+9.1f}"
                 f"{b['marge_points']:>8.1f}  {'oui' if b['significatif'] else 'non'}"
             )
+        print('\nLa marge est l\'incertitude à deux écarts-types : un écart plus '
+              'petit qu\'elle est du bruit.\nLa couverture dit sur quelle part des '
+              'rencontres le marché a pu être réglé ; une couverture\nbasse signale '
+              'un échantillon qui n\'est pas seulement petit, mais biaisé.')
         return 0
 
     if args.cmd == 'archive':

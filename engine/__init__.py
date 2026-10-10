@@ -19,7 +19,8 @@ evaluation.py     verdict gagné / perdu d'un code d'option
 app.py            API FastAPI
 cli.py            `python -m engine refresh|calibrer|bilan|archive|…`
 
-La PWA n'appelle pas le moteur : elle importe exports/matchs.json.
+La PWA importe exports/matchs.json. Ses calculs complémentaires utilisent
+ce même paquet, localement ou via le contrat commun engine.api_analyse.
 """
 
 from engine.moteur import VERSION_MOTEUR

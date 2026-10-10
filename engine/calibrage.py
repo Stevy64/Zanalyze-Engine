@@ -103,9 +103,30 @@ def tables_marche() -> dict[str, list[tuple[float, float]]]:
     return _CACHE
 
 
-def _interp(p: float, table: list[tuple[float, float]]) -> float:
+# Tolérance autour du domaine d'ajustement d'une courbe. Au-delà, on ne
+# corrige pas : extrapoler n'est pas mesurer.
+MARGE_PLAGE = 0.02
+
+
+def _interp(p: float, table: list[tuple[float, float]]) -> float | None:
+    """Corrige `p`, ou renvoie None si la courbe n'a rien à en dire.
+
+    `np.interp` écrase silencieusement toute valeur hors plage sur la
+    dernière valeur connue. Appliquer une courbe hors de son domaine est le
+    même défaut que lui appliquer la courbe d'un autre marché : la table de
+    « plus de 3,5 buts » ajustée entre 0,106 et 0,532 transformait un 0,662
+    en 0,452, soit vingt-un points de « correction » qui ne reposaient sur
+    aucune observation.
+
+    Aujourd'hui le cas est rare — 4 options sur 1 504 en production, parce
+    que les courbes livrées couvrent [0 ; 1]. Il cessera de l'être dès que la
+    boucle publiera ses propres courbes : celle de « au moins 1 but » ne
+    couvre que [0,812 ; 0,973], et 3,2 % de ses options en sortent déjà.
+    """
     xs = [a for a, _ in table]
     ys = [b for _, b in table]
+    if p < xs[0] - MARGE_PLAGE or p > xs[-1] + MARGE_PLAGE:
+        return None
     return float(np.clip(np.interp(p, xs, ys), 0.005, 0.995))
 
 
@@ -210,15 +231,40 @@ def _table(tmap: dict, marche: str, ligue: str | None):
 
 def corriger(p: float, marche: Any, tables: dict | None = None,
              ligue: str | None = None) -> float:
-    """Corrige une proba CALCULÉE. Ne jamais appliquer aux cotes marché."""
+    """Corrige une proba CALCULÉE. Ne jamais appliquer aux cotes marché.
+
+    Hors du domaine de la courbe, la probabilité brute est rendue telle
+    quelle : `corrigee()` permet de savoir si une correction a eu lieu.
+    """
+    corrigee, _ = corriger_detail(p, marche, tables, ligue)
+    return corrigee
+
+
+def corriger_detail(p: float, marche: Any, tables: dict | None = None,
+                    ligue: str | None = None) -> tuple[float, bool]:
+    """Comme `corriger`, mais dit aussi si la courbe s'est appliquée.
+
+    Le second membre est False quand aucune courbe n'existe pour ce marché,
+    ou quand la probabilité sort du domaine sur lequel la courbe a été
+    ajustée. L'option est alors publiée brute et marquée comme telle, plutôt
+    que « corrigée » d'une valeur extrapolée.
+    """
     if marche is None:
-        return float(p)
+        return float(p), False
     tmap = tables if tables is not None else tables_marche()
     if isinstance(marche, tuple) and marche and marche[0] == COMPLEMENT:
         t = _table(tmap, marche[1], ligue)
-        return 1.0 - _interp(1.0 - float(p), t) if t else float(p)
+        if not t:
+            return float(p), False
+        # Le complément se déduit du sens direct : même valeur évaluée, donc
+        # même verdict de domaine, donc la paire somme toujours à 100 %.
+        v = _interp(1.0 - float(p), t)
+        return (float(p), False) if v is None else (1.0 - v, True)
     t = _table(tmap, marche, ligue) if isinstance(marche, str) else None
-    return _interp(float(p), t) if t else float(p)
+    if not t:
+        return float(p), False
+    v = _interp(float(p), t)
+    return (float(p), False) if v is None else (v, True)
 
 
 def verifier_coherence(options: list[dict]) -> float:

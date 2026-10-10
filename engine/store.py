@@ -246,7 +246,66 @@ def init_db() -> dict[str, int]:
             "ON CONFLICT(cle) DO UPDATE SET valeur=excluded.valeur",
             (str(SCHEMA_VERSION),),
         )
+        stats.update(recuperer_cotes_accumulees(conn))
     return stats
+
+
+def recuperer_cotes_accumulees(conn: sqlite3.Connection) -> dict[str, int]:
+    """Verse les relevés accumulés dans l'historique, puis ne garde que le dernier.
+
+    Avant le correctif de `upsert_cotes`, chaque cycle ajoutait une ligne de
+    cote 1X2 au lieu de remplacer la précédente : 26 076 relevés pour 210
+    matchs au 9 octobre 2026, jusqu'à 251 pour une seule rencontre.
+
+    Ces relevés ne sont pas des déchets : horodatés, ils forment la série
+    temporelle du marché — médiane 60 points par match à venir — c'est-à-dire
+    exactement le mouvement de cote qu'on croyait hors de portée. On les
+    déplace donc vers `cotes_historique`, où ils ont leur place, avant de
+    réduire `cotes` à l'état courant. Idempotent.
+    """
+    trop = conn.execute(
+        """SELECT cle, bookmaker, marche, selection, phase, ligne, COUNT(*) n
+             FROM cotes
+            GROUP BY cle, bookmaker, marche, selection, phase, ligne IS NULL, ligne
+           HAVING n > 1""",
+    ).fetchall()
+    if not trop:
+        return {}
+
+    verses = supprimes = 0
+    for g in trop:
+        releves = conn.execute(
+            """SELECT rowid, valeur, releve_le FROM cotes
+                WHERE cle=? AND bookmaker=? AND marche=? AND selection=?
+                  AND phase=? AND ligne IS ?
+                ORDER BY releve_le""",
+            (g['cle'], g['bookmaker'], g['marche'], g['selection'],
+             g['phase'], g['ligne']),
+        ).fetchall()
+        connus = {
+            (r['valeur'], r['releve_le'])
+            for r in conn.execute(
+                """SELECT valeur, releve_le FROM cotes_historique
+                    WHERE cle=? AND bookmaker=? AND marche=? AND selection=?
+                      AND ligne IS ?""",
+                (g['cle'], g['bookmaker'], g['marche'], g['selection'], g['ligne']),
+            )
+        }
+        for r in releves:
+            if (r['valeur'], r['releve_le']) in connus:
+                continue
+            conn.execute(
+                """INSERT INTO cotes_historique(
+                     cle, bookmaker, marche, selection, ligne, valeur, releve_le)
+                   VALUES (?,?,?,?,?,?,?)""",
+                (g['cle'], g['bookmaker'], g['marche'], g['selection'],
+                 g['ligne'], r['valeur'], r['releve_le']),
+            )
+            verses += 1
+        for r in releves[:-1]:
+            conn.execute('DELETE FROM cotes WHERE rowid = ?', (r['rowid'],))
+            supprimes += 1
+    return {'cotes_versees_a_l_historique': verses, 'cotes_dedoublonnees': supprimes}
 
 
 # --------------------------------------------------------------------------
@@ -443,11 +502,26 @@ def upsert_cotes(
         if val is None:
             continue
         v = round(float(val), 3)
+        # `ligne` fait partie de la clé primaire, et vaut NULL pour le 1X2.
+        # Or NULL n'entre jamais en conflit avec NULL : l'`ON CONFLICT` ne
+        # s'est jamais déclenché sur le 1X2, et chaque cycle de deux heures
+        # ajoutait une ligne de plus. Constaté le 9 octobre 2026 : 26 076
+        # cotes 1X2 pour 210 matchs, jusqu'à 251 pour une seule rencontre,
+        # contre 306 lignes pour les totaux — qui, eux, portent une ligne et
+        # se mettaient donc bien à jour.
+        #
+        # `IS` compare NULL à NULL correctement en SQLite, à la différence de
+        # `=`. Remplacer explicitement l'état courant est donc plus sûr que
+        # de compter sur une contrainte d'unicité qui ne couvre pas NULL.
+        conn.execute(
+            """DELETE FROM cotes
+                WHERE cle = ? AND bookmaker = ? AND marche = ? AND selection = ?
+                  AND phase = ? AND ligne IS ?""",
+            (cle, bookmaker, marche, sel, phase, lg),
+        )
         conn.execute(
             """INSERT INTO cotes(cle, bookmaker, marche, selection, ligne, valeur, phase, releve_le)
-               VALUES (?,?,?,?,?,?,?,?)
-               ON CONFLICT(cle, bookmaker, marche, selection, ligne, phase) DO UPDATE SET
-                 valeur=excluded.valeur, releve_le=excluded.releve_le""",
+               VALUES (?,?,?,?,?,?,?,?)""",
             (cle, bookmaker, marche, sel, lg, v, phase, now),
         )
         derniere = conn.execute(

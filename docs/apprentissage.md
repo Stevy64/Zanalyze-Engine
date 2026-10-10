@@ -53,6 +53,27 @@ deux côtés de la coupure et la candidate paraîtrait meilleure qu'elle n'est.
 La coupure est alignée sur une frontière de date, jamais au milieu d'une
 journée.
 
+### Une observation par match, pas deux
+
+« Plus de 2,5 buts » et « moins de 2,5 buts » sont la même information vue des
+deux côtés : une seule courbe est ajustée, l'autre sens s'en déduit. Les
+garder tous les deux comptait donc **deux fois le même match**.
+
+Mesuré sur les 2 000 options réglées des 19 et 20 septembre 2026 : 587 couples
+à deux sens, dont 466 portaient exactement la même probabilité directe et 546
+la même issue. Trois conséquences, toutes dans le mauvais sens :
+
+- la marge d'erreur du bilan était sous-estimée d'un facteur racine de deux
+  (9,0 points annoncés contre 12,7 réels sur « plus de 2,5 »), et
+  `significatif` se déclenchait donc trop vite ;
+- le rétrécissement vers l'identité recevait un `n` doublé : le frein sur les
+  petits échantillons était deux fois plus faible que prévu ;
+- le seuil de 400 observations par marché était atteint deux fois trop tôt.
+
+`apprentissage.dedoublonner()` ne garde qu'une observation par (match,
+marché), dans le sens direct. Sur l'archive réelle : 1 504 observations
+calculées deviennent 979, et chaque marché retombe à une par match.
+
 ### Volume minimal
 
 Aucune courbe n'est produite sous **400 observations** pour un marché, ni sous
@@ -79,6 +100,27 @@ elle en vaut 91 %.
 
 La courbe est enfin rendue croissante : annoncer plus ne peut pas produire
 moins.
+
+### Jamais hors du domaine ajusté
+
+Une courbe ne dit rien en dehors de la plage de probabilités sur laquelle elle
+a été ajustée. `np.interp` y écrase pourtant silencieusement toute valeur sur
+la dernière valeur connue : la table de « plus de 3,5 buts » ajustée entre
+0,106 et 0,532 transformait un 0,662 en 0,452 — vingt-un points de
+« correction » qui ne reposaient sur aucune observation.
+
+Hors domaine (à `MARGE_PLAGE` près, 0,02), la probabilité brute est donc
+rendue telle quelle, et l'option porte `calibree = False`. L'app peut alors le
+dire au lieu de laisser croire à une correction mesurée.
+
+La même règle s'applique à l'**évaluation** des candidates : la boucle doit
+juger une courbe exactement comme elle sera appliquée, sinon elle la choisit
+sur un comportement qu'elle n'aura pas.
+
+Aujourd'hui le cas est rare — 4 options sur 1 504 en production, parce que les
+courbes livrées couvrent [0 ; 1]. Il cessera de l'être dès que la boucle
+publiera les siennes : celle de « au moins 1 but » ne couvre que
+[0,812 ; 0,973], et 3,2 % de ses options en sortent déjà.
 
 ## Savoir désapprendre
 
@@ -209,12 +251,20 @@ python -m engine bilan
 ```
 
 ```text
-Marché             n   annoncé  observé    écart   marge  significatif
-+2.5             412     50.4%    61.1%    +10.7     4.8  oui
-+3.5             412     31.0%    41.4%    +10.4     4.8  oui
-MT +0.5          389     68.8%    72.0%     +3.2     4.6  non
+Marché              n   couv.   annoncé   observé    écart   marge  significatif
++0.5               62    100%     93.4%     93.5%     +0.1     6.2  non
++2.5               16     26%     65.0%     56.2%     -8.7    24.8  non
+MT 1               47     76%     32.7%     48.9%    +16.3    14.6  oui
 ```
 
 La colonne « marge » est l'incertitude à deux écarts-types. Un écart plus petit
 que sa marge est du bruit : `significatif` vaut alors `non`, et il ne faut rien
 en conclure. C'est la colonne la plus importante du tableau.
+
+La colonne « couv. » dit sur quelle part des rencontres le marché a pu être
+réglé, et elle compte tout autant, parce que l'absence n'est pas aléatoire :
+**31 % des matchs de l'archive n'ont pas de score à la pause**, donc les sept
+marchés de mi-temps sont jugés sur les deux tiers des rencontres qui en ont
+un. Le volume minimal protège d'un petit échantillon, pas d'un échantillon
+biaisé. Une couverture basse est une raison d'attendre avant de publier une
+courbe sur ce marché.

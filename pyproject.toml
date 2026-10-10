@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zanalyze-engine"
+version = "4.0.1"
+description = "Moteur unique de probabilites, ingestion et calibration Zanalyze"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "scipy>=1.14", "fastapi>=0.115.0", "uvicorn>=0.32.0", "pydantic>=2.9", "python-dotenv>=1.0"]
+
+[tool.setuptools]
+packages = ["engine"]
+
+[tool.setuptools.package-data]
+engine = ["calibration_par_marche.json"]

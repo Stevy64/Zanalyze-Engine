@@ -179,21 +179,61 @@ def _dates(debut: datetime, fin: datetime) -> list[str]:
     return out
 
 
+def journal_vierge() -> dict[str, Any]:
+    """Compteurs d'une collecte. Voir `evenements_fenetre`."""
+    return {
+        'requetes': 0,
+        'jours_repondus': 0,
+        'jours_en_echec': 0,
+        'echecs': [],              # [{competition, jour, erreur}] — borné
+        'evenements_par_competition': {},
+        'competitions_en_echec': {},
+        'cotes_demandees': 0,
+        'cotes_en_echec': 0,
+    }
+
+
 def evenements_fenetre(
     slug: str, *, jours_passes: int = 14, jours_futurs: int = 21,
+    journal: dict[str, Any] | None = None, code: str = '',
 ) -> list[dict[str, Any]]:
+    """Événements d'une compétition sur la fenêtre, un appel par jour.
+
+    Un refus, une limitation de débit ou un délai dépassé ne sont **pas** la
+    même chose qu'un jour sans match. Les confondre a coûté dix-neuf jours de
+    résultats en septembre 2026 : la journée disparaissait et le cycle se
+    déclarait en succès. Tout échec est donc compté dans `journal`, et
+    `pipeline.alertes()` fait échouer le cycle quand une compétition majeure
+    reste muette.
+    """
     now = datetime.now(timezone.utc)
     by_id: dict[str, dict] = {}
     for jour in _dates(now - timedelta(days=jours_passes), now + timedelta(days=jours_futurs)):
+        if journal is not None:
+            journal['requetes'] += 1
         try:
             data = _get(f'{BASE_SITE}/{slug}/scoreboard?dates={jour}')
-        except EspnErreur:
-            continue  # ligue sans calendrier ce jour-là
+        except EspnErreur as exc:
+            if journal is not None:
+                journal['jours_en_echec'] += 1
+                journal['competitions_en_echec'][code or slug] = (
+                    journal['competitions_en_echec'].get(code or slug, 0) + 1
+                )
+                if len(journal['echecs']) < 20:
+                    journal['echecs'].append({
+                        'competition': code or slug, 'jour': jour,
+                        'erreur': str(exc)[:160],
+                    })
+            continue
+        if journal is not None:
+            journal['jours_repondus'] += 1
         for ev in data.get('events') or []:
             eid = str(ev.get('id') or '')
             if eid:
                 by_id[eid] = ev
         time.sleep(0.2)
+    if journal is not None:
+        journal['evenements_par_competition'][code or slug] = len(by_id)
     return list(by_id.values())
 
 
@@ -320,6 +360,14 @@ def cotes_depuis_event(
         return out
 
     fournisseur = ((od.get('provider') or {}).get('name') or 'espn').lower()
+    # ESPN sert parfois un flux « live odds » pour une rencontre que son
+    # statut annonce encore à venir. Relevé le 19 septembre 2026 sur
+    # Imortal – Tondela : victoire à domicile à 56,0 et extérieure à 1,029,
+    # c'est-à-dire un prix pris en cours de match. La marge paraît normale,
+    # donc aucun contrôle numérique ne l'attrape : seul le libellé le dit.
+    # Une prédiction bâtie là-dessus prédirait le passé.
+    if 'live' in fournisseur or 'in-play' in fournisseur or 'inplay' in fournisseur:
+        raise EspnErreur(f'cotes en direct refusées ({fournisseur})')
     out['book'] = 'espn' if fournisseur in ('', 'espn') else fournisseur[:40]
 
     def trio(bloc: dict | None, racine: dict) -> tuple[float, float, float] | None:
@@ -412,15 +460,32 @@ def normaliser_event(
 def collecter_matchs(
     *, jours_passes: int = 14, jours_futurs: int = 21, avec_cotes: bool = True,
     tournois: dict[str, dict[str, Any]] | None = None,
+    journal: dict[str, Any] | None = None,
 ) -> list[dict[str, Any]]:
-    """Liste canonique des rencontres, cotes comprises."""
+    """Liste canonique des rencontres, cotes comprises.
+
+    `journal`, s'il est fourni, est rempli au fil de la collecte : requêtes,
+    jours en échec, événements par compétition, cotes manquées. C'est la seule
+    façon de distinguer « cette ligue ne joue pas » de « ESPN n'a pas répondu ».
+    """
     out: list[dict[str, Any]] = []
     for slug, meta in (tournois or TOURNOIS).items():
+        code = str(meta.get('code') or slug)
         try:
             events = evenements_fenetre(
                 slug, jours_passes=jours_passes, jours_futurs=jours_futurs,
+                journal=journal, code=code,
             )
-        except EspnErreur:
+        except EspnErreur as exc:
+            if journal is not None:
+                journal['competitions_en_echec'][code] = (
+                    journal['competitions_en_echec'].get(code, 0) + 1
+                )
+                journal['evenements_par_competition'].setdefault(code, 0)
+                if len(journal['echecs']) < 20:
+                    journal['echecs'].append({
+                        'competition': code, 'jour': '*', 'erreur': str(exc)[:160],
+                    })
             continue
         for ev in events:
             norm = normaliser_event(slug, meta, ev)
@@ -428,13 +493,22 @@ def collecter_matchs(
                 continue
             # Les cotes n'ont de sens que tant que le match n'a pas commencé.
             if avec_cotes and norm['statut'] == 'a_venir':
+                if journal is not None:
+                    journal['cotes_demandees'] += 1
                 try:
                     norm['cotes'] = cotes_depuis_event(
                         slug, str(norm['event_id']), norm.get('competition_id'),
                     )
                     time.sleep(0.25)
-                except Exception:  # noqa: BLE001 — une cote absente n'arrête rien
+                except Exception as exc:  # noqa: BLE001 — une cote absente n'arrête rien
                     norm['cotes'] = None
+                    if journal is not None:
+                        journal['cotes_en_echec'] += 1
+                        if len(journal['echecs']) < 20:
+                            journal['echecs'].append({
+                                'competition': code, 'jour': 'cotes',
+                                'erreur': str(exc)[:160],
+                            })
             out.append(norm)
         time.sleep(0.4)
     return out

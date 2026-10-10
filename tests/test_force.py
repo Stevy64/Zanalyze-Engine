@@ -96,8 +96,54 @@ def test_ajustement_par_ligue_separe_les_competitions():
         r['dom'] = 'x-' + r['dom']
         r['ext'] = 'x-' + r['ext']
     forces = ajuster_par_ligue(a + b)
-    assert set(forces) == {'TEST', 'AUTRE'}
+    assert {'TEST', 'AUTRE'} <= set(forces)
     assert not (set(forces['TEST'].attaque) & set(forces['AUTRE'].attaque))
+
+
+def test_un_modele_commun_sert_de_repli():
+    """Aucune compétition n'atteignait le seuil de 60 matchs en production :
+    32 résultats en Premier League, 39 en Liga. Le repli par forces ne s'est
+    donc jamais déclenché, et les rencontres sans cotes n'étaient pas
+    analysées du tout. Un modèle toutes compétitions confondues le débloque."""
+    from engine.force import TOUTES, lambdas_avec_repli
+
+    a, eq_a = championnat(graine=1, n_journees=8)   # sous MIN_MATCHS seul
+    b, eq_b = championnat(graine=2, n_journees=8)
+    for r in b:
+        r['ligue'] = 'AUTRE'
+        r['dom'] = 'x-' + r['dom']
+        r['ext'] = 'x-' + r['ext']
+    forces = ajuster_par_ligue(a + b)
+    assert 'TEST' not in forces and 'AUTRE' not in forces
+    assert TOUTES in forces
+
+    trouve = lambdas_avec_repli(forces, 'TEST', eq_a[0], eq_a[-1])
+    assert trouve is not None
+    (lh, la), provenance = trouve
+    assert provenance == TOUTES
+    assert lh > la          # la hiérarchie reste lisible
+    assert 0.15 <= lh <= 5.0
+
+
+def test_la_competition_prime_sur_le_commun():
+    """Le modèle par compétition reste le bon par défaut : le niveau d'un
+    championnat lui est propre."""
+    from engine.force import TOUTES, lambdas_avec_repli
+
+    matchs, equipes = championnat(graine=1)
+    forces = ajuster_par_ligue(matchs)
+    assert 'TEST' in forces and TOUTES in forces
+    _, provenance = lambdas_avec_repli(forces, 'TEST', equipes[0], equipes[-1])
+    assert provenance == 'TEST'
+
+
+def test_aucun_repli_pour_un_club_inconnu():
+    """Mieux vaut ne rien dire que d'inventer la force d'un promu."""
+    from engine.force import lambdas_avec_repli
+
+    matchs, equipes = championnat(graine=1)
+    forces = ajuster_par_ligue(matchs)
+    assert lambdas_avec_repli(forces, 'TEST', 'club-inexistant', equipes[0]) is None
 
 
 def test_aucune_cote_n_entre_dans_l_ajustement():

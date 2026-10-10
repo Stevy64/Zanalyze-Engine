@@ -24,6 +24,10 @@ pas changé depuis la v3.
 | Matchs sans cotes | aucune analyse | estimés par les forces d'équipe |
 | Constantes du modèle | supposées | mesurées sur 7 668 matchs, 8 compétitions |
 | Arbitrage des courbes | score de Brier, aveugle à la dérive | erreur de calibration, Brier en garde-fou |
+| Panne d'ingestion | silencieuse : une erreur réseau valait « pas de match » | comptée, nommée, et le cycle échoue |
+| Cote courante | une ligne de plus à chaque cycle (NULL ne conflictait pas) | une seule, la série versée dans l'historique |
+| Mouvement de cote | collecté sans le savoir, jamais lu | résumé publié par match, en attente de mesure |
+| Repli sans cotes | jamais déclenché (seuil inatteignable par ligue) | modèle commun en repli, 41 matchs analysés de plus |
 
 Le détail de chaque point est dans [docs/architecture.md](docs/architecture.md).
 
@@ -55,7 +59,7 @@ python -m engine serve                # http://127.0.0.1:8001/docs
 | `sync` | ingestion seule |
 | `analyser` | analyse des matchs à venir, sans réseau |
 | `snapshot` | réécrit `exports/matchs.json` depuis la base |
-| `audit` | doublons, chevauchements de calendrier, scores aberrants |
+| `audit` | doublons, chevauchements, scores aberrants, **et alertes de panne** (code de sortie non nul si une alerte est levée) |
 | `calibrer` | apprend une calibration, la publie **si** elle gagne (`--essai` pour mesurer sans publier) |
 | `bilan` | écart annoncé / observé par marché, avec sa marge d'erreur |
 | `archive` | `exporter`, `stats`, `importer` (championnats), `importer-coupes` (C1/C3) |

@@ -102,6 +102,23 @@ du tout. Ces analyses portent `source_cotes = "forces"` et une confiance
 abaissée. `force.poids_optimal()` remesure le mélange à chaque cycle, au cas
 où il finirait par apporter quelque chose.
 
+**Ce repli ne s'était jamais déclenché en production.** Le modèle par
+compétition demande 60 rencontres et quatre matchs par club, et aucune
+compétition n'y arrivait : 32 résultats en Premier League, 39 en Liga. Les
+matchs sans cotes n'étaient donc pas analysés du tout.
+
+Deux correctifs. Les forces sont ajustées sur **l'archive et la base**, pas
+sur la base seule — l'archive est la mémoire longue, la base un cache que
+GitHub Actions peut évincer. Et `ajuster_par_ligue` produit en plus un modèle
+sous la clé `TOUTES`, ajusté toutes compétitions confondues, consulté quand
+celui de la compétition ne connaît pas assez les deux clubs : l'attaque et la
+défense sont des propriétés du club, et un club qui joue en championnat et en
+coupe d'Europe alimente les deux. Mesuré sur les 307 résultats réels : le
+modèle commun tient (273 clubs, avantage du terrain 0,201, hiérarchie
+plausible) et **41 rencontres reçoivent une analyse qui n'en avait aucune**.
+Celles dont un club reste trop peu connu ne sont toujours pas analysées —
+mieux vaut ne rien dire que d'inventer la force d'un promu.
+
 ### 5. Les constantes sont mesurées, et une seule fois pour tout le monde
 
 Mesuré sur 7 668 matchs de huit compétitions, coupes d'Europe comprises :
@@ -124,7 +141,66 @@ le pire et qui est le troisième meilleur (4,07 → 1,42, désormais éligible).
 Tout écart aux valeurs mesurées doit venir d'une nouvelle mesure, pas d'une
 intuition.
 
-### 6. Ce que le moteur apprend vit dans le dépôt, pas dans le cache
+### 6. Une panne doit crier, pas disparaître
+
+Entre le 20 septembre et le 9 octobre 2026, le cycle a publié un instantané
+toutes les deux heures en se déclarant en succès, alors que plus aucun
+résultat de championnat n'entrait et que la calibration était gelée. Dix-neuf
+jours.
+
+Ce qui l'a permis : dans `espn.evenements_fenetre`, une erreur de transport
+était traitée exactement comme « cette ligue ne joue pas ce jour-là ».
+
+```python
+except EspnErreur:
+    continue  # ligue sans calendrier ce jour-là
+```
+
+Trente-six jours fois treize compétitions font 468 requêtes séquentielles par
+cycle : une limitation de débit faisait disparaître des journées entières,
+sans compteur ni trace. Et le seul garde-fou du workflow était « l'instantané
+n'est pas vide » — que le calendrier à venir suffisait à satisfaire.
+
+Désormais, `collecter_matchs` remplit un **journal** (requêtes, jours en
+échec, événements par compétition, cotes manquées) et `pipeline.alertes()`
+nomme trois pannes :
+
+| alerte | déclenchement |
+|---|---|
+| `ingestion_muette` | une compétition majeure interrogée ne renvoie aucune rencontre sur toute la fenêtre |
+| `ingestion_en_echec` | plus de 12 requêtes en échec sur le cycle |
+| `apprentissage_fige` | des matchs terminés portent une analyse, mais aucune option réglée depuis 7 jours |
+
+Le workflow sort en erreur sur une alerte, et `python -m engine audit`
+renvoie un code de sortie non nul. La troisième aurait sonné le 27 septembre.
+
+### 7. L'état courant d'une cote est unique ; la série est conservée
+
+`cotes` a pour clé primaire `(cle, bookmaker, marche, selection, ligne,
+phase)`, et `ligne` vaut NULL pour le 1X2. Or **NULL n'entre jamais en
+conflit avec NULL** dans une contrainte d'unicité : l'`ON CONFLICT` ne s'est
+jamais déclenché sur le 1X2, et chaque cycle ajoutait une ligne de plus.
+
+Mesure du 9 octobre 2026 : 26 076 cotes 1X2 pour 210 matchs, jusqu'à 251 pour
+une seule rencontre — contre 306 lignes pour les totaux, qui portent une ligne
+non nulle et se mettaient donc bien à jour. L'instantané pesait 9,4 Mo.
+
+`upsert_cotes` remplace désormais explicitement l'état courant (`ligne IS ?`,
+qui compare NULL correctement), et `recuperer_cotes_accumulees` verse les
+relevés déjà en base dans `cotes_historique` avant de réduire `cotes`. Rejoué
+sur l'instantané de production : 8 692 relevés donnent **624 cotes courantes
+et 1 879 points d'historique**, sans rien perdre.
+
+Car ces relevés avaient une valeur : horodatés toutes les deux heures, ils
+forment la série temporelle du marché — médiane 60 points par match à venir,
+jusqu'à 83. C'est le mouvement de cote qu'on croyait hors de portée. Il est
+résumé dans l'instantané sous `matchs[].mouvement`, et **pas encore utilisé
+dans le calcul** : sur les 59 matchs réglés qui portaient une série, la
+dernière cote n'était pas meilleure que la première et la direction du
+mouvement ne prédisait rien. Trop peu pour conclure ; la mesure est conservée
+en attendant 200 matchs réglés.
+
+### 8. Ce que le moteur apprend vit dans le dépôt, pas dans le cache
 
 La base SQLite est un cache Actions, évincible à tout moment. L'archive
 (`data/archive/*.csv`) et les courbes apprises (`data/calibration.json`) sont
@@ -166,3 +242,33 @@ arrière.
 
 Voir `.env.example`. Les plus utiles : `ENGINE_TOKEN`, `ENGINE_DB_PATH`,
 `ENGINE_SNAPSHOT_PATH`, `ENGINE_ARCHIVE_DIR`, `ENGINE_CALIBRATION_FILE`.
+
+## Un seul moteur exécuté par les deux dépôts (4.0.1)
+
+`engine.moteur` demeure la source des probabilités et de la sélection.
+Le même paquet Python est utilisé par l'ingestion, l'API Engine et l'API de
+calcul de la web app. `paris.moteur` ne contient plus d'algorithmes : il adapte
+uniquement l'ancien argument nommé `cotes_ou25` en `(over, under, 2.5)`.
+`engine.api_analyse` porte le contrat HTTP commun, y compris ce format ancien.
+
+La web app installe une wheel versionnée dans `vendor/`, construite depuis ce
+dépôt. Son manifeste SHA-256 et ses tests vérifient le code réellement installé.
+Pour livrer une évolution, incrémenter ensemble la version de `pyproject.toml`
+et `VERSION_MOTEUR`, puis lancer :
+
+```sh
+python tools/build_web_package.py --web-repo ../Zanalyze
+```
+
+Installer ensuite les dépendances de la web app et exécuter ses tests.
+La distribution contient le code et les tables de référence, jamais les bases,
+secrets, archives privées ou fichiers d'environnement. La calibration apprise
+reste un artefact de données distinct : `ENGINE_CALIBRATION_FILE` peut pointer
+vers la même courbe publiée sur les deux services. À données, paramètres et
+calibration identiques, les chemins local et HTTP donnent les mêmes résultats.
+
+Les matchs importés restent pilotés par le snapshot. La commande Django de
+calcul est réservée aux matchs futurs hors snapshot et revérifie leur état
+sous verrou avant sauvegarde. L'ancien apprentissage Django est supprimé au
+profit de `python -m engine calibrer`, qui exploite l'historique figé Engine.
+Il n'y a ni vote entre modèles ni bascule silencieuse vers d'autres courbes.

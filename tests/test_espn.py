@@ -143,3 +143,42 @@ def test_mi_temps_incoherente_ecartee():
 def test_event_sans_equipe_ignore():
     ev = _event('Bayern Munich', '')
     assert normaliser_event('uefa.champions', META, ev) is None
+
+
+def test_les_cotes_en_direct_sont_refusees(monkeypatch):
+    """ESPN sert parfois un flux « live odds » pour un match que son statut
+    annonce encore à venir. Relevé le 19 septembre 2026 sur Imortal – Tondela :
+    victoire à domicile à 56,0, extérieure à 1,029 — un prix pris en cours de
+    match. La marge paraît normale, donc aucun contrôle numérique ne l'attrape.
+    """
+    from engine import espn
+
+    charge = {
+        'items': [{'$ref': 'https://x/odds/1'}],
+        'provider': {'name': 'DraftKings - Live Odds'},
+        'homeTeamOdds': {'moneyLine': -5000},
+        'awayTeamOdds': {'moneyLine': 5500},
+        'drawOdds': {'moneyLine': 1000},
+    }
+
+    def faux_get(url, timeout=25):
+        return charge
+
+    monkeypatch.setattr(espn, '_get', faux_get)
+    with pytest.raises(espn.EspnErreur, match='direct'):
+        espn.cotes_depuis_event('por.1', '1', None)
+
+
+def test_un_fournisseur_normal_passe(monkeypatch):
+    from engine import espn
+
+    charge = {
+        'items': [{'$ref': 'https://x/odds/1'}],
+        'provider': {'name': 'DraftKings'},
+        'homeTeamOdds': {'moneyLine': -120},
+        'awayTeamOdds': {'moneyLine': 300},
+        'drawOdds': {'moneyLine': 240},
+    }
+    monkeypatch.setattr(espn, '_get', lambda url, timeout=25: charge)
+    out = espn.cotes_depuis_event('por.1', '1', None)
+    assert out['book'] == 'draftkings'

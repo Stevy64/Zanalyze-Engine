@@ -190,19 +190,64 @@ def ajuster_forces(
     )
 
 
+# Clé réservée du modèle toutes compétitions confondues.
+TOUTES = '*'
+
+
 def ajuster_par_ligue(
     resultats: Iterable[dict[str, Any]], **kwargs,
 ) -> dict[str, Forces]:
-    """Un jeu de forces par compétition : les clubs ne s'y croisent pas."""
+    """Un jeu de forces par compétition, plus un modèle de repli commun.
+
+    Le modèle par compétition reste le bon par défaut : le niveau d'un
+    championnat lui est propre. Mais il demande 60 rencontres et quatre
+    matchs par club, et aucune compétition n'atteignait ce seuil en octobre
+    2026 — 32 résultats en Premier League, 39 en Liga. Le repli par forces
+    ne s'est donc **jamais** déclenché en production, et les rencontres sans
+    cotes n'étaient tout simplement pas analysées.
+
+    D'où le modèle sous la clé `TOUTES`, ajusté sur toutes les compétitions
+    ensemble. Il est moins juste — il mélange des niveaux — mais l'attaque et
+    la défense sont des propriétés du club, pas de la compétition, et un club
+    qui joue en championnat et en coupe d'Europe alimente les deux. Mieux
+    vaut une estimation prudente que pas d'analyse du tout, et elle sort
+    avec `source_cotes = "forces"` et une confiance abaissée.
+    """
     par_ligue: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    toutes: list[dict[str, Any]] = []
     for r in resultats:
         par_ligue[r.get('ligue') or ''].append(r)
+        toutes.append(r)
     out: dict[str, Forces] = {}
     for ligue, lignes in par_ligue.items():
         f = ajuster_forces(lignes, ligue=ligue, **kwargs)
         if f is not None:
             out[ligue] = f
+    commun = ajuster_forces(toutes, ligue=TOUTES, **kwargs)
+    if commun is not None:
+        out[TOUTES] = commun
     return out
+
+
+def lambdas_avec_repli(
+    forces: dict[str, Forces], ligue: str, dom: str, ext: str,
+) -> tuple[tuple[float, float], str] | None:
+    """Buts attendus et provenance : la compétition d'abord, le commun ensuite.
+
+    Renvoie None si même le modèle commun ne connaît pas assez les deux clubs
+    — mieux vaut ne rien dire que d'inventer la force d'un promu.
+    """
+    f = forces.get(ligue)
+    if f is not None:
+        lam = f.lambdas(dom, ext)
+        if lam:
+            return lam, ligue
+    f = forces.get(TOUTES)
+    if f is not None:
+        lam = f.lambdas(dom, ext)
+        if lam:
+            return lam, TOUTES
+    return None
 
 
 def melanger(

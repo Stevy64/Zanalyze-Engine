@@ -29,7 +29,12 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from typing import Any, Iterable, Sequence
 
-from engine.calibrage import COMPLEMENT, SEP_LIGUE, cle_marche_depuis_code
+from engine.calibrage import (
+    COMPLEMENT,
+    MARGE_PLAGE,
+    SEP_LIGUE,
+    cle_marche_depuis_code,
+)
 from engine.evaluation import evaluer
 
 # Volume minimal pour qu'une courbe soit publiée.
@@ -86,6 +91,37 @@ def _cle_et_sens(code: str) -> tuple[str, bool] | None:
     return None
 
 
+def dedoublonner(paires: Sequence[tuple[str, Observation]]) -> list[Observation]:
+    """Une observation par (match, marché), dans le sens direct du marché.
+
+    « Plus de 2,5 buts » et « moins de 2,5 buts » sont la même information vue
+    des deux côtés : une seule courbe est ajustée et l'autre sens s'en déduit.
+    Les garder tous les deux comptait donc **deux fois le même match**.
+
+    Mesuré sur les 2 000 options réglées des 19 et 20 septembre 2026 : 587
+    couples à deux sens, dont 466 portaient exactement la même probabilité
+    directe et 546 la même issue. Conséquences, toutes dans le mauvais sens —
+
+    - la marge d'erreur du bilan était sous-estimée d'un facteur racine de
+      deux (9,0 points annoncés contre 12,7 réels sur « plus de 2,5 ») et
+      `significatif` se déclenchait donc trop vite ;
+    - le rétrécissement vers l'identité, `(n × observé + 60 × annoncé)/(n + 60)`,
+      recevait un `n` doublé : le frein sur les petits échantillons était deux
+      fois plus faible que prévu ;
+    - le seuil de 400 observations par marché était atteint deux fois trop tôt.
+
+    Quand les deux sens divergent — la correction hors domaine en produisait —
+    on garde le sens direct, celui sur lequel la courbe est ajustée.
+    """
+    retenues: dict[tuple[str, str], Observation] = {}
+    for cle, ob in paires:
+        k = (cle, ob.marche)
+        garde = retenues.get(k)
+        if garde is None or (garde.complement and not ob.complement):
+            retenues[k] = ob
+    return list(retenues.values())
+
+
 def collecter_observations(conn: sqlite3.Connection) -> list[Observation]:
     """Croise les prédictions figées avant match avec les résultats.
 
@@ -109,7 +145,7 @@ def collecter_observations(conn: sqlite3.Connection) -> list[Observation]:
         if courant is None or r['calcule_le'] > courant['calcule_le']:
             derniere[r['cle']] = r
 
-    out: list[Observation] = []
+    paires: list[tuple[str, Observation]] = []
     for r in derniere.values():
         try:
             payload = json.loads(r['payload'])
@@ -138,9 +174,11 @@ def collecter_observations(conn: sqlite3.Connection) -> list[Observation]:
                 continue
             if gagne is None:
                 continue
-            out.append(
-                Observation(sens[0], sens[1], ligue, float(p), 1 if gagne else 0, quand)
-            )
+            paires.append((
+                r['cle'],
+                Observation(sens[0], sens[1], ligue, float(p), 1 if gagne else 0, quand),
+            ))
+    out = dedoublonner(paires)
     out.sort(key=lambda ob: ob.quand)
     return out
 
@@ -203,9 +241,18 @@ def courbe(observations: Sequence[Observation]) -> list[tuple[float, float]] | N
     return [(round(x, 4), round(min(max(y, 0.001), 0.999), 4)) for x, y in points]
 
 
-def _interp(p: float, table: Sequence[tuple[float, float]]) -> float:
+def _interp(p: float, table: Sequence[tuple[float, float]]) -> float | None:
+    """Interpolation dans le domaine de la courbe, None en dehors.
+
+    Même règle qu'à la prédiction (`calibrage.MARGE_PLAGE`) : une courbe ne
+    dit rien hors de la plage sur laquelle elle a été ajustée. La boucle doit
+    *évaluer* les candidates exactement comme elles seront *appliquées*, sinon
+    elle choisit une courbe sur un comportement qu'elle n'aura pas.
+    """
     xs = [a for a, _ in table]
     ys = [b for _, b in table]
+    if p < xs[0] - MARGE_PLAGE or p > xs[-1] + MARGE_PLAGE:
+        return None
     if p <= xs[0]:
         return ys[0]
     if p >= xs[-1]:
@@ -225,6 +272,8 @@ def _applique(ob: Observation, tables: dict) -> float:
     if not table:
         return ob.p
     corrige = _interp(ob.p_directe, table)
+    if corrige is None:
+        return ob.p          # hors domaine : on ne corrige pas
     return 1.0 - corrige if ob.complement else corrige
 
 
@@ -295,7 +344,9 @@ MIN_OBS_CASE_ECE = 25
 def _probas(observations: Sequence[Observation], table) -> list[tuple[float, int]]:
     out = []
     for ob in observations:
-        p = _interp(ob.p_directe, table) if table else ob.p_directe
+        p = (_interp(ob.p_directe, table) if table else None)
+        if p is None:
+            p = ob.p_directe
         p = 1.0 - p if ob.complement else p
         out.append((min(max(p, 1e-6), 1 - 1e-6), ob.y))
     return out
@@ -523,15 +574,26 @@ def recalibrer(conn: sqlite3.Connection, *, publier: bool = True) -> dict[str, A
 # Surveillance
 # --------------------------------------------------------------------------
 
-def bilan_par_marche(observations: Sequence[Observation]) -> list[dict[str, Any]]:
+def bilan_par_marche(observations: Sequence[Observation],
+                     matchs: int | None = None) -> list[dict[str, Any]]:
     """Écart annoncé / observé par marché, avec sa marge d'erreur.
 
     L'intervalle évite de conclure sur du bruit : c'est l'erreur qu'avait
     failli commettre le bilan partiel du 10 septembre.
+
+    La colonne `couverture` dit sur quelle part des rencontres le marché a
+    pu être réglé. Elle compte, parce que l'absence n'est pas aléatoire :
+    31 % des matchs de l'archive n'ont pas de score à la pause, et les sept
+    marchés de mi-temps sont donc jugés sur les deux tiers des rencontres
+    qui en ont un. Le volume minimal protège d'un petit échantillon, pas
+    d'un échantillon biaisé.
     """
     par_marche: dict[str, list[Observation]] = defaultdict(list)
     for ob in observations:
         par_marche[ob.marche].append(ob)
+    # À défaut de dénominateur fourni, le marché le mieux couvert fait
+    # référence : après dédoublonnage, il vaut une observation par match.
+    reference = matchs or max((len(v) for v in par_marche.values()), default=0)
     out = []
     for marche, lot in sorted(par_marche.items()):
         n = len(lot)
@@ -548,6 +610,7 @@ def bilan_par_marche(observations: Sequence[Observation]) -> list[dict[str, Any]
             'ecart_points': round(100 * ecart, 1),
             'marge_points': round(100 * marge, 1),
             'significatif': abs(ecart) > marge,
+            'couverture': round(100 * n / reference, 1) if reference else None,
         })
     return out
 

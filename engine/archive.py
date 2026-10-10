@@ -183,9 +183,9 @@ def charger_observations(origine: str = 'calcul'):
     Permet de recalibrer sur des années d'historique même si la base du
     moment ne contient que trois semaines.
     """
-    from engine.apprentissage import Observation
+    from engine.apprentissage import Observation, dedoublonner
 
-    out: list[Observation] = []
+    paires: list[tuple[str, Observation]] = []
     for path in fichiers('observations'):
         for l in _lire(path):
             if origine and (l.get('origine') or '') != origine:
@@ -197,14 +197,17 @@ def charger_observations(origine: str = 'calcul'):
                 p = float(l['p_brute'])
             except (KeyError, TypeError, ValueError):
                 continue
-            out.append(Observation(
+            paires.append((l.get('cle') or '', Observation(
                 marche=marche,
                 complement=(l.get('complement') == '1'),
                 ligue=l.get('competition') or '',
                 p=p,
                 y=1 if l.get('resultat') == 'gagne' else 0,
                 quand=l.get('coup_denvoi') or '',
-            ))
+            )))
+    # Les deux sens d'un marché sont la même information : voir
+    # `apprentissage.dedoublonner`.
+    out = dedoublonner(paires)
     out.sort(key=lambda ob: ob.quand)
     return out
 

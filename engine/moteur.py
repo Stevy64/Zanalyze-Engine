@@ -35,12 +35,13 @@ from engine.calibrage import (
     CALIBRATION_MARCHE_DEFAUT,
     cle_marche_depuis_code,
     corriger as corriger_marche,
+    corriger_detail,
     tables_marche,
     verifier_coherence,
 )
 
 RHO = -0.06
-VERSION_MOTEUR = '4.0.0'
+VERSION_MOTEUR = '4.0.1'
 # Part des buts inscrits avant la pause. Mesurée sur 7 571 matchs de huit
 # compétitions (5 grands championnats, Portugal, C1, C3) : 0,442. Aucune
 # compétition ne s'en écarte de façon significative — la valeur reste donc
@@ -382,9 +383,10 @@ def facteur_cache(opt: dict) -> str:
 
 def _option(code, famille, p, origine, nom_dom, nom_ext, corriger_p=True, ligue=None):
     p_brute = float(p)
+    corrigee = False
     if origine == 'calcul' and corriger_p:
         mk = cle_marche_depuis_code(code)
-        p = corriger_marche(p_brute, mk, tables_calibration(), ligue)
+        p, corrigee = corriger_detail(p_brute, mk, tables_calibration(), ligue)
     p = float(np.clip(p, 0.005, 0.995))
     return {
         'code': code,
@@ -392,6 +394,10 @@ def _option(code, famille, p, origine, nom_dom, nom_ext, corriger_p=True, ligue=
         'libelle': libelle(code, nom_dom, nom_ext),
         'probabilite': p,
         'p_brute': p_brute,
+        # False quand aucune courbe ne couvre cette probabilité : l'option est
+        # alors publiée brute, et l'app peut le dire plutôt que laisser croire
+        # à une correction mesurée.
+        'calibree': corrigee,
         'cote_juste': 1.0 / p,
         'origine': origine,
         'niveau': 'detail',

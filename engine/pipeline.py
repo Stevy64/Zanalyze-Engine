@@ -15,7 +15,7 @@ from __future__ import annotations
 
 import json
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from engine import espn
@@ -127,9 +127,12 @@ def sync(*, jours_passes: int = 14, jours_futurs: int = 21) -> dict[str, Any]:
         'detail_erreurs': [], 'avec_cotes_1x2': 0, 'avec_ligne_totaux': 0,
         'identites_non_resolues': 0,
     }
+    journal = espn.journal_vierge()
+    stats['ingestion'] = journal
     try:
         rows = espn.collecter_matchs(
             jours_passes=jours_passes, jours_futurs=jours_futurs, avec_cotes=True,
+            journal=journal,
         )
     except Exception as e:  # noqa: BLE001
         stats['erreurs'] += 1
@@ -158,7 +161,84 @@ def sync(*, jours_passes: int = 14, jours_futurs: int = 21) -> dict[str, Any]:
                 stats['avec_ligne_totaux'] += 1
     stats['jours'] = sorted(jours)
     stats['qualite'] = controler_qualite()
+    stats['alertes'] = alertes(journal)
     return stats
+
+
+# Compétitions dont le silence est forcément une panne : sur une fenêtre de
+# cinq semaines, aucune ne reste sans la moindre rencontre.
+COMPETITIONS_MAJEURES = frozenset({'UCL', 'UEL', 'PL', 'LIGA', 'BL', 'L1', 'SA', 'LP'})
+
+# Au-delà, un échec isolé devient une limitation de débit ou une panne.
+ECHECS_TOLERES = 12
+
+# Des matchs terminés mais aucune option réglée depuis ce délai : la boucle
+# d'apprentissage est morte et le moteur ne progressera plus.
+JOURS_SANS_REGLEMENT = 7
+
+
+def alertes(journal: dict[str, Any] | None = None) -> list[dict[str, str]]:
+    """Ce qui doit faire échouer le cycle, plutôt que passer inaperçu.
+
+    Trois pannes réelles de septembre-octobre 2026, dans l'ordre où elles se
+    sont produites : l'ingestion des résultats s'arrête, la boucle
+    d'apprentissage n'a plus rien à régler, et le dépôt continue de publier
+    un instantané en se déclarant en succès. Chacune est désormais nommée.
+    """
+    init_db()
+    out: list[dict[str, str]] = []
+
+    if journal:
+        muettes = sorted(
+            code for code in COMPETITIONS_MAJEURES
+            if journal['evenements_par_competition'].get(code, 0) == 0
+            and code in journal['evenements_par_competition']
+        )
+        if muettes:
+            out.append({
+                'code': 'ingestion_muette',
+                'detail': 'aucune rencontre renvoyée pour : ' + ', '.join(muettes),
+            })
+        if journal['jours_en_echec'] > ECHECS_TOLERES:
+            premiers = '; '.join(
+                f"{e['competition']} {e['jour']} {e['erreur']}"
+                for e in journal['echecs'][:3]
+            )
+            out.append({
+                'code': 'ingestion_en_echec',
+                'detail': (f"{journal['jours_en_echec']} requête(s) en échec sur "
+                           f"{journal['requetes']} — {premiers}"),
+            })
+
+    limite = (_maintenant() - timedelta(days=JOURS_SANS_REGLEMENT)).isoformat()
+    with connect() as conn:
+        termines_analyses = conn.execute(
+            """SELECT COUNT(*) FROM matchs m
+                 JOIN analyses a ON a.cle = m.cle
+                WHERE m.buts_dom IS NOT NULL AND m.statut = 'termine'""",
+        ).fetchone()[0]
+        reglees_recentes = 0
+        for row in conn.execute(
+            """SELECT a.payload FROM matchs m
+                 JOIN analyses a ON a.cle = m.cle
+                WHERE m.coup_denvoi >= ? AND m.buts_dom IS NOT NULL""",
+            (limite,),
+        ):
+            try:
+                payload = json.loads(row['payload'])
+            except (json.JSONDecodeError, TypeError):
+                continue
+            reglees_recentes += sum(
+                1 for o in payload.get('options') or []
+                if (o.get('resultat') or 'attente') != 'attente'
+            )
+    if termines_analyses and not reglees_recentes:
+        out.append({
+            'code': 'apprentissage_fige',
+            'detail': (f'{termines_analyses} match(s) terminé(s) portent une analyse, '
+                       f'mais aucune option réglée depuis {JOURS_SANS_REGLEMENT} jours'),
+        })
+    return out
 
 
 def controler_qualite() -> dict[str, Any]:
@@ -262,21 +342,49 @@ def _forces_par_ligue(conn) -> dict:
     Elles ne servent qu'aux rencontres sans cotes. Mesuré sur 4 247 matchs,
     le mélange forces + marché ne bat jamais le marché seul : la place des
     forces est là où il n'y a pas de marché, pas à côté de lui.
+
+    La source est l'archive **et** la base. L'archive est la mémoire longue,
+    versionnée avec le dépôt ; la base est un cache que GitHub Actions peut
+    évincer. N'ajuster que sur la base, c'est se priver de tout l'historique
+    importé — et c'est ce que faisait la v4 jusqu'au 10 octobre 2026.
     """
     from engine.force import ajuster_par_ligue
 
-    lignes = [
-        {'ligue': r['competition_code'], 'date': r['coup_denvoi'][:10],
-         'dom': r['domicile_cle'], 'ext': r['exterieur_cle'],
-         'bd': r['buts_dom'], 'be': r['buts_ext']}
-        for r in conn.execute(
-            """SELECT competition_code, coup_denvoi, domicile_cle, exterieur_cle,
-                      buts_dom, buts_ext
-                 FROM resultats
-                WHERE buts_dom IS NOT NULL AND buts_ext IS NOT NULL
-                ORDER BY coup_denvoi"""
-        )
-    ]
+    par_cle: dict[str, dict[str, Any]] = {}
+    try:
+        from engine import archive
+        for l in archive.charger_resultats():
+            bd, be = l.get('buts_dom'), l.get('buts_ext')
+            if bd in (None, '') or be in (None, ''):
+                continue
+            try:
+                ligne = {
+                    'ligue': l.get('competition') or '',
+                    'date': str(l.get('coup_denvoi') or '')[:10],
+                    'dom': l.get('domicile') or '', 'ext': l.get('exterieur') or '',
+                    'bd': int(bd), 'be': int(be),
+                }
+            except (TypeError, ValueError):
+                continue
+            if ligne['dom'] and ligne['ext'] and ligne['date']:
+                par_cle[str(l.get('cle') or f"{ligne['date']}:{ligne['dom']}:{ligne['ext']}")] = ligne
+    except Exception:  # noqa: BLE001 — archive absente ou illisible
+        pass
+
+    for r in conn.execute(
+        """SELECT cle, competition_code, coup_denvoi, domicile_cle, exterieur_cle,
+                  buts_dom, buts_ext
+             FROM resultats
+            WHERE buts_dom IS NOT NULL AND buts_ext IS NOT NULL
+            ORDER BY coup_denvoi"""
+    ):
+        par_cle[r['cle']] = {
+            'ligue': r['competition_code'], 'date': r['coup_denvoi'][:10],
+            'dom': r['domicile_cle'], 'ext': r['exterieur_cle'],
+            'bd': r['buts_dom'], 'be': r['buts_ext'],
+        }
+
+    lignes = sorted(par_cle.values(), key=lambda l: l['date'])
     if not lignes:
         return {}
     try:
@@ -294,7 +402,7 @@ def analyser_jours(jours: list[str] | None = None) -> dict[str, Any]:
     """
     init_db()
     stats = {'analyses': 0, 'ignores': 0, 'refuses': 0, 'sans_ligne': 0,
-             'lots': 0, 'sans_cotes_estimes': 0}
+             'lots': 0, 'sans_cotes_estimes': 0, 'sans_cotes_ni_forces': 0}
     maintenant = _maintenant()
 
     with connect() as conn:
@@ -325,17 +433,24 @@ def analyser_jours(jours: list[str] | None = None) -> dict[str, Any]:
                     # Sans cotes, la v3.1 n'affichait rien du tout. Les forces
                     # d'équipe donnent une estimation plus faible que le
                     # marché, mais bien meilleure que le silence.
-                    f = forces.get(m['competition_code'])
-                    lam = f.lambdas(m['domicile_cle'], m['exterieur_cle']) if f else None
-                    if not lam:
+                    from engine.force import TOUTES, lambdas_avec_repli
+                    trouve = lambdas_avec_repli(
+                        forces, m['competition_code'],
+                        m['domicile_cle'], m['exterieur_cle'],
+                    )
+                    if not trouve:
                         stats['ignores'] += 1
+                        stats['sans_cotes_ni_forces'] += 1
                         continue
+                    lam, provenance = trouve
                     payload = analyser_sans_marche(
                         lam[0], lam[1], noms['dom'], noms['ext'],
                         ligue=m['competition_code'],
                     )
                     payload['cle'] = m['cle']
-                    payload['source_cotes'] = 'forces'
+                    payload['source_cotes'] = (
+                        'forces' if provenance != TOUTES else 'forces_toutes_competitions'
+                    )
                     stats['sans_cotes_estimes'] += 1
                     lot.append(payload)
                     continue
@@ -422,4 +537,5 @@ def refresh(
         'calibration': calib,
         'snapshot': str(path),
         'provider': 'espn',
+        'alertes': sync_stats.get('alertes') or [],
     }

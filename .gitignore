@@ -18,3 +18,8 @@ data/*.sqlite3-shm
 #   data/calibration.json  — les courbes apprises
 #   data/archive/*.csv     — les prédictions réglées et les résultats
 # Sans elles, chaque exécution de GitHub Actions repartirait de zéro.
+
+# Construction du paquet partage
+build/
+dist/
+*.egg-info/
