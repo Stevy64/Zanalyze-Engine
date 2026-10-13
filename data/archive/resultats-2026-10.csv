@@ -66,3 +66,12 @@ SA:2026-10-12:turin:udinese,2026-10-12T18:45:00+00:00,SA,turin,udinese,2,1,1,1
 LIGA:2026-10-12:levante:seville,2026-10-12T19:00:00+00:00,LIGA,levante,seville,3,3,0,1
 PL:2026-10-12:coventry-city:newcastle,2026-10-12T19:00:00+00:00,PL,coventry-city,newcastle,4,1,1,0
 LP:2026-10-12:famalicao:alverca,2026-10-12T19:15:00+00:00,LP,famalicao,alverca,1,4,1,1
+UCL:2026-10-13:lens:sporting-cp,2026-10-13T16:45:00+00:00,UCL,lens,sporting-cp,0,2,0,1
+UCL:2026-10-13:sabah:slavia-prague,2026-10-13T16:45:00+00:00,UCL,sabah,slavia-prague,2,0,0,0
+UCL:2026-10-13:arsenal:lille,2026-10-13T19:00:00+00:00,UCL,arsenal,lille,3,0,0,0
+UCL:2026-10-13:atletico-madrid:manchester-united,2026-10-13T19:00:00+00:00,UCL,atletico-madrid,manchester-united,2,0,1,0
+UCL:2026-10-13:galatasaray:barcelona,2026-10-13T19:00:00+00:00,UCL,galatasaray,barcelona,1,4,1,1
+UCL:2026-10-13:inter:bruges,2026-10-13T19:00:00+00:00,UCL,inter,bruges,3,4,1,1
+UCL:2026-10-13:rb-leipzig:psv-eindhoven,2026-10-13T19:00:00+00:00,UCL,rb-leipzig,psv-eindhoven,1,0,0,0
+UCL:2026-10-13:viking:bayern-munich,2026-10-13T19:00:00+00:00,UCL,viking,bayern-munich,3,3,2,0
+UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,villarreal,naples,3,1,2,1
