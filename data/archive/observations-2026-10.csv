@@ -2176,6 +2176,41 @@ UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.2
 UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.43299,0.43299,marche,perdu,4.0.1
 UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.658543,0.658543,calcul,perdu,4.0.1
 UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.823675,0.831314,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,1X2_1,1,0,0.301937,0.301937,marche,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,1X2_2,2,0,0.449817,0.449817,marche,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,1X2_N,N,0,0.248246,0.248246,marche,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,BTTS_N,BTTS oui,1,0.353288,0.353288,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,BTTS_O,BTTS oui,0,0.646712,0.646712,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,DC_12,12,0,0.751754,0.751754,marche,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,DC_1X,1X,0,0.550183,0.550183,marche,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,DC_X2,X2,0,0.698063,0.698063,marche,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.427453,0.427453,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.766909,0.766909,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.538392,0.570462,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.835383,0.858651,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.856968,0.872242,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.750755,0.778881,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HT_1,MT 1,0,0.259695,0.234103,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HT_2,MT 2,0,0.35108,0.385938,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HT_N,MT N,0,0.389225,0.372312,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.75605,0.75605,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.429568,0.428923,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.24395,0.24395,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.570432,0.571077,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.249245,0.221119,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.110628,0.098007,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.143032,0.127713,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.052709,0.047901,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,OV_0.5,+0.5,0,0.95558,0.951898,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,OV_1.5,+1.5,0,0.842572,0.842572,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,OV_2.5,+2.5,0,0.632571,0.653795,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,OV_3.5,+3.5,0,0.413265,0.413265,marche,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,OV_4.5,+4.5,0,0.230234,0.219431,calcul,gagne,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,UN_0.5,+0.5,1,0.04442,0.048102,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,UN_1.5,+1.5,1,0.157428,0.157428,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,UN_2.5,+2.5,1,0.367429,0.346205,calcul,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,UN_3.5,+3.5,1,0.586735,0.586735,marche,perdu,4.0.1
+UCL:2026-10-14:feyenoord:como,2026-10-14T16:45:00+00:00,UCL,UN_4.5,+4.5,1,0.769766,0.780569,calcul,perdu,4.0.1
 UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,1X2_1,1,0,0.111828,0.111828,marche,perdu,4.0.1
 UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,1X2_2,2,0,0.713881,0.713881,marche,gagne,4.0.1
 UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,1X2_N,N,0,0.174291,0.174291,marche,perdu,4.0.1
@@ -2209,3 +2244,242 @@ UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_1.5,+1.5,1,0
 UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_2.5,+2.5,1,0.380679,0.351791,calcul,perdu,4.0.1
 UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_3.5,+3.5,1,0.604534,0.604534,marche,perdu,4.0.1
 UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_4.5,+4.5,1,0.781274,0.791401,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,1X2_1,1,0,0.598442,0.598442,marche,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,1X2_2,2,0,0.182321,0.182321,marche,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,1X2_N,N,0,0.219236,0.219236,marche,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,BTTS_N,BTTS oui,1,0.424047,0.424047,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,BTTS_O,BTTS oui,0,0.575953,0.575953,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,DC_12,12,0,0.780764,0.780764,marche,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,DC_1X,1X,0,0.817679,0.817679,marche,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,DC_X2,X2,0,0.401558,0.401558,marche,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.609972,0.609972,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.872537,0.872537,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.286211,0.300755,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.653459,0.670169,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.629619,0.65642,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.932332,0.940249,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HT_1,MT 1,0,0.440125,0.45814,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HT_2,MT 2,0,0.175709,0.180682,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HT_N,MT N,0,0.384167,0.364775,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.7417,0.7417,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.407306,0.404596,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.2583,0.2583,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.592694,0.595404,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.067668,0.059322,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.370381,0.34358,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.186891,0.17142,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,OV_0.5,+0.5,0,0.950043,0.961641,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,OV_1.5,+1.5,0,0.823814,0.823814,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,OV_2.5,+2.5,0,0.603015,0.603015,marche,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,OV_3.5,+3.5,0,0.379561,0.379561,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,OV_4.5,+4.5,0,0.205232,0.195897,calcul,gagne,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,UN_0.5,+0.5,1,0.049957,0.038359,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.176186,0.176186,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.396985,0.396985,marche,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.620439,0.620439,calcul,perdu,4.0.1
+UCL:2026-10-14:aston-villa:fenerbahce,2026-10-14T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.794768,0.804103,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,1X2_1,1,0,0.369545,0.369545,marche,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,1X2_2,2,0,0.384958,0.384958,marche,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,1X2_N,N,0,0.245498,0.245498,marche,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,BTTS_N,BTTS oui,1,0.304908,0.304908,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,BTTS_O,BTTS oui,0,0.695092,0.695092,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,DC_12,12,0,0.754502,0.754502,marche,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,DC_1X,1X,0,0.615042,0.615042,marche,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,DC_X2,X2,0,0.630455,0.630455,marche,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.524007,0.524007,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.827302,0.827302,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.535235,0.566049,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.833628,0.857191,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.802636,0.824633,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.791348,0.814767,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HT_1,MT 1,0,0.308792,0.298753,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HT_2,MT 2,0,0.318304,0.344261,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HT_N,MT N,0,0.372904,0.347992,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.784054,0.784054,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.472681,0.47606,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.215946,0.215946,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.527319,0.52394,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.208652,0.185233,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.090228,0.080605,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.197364,0.175367,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.083817,0.075136,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,OV_0.5,+0.5,0,0.965838,0.955802,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,OV_1.5,+1.5,0,0.874706,0.874706,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,OV_2.5,+2.5,0,0.688254,0.696254,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,OV_3.5,+3.5,0,0.477807,0.477807,marche,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,OV_4.5,+4.5,0,0.283978,0.296022,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,UN_0.5,+0.5,1,0.034162,0.044198,calcul,perdu,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.125294,0.125294,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.311746,0.303746,calcul,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.522193,0.522193,marche,gagne,4.0.1
+UCL:2026-10-14:bodo-glimt:borussia-dortmund,2026-10-14T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.716022,0.703978,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,1X2_1,1,0,0.506759,0.506759,marche,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,1X2_2,2,0,0.272029,0.272029,marche,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,1X2_N,N,0,0.221211,0.221211,marche,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,BTTS_N,BTTS oui,1,0.319506,0.319506,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,BTTS_O,BTTS oui,0,0.680494,0.680494,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,DC_12,12,0,0.778789,0.778789,marche,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,DC_1X,1X,0,0.727971,0.727971,marche,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,DC_X2,X2,0,0.493241,0.493241,marche,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.611786,0.611786,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.873416,0.873416,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.436505,0.434647,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.773069,0.806818,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.699324,0.729753,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.874903,0.888426,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HT_1,MT 1,0,0.390183,0.399484,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HT_2,MT 2,0,0.241951,0.234398,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HT_N,MT N,0,0.367866,0.340484,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.784281,0.784281,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.472506,0.475869,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.215719,0.215719,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.527494,0.524131,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.125097,0.111346,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.300676,0.270247,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.147009,0.13012,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,OV_0.5,+0.5,0,0.965991,0.955913,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,OV_1.5,+1.5,0,0.874582,0.874582,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,OV_2.5,+2.5,0,0.688294,0.696286,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,OV_3.5,+3.5,0,0.473684,0.473684,marche,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,OV_4.5,+4.5,0,0.28402,0.296085,calcul,gagne,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,UN_0.5,+0.5,1,0.034009,0.044087,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.125418,0.125418,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.311706,0.303714,calcul,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.526316,0.526316,marche,perdu,4.0.1
+UCL:2026-10-14:manchester-city:paris-saint-germain,2026-10-14T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.71598,0.703915,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,1X2_1,1,0,0.458474,0.458474,marche,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,1X2_2,2,0,0.285094,0.285094,marche,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,1X2_N,N,0,0.256432,0.256432,marche,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,BTTS_N,BTTS oui,1,0.404814,0.404814,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,BTTS_O,BTTS oui,0,0.595186,0.595186,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,DC_12,12,0,0.743568,0.743568,marche,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,DC_1X,1X,0,0.714906,0.714906,marche,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,DC_X2,X2,0,0.541526,0.541526,marche,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.500097,0.500097,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.813375,0.813375,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.368091,0.386709,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.723534,0.756234,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.753855,0.781842,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.874972,0.888488,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HT_1,MT 1,0,0.348551,0.350588,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HT_2,MT 2,0,0.241738,0.234225,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HT_N,MT N,0,0.409711,0.40284,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.723418,0.723418,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.383622,0.378715,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.276582,0.276582,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.616378,0.621285,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.125028,0.111283,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.246145,0.218158,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.104821,0.093053,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,OV_0.5,+0.5,0,0.941723,0.952913,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,OV_1.5,+1.5,0,0.80214,0.80214,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,OV_2.5,+2.5,0,0.569948,0.569948,marche,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,OV_3.5,+3.5,0,0.344776,0.344776,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,OV_4.5,+4.5,0,0.178778,0.170995,calcul,gagne,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,UN_0.5,+0.5,1,0.058277,0.047087,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.19786,0.19786,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.430052,0.430052,marche,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.655224,0.655224,calcul,perdu,4.0.1
+UCL:2026-10-14:real-betis:porto,2026-10-14T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.821222,0.829005,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,1X2_1,1,0,0.263126,0.263126,marche,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,1X2_2,2,0,0.498003,0.498003,marche,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,1X2_N,N,0,0.238871,0.238871,marche,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,BTTS_N,BTTS oui,1,0.338182,0.338182,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,BTTS_O,BTTS oui,0,0.661818,0.661818,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,DC_12,12,0,0.761129,0.761129,marche,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,DC_1X,1X,0,0.501997,0.501997,marche,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,DC_X2,X2,0,0.736874,0.736874,marche,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.417173,0.417173,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.759777,0.759777,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.59211,0.628571,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.863721,0.88732,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.87775,0.890995,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.70626,0.736378,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HT_1,MT 1,0,0.239022,0.217889,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HT_2,MT 2,0,0.385044,0.409194,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HT_N,MT N,0,0.375934,0.352507,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.772027,0.772027,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.453302,0.454869,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.227973,0.227973,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.546698,0.545131,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.29374,0.263622,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.140543,0.123525,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.12225,0.108748,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,OV_0.5,+0.5,0,0.961679,0.95279,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,OV_1.5,+1.5,0,0.860909,0.860909,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,OV_2.5,+2.5,0,0.663957,0.67651,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,OV_3.5,+3.5,0,0.448819,0.448819,marche,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,OV_4.5,+4.5,0,0.259399,0.259282,calcul,gagne,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,UN_0.5,+0.5,1,0.038321,0.04721,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.139091,0.139091,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.336043,0.32349,calcul,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.551181,0.551181,marche,perdu,4.0.1
+UCL:2026-10-14:rome:real-madrid,2026-10-14T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.740601,0.740718,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,1X2_1,1,0,0.348058,0.348058,marche,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,1X2_2,2,0,0.354785,0.354785,marche,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,1X2_N,N,0,0.297157,0.297157,marche,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,BTTS_N,BTTS oui,1,0.482381,0.482381,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,BTTS_O,BTTS oui,0,0.517619,0.517619,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,DC_12,12,0,0.702843,0.702843,marche,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,DC_1X,1X,0,0.645215,0.645215,marche,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,DC_X2,X2,0,0.651942,0.651942,marche,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.35363,0.35363,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.712105,0.712105,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.358617,0.380071,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.716088,0.747089,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.843552,0.860393,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.839215,0.856602,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HT_1,MT 1,0,0.271983,0.250284,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HT_2,MT 2,0,0.276,0.281942,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HT_N,MT N,0,0.452017,0.465935,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.663336,0.663336,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.309564,0.291275,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.336664,0.336664,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.690436,0.708725,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.160785,0.143398,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.054762,0.049728,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.156448,0.139607,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.052758,0.047945,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,OV_0.5,+0.5,0,0.910575,0.928709,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,OV_1.5,+1.5,0,0.721263,0.721263,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,OV_2.5,+2.5,0,0.461942,0.461942,marche,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,OV_3.5,+3.5,0,0.243333,0.243333,calcul,gagne,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,OV_4.5,+4.5,0,0.109391,0.104492,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,UN_0.5,+0.5,1,0.089425,0.071291,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.278737,0.278737,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.538058,0.538058,marche,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.756667,0.756667,calcul,perdu,4.0.1
+UCL:2026-10-14:shakhtar-donetsk:aek-athens,2026-10-14T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.890609,0.895508,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,1X2_1,1,0,0.134265,0.134265,marche,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,1X2_2,2,0,0.705119,0.705119,marche,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,1X2_N,N,0,0.160616,0.160616,marche,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,BTTS_N,BTTS oui,1,0.370068,0.370068,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,BTTS_O,BTTS oui,0,0.629932,0.629932,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,DC_12,12,0,0.839384,0.839384,marche,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,DC_1X,1X,0,0.294881,0.294881,marche,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,DC_X2,X2,0,0.865735,0.865735,marche,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.305687,0.305687,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.671391,0.671391,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.749982,0.746971,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.932291,0.958445,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.952696,0.958294,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.499646,0.528714,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HT_1,MT 1,0,0.146538,0.149563,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HT_2,MT 2,0,0.528496,0.546897,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HT_N,MT N,0,0.324966,0.316395,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.807465,0.807465,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.507677,0.514327,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.192535,0.192535,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.492323,0.485673,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.500354,0.471286,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.302119,0.275181,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,OV_0.5,+0.5,0,0.97375,0.9607,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,OV_1.5,+1.5,0,0.897081,0.897081,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,OV_2.5,+2.5,0,0.731978,0.731782,calcul,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,OV_3.5,+3.5,0,0.526316,0.526316,marche,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,OV_4.5,+4.5,0,0.333208,0.364232,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,UN_0.5,+0.5,1,0.02625,0.0393,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.102919,0.102919,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.268022,0.268218,calcul,perdu,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.473684,0.473684,marche,gagne,4.0.1
+UCL:2026-10-14:slovan-bratislava:stuttgart,2026-10-14T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.666792,0.635768,calcul,gagne,4.0.1
