@@ -2176,3 +2176,36 @@ UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_1.5,+1.5,1,0.2
 UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.43299,0.43299,marche,perdu,4.0.1
 UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.658543,0.658543,calcul,perdu,4.0.1
 UCL:2026-10-13:villarreal:naples,2026-10-13T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.823675,0.831314,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,1X2_1,1,0,0.111828,0.111828,marche,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,1X2_2,2,0,0.713881,0.713881,marche,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,1X2_N,N,0,0.174291,0.174291,marche,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,BTTS_N,BTTS oui,1,0.486071,0.486071,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,BTTS_O,BTTS oui,0,0.513929,0.513929,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,DC_12,12,0,0.825709,0.825709,marche,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,DC_1X,1X,0,0.286119,0.286119,marche,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,DC_X2,X2,0,0.888172,0.888172,marche,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.200022,0.200022,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.561524,0.561524,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.685378,0.705683,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.906691,0.934954,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.967049,0.970646,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.510407,0.535542,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HT_1,MT 1,0,0.121894,0.121682,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HT_2,MT 2,0,0.521193,0.538552,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HT_N,MT N,0,0.356913,0.333285,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.750949,0.750949,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.418146,0.416441,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.249051,0.249051,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.581854,0.583559,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.489593,0.464458,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.278565,0.25722,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,OV_0.5,+0.5,0,0.954286,0.954176,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,OV_1.5,+1.5,0,0.833115,0.833115,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,OV_2.5,+2.5,0,0.619321,0.648209,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,OV_3.5,+3.5,0,0.395466,0.395466,marche,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,OV_4.5,+4.5,0,0.218726,0.208599,calcul,gagne,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_0.5,+0.5,1,0.045714,0.045824,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_1.5,+1.5,1,0.166885,0.166885,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_2.5,+2.5,1,0.380679,0.351791,calcul,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_3.5,+3.5,1,0.604534,0.604534,marche,perdu,4.0.1
+UCL:2026-10-14:lask-linz:liverpool,2026-10-14T16:45:00+00:00,UCL,UN_4.5,+4.5,1,0.781274,0.791401,calcul,perdu,4.0.1
