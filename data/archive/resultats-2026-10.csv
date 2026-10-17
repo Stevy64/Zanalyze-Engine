@@ -108,3 +108,12 @@ L1:2026-10-16:le-mans:toulouse,2026-10-16T18:45:00+00:00,L1,le-mans,toulouse,0,3
 SA:2026-10-16:frosinone:sassuolo,2026-10-16T18:45:00+00:00,SA,frosinone,sassuolo,4,2,3,2
 LIGA:2026-10-16:deportivo:levante,2026-10-16T19:00:00+00:00,LIGA,deportivo,levante,1,1,0,0
 TDP:2026-10-16:gd-chaves:os-marialvas,2026-10-16T19:00:00+00:00,TDP,gd-chaves,os-marialvas,2,1,1,0
+PL:2026-10-17:everton:chelsea,2026-10-17T11:30:00+00:00,PL,everton,chelsea,0,2,0,0
+LIGA:2026-10-17:espanyol:atletico-madrid,2026-10-17T12:00:00+00:00,LIGA,espanyol,atletico-madrid,0,1,0,0
+SA:2026-10-17:venezia:naples,2026-10-17T13:00:00+00:00,SA,venezia,naples,1,0,0,0
+TDP:2026-10-17:acdr-lamelas:vitoria-de-guimaraes,2026-10-17T13:00:00+00:00,TDP,acdr-lamelas,vitoria-de-guimaraes,0,1,0,0
+BL:2026-10-17:elversberg:augsburg,2026-10-17T13:30:00+00:00,BL,elversberg,augsburg,4,3,3,1
+BL:2026-10-17:hamburg:stuttgart,2026-10-17T13:30:00+00:00,BL,hamburg,stuttgart,1,0,0,0
+BL:2026-10-17:schalke:mainz,2026-10-17T13:30:00+00:00,BL,schalke,mainz,0,1,0,1
+BL:2026-10-17:union-berlin:borussia-dortmund,2026-10-17T13:30:00+00:00,BL,union-berlin,borussia-dortmund,0,0,,
+BL:2026-10-17:werder-bremen:paderborn,2026-10-17T13:30:00+00:00,BL,werder-bremen,paderborn,2,2,0,2
