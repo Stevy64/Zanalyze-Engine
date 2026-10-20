@@ -178,3 +178,12 @@ SA:2026-10-19:parma:turin,2026-10-19T18:45:00+00:00,SA,parma,turin,0,3,0,2
 LIGA:2026-10-19:getafe:rayo-vallecano,2026-10-19T19:00:00+00:00,LIGA,getafe,rayo-vallecano,1,1,0,1
 PL:2026-10-19:tottenham:coventry-city,2026-10-19T19:00:00+00:00,PL,tottenham,coventry-city,3,1,1,0
 LP:2026-10-19:braga:gil-vicente,2026-10-19T19:15:00+00:00,LP,braga,gil-vicente,1,2,1,0
+UCL:2026-10-20:fenerbahce:slavia-prague,2026-10-20T16:45:00+00:00,UCL,fenerbahce,slavia-prague,2,2,2,1
+UCL:2026-10-20:sabah:borussia-dortmund,2026-10-20T16:45:00+00:00,UCL,sabah,borussia-dortmund,1,2,1,1
+UCL:2026-10-20:liverpool:villarreal,2026-10-20T19:00:00+00:00,UCL,liverpool,villarreal,4,3,2,2
+UCL:2026-10-20:manchester-city:aek-athens,2026-10-20T19:00:00+00:00,UCL,manchester-city,aek-athens,5,1,2,0
+UCL:2026-10-20:naples:bodo-glimt,2026-10-20T19:00:00+00:00,UCL,naples,bodo-glimt,4,3,2,1
+UCL:2026-10-20:paris-saint-germain:barcelona,2026-10-20T19:00:00+00:00,UCL,paris-saint-germain,barcelona,4,2,1,0
+UCL:2026-10-20:porto:psv-eindhoven,2026-10-20T19:00:00+00:00,UCL,porto,psv-eindhoven,0,1,0,0
+UCL:2026-10-20:rome:slovan-bratislava,2026-10-20T19:00:00+00:00,UCL,rome,slovan-bratislava,4,0,2,0
+UCL:2026-10-20:stuttgart:atletico-madrid,2026-10-20T19:00:00+00:00,UCL,stuttgart,atletico-madrid,1,1,1,0
