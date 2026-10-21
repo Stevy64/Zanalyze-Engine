@@ -5560,3 +5560,72 @@ UCL:2026-10-20:stuttgart:atletico-madrid,2026-10-20T19:00:00+00:00,UCL,UN_1.5,+1
 UCL:2026-10-20:stuttgart:atletico-madrid,2026-10-20T19:00:00+00:00,UCL,UN_2.5,+2.5,1,0.345803,0.33142,calcul,gagne,4.0.1
 UCL:2026-10-20:stuttgart:atletico-madrid,2026-10-20T19:00:00+00:00,UCL,UN_3.5,+3.5,1,0.561358,0.561358,marche,gagne,4.0.1
 UCL:2026-10-20:stuttgart:atletico-madrid,2026-10-20T19:00:00+00:00,UCL,UN_4.5,+4.5,1,0.749969,0.754721,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,1X2_1,1,0,0.400811,0.400811,marche,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,1X2_2,2,0,0.347694,0.347694,marche,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,1X2_N,N,0,0.251495,0.251495,marche,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,BTTS_N,BTTS oui,1,0.369828,0.369828,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,BTTS_O,BTTS oui,0,0.630172,0.630172,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,DC_12,12,0,0.748505,0.748505,marche,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,DC_1X,1X,0,0.652306,0.652306,marche,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,DC_X2,X2,0,0.599189,0.599189,marche,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.482588,0.482588,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.802769,0.802769,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.442354,0.438745,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.77699,0.810079,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.793785,0.816898,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.831541,0.849895,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HT_1,MT 1,0,0.31622,0.308534,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HT_2,MT 2,0,0.283398,0.29284,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HT_N,MT N,0,0.400382,0.388938,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.741437,0.741437,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.408688,0.406107,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.258563,0.258563,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.591312,0.593893,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.168459,0.150105,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.064285,0.058202,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.206215,0.183102,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.084287,0.075537,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,OV_0.5,+0.5,0,0.949587,0.962445,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,OV_1.5,+1.5,0,0.82504,0.82504,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,OV_2.5,+2.5,0,0.604534,0.604534,marche,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,OV_3.5,+3.5,0,0.380507,0.380507,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,OV_4.5,+4.5,0,0.20597,0.196592,calcul,gagne,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,UN_0.5,+0.5,1,0.050413,0.037555,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,UN_1.5,+1.5,1,0.17496,0.17496,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,UN_2.5,+2.5,1,0.395466,0.395466,marche,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,UN_3.5,+3.5,1,0.619493,0.619493,calcul,perdu,4.0.1
+UCL:2026-10-21:como:manchester-united,2026-10-21T16:45:00+00:00,UCL,UN_4.5,+4.5,1,0.79403,0.803408,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,1X2_1,1,0,0.429427,0.429427,marche,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,1X2_2,2,0,0.307475,0.307475,marche,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,1X2_N,N,0,0.263098,0.263098,marche,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,BTTS_N,BTTS oui,1,0.403308,0.403308,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,BTTS_O,BTTS oui,0,0.596692,0.596692,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,DC_12,12,0,0.736902,0.736902,marche,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,DC_1X,1X,0,0.692525,0.692525,marche,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,DC_X2,X2,0,0.570573,0.570573,marche,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.478412,0.478412,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.800186,0.800186,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.386027,0.399277,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.737217,0.77304,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.775658,0.801055,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.860228,0.875184,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HT_1,MT 1,0,0.331108,0.328139,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HT_2,MT 2,0,0.256427,0.253108,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HT_N,MT N,0,0.412465,0.406943,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.721286,0.721286,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.380915,0.375757,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.278714,0.278714,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.619085,0.624243,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.139772,0.124738,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.224342,0.198945,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,MRG_H_3,HC dom -2,0,0.092212,0.082297,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,OV_0.5,+0.5,0,0.940712,0.949847,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,OV_1.5,+1.5,0,0.799544,0.799544,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,OV_2.5,+2.5,0,0.56701,0.56701,marche,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,OV_3.5,+3.5,0,0.340851,0.340851,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,OV_4.5,+4.5,0,0.175878,0.168265,calcul,gagne,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,UN_0.5,+0.5,1,0.059288,0.050153,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,UN_1.5,+1.5,1,0.200456,0.200456,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,UN_2.5,+2.5,1,0.43299,0.43299,marche,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,UN_3.5,+3.5,1,0.659149,0.659149,calcul,perdu,4.0.1
+UCL:2026-10-21:lille:galatasaray,2026-10-21T16:45:00+00:00,UCL,UN_4.5,+4.5,1,0.824122,0.831735,calcul,perdu,4.0.1
