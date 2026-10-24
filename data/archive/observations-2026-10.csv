@@ -7066,3 +7066,208 @@ PL:2026-10-24:coventry-city:fulham,2026-10-24T14:00:00+00:00,PL,UN_1.5,+1.5,1,0.
 PL:2026-10-24:coventry-city:fulham,2026-10-24T14:00:00+00:00,PL,UN_2.5,+2.5,1,0.453125,0.453125,marche,gagne,4.0.1
 PL:2026-10-24:coventry-city:fulham,2026-10-24T14:00:00+00:00,PL,UN_3.5,+3.5,1,0.680283,0.680283,calcul,gagne,4.0.1
 PL:2026-10-24:coventry-city:fulham,2026-10-24T14:00:00+00:00,PL,UN_4.5,+4.5,1,0.839442,0.846155,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,1X2_1,1,0,0.418744,0.418744,marche,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,1X2_2,2,0,0.322832,0.322832,marche,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,1X2_N,N,0,0.258424,0.258424,marche,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.384064,0.384064,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.615936,0.615936,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,DC_12,12,0,0.741576,0.741576,marche,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,DC_1X,1X,0,0.677168,0.677168,marche,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,DC_X2,X2,0,0.581256,0.581256,marche,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.485946,0.485946,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.804831,0.804831,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.41341,0.418464,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.757128,0.793558,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.780944,0.805675,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.848279,0.864523,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HT_1,MT 1,0,0.326836,0.322514,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HT_2,MT 2,0,0.267923,0.270043,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HT_N,MT N,0,0.405241,0.396178,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.733121,0.733121,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.397025,0.393361,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.266879,0.266879,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.602975,0.606639,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.151721,0.135477,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,MRG_A_3,HC dom -2,0,0.055292,0.0502,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.219056,0.194325,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,MRG_H_3,HC dom -2,0,0.090525,0.080858,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,OV_0.5,+0.5,0,0.946022,0.965949,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,OV_1.5,+1.5,0,0.814644,0.814644,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,OV_2.5,+2.5,0,0.589744,0.589744,marche,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,OV_3.5,+3.5,0,0.363769,0.363769,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,OV_4.5,+4.5,0,0.193055,0.184434,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,UN_0.5,+0.5,1,0.053978,0.034051,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,UN_1.5,+1.5,1,0.185356,0.185356,calcul,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,UN_2.5,+2.5,1,0.410256,0.410256,marche,perdu,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,UN_3.5,+3.5,1,0.636231,0.636231,calcul,gagne,4.0.1
+LIGA:2026-10-24:racing-santander:espanyol,2026-10-24T14:15:00+00:00,LIGA,UN_4.5,+4.5,1,0.806945,0.815566,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,1X2_1,1,0,0.556965,0.556965,marche,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,1X2_2,2,0,0.195243,0.195243,marche,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,1X2_N,N,0,0.247792,0.247792,marche,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,BTTS_N,BTTS oui,1,0.492205,0.492205,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,BTTS_O,BTTS oui,0,0.507795,0.507795,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,DC_12,12,0,0.752208,0.752208,marche,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,DC_1X,1X,0,0.804757,0.804757,marche,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,DC_X2,X2,0,0.443035,0.443035,marche,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.519141,0.519141,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,DOM_MARQUE,dom marque,0,0.824518,0.824518,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.240624,0.252586,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,EXT_MARQUE,ext marque,0,0.607711,0.62005,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.684417,0.715513,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.932222,0.94015,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HT_1,MT 1,0,0.400766,0.411914,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HT_2,MT 2,0,0.175593,0.180588,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HT_N,MT N,0,0.423641,0.423597,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.687726,0.687726,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.33699,0.325751,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.312274,0.312274,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.66301,0.674249,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,MRG_A_2,HC dom -1,0,0.067778,0.059417,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,MRG_H_2,HC dom -1,0,0.315583,0.284487,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,MRG_H_3,HC dom -2,0,0.141911,0.12484,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,OV_0.5,+0.5,0,0.924434,0.933132,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,OV_1.5,+1.5,0,0.753673,0.753673,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,OV_2.5,+2.5,0,0.5,0.5,marche,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,OV_3.5,+3.5,0,0.280619,0.280619,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,OV_4.5,+4.5,0,0.133538,0.128028,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,UN_0.5,+0.5,1,0.075566,0.066868,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,UN_1.5,+1.5,1,0.246327,0.246327,calcul,perdu,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,UN_2.5,+2.5,1,0.5,0.5,marche,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,UN_3.5,+3.5,1,0.719381,0.719381,calcul,gagne,4.0.1
+LP:2026-10-24:estrela:casa-pia,2026-10-24T14:30:00+00:00,LP,UN_4.5,+4.5,1,0.866462,0.871972,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,1X2_1,1,0,0.3572,0.3572,marche,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,1X2_2,2,0,0.3572,0.3572,marche,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,1X2_N,N,0,0.285599,0.285599,marche,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,BTTS_N,BTTS oui,1,0.432943,0.432943,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,BTTS_O,BTTS oui,0,0.567057,0.567057,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,DC_12,12,0,0.714401,0.714401,marche,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,DC_1X,1X,0,0.6428,0.6428,marche,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,DC_X2,X2,0,0.6428,0.6428,marche,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,DOM_2PLUS,dom +1.5,0,0.400954,0.400954,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,DOM_MARQUE,dom marque,0,0.748212,0.748212,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,EXT_2PLUS,ext +1.5,0,0.400954,0.409737,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,EXT_MARQUE,ext marque,0,0.748212,0.786142,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HCP_A_+1,HC dom +1,0,0.829057,0.847724,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HCP_H_+1,HC dom +1,0,0.829057,0.847724,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HT_1,MT 1,0,0.285462,0.268032,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HT_2,MT 2,0,0.285462,0.295881,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HT_N,MT N,0,0.429076,0.431696,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HT_OV_0.5,MT +0.5,0,0.697941,0.697941,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HT_OV_1.5,MT +1.5,0,0.350883,0.34294,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HT_UN_0.5,MT +0.5,1,0.302059,0.302059,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,HT_UN_1.5,MT +1.5,1,0.649117,0.65706,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,MRG_A_2,HC dom -1,0,0.170943,0.152276,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,MRG_A_3,HC dom -2,0,0.062082,0.056242,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,MRG_H_2,HC dom -1,0,0.170943,0.152276,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,MRG_H_3,HC dom -2,0,0.062082,0.056242,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,OV_0.5,+0.5,0,0.929368,0.942,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,OV_1.5,+1.5,0,0.768968,0.768968,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,OV_2.5,+2.5,0,0.526316,0.526316,marche,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,OV_3.5,+3.5,0,0.298808,0.298808,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,OV_4.5,+4.5,0,0.145894,0.140042,calcul,gagne,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,UN_0.5,+0.5,1,0.070632,0.058,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,UN_1.5,+1.5,1,0.231032,0.231032,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,UN_2.5,+2.5,1,0.473684,0.473684,marche,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,UN_3.5,+3.5,1,0.701192,0.701192,calcul,perdu,4.0.1
+SA:2026-10-24:naples:rome,2026-10-24T16:00:00+00:00,SA,UN_4.5,+4.5,1,0.854106,0.859958,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,1X2_1,1,0,0.693608,0.693608,marche,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,1X2_2,2,0,0.1378,0.1378,marche,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,1X2_N,N,0,0.168592,0.168592,marche,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,BTTS_N,BTTS oui,1,0.378729,0.378729,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,BTTS_O,BTTS oui,0,0.621271,0.621271,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,DC_12,12,0,0.831408,0.831408,marche,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,DC_1X,1X,0,0.8622,0.8622,marche,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,DC_X2,X2,0,0.306392,0.306392,marche,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,DOM_2PLUS,dom +1.5,0,0.73353,0.73353,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,DOM_MARQUE,dom marque,0,0.926078,0.926078,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,EXT_2PLUS,ext +1.5,0,0.300053,0.31706,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,EXT_MARQUE,ext marque,0,0.666294,0.685932,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HCP_A_+1,HC dom +1,0,0.515008,0.538462,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HCP_H_+1,HC dom +1,0,0.951013,0.956847,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HT_1,MT 1,0,0.518247,0.520764,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HT_2,MT 2,0,0.149142,0.157967,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HT_N,MT N,0,0.332612,0.320437,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HT_OV_0.5,MT +0.5,0,0.798795,0.798795,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HT_OV_1.5,MT +1.5,0,0.493267,0.49857,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HT_UN_0.5,MT +0.5,1,0.201205,0.201205,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,HT_UN_1.5,MT +1.5,1,0.506733,0.50143,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,MRG_H_2,HC dom -1,0,0.484992,0.461538,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,MRG_H_3,HC dom -2,0,0.286939,0.263605,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,OV_0.5,+0.5,0,0.971101,0.959614,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,OV_1.5,+1.5,0,0.888235,0.888235,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,OV_2.5,+2.5,0,0.714945,0.717942,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,OV_3.5,+3.5,0,0.505319,0.505319,marche,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,OV_4.5,+4.5,0,0.313211,0.339719,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,UN_0.5,+0.5,1,0.028899,0.040386,calcul,perdu,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,UN_1.5,+1.5,1,0.111765,0.111765,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,UN_2.5,+2.5,1,0.285055,0.282058,calcul,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,UN_3.5,+3.5,1,0.494681,0.494681,marche,gagne,4.0.1
+BL:2026-10-24:borussia-dortmund:eintracht-frankfurt,2026-10-24T16:30:00+00:00,BL,UN_4.5,+4.5,1,0.686789,0.660281,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,1X2_1,1,0,0.284613,0.284613,marche,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,1X2_2,2,0,0.451289,0.451289,marche,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,1X2_N,N,0,0.264098,0.264098,marche,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.422455,0.422455,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.577545,0.577545,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,DC_12,12,0,0.735902,0.735902,marche,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,DC_1X,1X,0,0.548711,0.548711,marche,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,DC_X2,X2,0,0.715387,0.715387,marche,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.353644,0.353644,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.712116,0.712116,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.480256,0.489189,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.801329,0.830325,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.876678,0.890028,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.762028,0.789143,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HT_1,MT 1,0,0.239938,0.218508,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HT_2,MT 2,0,0.342025,0.379205,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HT_N,MT N,0,0.418037,0.415246,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.711015,0.711015,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.367279,0.360856,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.288985,0.288985,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.632721,0.639144,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.237972,0.210857,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,MRG_A_3,HC dom -2,0,0.098737,0.087863,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.123322,0.109726,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,OV_0.5,+0.5,0,0.9359,0.939941,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,OV_1.5,+1.5,0,0.786062,0.786062,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,OV_2.5,+2.5,0,0.546875,0.546875,marche,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,OV_3.5,+3.5,0,0.321728,0.321728,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,OV_4.5,+4.5,0,0.161995,0.155197,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,UN_0.5,+0.5,1,0.0641,0.060059,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,UN_1.5,+1.5,1,0.213938,0.213938,calcul,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,UN_2.5,+2.5,1,0.453125,0.453125,marche,perdu,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,UN_3.5,+3.5,1,0.678272,0.678272,calcul,gagne,4.0.1
+LIGA:2026-10-24:valencia:villarreal,2026-10-24T16:30:00+00:00,LIGA,UN_4.5,+4.5,1,0.838005,0.844803,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,1X2_1,1,0,0.516959,0.516959,marche,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,1X2_2,2,0,0.244827,0.244827,marche,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,1X2_N,N,0,0.238214,0.238214,marche,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,BTTS_N,BTTS oui,1,0.390713,0.390713,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,BTTS_O,BTTS oui,0,0.609287,0.609287,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,DC_12,12,0,0.761786,0.761786,marche,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,DC_1X,1X,0,0.755173,0.755173,marche,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,DC_X2,X2,0,0.483041,0.483041,marche,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,DOM_2PLUS,dom +1.5,0,0.561175,0.561175,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,DOM_MARQUE,dom marque,0,0.847747,0.847747,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,EXT_2PLUS,ext +1.5,0,0.352801,0.375995,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,EXT_MARQUE,ext marque,0,0.711439,0.741378,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HCP_A_+1,HC dom +1,0,0.701954,0.732265,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HCP_H_+1,HC dom +1,0,0.897247,0.908588,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HT_1,MT 1,0,0.38819,0.397144,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HT_2,MT 2,0,0.218139,0.215088,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HT_N,MT N,0,0.393671,0.378937,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HT_OV_0.5,MT +0.5,0,0.741853,0.741853,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HT_OV_1.5,MT +1.5,0,0.408576,0.405984,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HT_UN_0.5,MT +0.5,1,0.258147,0.258147,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,HT_UN_1.5,MT +1.5,1,0.591424,0.594016,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,MRG_A_2,HC dom -1,0,0.102753,0.090955,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,MRG_H_2,HC dom -1,0,0.298046,0.267735,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,MRG_H_3,HC dom -2,0,0.138737,0.121984,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,OV_0.5,+0.5,0,0.949899,0.961895,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,OV_1.5,+1.5,0,0.824935,0.824935,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,OV_2.5,+2.5,0,0.604534,0.604534,marche,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,OV_3.5,+3.5,0,0.380763,0.380763,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,OV_4.5,+4.5,0,0.20617,0.19678,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,UN_0.5,+0.5,1,0.050101,0.038105,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,UN_1.5,+1.5,1,0.175065,0.175065,calcul,perdu,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,UN_2.5,+2.5,1,0.395466,0.395466,marche,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,UN_3.5,+3.5,1,0.619237,0.619237,calcul,gagne,4.0.1
+PL:2026-10-24:chelsea:tottenham,2026-10-24T16:30:00+00:00,PL,UN_4.5,+4.5,1,0.79383,0.80322,calcul,gagne,4.0.1
