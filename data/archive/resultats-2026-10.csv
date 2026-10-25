@@ -252,3 +252,17 @@ PL:2026-10-25:liverpool:brighton,2026-10-25T14:00:00+00:00,PL,liverpool,brighton
 PL:2026-10-25:manchester-united:bournemouth,2026-10-25T14:00:00+00:00,PL,manchester-united,bournemouth,0,3,0,2
 SA:2026-10-25:atalanta:frosinone,2026-10-25T14:00:00+00:00,SA,atalanta,frosinone,4,4,3,2
 SA:2026-10-25:genoa:venezia,2026-10-25T14:00:00+00:00,SA,genoa,venezia,1,0,1,0
+BL:2026-10-25:hoffenheim:bayer-leverkusen,2026-10-25T14:30:00+00:00,BL,hoffenheim,bayer-leverkusen,3,0,0,0
+LIGA:2026-10-25:celta-vigo:real-betis,2026-10-25T15:15:00+00:00,LIGA,celta-vigo,real-betis,0,0,,
+LP:2026-10-25:estoril:moreirense,2026-10-25T15:30:00+00:00,LP,estoril,moreirense,1,3,0,3
+L1:2026-10-25:angers:lorient,2026-10-25T16:15:00+00:00,L1,angers,lorient,0,0,,
+L1:2026-10-25:auxerre:le-mans,2026-10-25T16:15:00+00:00,L1,auxerre,le-mans,1,1,0,0
+L1:2026-10-25:marseille:le-havre,2026-10-25T16:15:00+00:00,L1,marseille,le-havre,4,3,2,0
+L1:2026-10-25:stade-rennais:strasbourg,2026-10-25T16:15:00+00:00,L1,stade-rennais,strasbourg,3,0,2,0
+L1:2026-10-25:toulouse:troyes,2026-10-25T16:15:00+00:00,L1,toulouse,troyes,0,0,,
+BL:2026-10-25:freiburg:bayern-munich,2026-10-25T16:30:00+00:00,BL,freiburg,bayern-munich,1,3,0,2
+PL:2026-10-25:sunderland:leeds,2026-10-25T16:30:00+00:00,PL,sunderland,leeds,0,0,,
+SA:2026-10-25:lecce:juventus,2026-10-25T17:00:00+00:00,SA,lecce,juventus,0,2,0,2
+LIGA:2026-10-25:real-sociedad:levante,2026-10-25T17:30:00+00:00,LIGA,real-sociedad,levante,2,1,2,1
+LP:2026-10-25:c-d-nacional:braga,2026-10-25T18:00:00+00:00,LP,c-d-nacional,braga,1,0,1,0
+LP:2026-10-25:rio-ave:famalicao,2026-10-25T18:00:00+00:00,LP,rio-ave,famalicao,0,4,0,0
