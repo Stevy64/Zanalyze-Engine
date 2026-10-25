@@ -243,3 +243,12 @@ L1:2026-10-24:lens:paris,2026-10-24T18:45:00+00:00,L1,lens,paris,2,1,0,1
 SA:2026-10-24:lazio:parma,2026-10-24T18:45:00+00:00,SA,lazio,parma,2,1,0,0
 LIGA:2026-10-24:atletico-madrid:deportivo,2026-10-24T19:00:00+00:00,LIGA,atletico-madrid,deportivo,1,0,0,0
 LP:2026-10-24:gil-vicente:porto,2026-10-24T19:30:00+00:00,LP,gil-vicente,porto,0,1,0,0
+SA:2026-10-25:inter:fiorentina,2026-10-25T11:30:00+00:00,SA,inter,fiorentina,2,1,0,0
+LIGA:2026-10-25:athletic-bilbao:getafe,2026-10-25T13:00:00+00:00,LIGA,athletic-bilbao,getafe,4,0,2,0
+L1:2026-10-25:monaco:lille,2026-10-25T14:00:00+00:00,L1,monaco,lille,1,1,0,1
+PL:2026-10-25:crystal-palace:newcastle,2026-10-25T14:00:00+00:00,PL,crystal-palace,newcastle,0,2,0,0
+PL:2026-10-25:hull:brentford,2026-10-25T14:00:00+00:00,PL,hull,brentford,1,1,1,0
+PL:2026-10-25:liverpool:brighton,2026-10-25T14:00:00+00:00,PL,liverpool,brighton,2,0,,
+PL:2026-10-25:manchester-united:bournemouth,2026-10-25T14:00:00+00:00,PL,manchester-united,bournemouth,0,3,0,2
+SA:2026-10-25:atalanta:frosinone,2026-10-25T14:00:00+00:00,SA,atalanta,frosinone,4,4,3,2
+SA:2026-10-25:genoa:venezia,2026-10-25T14:00:00+00:00,SA,genoa,venezia,1,0,1,0
