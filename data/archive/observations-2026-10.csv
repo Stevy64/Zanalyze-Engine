@@ -8184,3 +8184,104 @@ LP:2026-10-25:rio-ave:famalicao,2026-10-25T18:00:00+00:00,LP,UN_1.5,+1.5,1,0.276
 LP:2026-10-25:rio-ave:famalicao,2026-10-25T18:00:00+00:00,LP,UN_2.5,+2.5,1,0.534759,0.534759,marche,perdu,4.0.1
 LP:2026-10-25:rio-ave:famalicao,2026-10-25T18:00:00+00:00,LP,UN_3.5,+3.5,1,0.754107,0.754107,calcul,perdu,4.0.1
 LP:2026-10-25:rio-ave:famalicao,2026-10-25T18:00:00+00:00,LP,UN_4.5,+4.5,1,0.889003,0.893942,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,1X2_1,1,0,0.20044,0.20044,marche,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,1X2_2,2,0,0.538599,0.538599,marche,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,1X2_N,N,0,0.260961,0.260961,marche,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,BTTS_N,BTTS oui,1,0.480774,0.480774,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,BTTS_O,BTTS oui,0,0.519226,0.519226,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,DC_12,12,0,0.739039,0.739039,marche,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,DC_1X,1X,0,0.461401,0.461401,marche,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,DC_X2,X2,0,0.79956,0.79956,marche,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,DOM_2PLUS,dom +1.5,0,0.256285,0.256285,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,DOM_MARQUE,dom marque,0,0.624077,0.624077,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,EXT_2PLUS,ext +1.5,0,0.513233,0.535291,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,EXT_MARQUE,ext marque,0,0.821104,0.846774,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HCP_A_+1,HC dom +1,0,0.92541,0.934003,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HCP_H_+1,HC dom +1,0,0.696456,0.727013,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HT_1,MT 1,0,0.184498,0.181033,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HT_2,MT 2,0,0.391981,0.413944,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HT_N,MT N,0,0.423521,0.423419,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HT_OV_0.5,MT +0.5,0,0.690735,0.690735,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HT_OV_1.5,MT +1.5,0,0.340863,0.33062,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HT_UN_0.5,MT +0.5,1,0.309265,0.309265,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,HT_UN_1.5,MT +1.5,1,0.659137,0.66938,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,MRG_A_2,HC dom -1,0,0.303544,0.272987,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,MRG_A_3,HC dom -2,0,0.134882,0.118696,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,MRG_H_2,HC dom -1,0,0.07459,0.065288,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,OV_0.5,+0.5,0,0.925955,0.936977,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,OV_1.5,+1.5,0,0.758011,0.758011,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,OV_2.5,+2.5,0,0.509383,0.509383,marche,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,OV_3.5,+3.5,0,0.285758,0.285758,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,OV_4.5,+4.5,0,0.136991,0.131394,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,UN_0.5,+0.5,1,0.074045,0.063023,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,UN_1.5,+1.5,1,0.241989,0.241989,calcul,perdu,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,UN_2.5,+2.5,1,0.490617,0.490617,marche,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,UN_3.5,+3.5,1,0.714242,0.714242,calcul,gagne,4.0.1
+SA:2026-10-25:udinese:milan,2026-10-25T19:45:00+00:00,SA,UN_4.5,+4.5,1,0.863009,0.868606,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,1X2_1,1,0,0.619451,0.619451,marche,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,1X2_2,2,0,0.224029,0.224029,marche,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,1X2_N,N,0,0.156521,0.156521,marche,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.269152,0.269152,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.730848,0.730848,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,DC_12,12,0,0.843479,0.843479,marche,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,DC_1X,1X,0,0.775971,0.775971,marche,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,DC_X2,X2,0,0.380549,0.380549,marche,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.740828,0.740828,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.92886,0.92886,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.451141,0.448487,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.782795,0.814908,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.587112,0.604646,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.908388,0.918642,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HT_1,MT 1,0,0.469419,0.482294,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HT_2,MT 2,0,0.205588,0.204911,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HT_N,MT N,0,0.324993,0.31641,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.834192,0.834192,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.557367,0.565152,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.165808,0.165808,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.442633,0.434848,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.091612,0.080787,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.412888,0.395354,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,MRG_H_3,HC dom -2,0,0.237954,0.2243,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,OV_0.5,+0.5,0,0.980806,0.9607,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,OV_1.5,+1.5,0,0.923854,0.923854,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,OV_2.5,+2.5,0,0.785764,0.785403,calcul,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,OV_3.5,+3.5,0,0.592784,0.592784,marche,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,OV_4.5,+4.5,0,0.404337,0.431945,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,UN_0.5,+0.5,1,0.019194,0.0393,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,UN_1.5,+1.5,1,0.076146,0.076146,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,UN_2.5,+2.5,1,0.214236,0.214597,calcul,perdu,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,UN_3.5,+3.5,1,0.407216,0.407216,marche,gagne,4.0.1
+LIGA:2026-10-25:barcelona:real-madrid,2026-10-25T20:00:00+00:00,LIGA,UN_4.5,+4.5,1,0.595663,0.568055,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,1X2_1,1,0,0.818036,0.818036,marche,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,1X2_2,2,0,0.064737,0.064737,marche,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,1X2_N,N,0,0.117226,0.117226,marche,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,BTTS_N,BTTS oui,1,0.516464,0.516464,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,BTTS_O,BTTS oui,0,0.483536,0.483536,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,DC_12,12,0,0.882774,0.882774,marche,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,DC_1X,1X,0,0.935263,0.935263,marche,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,DC_X2,X2,0,0.181964,0.181964,marche,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.789233,0.789233,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,DOM_MARQUE,dom marque,0,0.94629,0.94629,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.158686,0.193286,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,EXT_MARQUE,ext marque,0,0.507507,0.531406,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.369191,0.39104,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.984378,0.985557,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HT_1,MT 1,0,0.615585,0.608901,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HT_2,MT 2,0,0.084047,0.094064,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HT_N,MT N,0,0.300367,0.303391,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.794344,0.794344,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.481731,0.485956,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.205656,0.205656,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.518269,0.514044,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,MRG_H_2,HC dom -1,0,0.630809,0.60896,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,MRG_H_3,HC dom -2,0,0.416383,0.375547,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,OV_0.5,+0.5,0,0.970261,0.959006,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,OV_1.5,+1.5,0,0.880751,0.880751,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,OV_2.5,+2.5,0,0.702952,0.708197,calcul,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,OV_3.5,+3.5,0,0.490617,0.490617,marche,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,OV_4.5,+4.5,0,0.299768,0.319624,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_0.5,+0.5,1,0.029739,0.040994,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_1.5,+1.5,1,0.119249,0.119249,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_2.5,+2.5,1,0.297048,0.291803,calcul,perdu,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_3.5,+3.5,1,0.509383,0.509383,marche,gagne,4.0.1
+LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_4.5,+4.5,1,0.700232,0.680376,calcul,gagne,4.0.1
