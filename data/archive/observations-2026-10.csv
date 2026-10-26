@@ -8285,3 +8285,36 @@ LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_1.5
 LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_2.5,+2.5,1,0.297048,0.291803,calcul,perdu,4.0.1
 LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_3.5,+3.5,1,0.509383,0.509383,marche,gagne,4.0.1
 LP:2026-10-25:sporting-cp:academico-de-viseu,2026-10-25T20:30:00+00:00,LP,UN_4.5,+4.5,1,0.700232,0.680376,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,1X2_1,1,0,0.09391,0.09391,marche,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,1X2_2,2,0,0.746515,0.746515,marche,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,1X2_N,N,0,0.159575,0.159575,marche,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,BTTS_N,BTTS oui,1,0.548466,0.548466,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,BTTS_O,BTTS oui,0,0.451534,0.451534,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,DC_12,12,0,0.840425,0.840425,marche,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,DC_1X,1X,0,0.253485,0.253485,marche,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,DC_X2,X2,0,0.90609,0.90609,marche,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.148783,0.148783,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,DOM_MARQUE,dom marque,0,0.493236,0.493236,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.684091,0.704959,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,EXT_MARQUE,ext marque,0,0.906148,0.934352,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.977475,0.979617,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.480511,0.516571,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HT_1,MT 1,0,0.100609,0.097603,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HT_2,MT 2,0,0.540949,0.561128,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HT_N,MT N,0,0.358442,0.334093,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.734873,0.734873,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.394368,0.390458,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.265127,0.265127,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.605632,0.609542,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,MRG_A_2,HC dom -1,0,0.519489,0.483429,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,MRG_A_3,HC dom -2,0,0.299005,0.272807,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,OV_0.5,+0.5,0,0.94785,0.9655,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,OV_1.5,+1.5,0,0.812171,0.812171,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,OV_2.5,+2.5,0,0.584416,0.584416,marche,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,OV_3.5,+3.5,0,0.363016,0.363016,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,OV_4.5,+4.5,0,0.192481,0.183894,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,UN_0.5,+0.5,1,0.05215,0.0345,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,UN_1.5,+1.5,1,0.187829,0.187829,calcul,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,UN_2.5,+2.5,1,0.415584,0.415584,marche,perdu,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,UN_3.5,+3.5,1,0.636984,0.636984,calcul,gagne,4.0.1
+LP:2026-10-26:santa-clara:benfica,2026-10-26T18:45:00+00:00,LP,UN_4.5,+4.5,1,0.807519,0.816106,calcul,gagne,4.0.1
