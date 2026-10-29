@@ -9523,3 +9523,37 @@ EFL:2026-10-28:liverpool:chelsea,2026-10-28T20:00:00+00:00,EFL,UN_1.5,+1.5,1,0.1
 EFL:2026-10-28:liverpool:chelsea,2026-10-28T20:00:00+00:00,EFL,UN_2.5,+2.5,1,0.402597,0.402597,marche,gagne,4.0.1
 EFL:2026-10-28:liverpool:chelsea,2026-10-28T20:00:00+00:00,EFL,UN_3.5,+3.5,1,0.625758,0.625758,calcul,gagne,4.0.1
 EFL:2026-10-28:liverpool:chelsea,2026-10-28T20:00:00+00:00,EFL,UN_4.5,+4.5,1,0.798901,0.807994,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,1X2_1,1,0,0.573718,0.573718,marche,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,1X2_2,2,0,0.204765,0.204765,marche,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,1X2_N,N,0,0.221516,0.221516,marche,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,BTTS_N,BTTS oui,1,0.411264,0.411264,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,BTTS_O,BTTS oui,0,0.588736,0.588736,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,DC_12,12,0,0.778484,0.778484,marche,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,DC_1X,1X,0,0.795235,0.795235,marche,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,DC_X2,X2,0,0.426282,0.426282,marche,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,DOM_2PLUS,dom +1.5,0,0.595012,0.595012,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,DOM_MARQUE,dom marque,0,0.865173,0.865173,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,EXT_2PLUS,ext +1.5,0,0.308193,0.326648,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,EXT_MARQUE,ext marque,0,0.673636,0.69495,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HCP_A_+1,HC dom +1,0,0.653482,0.685486,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HCP_H_+1,HC dom +1,0,0.921933,0.930865,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HT_1,MT 1,0,0.423316,0.438399,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HT_2,MT 2,0,0.189135,0.191569,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HT_N,MT N,0,0.387549,0.369815,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HT_OV_0.5,MT +0.5,0,0.741957,0.741957,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HT_OV_1.5,MT +1.5,0,0.40806,0.40542,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HT_UN_0.5,MT +0.5,1,0.258043,0.258043,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,HT_UN_1.5,MT +1.5,1,0.59194,0.59458,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,MRG_A_2,HC dom -1,0,0.078067,0.068425,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,MRG_H_2,HC dom -1,0,0.346518,0.314514,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,MRG_H_3,HC dom -2,0,0.170537,0.154484,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,OV_0.5,+0.5,0,0.950074,0.961588,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,OV_1.5,+1.5,0,0.824479,0.824479,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,OV_2.5,+2.5,0,0.602564,0.602564,marche,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,OV_3.5,+3.5,0,0.380416,0.380416,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,OV_4.5,+4.5,0,0.205899,0.196524,calcul,gagne,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_0.5,+0.5,1,0.049926,0.038412,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_1.5,+1.5,1,0.175521,0.175521,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_2.5,+2.5,1,0.397436,0.397436,marche,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_3.5,+3.5,1,0.619584,0.619584,calcul,perdu,4.0.1
+SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_4.5,+4.5,1,0.794101,0.803476,calcul,perdu,4.0.1
