@@ -9557,3 +9557,241 @@ SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_1.5,+1.5,1,0.17552
 SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_2.5,+2.5,1,0.397436,0.397436,marche,perdu,4.0.1
 SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_3.5,+3.5,1,0.619584,0.619584,calcul,perdu,4.0.1
 SA:2026-10-29:frosinone:lecce,2026-10-29T17:30:00+00:00,SA,UN_4.5,+4.5,1,0.794101,0.803476,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,1X2_1,1,0,0.252983,0.252983,marche,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,1X2_2,2,0,0.482793,0.482793,marche,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,1X2_N,N,0,0.264224,0.264224,marche,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.477427,0.477427,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.522573,0.522573,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,DC_12,12,0,0.735776,0.735776,marche,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,DC_1X,1X,0,0.517207,0.517207,marche,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,DC_X2,X2,0,0.747017,0.747017,marche,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.285644,0.285644,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.652924,0.652924,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.461148,0.462476,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.789284,0.820306,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.903373,0.914116,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.748654,0.776874,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HT_1,MT 1,0,0.210956,0.198917,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HT_2,MT 2,0,0.352375,0.386825,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HT_N,MT N,0,0.436669,0.443011,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.679188,0.679188,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.327506,0.313829,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.320812,0.320812,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.672494,0.686171,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.251346,0.223126,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.102746,0.091283,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,MRG_H_2,HC dom -1,0,0.096627,0.085364,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,OV_0.5,+0.5,0,0.919634,0.920997,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,OV_1.5,+1.5,0,0.742817,0.742817,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,OV_2.5,+2.5,0,0.484127,0.484127,marche,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,OV_3.5,+3.5,0,0.267365,0.267365,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,OV_4.5,+4.5,0,0.124771,0.119483,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,UN_0.5,+0.5,1,0.080366,0.079003,calcul,perdu,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.257183,0.257183,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.515873,0.515873,marche,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.732635,0.732635,calcul,gagne,4.0.1
+CDR:2026-10-29:atletico-baleares:eldense,2026-10-29T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.875229,0.880517,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,1X2_1,1,0,0.409595,0.409595,marche,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,1X2_2,2,0,0.311935,0.311935,marche,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,1X2_N,N,0,0.27847,0.27847,marche,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.480766,0.480766,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.519234,0.519234,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,DC_12,12,0,0.72153,0.72153,marche,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,DC_1X,1X,0,0.688065,0.688065,marche,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,DC_X2,X2,0,0.590405,0.590405,marche,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.396808,0.396808,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.745193,0.745193,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.322945,0.344025,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.686578,0.710846,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.806244,0.827786,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.870665,0.884601,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HT_1,MT 1,0,0.305281,0.29413,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HT_2,MT 2,0,0.245796,0.237516,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HT_N,MT N,0,0.448922,0.461312,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.6667,0.6667,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.313324,0.296002,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.3333,0.3333,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.686676,0.703998,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.129335,0.115214,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,MRG_H_2,HC dom -1,0,0.193756,0.172214,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,MRG_H_3,HC dom -2,0,0.070929,0.064114,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,OV_0.5,+0.5,0,0.912537,0.924994,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,OV_1.5,+1.5,0,0.725891,0.725891,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,OV_2.5,+2.5,0,0.461942,0.461942,marche,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,OV_3.5,+3.5,0,0.248309,0.248309,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,OV_4.5,+4.5,0,0.11252,0.107542,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,UN_0.5,+0.5,1,0.087463,0.075006,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.274109,0.274109,calcul,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.538058,0.538058,marche,perdu,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.751691,0.751691,calcul,gagne,4.0.1
+CDR:2026-10-29:san-sebastian-de-los-reyes:coria,2026-10-29T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.88748,0.892458,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,1X2_1,1,0,0.127601,0.127601,marche,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,1X2_2,2,0,0.67791,0.67791,marche,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,1X2_N,N,0,0.194489,0.194489,marche,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.544566,0.544566,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.455434,0.455434,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,DC_12,12,0,0.805511,0.805511,marche,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,DC_1X,1X,0,0.32209,0.32209,marche,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,DC_X2,X2,0,0.872399,0.872399,marche,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.165307,0.165307,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.516732,0.516732,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.605946,0.642924,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.870575,0.894918,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.966716,0.970359,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.568133,0.581528,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HT_1,MT 1,0,0.122265,0.122103,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HT_2,MT 2,0,0.482068,0.493844,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HT_N,MT N,0,0.395666,0.381911,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.701168,0.701168,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.351563,0.343682,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.298832,0.298832,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.648437,0.656318,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.431867,0.418472,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.223013,0.208828,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,OV_0.5,+0.5,0,0.931873,0.941211,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,OV_1.5,+1.5,0,0.769663,0.769663,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,OV_2.5,+2.5,0,0.52,0.52,marche,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,OV_3.5,+3.5,0,0.301804,0.301804,calcul,gagne,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,OV_4.5,+4.5,0,0.147965,0.141991,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,UN_0.5,+0.5,1,0.068127,0.058789,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,UN_1.5,+1.5,1,0.230337,0.230337,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,UN_2.5,+2.5,1,0.48,0.48,marche,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,UN_3.5,+3.5,1,0.698196,0.698196,calcul,perdu,4.0.1
+CDR:2026-10-29:guijuelo:sporting-gijon,2026-10-29T19:00:00+00:00,CDR,UN_4.5,+4.5,1,0.852035,0.858009,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,1X2_1,1,0,0.32227,0.32227,marche,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,1X2_2,2,0,0.399962,0.399962,marche,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,1X2_N,N,0,0.277768,0.277768,marche,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.463314,0.463314,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.536686,0.536686,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,DC_12,12,0,0.722232,0.722232,marche,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,DC_1X,1X,0,0.600038,0.600038,marche,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,DC_X2,X2,0,0.67773,0.67773,marche,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.345175,0.345175,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.70525,0.70525,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.403946,0.411833,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.750374,0.787941,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.860882,0.875774,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.809205,0.830375,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HT_1,MT 1,0,0.255566,0.229071,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HT_2,MT 2,0,0.302816,0.321445,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HT_N,MT N,0,0.441618,0.450401,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.678155,0.678155,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.326727,0.31285,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.321845,0.321845,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.673273,0.68715,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.190795,0.169625,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.070384,0.063629,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,MRG_H_2,HC dom -1,0,0.139118,0.124141,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,OV_0.5,+0.5,0,0.918938,0.919237,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,OV_1.5,+1.5,0,0.741913,0.741913,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,OV_2.5,+2.5,0,0.484127,0.484127,marche,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,OV_3.5,+3.5,0,0.266049,0.266049,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,OV_4.5,+4.5,0,0.123912,0.118646,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,UN_0.5,+0.5,1,0.081062,0.080763,calcul,perdu,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,UN_1.5,+1.5,1,0.258087,0.258087,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,UN_2.5,+2.5,1,0.515873,0.515873,marche,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,UN_3.5,+3.5,1,0.733951,0.733951,calcul,gagne,4.0.1
+CDR:2026-10-29:real-avila:unionistas-de-salamanca,2026-10-29T19:00:00+00:00,CDR,UN_4.5,+4.5,1,0.876088,0.881354,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,1X2_1,1,0,0.408066,0.408066,marche,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,1X2_2,2,0,0.323984,0.323984,marche,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,1X2_N,N,0,0.26795,0.26795,marche,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,BTTS_N,BTTS oui,1,0.405886,0.405886,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,BTTS_O,BTTS oui,0,0.594114,0.594114,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,DC_12,12,0,0.73205,0.73205,marche,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,DC_1X,1X,0,0.676016,0.676016,marche,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,DC_X2,X2,0,0.591934,0.591934,marche,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,DOM_2PLUS,dom +1.5,0,0.459816,0.459816,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,DOM_MARQUE,dom marque,0,0.788428,0.788428,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,EXT_2PLUS,ext +1.5,0,0.396308,0.406481,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,EXT_MARQUE,ext marque,0,0.744827,0.782385,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HCP_A_+1,HC dom +1,0,0.791597,0.814985,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HCP_H_+1,HC dom +1,0,0.849521,0.865609,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HT_1,MT 1,0,0.317968,0.310836,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HT_2,MT 2,0,0.266692,0.26823,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HT_N,MT N,0,0.41534,0.411227,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HT_OV_0.5,MT +0.5,0,0.71794,0.71794,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HT_OV_1.5,MT +1.5,0,0.376544,0.370981,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HT_UN_0.5,MT +0.5,1,0.28206,0.28206,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,HT_UN_1.5,MT +1.5,1,0.623456,0.629019,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,MRG_A_2,HC dom -1,0,0.150479,0.134391,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,MRG_A_3,HC dom -2,0,0.053613,0.048706,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,MRG_H_2,HC dom -1,0,0.208403,0.185015,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,MRG_H_3,HC dom -2,0,0.083136,0.074555,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,OV_0.5,+0.5,0,0.939141,0.945082,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,OV_1.5,+1.5,0,0.795294,0.795294,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,OV_2.5,+2.5,0,0.561358,0.561358,marche,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,OV_3.5,+3.5,0,0.334628,0.334628,calcul,gagne,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,OV_4.5,+4.5,0,0.171315,0.163971,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,UN_0.5,+0.5,1,0.060859,0.054918,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,UN_1.5,+1.5,1,0.204706,0.204706,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,UN_2.5,+2.5,1,0.438642,0.438642,marche,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,UN_3.5,+3.5,1,0.665372,0.665372,calcul,perdu,4.0.1
+EFL:2026-10-29:everton:newcastle,2026-10-29T19:45:00+00:00,EFL,UN_4.5,+4.5,1,0.828685,0.836029,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,1X2_1,1,0,0.417314,0.417314,marche,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,1X2_2,2,0,0.323464,0.323464,marche,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,1X2_N,N,0,0.259222,0.259222,marche,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,BTTS_N,BTTS oui,1,0.377162,0.377162,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,BTTS_O,BTTS oui,0,0.622838,0.622838,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,DC_12,12,0,0.740778,0.740778,marche,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,DC_1X,1X,0,0.676536,0.676536,marche,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,DC_X2,X2,0,0.582686,0.582686,marche,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,DOM_2PLUS,dom +1.5,0,0.491736,0.491736,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,DOM_MARQUE,dom marque,0,0.808355,0.808355,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,EXT_2PLUS,ext +1.5,0,0.421039,0.42381,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,EXT_MARQUE,ext marque,0,0.762476,0.798007,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HCP_A_+1,HC dom +1,0,0.780009,0.804858,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HCP_H_+1,HC dom +1,0,0.846016,0.862545,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HT_1,MT 1,0,0.327617,0.323542,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HT_2,MT 2,0,0.270065,0.273198,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HT_N,MT N,0,0.402318,0.391823,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HT_OV_0.5,MT +0.5,0,0.737668,0.737668,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HT_OV_1.5,MT +1.5,0,0.40334,0.400262,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HT_UN_0.5,MT +0.5,1,0.262332,0.262332,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,HT_UN_1.5,MT +1.5,1,0.59666,0.599738,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,MRG_A_2,HC dom -1,0,0.153984,0.137455,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,MRG_A_3,HC dom -2,0,0.056735,0.051484,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,MRG_H_2,HC dom -1,0,0.219991,0.195142,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,MRG_H_3,HC dom -2,0,0.091534,0.081719,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,OV_0.5,+0.5,0,0.947993,0.965248,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,OV_1.5,+1.5,0,0.820327,0.820327,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,OV_2.5,+2.5,0,0.59949,0.59949,marche,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,OV_3.5,+3.5,0,0.372833,0.372833,calcul,gagne,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,OV_4.5,+4.5,0,0.20001,0.190981,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,UN_0.5,+0.5,1,0.052007,0.034752,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,UN_1.5,+1.5,1,0.179673,0.179673,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,UN_2.5,+2.5,1,0.40051,0.40051,marche,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,UN_3.5,+3.5,1,0.627167,0.627167,calcul,perdu,4.0.1
+SA:2026-10-29:fiorentina:atalanta,2026-10-29T19:45:00+00:00,SA,UN_4.5,+4.5,1,0.79999,0.809019,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,1X2_1,1,0,0.003977,0.005,marche,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,1X2_2,2,0,0.978007,0.978007,marche,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,1X2_N,N,0,0.018016,0.018016,marche,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.804881,0.804881,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.195119,0.195119,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,DC_12,12,0,0.981984,0.981984,marche,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,DC_1X,1X,0,0.021993,0.021993,marche,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,DC_X2,X2,0,0.996023,0.995,marche,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.020726,0.020726,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.196563,0.196563,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.944981,0.943538,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.990226,0.993146,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.999721,0.995,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.079244,0.08971,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HT_1,MT 1,0,0.011722,0.011856,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HT_2,MT 2,0,0.843765,0.850028,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HT_N,MT N,0,0.144512,0.153635,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.881278,0.881278,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.632655,0.638946,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.118722,0.118722,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.367345,0.361054,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.920756,0.91029,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.804355,0.783756,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,OV_0.5,+0.5,0,0.99167,0.9607,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,OV_1.5,+1.5,0,0.954554,0.954554,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,OV_2.5,+2.5,0,0.861797,0.861209,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,OV_3.5,+3.5,0,0.712675,0.712675,calcul,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,OV_4.5,+4.5,0,0.531915,0.531915,marche,gagne,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,UN_0.5,+0.5,1,0.00833,0.0393,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,UN_1.5,+1.5,1,0.045446,0.045446,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,UN_2.5,+2.5,1,0.138203,0.138791,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,UN_3.5,+3.5,1,0.287325,0.287325,calcul,perdu,4.0.1
+CDR:2026-10-29:ae-prat:athletic-bilbao,2026-10-29T20:00:00+00:00,CDR,UN_4.5,+4.5,1,0.468085,0.468085,marche,perdu,4.0.1
