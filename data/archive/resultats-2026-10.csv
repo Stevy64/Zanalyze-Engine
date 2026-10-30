@@ -346,3 +346,9 @@ CDR:2026-10-29:auriense-cented-academy:deportivo,2026-10-29T20:00:00+00:00,CDR,a
 CDR:2026-10-29:ribadesella:racing-santander,2026-10-29T20:00:00+00:00,CDR,ribadesella,racing-santander,0,2,0,0
 CDR:2026-10-29:sporting-hortaleza:seville,2026-10-29T20:00:00+00:00,CDR,sporting-hortaleza,seville,0,3,0,2
 CDR:2026-10-29:xerez:cadiz,2026-10-29T20:00:00+00:00,CDR,xerez,cadiz,1,3,1,1
+L1:2026-10-30:le-havre:paris-saint-germain,2026-10-30T18:00:00+00:00,L1,le-havre,paris-saint-germain,1,5,1,2
+L1:2026-10-30:nice:stade-rennais,2026-10-30T18:00:00+00:00,L1,nice,stade-rennais,5,2,3,1
+BL:2026-10-30:elversberg:mainz,2026-10-30T19:30:00+00:00,BL,elversberg,mainz,4,1,3,0
+LIGA:2026-10-30:villarreal:espanyol,2026-10-30T20:00:00+00:00,LIGA,villarreal,espanyol,0,1,0,0
+L1:2026-10-30:lille:lens,2026-10-30T20:05:00+00:00,L1,lille,lens,1,0,0,0
+LP:2026-10-30:casa-pia:sporting-cp,2026-10-30T20:15:00+00:00,LP,casa-pia,sporting-cp,0,2,0,1
