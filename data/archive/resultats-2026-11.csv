@@ -12,3 +12,10 @@ L1:2026-11-01:paris:monaco,2026-11-01T16:15:00+00:00,L1,paris,monaco,3,1,2,0
 BL:2026-11-01:eintracht-frankfurt:hamburg,2026-11-01T16:30:00+00:00,BL,eintracht-frankfurt,hamburg,3,1,,
 PL:2026-11-01:liverpool:arsenal,2026-11-01T16:30:00+00:00,PL,liverpool,arsenal,0,1,0,1
 SA:2026-11-01:lecce:genoa,2026-11-01T17:00:00+00:00,SA,lecce,genoa,1,2,1,2
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,elche,valencia,0,1,0,0
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,academico-de-viseu,rio-ave,2,1,0,1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,maritimo,santa-clara,0,2,0,1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,marseille,toulouse,2,0,2,0
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,juventus,naples,2,0,0,0
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,athletic-bilbao,real-sociedad,2,1,2,1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,braga,famalicao,3,0,0,0

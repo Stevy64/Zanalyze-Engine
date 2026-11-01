@@ -401,3 +401,241 @@ SA:2026-11-01:lecce:genoa,2026-11-01T17:00:00+00:00,SA,UN_1.5,+1.5,1,0.330983,0.
 SA:2026-11-01:lecce:genoa,2026-11-01T17:00:00+00:00,SA,UN_2.5,+2.5,1,0.597964,0.597964,marche,perdu,4.0.1
 SA:2026-11-01:lecce:genoa,2026-11-01T17:00:00+00:00,SA,UN_3.5,+3.5,1,0.806364,0.806364,calcul,gagne,4.0.1
 SA:2026-11-01:lecce:genoa,2026-11-01T17:00:00+00:00,SA,UN_4.5,+4.5,1,0.920253,0.924323,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,1X2_1,1,0,0.408394,0.408394,marche,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,1X2_2,2,0,0.305491,0.305491,marche,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,1X2_N,N,0,0.286115,0.286115,marche,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.467153,0.467153,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.532847,0.532847,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,DC_12,12,0,0.713885,0.713885,marche,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,DC_1X,1X,0,0.694509,0.694509,marche,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,DC_X2,X2,0,0.591606,0.591606,marche,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.410695,0.410695,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.755204,0.755204,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.333611,0.356589,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.695657,0.721996,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.801007,0.823209,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.86871,0.882837,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HT_1,MT 1,0,0.309817,0.300103,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HT_2,MT 2,0,0.247821,0.24043,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HT_N,MT N,0,0.442362,0.451513,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.676452,0.676452,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.324673,0.310268,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.323548,0.323548,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.675327,0.689732,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.13129,0.116998,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.198993,0.176791,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,MRG_H_3,HC dom -2,0,0.074395,0.067099,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,OV_0.5,+0.5,0,0.918014,0.916901,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,OV_1.5,+1.5,0,0.739505,0.739505,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,OV_2.5,+2.5,0,0.484127,0.484127,marche,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,OV_3.5,+3.5,0,0.263331,0.263331,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,OV_4.5,+4.5,0,0.122143,0.116921,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,UN_0.5,+0.5,1,0.081986,0.083099,calcul,perdu,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,UN_1.5,+1.5,1,0.260495,0.260495,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,UN_2.5,+2.5,1,0.515873,0.515873,marche,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,UN_3.5,+3.5,1,0.736669,0.736669,calcul,gagne,4.0.1
+LIGA:2026-11-01:elche:valencia,2026-11-01T17:30:00+00:00,LIGA,UN_4.5,+4.5,1,0.877857,0.883079,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,1X2_1,1,0,0.525493,0.525493,marche,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,1X2_2,2,0,0.21788,0.21788,marche,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,1X2_N,N,0,0.256627,0.256627,marche,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,BTTS_N,BTTS oui,1,0.482894,0.482894,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,BTTS_O,BTTS oui,0,0.517106,0.517106,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,DC_12,12,0,0.743373,0.743373,marche,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,DC_1X,1X,0,0.78212,0.78212,marche,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,DC_X2,X2,0,0.474507,0.474507,marche,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.496566,0.496566,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,DOM_MARQUE,dom marque,0,0.811265,0.811265,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.26098,0.271036,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,EXT_MARQUE,ext marque,0,0.628845,0.643118,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.711656,0.741533,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.920593,0.929656,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HT_1,MT 1,0,0.380667,0.388308,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HT_2,MT 2,0,0.190533,0.192703,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HT_N,MT N,0,0.4288,0.431285,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.685223,0.685223,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.334329,0.322406,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.314777,0.314777,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.665671,0.677594,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,MRG_A_2,HC dom -1,0,0.079407,0.069648,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,MRG_H_2,HC dom -1,0,0.288344,0.258467,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,MRG_H_3,HC dom -2,0,0.124931,0.110207,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,OV_0.5,+0.5,0,0.923004,0.929516,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,OV_1.5,+1.5,0,0.750665,0.750665,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,OV_2.5,+2.5,0,0.495935,0.495935,marche,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,OV_3.5,+3.5,0,0.276791,0.276791,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,OV_4.5,+4.5,0,0.130985,0.12554,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,UN_0.5,+0.5,1,0.076996,0.070484,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,UN_1.5,+1.5,1,0.249335,0.249335,calcul,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,UN_2.5,+2.5,1,0.504065,0.504065,marche,perdu,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,UN_3.5,+3.5,1,0.723209,0.723209,calcul,gagne,4.0.1
+LP:2026-11-01:academico-de-viseu:rio-ave,2026-11-01T18:00:00+00:00,LP,UN_4.5,+4.5,1,0.869015,0.87446,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,1X2_1,1,0,0.265033,0.265033,marche,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,1X2_2,2,0,0.43355,0.43355,marche,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,1X2_N,N,0,0.301417,0.301417,marche,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,BTTS_N,BTTS oui,1,0.546418,0.546418,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,BTTS_O,BTTS oui,0,0.453582,0.453582,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,DC_12,12,0,0.698583,0.698583,marche,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,DC_1X,1X,0,0.56645,0.56645,marche,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,DC_X2,X2,0,0.734967,0.734967,marche,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.247194,0.247194,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,DOM_MARQUE,dom marque,0,0.614666,0.614666,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.370238,0.388213,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,EXT_MARQUE,ext marque,0,0.7252,0.75828,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.90248,0.913311,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.797512,0.820155,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HT_1,MT 1,0,0.211578,0.199338,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HT_2,MT 2,0,0.312333,0.335465,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HT_N,MT N,0,0.476089,0.501895,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.623979,0.623979,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.266815,0.240444,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.376021,0.376021,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.733185,0.759556,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,MRG_A_2,HC dom -1,0,0.202488,0.179845,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,MRG_A_3,HC dom -2,0,0.071807,0.064891,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,MRG_H_2,HC dom -1,0,0.09752,0.086179,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,OV_0.5,+0.5,0,0.886284,0.932854,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,OV_1.5,+1.5,0,0.664176,0.664176,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,OV_2.5,+2.5,0,0.390863,0.390863,marche,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,OV_3.5,+3.5,0,0.189638,0.189638,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,OV_4.5,+4.5,0,0.077492,0.073566,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,UN_0.5,+0.5,1,0.113716,0.067146,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,UN_1.5,+1.5,1,0.335824,0.335824,calcul,perdu,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,UN_2.5,+2.5,1,0.609137,0.609137,marche,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,UN_3.5,+3.5,1,0.810362,0.810362,calcul,gagne,4.0.1
+LP:2026-11-01:maritimo:santa-clara,2026-11-01T18:00:00+00:00,LP,UN_4.5,+4.5,1,0.922508,0.926434,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,1X2_1,1,0,0.519044,0.519044,marche,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,1X2_2,2,0,0.246938,0.246938,marche,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,1X2_N,N,0,0.234018,0.234018,marche,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,BTTS_N,BTTS oui,1,0.394089,0.394089,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,BTTS_O,BTTS oui,0,0.605911,0.605911,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,DC_12,12,0,0.765982,0.765982,marche,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,DC_1X,1X,0,0.753062,0.753062,marche,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,DC_X2,X2,0,0.480956,0.480956,marche,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,DOM_2PLUS,dom +1.5,0,0.558745,0.558745,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,DOM_MARQUE,dom marque,0,0.846454,0.846454,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,EXT_2PLUS,ext +1.5,0,0.349157,0.373442,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,EXT_MARQUE,ext marque,0,0.708495,0.737763,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HCP_A_+1,HC dom +1,0,0.702246,0.732544,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HCP_H_+1,HC dom +1,0,0.898171,0.909423,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HT_1,MT 1,0,0.387968,0.396882,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HT_2,MT 2,0,0.217105,0.21425,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HT_N,MT N,0,0.394928,0.38081,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HT_OV_0.5,MT +0.5,0,0.739808,0.739808,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HT_OV_1.5,MT +1.5,0,0.405687,0.402827,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HT_UN_0.5,MT +0.5,1,0.260192,0.260192,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,HT_UN_1.5,MT +1.5,1,0.594313,0.597173,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,MRG_A_2,HC dom -1,0,0.101829,0.090111,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,MRG_H_2,HC dom -1,0,0.297754,0.267456,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,MRG_H_3,HC dom -2,0,0.13825,0.121569,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,OV_0.5,+0.5,0,0.949037,0.963411,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,OV_1.5,+1.5,0,0.8224,0.8224,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,OV_2.5,+2.5,0,0.598958,0.598958,marche,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,OV_3.5,+3.5,0,0.376602,0.376602,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,OV_4.5,+4.5,0,0.202929,0.193729,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,UN_0.5,+0.5,1,0.050963,0.036589,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,UN_1.5,+1.5,1,0.1776,0.1776,calcul,perdu,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,UN_2.5,+2.5,1,0.401042,0.401042,marche,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,UN_3.5,+3.5,1,0.623398,0.623398,calcul,gagne,4.0.1
+L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,UN_4.5,+4.5,1,0.797071,0.806271,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,1X2_1,1,0,0.448835,0.448835,marche,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,1X2_2,2,0,0.271074,0.271074,marche,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,1X2_N,N,0,0.280091,0.280091,marche,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,BTTS_N,BTTS oui,1,0.450024,0.450024,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,BTTS_O,BTTS oui,0,0.549976,0.549976,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,DC_12,12,0,0.719909,0.719909,marche,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,DC_1X,1X,0,0.728926,0.728926,marche,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,DC_X2,X2,0,0.551165,0.551165,marche,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,DOM_2PLUS,dom +1.5,0,0.459041,0.459041,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,DOM_MARQUE,dom marque,0,0.787928,0.787928,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,EXT_2PLUS,ext +1.5,0,0.325653,0.347215,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,EXT_MARQUE,ext marque,0,0.688905,0.713704,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HCP_A_+1,HC dom +1,0,0.765905,0.792532,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HCP_H_+1,HC dom +1,0,0.884686,0.897254,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HT_1,MT 1,0,0.338828,0.338304,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HT_2,MT 2,0,0.23151,0.225931,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HT_N,MT N,0,0.429662,0.432569,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HT_OV_0.5,MT +0.5,0,0.692896,0.692896,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HT_OV_1.5,MT +1.5,0,0.344324,0.33497,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HT_UN_0.5,MT +0.5,1,0.307104,0.307104,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,HT_UN_1.5,MT +1.5,1,0.655676,0.66503,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,MRG_A_2,HC dom -1,0,0.115314,0.102418,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,MRG_H_2,HC dom -1,0,0.234095,0.207468,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,MRG_H_3,HC dom -2,0,0.094617,0.084349,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,OV_0.5,+0.5,0,0.926857,0.939258,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,OV_1.5,+1.5,0,0.761843,0.761843,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,OV_2.5,+2.5,0,0.515873,0.515873,marche,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,OV_3.5,+3.5,0,0.289988,0.289988,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,OV_4.5,+4.5,0,0.139856,0.134186,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,UN_0.5,+0.5,1,0.073143,0.060742,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,UN_1.5,+1.5,1,0.238157,0.238157,calcul,perdu,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,UN_2.5,+2.5,1,0.484127,0.484127,marche,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,UN_3.5,+3.5,1,0.710012,0.710012,calcul,gagne,4.0.1
+SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,UN_4.5,+4.5,1,0.860144,0.865814,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,1X2_1,1,0,0.473357,0.473357,marche,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,1X2_2,2,0,0.267132,0.267132,marche,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,1X2_N,N,0,0.259511,0.259511,marche,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.426568,0.426568,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.573432,0.573432,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,DC_12,12,0,0.740489,0.740489,marche,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,DC_1X,1X,0,0.732868,0.732868,marche,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,DC_X2,X2,0,0.526643,0.526643,marche,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.495061,0.495061,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.810361,0.810361,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.337834,0.361563,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.69919,0.726335,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.745302,0.773672,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.887742,0.900011,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HT_1,MT 1,0,0.35519,0.358385,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HT_2,MT 2,0,0.228359,0.223376,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HT_N,MT N,0,0.416451,0.412883,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.711398,0.711398,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.367633,0.361242,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.288602,0.288602,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.632367,0.638758,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.112258,0.099629,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.254698,0.226328,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,MRG_H_3,HC dom -2,0,0.108354,0.096067,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,OV_0.5,+0.5,0,0.936118,0.939872,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,OV_1.5,+1.5,0,0.786418,0.786418,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,OV_2.5,+2.5,0,0.546875,0.546875,marche,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,OV_3.5,+3.5,0,0.32231,0.32231,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,OV_4.5,+4.5,0,0.162411,0.155589,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,UN_0.5,+0.5,1,0.063882,0.060128,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,UN_1.5,+1.5,1,0.213582,0.213582,calcul,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,UN_2.5,+2.5,1,0.453125,0.453125,marche,perdu,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,UN_3.5,+3.5,1,0.67769,0.67769,calcul,gagne,4.0.1
+LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,UN_4.5,+4.5,1,0.837589,0.844411,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,1X2_1,1,0,0.588273,0.588273,marche,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,1X2_2,2,0,0.170746,0.170746,marche,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,1X2_N,N,0,0.240981,0.240981,marche,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,BTTS_N,BTTS oui,1,0.519093,0.519093,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,BTTS_O,BTTS oui,0,0.480907,0.480907,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,DC_12,12,0,0.759019,0.759019,marche,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,DC_1X,1X,0,0.829254,0.829254,marche,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,DC_X2,X2,0,0.411727,0.411727,marche,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.530179,0.530179,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,DOM_MARQUE,dom marque,0,0.830796,0.830796,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.207912,0.228906,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,EXT_MARQUE,ext marque,0,0.570969,0.579947,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.659278,0.6915,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.945266,0.951901,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HT_1,MT 1,0,0.418799,0.433094,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HT_2,MT 2,0,0.15731,0.165763,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HT_N,MT N,0,0.42389,0.423969,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.680769,0.680769,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.328148,0.314636,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.319231,0.319231,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.671852,0.685364,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,MRG_A_2,HC dom -1,0,0.054734,0.048174,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,MRG_H_2,HC dom -1,0,0.340722,0.3085,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,MRG_H_3,HC dom -2,0,0.156792,0.14025,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,OV_0.5,+0.5,0,0.920858,0.924089,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,OV_1.5,+1.5,0,0.74355,0.74355,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,OV_2.5,+2.5,0,0.486486,0.486486,marche,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,OV_3.5,+3.5,0,0.268984,0.268984,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,OV_4.5,+4.5,0,0.125831,0.120517,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,UN_0.5,+0.5,1,0.079142,0.075911,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,UN_1.5,+1.5,1,0.25645,0.25645,calcul,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,UN_2.5,+2.5,1,0.513514,0.513514,marche,perdu,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,UN_3.5,+3.5,1,0.731016,0.731016,calcul,gagne,4.0.1
+LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,UN_4.5,+4.5,1,0.874169,0.879483,calcul,gagne,4.0.1
