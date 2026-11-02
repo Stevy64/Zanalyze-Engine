@@ -19,3 +19,10 @@ L1:2026-11-01:marseille:toulouse,2026-11-01T19:45:00+00:00,L1,marseille,toulouse
 SA:2026-11-01:juventus:naples,2026-11-01T19:45:00+00:00,SA,juventus,naples,2,0,0,0
 LIGA:2026-11-01:athletic-bilbao:real-sociedad,2026-11-01T20:00:00+00:00,LIGA,athletic-bilbao,real-sociedad,2,1,2,1
 LP:2026-11-01:braga:famalicao,2026-11-01T20:30:00+00:00,LP,braga,famalicao,3,0,0,0
+SA:2026-11-02:sassuolo:fiorentina,2026-11-02T17:30:00+00:00,SA,sassuolo,fiorentina,2,4,1,1
+L1:2026-11-02:lorient:brest,2026-11-02T19:45:00+00:00,L1,lorient,brest,0,2,0,0
+SA:2026-11-02:atalanta:parma,2026-11-02T19:45:00+00:00,SA,atalanta,parma,0,3,0,1
+LIGA:2026-11-02:deportivo:osasuna,2026-11-02T20:00:00+00:00,LIGA,deportivo,osasuna,2,1,0,1
+PL:2026-11-02:newcastle:everton,2026-11-02T20:00:00+00:00,PL,newcastle,everton,0,1,0,0
+LP:2026-11-02:benfica:alverca,2026-11-02T20:15:00+00:00,LP,benfica,alverca,1,0,0,0
+LP:2026-11-02:gil-vicente:vitoria-de-guimaraes,2026-11-02T20:15:00+00:00,LP,gil-vicente,vitoria-de-guimaraes,0,0,,
