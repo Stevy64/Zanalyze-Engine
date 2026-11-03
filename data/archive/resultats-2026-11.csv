@@ -26,3 +26,12 @@ LIGA:2026-11-02:deportivo:osasuna,2026-11-02T20:00:00+00:00,LIGA,deportivo,osasu
 PL:2026-11-02:newcastle:everton,2026-11-02T20:00:00+00:00,PL,newcastle,everton,0,1,0,0
 LP:2026-11-02:benfica:alverca,2026-11-02T20:15:00+00:00,LP,benfica,alverca,1,0,0,0
 LP:2026-11-02:gil-vicente:vitoria-de-guimaraes,2026-11-02T20:15:00+00:00,LP,gil-vicente,vitoria-de-guimaraes,0,0,,
+UCL:2026-11-03:galatasaray:stuttgart,2026-11-03T17:45:00+00:00,UCL,galatasaray,stuttgart,2,0,2,0
+UCL:2026-11-03:shakhtar-donetsk:sporting-cp,2026-11-03T17:45:00+00:00,UCL,shakhtar-donetsk,sporting-cp,0,1,0,0
+UCL:2026-11-03:atletico-madrid:bayern-munich,2026-11-03T20:00:00+00:00,UCL,atletico-madrid,bayern-munich,0,2,0,0
+UCL:2026-11-03:barcelona:aston-villa,2026-11-03T20:00:00+00:00,UCL,barcelona,aston-villa,3,0,1,0
+UCL:2026-11-03:bodo-glimt:lille,2026-11-03T20:00:00+00:00,UCL,bodo-glimt,lille,0,0,,
+UCL:2026-11-03:feyenoord:inter,2026-11-03T20:00:00+00:00,UCL,feyenoord,inter,0,3,0,2
+UCL:2026-11-03:lask-linz:slovan-bratislava,2026-11-03T20:00:00+00:00,UCL,lask-linz,slovan-bratislava,4,0,3,0
+UCL:2026-11-03:manchester-united:rome,2026-11-03T20:00:00+00:00,UCL,manchester-united,rome,3,2,0,2
+UCL:2026-11-03:villarreal:paris-saint-germain,2026-11-03T20:00:00+00:00,UCL,villarreal,paris-saint-germain,0,6,0,4
