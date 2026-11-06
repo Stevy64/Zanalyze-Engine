@@ -2075,3 +2075,71 @@ UEL:2026-11-05:torreense:ararat-armenia,2026-11-05T20:00:00+00:00,UEL,UN_1.5,+1.
 UEL:2026-11-05:torreense:ararat-armenia,2026-11-05T20:00:00+00:00,UEL,UN_2.5,+2.5,1,0.515873,0.515873,marche,perdu,4.0.1
 UEL:2026-11-05:torreense:ararat-armenia,2026-11-05T20:00:00+00:00,UEL,UN_3.5,+3.5,1,0.732379,0.732379,calcul,perdu,4.0.1
 UEL:2026-11-05:torreense:ararat-armenia,2026-11-05T20:00:00+00:00,UEL,UN_4.5,+4.5,1,0.875061,0.880353,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,1X2_1,1,0,0.511988,0.510726,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,1X2_2,2,0,0.269257,0.260442,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,1X2_N,N,0,0.218755,0.236404,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,BTTS_N,BTTS oui,1,0.307582,0.307582,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,BTTS_O,BTTS oui,0,0.692418,0.692418,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,DC_12,12,0,0.781245,0.762512,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,DC_1X,1X,0,0.730743,0.738617,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,DC_X2,X2,0,0.488012,0.489662,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,DOM_2PLUS,dom +1.5,0,0.627135,0.627135,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,DOM_MARQUE,dom marque,0,0.880738,0.880738,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,EXT_2PLUS,ext +1.5,0,0.44754,0.443452,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,EXT_MARQUE,ext marque,0,0.780428,0.812939,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HCP_A_+1,HC dom +1,0,0.691904,0.722665,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HCP_H_+1,HC dom +1,0,0.874657,0.888203,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HT_1,MT 1,0,0.395636,0.405889,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HT_2,MT 2,0,0.242206,0.234604,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HT_N,MT N,0,0.362158,0.336057,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HT_OV_0.5,MT +0.5,0,0.792556,0.792556,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HT_OV_1.5,MT +1.5,0,0.485843,0.490452,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HT_UN_0.5,MT +0.5,1,0.207444,0.207444,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,HT_UN_1.5,MT +1.5,1,0.514157,0.509548,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,MRG_A_2,HC dom -1,0,0.125343,0.111571,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,MRG_H_2,HC dom -1,0,0.308096,0.277335,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,MRG_H_3,HC dom -2,0,0.153308,0.136643,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,OV_0.5,+0.5,0,0.968748,0.95791,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,OV_1.5,+1.5,0,0.883494,0.883494,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,OV_2.5,+2.5,0,0.704708,0.709624,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,OV_3.5,+3.5,0,0.493782,0.493782,calcul,gagne,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,OV_4.5,+4.5,0,0.301708,0.322524,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,UN_0.5,+0.5,1,0.031252,0.04209,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,UN_1.5,+1.5,1,0.116506,0.116506,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,UN_2.5,+2.5,1,0.295292,0.290376,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,UN_3.5,+3.5,1,0.506218,0.506218,calcul,perdu,4.0.1
+BL:2026-11-06:hamburg:borussia-monchengladbach,2026-11-06T19:30:00+00:00,BL,UN_4.5,+4.5,1,0.698292,0.677476,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,1X2_1,1,0,0.311599,0.311599,marche,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,1X2_2,2,0,0.418565,0.418565,marche,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,1X2_N,N,0,0.269836,0.269836,marche,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,BTTS_N,BTTS oui,1,0.448024,0.448024,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,BTTS_O,BTTS oui,0,0.551976,0.551976,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,DC_12,12,0,0.730164,0.730164,marche,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,DC_1X,1X,0,0.581435,0.581435,marche,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,DC_X2,X2,0,0.688401,0.688401,marche,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,DOM_2PLUS,dom +1.5,0,0.348991,0.348991,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,DOM_MARQUE,dom marque,0,0.70836,0.70836,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,EXT_2PLUS,ext +1.5,0,0.4304,0.430369,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,EXT_MARQUE,ext marque,0,0.768927,0.803373,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HCP_A_+1,HC dom +1,0,0.865962,0.880358,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HCP_H_+1,HC dom +1,0,0.793679,0.816805,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HT_1,MT 1,0,0.250638,0.225741,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HT_2,MT 2,0,0.316082,0.340988,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HT_N,MT N,0,0.43328,0.43796,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HT_OV_0.5,MT +0.5,0,0.69002,0.69002,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HT_OV_1.5,MT +1.5,0,0.340971,0.330755,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HT_UN_0.5,MT +0.5,1,0.30998,0.30998,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,HT_UN_1.5,MT +1.5,1,0.659029,0.669245,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,MRG_A_2,HC dom -1,0,0.206321,0.183195,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,MRG_A_3,HC dom -2,0,0.079387,0.071358,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,MRG_H_2,HC dom -1,0,0.134038,0.119505,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,OV_0.5,+0.5,0,0.925311,0.935347,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,OV_1.5,+1.5,0,0.758141,0.758141,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,OV_2.5,+2.5,0,0.505319,0.505319,marche,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,OV_3.5,+3.5,0,0.285303,0.285303,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,OV_4.5,+4.5,0,0.136684,0.131095,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,UN_0.5,+0.5,1,0.074689,0.064653,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,UN_1.5,+1.5,1,0.241859,0.241859,calcul,perdu,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,UN_2.5,+2.5,1,0.494681,0.494681,marche,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,UN_3.5,+3.5,1,0.714697,0.714697,calcul,gagne,4.0.1
+FAC:2026-11-06:bristol-rovers:cambridge-united,2026-11-06T19:30:00+00:00,FAC,UN_4.5,+4.5,1,0.863316,0.868905,calcul,gagne,4.0.1
