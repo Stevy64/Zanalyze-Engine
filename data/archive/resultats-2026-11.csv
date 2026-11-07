@@ -72,3 +72,11 @@ SA:2026-11-06:venezia:udinese,2026-11-06T19:45:00+00:00,SA,venezia,udinese,2,1,0
 LIGA:2026-11-06:seville:alaves,2026-11-06T20:00:00+00:00,LIGA,seville,alaves,0,0,,
 PL:2026-11-06:everton:coventry-city,2026-11-06T20:00:00+00:00,PL,everton,coventry-city,3,1,0,0
 LP:2026-11-06:famalicao:arouca,2026-11-06T20:45:00+00:00,LP,famalicao,arouca,1,0,0,0
+PL:2026-11-07:leeds:tottenham,2026-11-07T12:30:00+00:00,PL,leeds,tottenham,1,0,0,0
+LIGA:2026-11-07:malaga:racing-santander,2026-11-07T13:00:00+00:00,LIGA,malaga,racing-santander,1,2,1,0
+SA:2026-11-07:cagliari:frosinone,2026-11-07T14:00:00+00:00,SA,cagliari,frosinone,1,0,1,0
+SA:2026-11-07:turin:lecce,2026-11-07T14:00:00+00:00,SA,turin,lecce,1,1,0,0
+BL:2026-11-07:borussia-dortmund:elversberg,2026-11-07T14:30:00+00:00,BL,borussia-dortmund,elversberg,2,1,0,0
+BL:2026-11-07:mainz:bayern-munich,2026-11-07T14:30:00+00:00,BL,mainz,bayern-munich,1,2,0,1
+BL:2026-11-07:paderborn:eintracht-frankfurt,2026-11-07T14:30:00+00:00,BL,paderborn,eintracht-frankfurt,2,2,1,1
+BL:2026-11-07:rb-leipzig:augsburg,2026-11-07T14:30:00+00:00,BL,rb-leipzig,augsburg,5,2,3,1
