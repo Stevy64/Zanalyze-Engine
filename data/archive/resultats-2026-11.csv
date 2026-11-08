@@ -122,4 +122,7 @@ PL:2026-11-07:nottingham-forest:manchester-city,2026-11-07T17:30:00+00:00,PL,not
 L1:2026-11-07:auxerre:paris,2026-11-07T18:00:00+00:00,L1,auxerre,paris,0,1,0,0
 LP:2026-11-07:alverca:casa-pia,2026-11-07T18:00:00+00:00,LP,alverca,casa-pia,1,1,0,1
 SA:2026-11-07:rome:sassuolo,2026-11-07T19:45:00+00:00,SA,rome,sassuolo,3,0,,
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,peterborough-united,reading,0,5,0,3
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,valencia,real-madrid,0,3,0,2
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,paris-saint-germain,troyes,1,0,1,0
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,sporting-cp,moreirense,1,0,0,0

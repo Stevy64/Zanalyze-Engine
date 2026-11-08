@@ -3916,6 +3916,74 @@ SA:2026-11-07:rome:sassuolo,2026-11-07T19:45:00+00:00,SA,UN_1.5,+1.5,1,0.126005,
 SA:2026-11-07:rome:sassuolo,2026-11-07T19:45:00+00:00,SA,UN_2.5,+2.5,1,0.310884,0.303046,calcul,perdu,4.0.1
 SA:2026-11-07:rome:sassuolo,2026-11-07T19:45:00+00:00,SA,UN_3.5,+3.5,1,0.526316,0.526316,marche,gagne,4.0.1
 SA:2026-11-07:rome:sassuolo,2026-11-07T19:45:00+00:00,SA,UN_4.5,+4.5,1,0.715117,0.702626,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,1X2_1,1,0,0.330294,0.330294,marche,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,1X2_2,2,0,0.42038,0.42038,marche,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,1X2_N,N,0,0.249326,0.249326,marche,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,BTTS_N,BTTS oui,1,0.371049,0.371049,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,BTTS_O,BTTS oui,0,0.628951,0.628951,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,DC_12,12,0,0.750674,0.750674,marche,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,DC_1X,1X,0,0.57962,0.57962,marche,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,DC_X2,X2,0,0.669706,0.669706,marche,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,DOM_2PLUS,dom +1.5,0,0.428163,0.428163,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,DOM_MARQUE,dom marque,0,0.767397,0.767397,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,EXT_2PLUS,ext +1.5,0,0.49653,0.51194,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,EXT_MARQUE,ext marque,0,0.811243,0.838571,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HCP_A_+1,HC dom +1,0,0.843716,0.860536,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HCP_H_+1,HC dom +1,0,0.77955,0.804456,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HT_1,MT 1,0,0.272225,0.250602,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HT_2,MT 2,0,0.328004,0.35855,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HT_N,MT N,0,0.399771,0.388028,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HT_OV_0.5,MT +0.5,0,0.741656,0.741656,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HT_OV_1.5,MT +1.5,0,0.408947,0.406389,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HT_UN_0.5,MT +0.5,1,0.258344,0.258344,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,HT_UN_1.5,MT +1.5,1,0.591053,0.593611,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,MRG_A_2,HC dom -1,0,0.22045,0.195544,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,MRG_A_3,HC dom -2,0,0.092224,0.082307,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,MRG_H_2,HC dom -1,0,0.156284,0.139464,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,MRG_H_3,HC dom -2,0,0.058173,0.052763,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,OV_0.5,+0.5,0,0.949689,0.962265,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,OV_1.5,+1.5,0,0.825264,0.825264,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,OV_2.5,+2.5,0,0.604534,0.604534,marche,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,OV_3.5,+3.5,0,0.38091,0.38091,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,OV_4.5,+4.5,0,0.206285,0.196888,calcul,gagne,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,UN_0.5,+0.5,1,0.050311,0.037735,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,UN_1.5,+1.5,1,0.174736,0.174736,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,UN_2.5,+2.5,1,0.395466,0.395466,marche,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,UN_3.5,+3.5,1,0.61909,0.61909,calcul,perdu,4.0.1
+FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,UN_4.5,+4.5,1,0.793715,0.803112,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,1X2_1,1,0,0.073495,0.073495,marche,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,1X2_2,2,0,0.784325,0.784325,marche,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,1X2_N,N,0,0.142181,0.142181,marche,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.52058,0.52058,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.47942,0.47942,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,DC_12,12,0,0.857819,0.857819,marche,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,DC_1X,1X,0,0.215675,0.215675,marche,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,DC_X2,X2,0,0.926505,0.926505,marche,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.161037,0.161037,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.51081,0.51081,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.746425,0.743385,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.930965,0.957651,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.980509,0.982228,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.420764,0.456566,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HT_1,MT 1,0,0.093746,0.089839,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HT_2,MT 2,0,0.580909,0.599391,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HT_N,MT N,0,0.325345,0.316596,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.771314,0.771314,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.44637,0.44729,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.228686,0.228686,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.55363,0.55271,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.579236,0.543434,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,MRG_A_3,HC dom -2,0,0.3608,0.32293,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,OV_0.5,+0.5,0,0.962356,0.95328,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,OV_1.5,+1.5,0,0.85568,0.85568,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,OV_2.5,+2.5,0,0.657968,0.671644,calcul,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,OV_3.5,+3.5,0,0.438642,0.438642,marche,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,OV_4.5,+4.5,0,0.253616,0.250637,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,UN_0.5,+0.5,1,0.037644,0.04672,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,UN_1.5,+1.5,1,0.14432,0.14432,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,UN_2.5,+2.5,1,0.342032,0.328356,calcul,perdu,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,UN_3.5,+3.5,1,0.561358,0.561358,marche,gagne,4.0.1
+LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,UN_4.5,+4.5,1,0.746384,0.749363,calcul,gagne,4.0.1
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,1X2_1,1,0,0.844807,0.844807,marche,gagne,4.0.1
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,1X2_2,2,0,0.051962,0.051962,marche,perdu,4.0.1
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,1X2_N,N,0,0.103231,0.103231,marche,perdu,4.0.1
@@ -3949,3 +4017,36 @@ L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,UN_1.5,+1.
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,UN_2.5,+2.5,1,0.293778,0.289147,calcul,gagne,4.0.1
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,UN_3.5,+3.5,1,0.505319,0.505319,marche,gagne,4.0.1
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,UN_4.5,+4.5,1,0.696621,0.674978,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,1X2_1,1,0,0.876146,0.876146,marche,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,1X2_2,2,0,0.03898,0.03898,marche,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,1X2_N,N,0,0.084874,0.084874,marche,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,BTTS_N,BTTS oui,1,0.652562,0.652562,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,BTTS_O,BTTS oui,0,0.347438,0.347438,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,DC_12,12,0,0.915126,0.915126,marche,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,DC_1X,1X,0,0.96102,0.96102,marche,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,DC_X2,X2,0,0.123854,0.123854,marche,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,DOM_2PLUS,dom +1.5,0,0.806171,0.806171,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,DOM_MARQUE,dom marque,0,0.951976,0.951976,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,EXT_2PLUS,ext +1.5,0,0.07542,0.133685,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,EXT_MARQUE,ext marque,0,0.362329,0.454302,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HCP_A_+1,HC dom +1,0,0.292898,0.320216,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HCP_H_+1,HC dom +1,0,0.994503,0.99427,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HT_1,MT 1,0,0.667785,0.667519,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HT_2,MT 2,0,0.050053,0.057276,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HT_N,MT N,0,0.282162,0.293766,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HT_OV_0.5,MT +0.5,0,0.782363,0.782363,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HT_OV_1.5,MT +1.5,0,0.45917,0.461286,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HT_UN_0.5,MT +0.5,1,0.217637,0.217637,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,HT_UN_1.5,MT +1.5,1,0.54083,0.538714,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,MRG_H_2,HC dom -1,0,0.707102,0.679784,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,MRG_H_3,HC dom -2,0,0.489663,0.445373,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,OV_0.5,+0.5,0,0.966866,0.956547,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,OV_1.5,+1.5,0,0.865132,0.865132,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,OV_2.5,+2.5,0,0.67655,0.686743,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,OV_3.5,+3.5,0,0.459103,0.459103,marche,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,OV_4.5,+4.5,0,0.271901,0.27797,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,UN_0.5,+0.5,1,0.033134,0.043453,calcul,perdu,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,UN_1.5,+1.5,1,0.134868,0.134868,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,UN_2.5,+2.5,1,0.32345,0.313257,calcul,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,UN_3.5,+3.5,1,0.540897,0.540897,marche,gagne,4.0.1
+LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,UN_4.5,+4.5,1,0.728099,0.72203,calcul,gagne,4.0.1
