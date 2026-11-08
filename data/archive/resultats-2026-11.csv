@@ -126,3 +126,14 @@ FAC:2026-11-07:peterborough-united:reading,2026-11-07T20:00:00+00:00,FAC,peterbo
 LIGA:2026-11-07:valencia:real-madrid,2026-11-07T20:00:00+00:00,LIGA,valencia,real-madrid,0,3,0,2
 L1:2026-11-07:paris-saint-germain:troyes,2026-11-07T20:05:00+00:00,L1,paris-saint-germain,troyes,1,0,1,0
 LP:2026-11-07:sporting-cp:moreirense,2026-11-07T20:30:00+00:00,LP,sporting-cp,moreirense,1,0,0,0
+SA:2026-11-08:naples:lazio,2026-11-08T11:30:00+00:00,SA,naples,lazio,1,1,0,1
+FAC:2026-11-08:stafford-rangers:grimsby-town,2026-11-08T12:00:00+00:00,FAC,stafford-rangers,grimsby-town,3,3,2,0
+LIGA:2026-11-08:elche:real-betis,2026-11-08T13:00:00+00:00,LIGA,elche,real-betis,0,2,0,0
+L1:2026-11-08:stade-rennais:lille,2026-11-08T14:00:00+00:00,L1,stade-rennais,lille,1,2,1,1
+PL:2026-11-08:brighton:brentford,2026-11-08T14:00:00+00:00,PL,brighton,brentford,2,0,2,0
+PL:2026-11-08:crystal-palace:liverpool,2026-11-08T14:00:00+00:00,PL,crystal-palace,liverpool,1,3,0,1
+PL:2026-11-08:ipswich-town:bournemouth,2026-11-08T14:00:00+00:00,PL,ipswich-town,bournemouth,1,2,0,1
+PL:2026-11-08:sunderland:chelsea,2026-11-08T14:00:00+00:00,PL,sunderland,chelsea,1,0,1,0
+SA:2026-11-08:genoa:milan,2026-11-08T14:00:00+00:00,SA,genoa,milan,1,2,0,2
+SA:2026-11-08:monza:atalanta,2026-11-08T14:00:00+00:00,SA,monza,atalanta,0,1,0,0
+BL:2026-11-08:cologne:bayer-leverkusen,2026-11-08T14:30:00+00:00,BL,cologne,bayer-leverkusen,1,2,0,1
