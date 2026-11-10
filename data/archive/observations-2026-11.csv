@@ -5130,3 +5130,37 @@ LP:2026-11-08:rio-ave:braga,2026-11-08T20:30:00+00:00,LP,UN_1.5,+1.5,1,0.200142,
 LP:2026-11-08:rio-ave:braga,2026-11-08T20:30:00+00:00,LP,UN_2.5,+2.5,1,0.435696,0.435696,marche,gagne,4.0.1
 LP:2026-11-08:rio-ave:braga,2026-11-08T20:30:00+00:00,LP,UN_3.5,+3.5,1,0.657088,0.657088,calcul,gagne,4.0.1
 LP:2026-11-08:rio-ave:braga,2026-11-08T20:30:00+00:00,LP,UN_4.5,+4.5,1,0.822601,0.830303,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,1X2_1,1,0,0.462661,0.462661,marche,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,1X2_2,2,0,0.280462,0.280462,marche,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,1X2_N,N,0,0.256877,0.256877,marche,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,BTTS_N,BTTS oui,1,0.427058,0.427058,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,BTTS_O,BTTS oui,0,0.572942,0.572942,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,DC_12,12,0,0.743123,0.743123,marche,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,DC_1X,1X,0,0.719538,0.719538,marche,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,DC_X2,X2,0,0.537339,0.537339,marche,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,DOM_2PLUS,dom +1.5,0,0.483761,0.483761,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,DOM_MARQUE,dom marque,0,0.80349,0.80349,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,EXT_2PLUS,ext +1.5,0,0.344218,0.369083,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,EXT_MARQUE,ext marque,0,0.704466,0.732815,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HCP_A_+1,HC dom +1,0,0.755892,0.783781,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HCP_H_+1,HC dom +1,0,0.882023,0.894851,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HT_1,MT 1,0,0.346879,0.348625,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HT_2,MT 2,0,0.234392,0.228268,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HT_N,MT N,0,0.418728,0.416277,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HT_OV_0.5,MT +0.5,0,0.709153,0.709153,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HT_OV_1.5,MT +1.5,0,0.364813,0.358161,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HT_UN_0.5,MT +0.5,1,0.290847,0.290847,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,HT_UN_1.5,MT +1.5,1,0.635187,0.641839,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,MRG_A_2,HC dom -1,0,0.117977,0.104848,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,MRG_H_2,HC dom -1,0,0.244108,0.216219,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,MRG_H_3,HC dom -2,0,0.102007,0.090652,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,OV_0.5,+0.5,0,0.935014,0.940221,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,OV_1.5,+1.5,0,0.783552,0.783552,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,OV_2.5,+2.5,0,0.540897,0.540897,marche,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,OV_3.5,+3.5,0,0.318316,0.318316,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,OV_4.5,+4.5,0,0.15956,0.152905,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,UN_0.5,+0.5,1,0.064986,0.059779,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,UN_1.5,+1.5,1,0.216448,0.216448,calcul,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,UN_2.5,+2.5,1,0.459103,0.459103,marche,perdu,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,UN_3.5,+3.5,1,0.681684,0.681684,calcul,gagne,4.0.1
+FAC:2026-11-09:plymouth-parkway:berkhamsted,2026-11-09T19:30:00+00:00,FAC,UN_4.5,+4.5,1,0.84044,0.847095,calcul,gagne,4.0.1
