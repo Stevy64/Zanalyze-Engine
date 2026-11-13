@@ -170,3 +170,7 @@ CDR:2026-11-12:cs-puertollano:albacete,2026-11-12T17:30:00+00:00,CDR,cs-puertoll
 CDF:2026-11-12:chambery-savoie:grenoble,2026-11-12T18:00:00+00:00,CDF,chambery-savoie,grenoble,0,2,0,0
 CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,artistico-navalcarnero,real-betis,2,3,0,1
 CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,tarancon,levante,1,2,0,0
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,dijon-fco,orleans,1,2,,
+CDF:2026-11-13:neuvillette-jamin:valenciennes,2026-11-13T19:00:00+00:00,CDF,neuvillette-jamin,valenciennes,2,2,,
+CDF:2026-11-13:saint-philbert-de-grand-lieu:la-roche-sur-yon,2026-11-13T19:00:00+00:00,CDF,saint-philbert-de-grand-lieu,la-roche-sur-yon,1,3,,
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,salamanca-uds,celta-vigo,0,5,0,3

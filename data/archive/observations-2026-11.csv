@@ -5263,3 +5263,63 @@ CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.10
 CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.273046,0.2723,calcul,perdu,4.0.1
 CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.48,0.48,marche,gagne,4.0.1
 CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.672817,0.641504,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,1X2_1,1,0,0.596357,0.596357,marche,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,1X2_2,2,0,0.189168,0.189168,marche,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,1X2_N,N,0,0.214475,0.214475,marche,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,BTTS_N,BTTS oui,1,0.435594,0.435594,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,BTTS_O,BTTS oui,0,0.564406,0.564406,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,DC_12,12,0,0.785525,0.785525,marche,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,DC_1X,1X,0,0.810832,0.810832,marche,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,DC_X2,X2,0,0.403643,0.403643,marche,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,DOM_2PLUS,dom +1.5,0,0.597123,0.597123,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,DOM_MARQUE,dom marque,0,0.866225,0.866225,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,EXT_2PLUS,ext +1.5,0,0.277056,0.289972,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,EXT_MARQUE,ext marque,0,0.644717,0.660442,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,HCP_A_+1,HC dom +1,0,0.636416,0.664699,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,HCP_H_+1,HC dom +1,0,0.933001,0.940852,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,MRG_A_2,HC dom -1,0,0.066999,0.058746,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,MRG_H_2,HC dom -1,0,0.363584,0.335301,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,MRG_H_3,HC dom -2,0,0.180703,0.165012,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,OV_0.5,+0.5,0,0.946536,0.967505,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,OV_1.5,+1.5,0,0.813617,0.813617,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,OV_2.5,+2.5,0,0.584416,0.584416,marche,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,OV_3.5,+3.5,0,0.36317,0.36317,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,OV_4.5,+4.5,0,0.192599,0.184005,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,UN_0.5,+0.5,1,0.053464,0.032495,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,UN_1.5,+1.5,1,0.186383,0.186383,calcul,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,UN_2.5,+2.5,1,0.415584,0.415584,marche,perdu,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,UN_3.5,+3.5,1,0.63683,0.63683,calcul,gagne,4.0.1
+CDF:2026-11-13:dijon-fco:orleans,2026-11-13T19:00:00+00:00,CDF,UN_4.5,+4.5,1,0.807401,0.815995,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,1X2_1,1,0,0.079746,0.079746,marche,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,1X2_2,2,0,0.796915,0.796915,marche,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,1X2_N,N,0,0.123338,0.123338,marche,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.492818,0.492818,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.507182,0.507182,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,DC_12,12,0,0.876662,0.876662,marche,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,DC_1X,1X,0,0.203085,0.203085,marche,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,DC_X2,X2,0,0.920254,0.920254,marche,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.178845,0.178845,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.534875,0.534875,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.775721,0.772918,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.941601,0.964021,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.980366,0.982105,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.397683,0.427241,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HT_1,MT 1,0,0.09417,0.090319,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HT_2,MT 2,0,0.596427,0.614188,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HT_N,MT N,0,0.309402,0.308167,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.791674,0.791674,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.478247,0.482146,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.208326,0.208326,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.521753,0.517854,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.602317,0.572759,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.388309,0.348971,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,OV_0.5,+0.5,0,0.969294,0.958305,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,OV_1.5,+1.5,0,0.878434,0.878434,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,OV_2.5,+2.5,0,0.698297,0.704414,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,OV_3.5,+3.5,0,0.484127,0.484127,marche,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,OV_4.5,+4.5,0,0.294687,0.31203,calcul,gagne,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_0.5,+0.5,1,0.030706,0.041695,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_1.5,+1.5,1,0.121566,0.121566,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_2.5,+2.5,1,0.301703,0.295586,calcul,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_3.5,+3.5,1,0.515873,0.515873,marche,perdu,4.0.1
+CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_4.5,+4.5,1,0.705313,0.68797,calcul,perdu,4.0.1
