@@ -5197,3 +5197,69 @@ CDR:2026-11-10:pamplona:eibar,2026-11-10T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.1489
 CDR:2026-11-10:pamplona:eibar,2026-11-10T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.348485,0.3336,calcul,perdu,4.0.1
 CDR:2026-11-10:pamplona:eibar,2026-11-10T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.569948,0.569948,marche,gagne,4.0.1
 CDR:2026-11-10:pamplona:eibar,2026-11-10T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.752499,0.758503,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,1X2_1,1,0,0.047007,0.047007,marche,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,1X2_2,2,0,0.878196,0.878196,marche,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,1X2_N,N,0,0.074797,0.074797,marche,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.632824,0.632824,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.367176,0.367176,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,DC_12,12,0,0.925203,0.925203,marche,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,DC_1X,1X,0,0.121804,0.121804,marche,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,DC_X2,X2,0,0.952993,0.952993,marche,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.084323,0.084323,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.381472,0.381472,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.818913,0.816456,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.956112,0.972713,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.994164,0.993978,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.284174,0.312556,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HT_1,MT 1,0,0.051604,0.048791,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HT_2,MT 2,0,0.67405,0.688202,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HT_N,MT N,0,0.274346,0.289635,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.793333,0.793333,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.476736,0.480494,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.206667,0.206667,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.523264,0.519506,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.715826,0.687444,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.502982,0.458099,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,OV_0.5,+0.5,0,0.970408,0.959112,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,OV_1.5,+1.5,0,0.877398,0.877398,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,OV_2.5,+2.5,0,0.698405,0.704502,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,OV_3.5,+3.5,0,0.484127,0.484127,marche,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,OV_4.5,+4.5,0,0.294799,0.312197,calcul,gagne,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,UN_0.5,+0.5,1,0.029592,0.040888,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.122602,0.122602,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.301595,0.295498,calcul,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.515873,0.515873,marche,perdu,4.0.1
+CDR:2026-11-12:artistico-navalcarnero:real-betis,2026-11-12T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.705201,0.687803,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,1X2_1,1,0,0.038784,0.038784,marche,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,1X2_2,2,0,0.890319,0.890319,marche,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,1X2_N,N,0,0.070897,0.070897,marche,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.625002,0.625002,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.374998,0.374998,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,DC_12,12,0,0.929103,0.929103,marche,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,DC_1X,1X,0,0.109681,0.109681,marche,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,DC_X2,X2,0,0.961216,0.961216,marche,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.087145,0.087145,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.387288,0.387288,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.83952,0.837229,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.962546,0.976566,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.994693,0.994434,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.26069,0.29194,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HT_1,MT 1,0,0.049298,0.046655,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HT_2,MT 2,0,0.690933,0.7043,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HT_N,MT N,0,0.259769,0.27537,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.807884,0.807884,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.500416,0.506387,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.192116,0.192116,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.499584,0.493613,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.73931,0.70806,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.534226,0.487952,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,OV_0.5,+0.5,0,0.974836,0.9607,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,OV_1.5,+1.5,0,0.892646,0.892646,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,OV_2.5,+2.5,0,0.726954,0.7277,calcul,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,OV_3.5,+3.5,0,0.52,0.52,marche,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,OV_4.5,+4.5,0,0.327183,0.358496,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_0.5,+0.5,1,0.025164,0.0393,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.107354,0.107354,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.273046,0.2723,calcul,perdu,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.48,0.48,marche,gagne,4.0.1
+CDR:2026-11-12:tarancon:levante,2026-11-12T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.672817,0.641504,calcul,gagne,4.0.1
