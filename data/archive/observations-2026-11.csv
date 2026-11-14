@@ -5323,3 +5323,30 @@ CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_1.5,+1.
 CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_2.5,+2.5,1,0.301703,0.295586,calcul,perdu,4.0.1
 CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_3.5,+3.5,1,0.515873,0.515873,marche,perdu,4.0.1
 CDR:2026-11-13:salamanca-uds:celta-vigo,2026-11-13T20:00:00+00:00,CDR,UN_4.5,+4.5,1,0.705313,0.68797,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,1X2_1,1,0,0.297665,0.297665,marche,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,1X2_2,2,0,0.424522,0.424522,marche,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,1X2_N,N,0,0.277813,0.277813,marche,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,BTTS_N,BTTS oui,1,0.455526,0.455526,calcul,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,BTTS_O,BTTS oui,0,0.544474,0.544474,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,DC_12,12,0,0.722187,0.722187,marche,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,DC_1X,1X,0,0.575478,0.575478,marche,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,DC_X2,X2,0,0.702335,0.702335,marche,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,DOM_2PLUS,dom +1.5,0,0.336051,0.336051,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,DOM_MARQUE,dom marque,0,0.697703,0.697703,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,EXT_2PLUS,ext +1.5,0,0.431778,0.431335,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,EXT_MARQUE,ext marque,0,0.769866,0.804154,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,HCP_A_+1,HC dom +1,0,0.872879,0.8866,calcul,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,HCP_H_+1,HC dom +1,0,0.788171,0.811991,calcul,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,MRG_A_2,HC dom -1,0,0.211829,0.188009,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,MRG_A_3,HC dom -2,0,0.081893,0.073495,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,MRG_H_2,HC dom -1,0,0.127121,0.113193,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,OV_0.5,+0.5,0,0.923095,0.929746,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,OV_1.5,+1.5,0,0.752336,0.752336,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,OV_2.5,+2.5,0,0.5,0.5,marche,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,OV_3.5,+3.5,0,0.278304,0.278304,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,OV_4.5,+4.5,0,0.131992,0.126521,calcul,perdu,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_0.5,+0.5,1,0.076905,0.070254,calcul,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_1.5,+1.5,1,0.247664,0.247664,calcul,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_2.5,+2.5,1,0.5,0.5,marche,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_3.5,+3.5,1,0.721696,0.721696,calcul,gagne,4.0.1
+CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_4.5,+4.5,1,0.868008,0.873479,calcul,gagne,4.0.1
