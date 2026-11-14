@@ -5350,3 +5350,56 @@ CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_1.5,+1.
 CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_2.5,+2.5,1,0.5,0.5,marche,gagne,4.0.1
 CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_3.5,+3.5,1,0.721696,0.721696,calcul,gagne,4.0.1
 CDF:2026-11-14:versailles:rodez-aveyron,2026-11-14T13:00:00+00:00,CDF,UN_4.5,+4.5,1,0.868008,0.873479,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,1X2_1,1,0,0.10401,0.10401,marche,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,1X2_2,2,0,0.748631,0.748631,marche,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,1X2_N,N,0,0.147359,0.147359,marche,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,BTTS_N,BTTS oui,1,0.459246,0.459246,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,BTTS_O,BTTS oui,0,0.540754,0.540754,calcul,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,DC_12,12,0,0.852641,0.852641,marche,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,DC_1X,1X,0,0.251369,0.251369,marche,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,DC_X2,X2,0,0.89599,0.89599,marche,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,DOM_2PLUS,dom +1.5,0,0.213974,0.213974,calcul,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,DOM_MARQUE,dom marque,0,0.578063,0.578063,calcul,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,EXT_2PLUS,ext +1.5,0,0.739401,0.736305,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,EXT_MARQUE,ext marque,0,0.928319,0.956066,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,HCP_A_+1,HC dom +1,0,0.970531,0.973641,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,HCP_H_+1,HC dom +1,0,0.46046,0.503848,calcul,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,MRG_A_2,HC dom -1,0,0.53954,0.496152,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,MRG_A_3,HC dom -2,0,0.328455,0.295265,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,OV_0.5,+0.5,0,0.965628,0.95565,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,OV_1.5,+1.5,0,0.868072,0.868072,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,OV_2.5,+2.5,0,0.678861,0.688621,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,OV_3.5,+3.5,0,0.460916,0.460916,marche,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,OV_4.5,+4.5,0,0.274256,0.28149,calcul,gagne,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,UN_0.5,+0.5,1,0.034372,0.04435,calcul,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,UN_1.5,+1.5,1,0.131928,0.131928,calcul,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,UN_2.5,+2.5,1,0.321139,0.311379,calcul,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,UN_3.5,+3.5,1,0.539084,0.539084,marche,perdu,4.0.1
+CDF:2026-11-14:fontenay-foot:clermont-foot,2026-11-14T15:00:00+00:00,CDF,UN_4.5,+4.5,1,0.725744,0.71851,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,1X2_1,1,0,0.580996,0.580996,marche,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,1X2_2,2,0,0.19862,0.19862,marche,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,1X2_N,N,0,0.220384,0.220384,marche,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,BTTS_N,BTTS oui,1,0.413546,0.413546,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,BTTS_O,BTTS oui,0,0.586454,0.586454,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,DC_12,12,0,0.779616,0.779616,marche,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,DC_1X,1X,0,0.80138,0.80138,marche,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,DC_X2,X2,0,0.419004,0.419004,marche,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,DOM_2PLUS,dom +1.5,0,0.60038,0.60038,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,DOM_MARQUE,dom marque,0,0.867839,0.867839,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,EXT_2PLUS,ext +1.5,0,0.303031,0.320568,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,EXT_MARQUE,ext marque,0,0.668997,0.689252,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,HCP_A_+1,HC dom +1,0,0.646349,0.676798,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,HCP_H_+1,HC dom +1,0,0.924822,0.933472,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,MRG_A_2,HC dom -1,0,0.075178,0.065795,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,MRG_H_2,HC dom -1,0,0.353651,0.323202,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,MRG_H_3,HC dom -2,0,0.175508,0.159632,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,OV_0.5,+0.5,0,0.950381,0.961046,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,OV_1.5,+1.5,0,0.825231,0.825231,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,OV_2.5,+2.5,0,0.604113,0.604113,marche,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,OV_3.5,+3.5,0,0.381724,0.381724,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,OV_4.5,+4.5,0,0.206922,0.197487,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_0.5,+0.5,1,0.049619,0.038954,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_1.5,+1.5,1,0.174769,0.174769,calcul,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_2.5,+2.5,1,0.395887,0.395887,marche,perdu,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_3.5,+3.5,1,0.618276,0.618276,calcul,gagne,4.0.1
+CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_4.5,+4.5,1,0.793078,0.802513,calcul,gagne,4.0.1
