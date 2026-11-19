@@ -5403,3 +5403,171 @@ CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_1.5,+1.5,1,0.
 CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_2.5,+2.5,1,0.395887,0.395887,marche,perdu,4.0.1
 CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_3.5,+3.5,1,0.618276,0.618276,calcul,gagne,4.0.1
 CDF:2026-11-14:dunkerque:quevilly,2026-11-14T17:00:00+00:00,CDF,UN_4.5,+4.5,1,0.793078,0.802513,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,1X2_1,1,0,0.313272,0.313272,marche,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,1X2_2,2,0,0.393496,0.393496,marche,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,1X2_N,N,0,0.293232,0.293232,marche,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.493132,0.493132,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.506868,0.506868,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,DC_12,12,0,0.706768,0.706768,marche,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,DC_1X,1X,0,0.606504,0.606504,marche,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,DC_X2,X2,0,0.686728,0.686728,marche,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.318391,0.318391,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.682632,0.682632,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.378072,0.393703,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.731214,0.765666,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.868276,0.882445,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.816557,0.8368,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HT_1,MT 1,0,0.248125,0.224041,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HT_2,MT 2,0,0.29628,0.311817,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HT_N,MT N,0,0.455595,0.471281,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.657155,0.657155,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.302528,0.282431,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.342845,0.342845,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.697472,0.717569,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.183443,0.1632,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.06509,0.058918,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,MRG_H_2,HC dom -1,0,0.131724,0.117394,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,OV_0.5,+0.5,0,0.906978,0.935516,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,OV_1.5,+1.5,0,0.712435,0.712435,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,OV_2.5,+2.5,0,0.448819,0.448819,marche,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,OV_3.5,+3.5,0,0.234234,0.234234,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,OV_4.5,+4.5,0,0.103743,0.098987,calcul,perdu,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,UN_0.5,+0.5,1,0.093022,0.064484,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.287565,0.287565,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.551181,0.551181,marche,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.765766,0.765766,calcul,gagne,4.0.1
+CDR:2026-11-18:portugalete:real-union-irun,2026-11-18T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.896257,0.901013,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,1X2_1,1,0,0.174903,0.174903,marche,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,1X2_2,2,0,0.575958,0.575958,marche,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,1X2_N,N,0,0.249139,0.249139,marche,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.524765,0.524765,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.475235,0.475235,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,DC_12,12,0,0.750861,0.750861,marche,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,DC_1X,1X,0,0.424042,0.424042,marche,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,DC_X2,X2,0,0.825097,0.825097,marche,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.207229,0.207229,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.570161,0.570161,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.514381,0.536896,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.821771,0.847328,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.94329,0.950137,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.672141,0.703787,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HT_1,MT 1,0,0.160146,0.164572,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HT_2,MT 2,0,0.409522,0.425956,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HT_N,MT N,0,0.430331,0.433567,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.673258,0.673258,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.319434,0.303682,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.326742,0.326742,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.680566,0.696318,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.327859,0.296213,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.147505,0.130633,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,MRG_H_2,HC dom -1,0,0.05671,0.049877,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,OV_0.5,+0.5,0,0.916696,0.917121,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,OV_1.5,+1.5,0,0.733271,0.733271,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,OV_2.5,+2.5,0,0.473684,0.473684,marche,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,OV_3.5,+3.5,0,0.257276,0.257276,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,OV_4.5,+4.5,0,0.118233,0.113111,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,UN_0.5,+0.5,1,0.083304,0.082879,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,UN_1.5,+1.5,1,0.266729,0.266729,calcul,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,UN_2.5,+2.5,1,0.526316,0.526316,marche,perdu,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,UN_3.5,+3.5,1,0.742724,0.742724,calcul,gagne,4.0.1
+CDR:2026-11-18:utebo:sabadell,2026-11-18T18:00:00+00:00,CDR,UN_4.5,+4.5,1,0.881767,0.886889,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,1X2_1,1,0,0.110345,0.110345,marche,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,1X2_2,2,0,0.708056,0.708056,marche,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,1X2_N,N,0,0.181599,0.181599,marche,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,BTTS_N,BTTS oui,1,0.551992,0.551992,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,BTTS_O,BTTS oui,0,0.448008,0.448008,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,DC_12,12,0,0.818401,0.818401,marche,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,DC_1X,1X,0,0.291944,0.291944,marche,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,DC_X2,X2,0,0.889655,0.889655,marche,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.153713,0.153713,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.500414,0.500414,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.636129,0.674235,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.884932,0.910834,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.972341,0.9752,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.532043,0.549272,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HT_1,MT 1,0,0.111419,0.109832,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HT_2,MT 2,0,0.506434,0.521687,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HT_N,MT N,0,0.382147,0.361765,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.712062,0.712062,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.364793,0.358139,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.287938,0.287938,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.635207,0.641861,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.467957,0.450728,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.25241,0.237274,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,OV_0.5,+0.5,0,0.937338,0.939616,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,OV_1.5,+1.5,0,0.783497,0.783497,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,OV_2.5,+2.5,0,0.540897,0.540897,marche,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,OV_3.5,+3.5,0,0.320591,0.320591,calcul,gagne,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,OV_4.5,+4.5,0,0.161182,0.154432,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,UN_0.5,+0.5,1,0.062662,0.060384,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,UN_1.5,+1.5,1,0.216503,0.216503,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,UN_2.5,+2.5,1,0.459103,0.459103,marche,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,UN_3.5,+3.5,1,0.679409,0.679409,calcul,perdu,4.0.1
+CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,UN_4.5,+4.5,1,0.838818,0.845568,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,1X2_1,1,0,0.328134,0.328134,marche,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,1X2_2,2,0,0.360602,0.360602,marche,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,1X2_N,N,0,0.311264,0.311264,marche,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,BTTS_N,BTTS oui,1,0.541128,0.541128,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,BTTS_O,BTTS oui,0,0.458872,0.458872,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,DC_12,12,0,0.688736,0.688736,marche,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,DC_1X,1X,0,0.639398,0.639398,marche,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,DC_X2,X2,0,0.671866,0.671866,marche,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.294258,0.294258,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.660975,0.660975,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.317789,0.337952,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.682108,0.705355,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.86599,0.880383,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.845989,0.862522,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HT_1,MT 1,0,0.250111,0.225384,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HT_2,MT 2,0,0.269365,0.272167,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HT_N,MT N,0,0.480525,0.508521,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.621003,0.621003,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.264024,0.23794,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.378997,0.378997,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.735976,0.76206,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.154011,0.137478,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,MRG_H_2,HC dom -1,0,0.13401,0.11948,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,OV_0.5,+0.5,0,0.88421,0.931435,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,OV_1.5,+1.5,0,0.660153,0.660153,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,OV_2.5,+2.5,0,0.3875,0.3875,marche,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,OV_3.5,+3.5,0,0.186126,0.186126,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,OV_4.5,+4.5,0,0.075529,0.071727,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,UN_0.5,+0.5,1,0.11579,0.068565,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,UN_1.5,+1.5,1,0.339847,0.339847,calcul,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,UN_2.5,+2.5,1,0.6125,0.6125,marche,perdu,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,UN_3.5,+3.5,1,0.813874,0.813874,calcul,gagne,4.0.1
+CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,UN_4.5,+4.5,1,0.924471,0.928273,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,1X2_1,1,0,0.258587,0.258587,marche,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,1X2_2,2,0,0.449492,0.449492,marche,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,1X2_N,N,0,0.291922,0.291922,marche,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,BTTS_N,BTTS oui,1,0.524143,0.524143,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,BTTS_O,BTTS oui,0,0.475857,0.475857,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,DC_12,12,0,0.708078,0.708078,marche,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,DC_1X,1X,0,0.550508,0.550508,marche,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,DC_X2,X2,0,0.741413,0.741413,marche,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,DOM_2PLUS,dom +1.5,0,0.25855,0.25855,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,DOM_MARQUE,dom marque,0,0.626385,0.626385,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,EXT_2PLUS,ext +1.5,0,0.399893,0.408993,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,EXT_MARQUE,ext marque,0,0.747442,0.785501,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HCP_A_+1,HC dom +1,0,0.903059,0.913833,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HCP_H_+1,HC dom +1,0,0.781377,0.806053,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HT_1,MT 1,0,0.211062,0.198988,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HT_2,MT 2,0,0.325907,0.355462,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HT_N,MT N,0,0.463031,0.482389,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HT_OV_0.5,MT +0.5,0,0.642153,0.642153,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HT_OV_1.5,MT +1.5,0,0.285798,0.2614,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HT_UN_0.5,MT +0.5,1,0.357847,0.357847,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,HT_UN_1.5,MT +1.5,1,0.714202,0.7386,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,MRG_A_2,HC dom -1,0,0.218623,0.193947,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,MRG_A_3,HC dom -2,0,0.081445,0.073112,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,MRG_H_2,HC dom -1,0,0.096941,0.08565,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,OV_0.5,+0.5,0,0.89797,0.936742,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,OV_1.5,+1.5,0,0.690562,0.690562,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,OV_2.5,+2.5,0,0.421594,0.421594,marche,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,OV_3.5,+3.5,0,0.213093,0.213093,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,OV_4.5,+4.5,0,0.090998,0.086565,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_0.5,+0.5,1,0.10203,0.063258,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_1.5,+1.5,1,0.309438,0.309438,calcul,perdu,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_2.5,+2.5,1,0.578406,0.578406,marche,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_3.5,+3.5,1,0.786907,0.786907,calcul,gagne,4.0.1
+CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_4.5,+4.5,1,0.909002,0.913435,calcul,gagne,4.0.1
