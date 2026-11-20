@@ -5571,3 +5571,70 @@ CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_1.5,+1.5,1
 CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_2.5,+2.5,1,0.578406,0.578406,marche,gagne,4.0.1
 CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_3.5,+3.5,1,0.786907,0.786907,calcul,gagne,4.0.1
 CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,UN_4.5,+4.5,1,0.909002,0.913435,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,1X2_1,1,0,0.9179,0.9179,marche,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,1X2_2,2,0,0.029058,0.029058,marche,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,1X2_N,N,0,0.053042,0.053042,marche,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,BTTS_N,BTTS oui,1,0.530766,0.530766,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,BTTS_O,BTTS oui,0,0.469234,0.469234,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,DC_12,12,0,0.946958,0.946958,marche,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,DC_1X,1X,0,0.970942,0.970942,marche,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,DC_X2,X2,0,0.0821,0.0821,marche,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,DOM_2PLUS,dom +1.5,0,0.908268,0.908268,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,DOM_MARQUE,dom marque,0,0.981647,0.981647,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,EXT_2PLUS,ext +1.5,0,0.137673,0.178974,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,EXT_MARQUE,ext marque,0,0.476487,0.51054,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HCP_A_+1,HC dom +1,0,0.19477,0.219036,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HCP_H_+1,HC dom +1,0,0.994653,0.994399,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HT_1,MT 1,0,0.740656,0.75336,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HT_2,MT 2,0,0.049708,0.056888,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HT_N,MT N,0,0.209636,0.22242,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HT_OV_0.5,MT +0.5,0,0.867795,0.867795,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HT_OV_1.5,MT +1.5,0,0.612116,0.618815,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HT_UN_0.5,MT +0.5,1,0.132205,0.132205,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,HT_UN_1.5,MT +1.5,1,0.387884,0.381185,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,MRG_H_2,HC dom -1,0,0.80523,0.780964,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,MRG_H_3,HC dom -2,0,0.636642,0.599243,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,OV_0.5,+0.5,0,0.9889,0.9607,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,OV_1.5,+1.5,0,0.947251,0.947251,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,OV_2.5,+2.5,0,0.842089,0.84156,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,OV_3.5,+3.5,0,0.681557,0.681557,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,OV_4.5,+4.5,0,0.494681,0.494681,marche,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,UN_0.5,+0.5,1,0.0111,0.0393,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,UN_1.5,+1.5,1,0.052749,0.052749,calcul,perdu,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,UN_2.5,+2.5,1,0.157911,0.15844,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,UN_3.5,+3.5,1,0.318443,0.318443,calcul,gagne,4.0.1
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,UN_4.5,+4.5,1,0.505319,0.505319,marche,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,1X2_1,1,0,0.440243,0.440243,marche,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,1X2_2,2,0,0.279879,0.279879,marche,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,1X2_N,N,0,0.279879,0.279879,marche,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,BTTS_N,BTTS oui,1,0.463352,0.463352,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,BTTS_O,BTTS oui,0,0.536648,0.536648,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,DC_12,12,0,0.720121,0.720121,marche,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,DC_1X,1X,0,0.720121,0.720121,marche,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,DC_X2,X2,0,0.559757,0.559757,marche,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,DOM_2PLUS,dom +1.5,0,0.439427,0.439427,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,DOM_MARQUE,dom marque,0,0.775033,0.775033,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,EXT_2PLUS,ext +1.5,0,0.318764,0.3391,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,EXT_MARQUE,ext marque,0,0.682957,0.706398,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HCP_A_+1,HC dom +1,0,0.776736,0.801997,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HCP_H_+1,HC dom +1,0,0.883262,0.895969,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HT_1,MT 1,0,0.330019,0.326704,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HT_2,MT 2,0,0.23295,0.227099,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HT_N,MT N,0,0.437031,0.44355,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HT_OV_0.5,MT +0.5,0,0.682482,0.682482,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HT_OV_1.5,MT +1.5,0,0.331706,0.319109,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HT_UN_0.5,MT +0.5,1,0.317518,0.317518,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,HT_UN_1.5,MT +1.5,1,0.668294,0.680891,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,MRG_A_2,HC dom -1,0,0.116738,0.103718,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,MRG_H_2,HC dom -1,0,0.223264,0.198003,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,MRG_H_3,HC dom -2,0,0.08766,0.078415,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,OV_0.5,+0.5,0,0.921342,0.925314,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,OV_1.5,+1.5,0,0.747676,0.747676,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,OV_2.5,+2.5,0,0.494681,0.494681,marche,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,OV_3.5,+3.5,0,0.272841,0.272841,calcul,gagne,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,OV_4.5,+4.5,0,0.128369,0.12299,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_0.5,+0.5,1,0.078658,0.074686,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_1.5,+1.5,1,0.252324,0.252324,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_2.5,+2.5,1,0.505319,0.505319,marche,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_3.5,+3.5,1,0.727159,0.727159,calcul,perdu,4.0.1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_4.5,+4.5,1,0.871631,0.87701,calcul,gagne,4.0.1

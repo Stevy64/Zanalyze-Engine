@@ -265,3 +265,5 @@ CDR:2026-11-18:alcoyano:mallorca,2026-11-18T19:00:00+00:00,CDR,alcoyano,mallorca
 CDR:2026-11-18:badajoz:tenerife,2026-11-18T19:00:00+00:00,CDR,badajoz,tenerife,2,5,0,3
 CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,minera,cartagena,1,2,0,0
 CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,reus-reddis,barakaldo,1,1,0,0
+BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,bayern-munich,cologne,1,1,1,1
+L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,troyes,le-havre,3,1,1,1
