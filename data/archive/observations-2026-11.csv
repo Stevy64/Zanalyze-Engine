@@ -5638,3 +5638,69 @@ L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_1.5,+1.5,1,0.25232
 L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_2.5,+2.5,1,0.505319,0.505319,marche,perdu,4.0.1
 L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_3.5,+3.5,1,0.727159,0.727159,calcul,perdu,4.0.1
 L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,UN_4.5,+4.5,1,0.871631,0.87701,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,1X2_1,1,0,0.651886,0.651886,marche,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,1X2_2,2,0,0.138719,0.138719,marche,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,1X2_N,N,0,0.209395,0.209395,marche,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.492084,0.492084,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.507916,0.507916,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,DC_12,12,0,0.790605,0.790605,marche,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,DC_1X,1X,0,0.861281,0.861281,marche,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,DC_X2,X2,0,0.348114,0.348114,marche,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.615102,0.615102,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.875016,0.875016,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.210476,0.230762,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.573987,0.583241,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.585328,0.602472,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.955875,0.96103,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HT_1,MT 1,0,0.470562,0.483195,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HT_2,MT 2,0,0.141155,0.150126,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HT_N,MT N,0,0.388283,0.370909,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.720774,0.720774,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.377562,0.372093,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.279226,0.279226,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.622438,0.627907,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,MRG_H_2,HC dom -1,0,0.414672,0.397528,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,MRG_H_3,HC dom -2,0,0.214411,0.199919,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,OV_0.5,+0.5,0,0.941086,0.950981,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,OV_1.5,+1.5,0,0.796264,0.796264,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,OV_2.5,+2.5,0,0.561358,0.561358,marche,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,OV_3.5,+3.5,0,0.337728,0.337728,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,OV_4.5,+4.5,0,0.173583,0.166105,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,UN_0.5,+0.5,1,0.058914,0.049019,calcul,perdu,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,UN_1.5,+1.5,1,0.203736,0.203736,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,UN_2.5,+2.5,1,0.438642,0.438642,marche,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,UN_3.5,+3.5,1,0.662272,0.662272,calcul,gagne,4.0.1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,UN_4.5,+4.5,1,0.826417,0.833895,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,1X2_1,1,0,0.916728,0.916728,marche,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,1X2_2,2,0,0.025638,0.025638,marche,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,1X2_N,N,0,0.057635,0.057635,marche,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,BTTS_N,BTTS oui,1,0.71767,0.71767,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,BTTS_O,BTTS oui,0,0.28233,0.28233,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,DC_12,12,0,0.942365,0.942365,marche,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,DC_1X,1X,0,0.974362,0.974362,marche,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,DC_X2,X2,0,0.083272,0.083272,marche,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,DOM_2PLUS,dom +1.5,0,0.847641,0.847641,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,DOM_MARQUE,dom marque,0,0.964993,0.964993,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,EXT_2PLUS,ext +1.5,0,0.047104,0.08387,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,EXT_MARQUE,ext marque,0,0.290794,0.367209,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HCP_A_+1,HC dom +1,0,0.220932,0.248323,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HCP_H_+1,HC dom +1,0,0.997643,0.995,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HT_1,MT 1,0,0.720001,0.732684,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HT_2,MT 2,0,0.033029,0.038135,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HT_N,MT N,0,0.24697,0.261852,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HT_OV_0.5,MT +0.5,0,0.802134,0.802134,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HT_OV_1.5,MT +1.5,0,0.488482,0.493338,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HT_UN_0.5,MT +0.5,1,0.197866,0.197866,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,HT_UN_1.5,MT +1.5,1,0.511518,0.506662,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,MRG_H_2,HC dom -1,0,0.779068,0.751677,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,MRG_H_3,HC dom -2,0,0.577674,0.534368,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,OV_0.5,+0.5,0,0.973457,0.9607,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,OV_1.5,+1.5,0,0.885131,0.885131,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,OV_2.5,+2.5,0,0.713854,0.717055,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,OV_3.5,+3.5,0,0.504132,0.504132,marche,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,OV_4.5,+4.5,0,0.31195,0.337834,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,UN_0.5,+0.5,1,0.026543,0.0393,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,UN_1.5,+1.5,1,0.114869,0.114869,calcul,perdu,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,UN_2.5,+2.5,1,0.286146,0.282945,calcul,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,UN_3.5,+3.5,1,0.495868,0.495868,marche,gagne,4.0.1
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,UN_4.5,+4.5,1,0.68805,0.662166,calcul,gagne,4.0.1

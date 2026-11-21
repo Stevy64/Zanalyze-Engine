@@ -267,3 +267,5 @@ CDR:2026-11-18:minera:cartagena,2026-11-18T19:30:00+00:00,CDR,minera,cartagena,1
 CDR:2026-11-18:reus-reddis:barakaldo,2026-11-18T19:30:00+00:00,CDR,reus-reddis,barakaldo,1,1,0,0
 BL:2026-11-20:bayern-munich:cologne,2026-11-20T19:30:00+00:00,BL,bayern-munich,cologne,1,1,1,1
 L1:2026-11-20:troyes:le-havre,2026-11-20T19:45:00+00:00,L1,troyes,le-havre,3,1,1,1
+LIGA:2026-11-20:athletic-bilbao:espanyol,2026-11-20T20:00:00+00:00,LIGA,athletic-bilbao,espanyol,0,1,0,0
+TDP:2026-11-20:porto:paredes,2026-11-20T20:45:00+00:00,TDP,porto,paredes,1,1,1,0
