@@ -321,3 +321,8 @@ PL:2026-11-22:liverpool:manchester-united,2026-11-22T16:30:00+00:00,PL,liverpool
 SA:2026-11-22:milan:frosinone,2026-11-22T17:00:00+00:00,SA,milan,frosinone,5,1,,
 LIGA:2026-11-22:osasuna:malaga,2026-11-22T17:30:00+00:00,LIGA,osasuna,malaga,1,0,1,0
 TDP:2026-11-22:estrela:portimonense,2026-11-22T18:00:00+00:00,TDP,estrela,portimonense,1,0,0,0
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,uniao-leiria,leca,4,2,0,1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,marseille,le-mans,2,3,2,0
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,atalanta,inter,4,4,1,2
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,getafe,atletico-madrid,0,3,0,2
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,torreense,benfica,1,3,0,1

@@ -7331,3 +7331,169 @@ TDP:2026-11-22:estrela:portimonense,2026-11-22T18:00:00+00:00,TDP,UN_1.5,+1.5,1,
 TDP:2026-11-22:estrela:portimonense,2026-11-22T18:00:00+00:00,TDP,UN_2.5,+2.5,1,0.532787,0.532787,marche,gagne,4.0.1
 TDP:2026-11-22:estrela:portimonense,2026-11-22T18:00:00+00:00,TDP,UN_3.5,+3.5,1,0.748212,0.748212,calcul,gagne,4.0.1
 TDP:2026-11-22:estrela:portimonense,2026-11-22T18:00:00+00:00,TDP,UN_4.5,+4.5,1,0.885274,0.890308,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,1X2_1,1,0,0.654451,0.654451,marche,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,1X2_2,2,0,0.136788,0.136788,marche,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,1X2_N,N,0,0.208761,0.208761,marche,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,BTTS_N,BTTS oui,1,0.506497,0.506497,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,BTTS_O,BTTS oui,0,0.493503,0.493503,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,DC_12,12,0,0.791239,0.791239,marche,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,DC_1X,1X,0,0.863212,0.863212,marche,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,DC_X2,X2,0,0.345549,0.345549,marche,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,DOM_2PLUS,dom +1.5,0,0.60752,0.60752,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,DOM_MARQUE,dom marque,0,0.871344,0.871344,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,EXT_2PLUS,ext +1.5,0,0.198611,0.222174,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,EXT_MARQUE,ext marque,0,0.559808,0.567765,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HCP_A_+1,HC dom +1,0,0.585816,0.603067,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HCP_H_+1,HC dom +1,0,0.958157,0.962994,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HT_1,MT 1,0,0.470172,0.482887,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HT_2,MT 2,0,0.137361,0.146402,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HT_N,MT N,0,0.392467,0.377143,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HT_OV_0.5,MT +0.5,0,0.713358,0.713358,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HT_OV_1.5,MT +1.5,0,0.367718,0.361336,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HT_UN_0.5,MT +0.5,1,0.286642,0.286642,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,HT_UN_1.5,MT +1.5,1,0.632282,0.638664,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,MRG_H_2,HC dom -1,0,0.414184,0.396933,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,MRG_H_3,HC dom -2,0,0.212589,0.198033,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,OV_0.5,+0.5,0,0.937649,0.940559,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,OV_1.5,+1.5,0,0.786481,0.786481,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,OV_2.5,+2.5,0,0.546448,0.546448,marche,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,OV_3.5,+3.5,0,0.323929,0.323929,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,OV_4.5,+4.5,0,0.163572,0.156682,calcul,gagne,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,UN_0.5,+0.5,1,0.062351,0.059441,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,UN_1.5,+1.5,1,0.213519,0.213519,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,UN_2.5,+2.5,1,0.453552,0.453552,marche,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,UN_3.5,+3.5,1,0.676071,0.676071,calcul,perdu,4.0.1
+TDP:2026-11-22:uniao-leiria:leca,2026-11-22T19:30:00+00:00,TDP,UN_4.5,+4.5,1,0.836428,0.843318,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,1X2_1,1,0,0.673551,0.673551,marche,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,1X2_2,2,0,0.1391,0.1391,marche,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,1X2_N,N,0,0.187349,0.187349,marche,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,BTTS_N,BTTS oui,1,0.443961,0.443961,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,BTTS_O,BTTS oui,0,0.556039,0.556039,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,DC_12,12,0,0.812651,0.812651,marche,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,DC_1X,1X,0,0.8609,0.8609,marche,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,DC_X2,X2,0,0.326449,0.326449,marche,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,DOM_2PLUS,dom +1.5,0,0.669687,0.669687,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,DOM_MARQUE,dom marque,0,0.899977,0.899977,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,EXT_2PLUS,ext +1.5,0,0.244848,0.255644,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,EXT_MARQUE,ext marque,0,0.612198,0.624947,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HCP_A_+1,HC dom +1,0,0.551644,0.56171,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HCP_H_+1,HC dom +1,0,0.954321,0.959693,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HT_1,MT 1,0,0.49359,0.501338,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HT_2,MT 2,0,0.143815,0.152738,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HT_N,MT N,0,0.362595,0.336288,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HT_OV_0.5,MT +0.5,0,0.756121,0.756121,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HT_OV_1.5,MT +1.5,0,0.426722,0.425813,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HT_UN_0.5,MT +0.5,1,0.243879,0.243879,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,HT_UN_1.5,MT +1.5,1,0.573278,0.574187,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,MRG_H_2,HC dom -1,0,0.448356,0.43829,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,MRG_H_3,HC dom -2,0,0.247186,0.233291,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,OV_0.5,+0.5,0,0.956135,0.950922,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,OV_1.5,+1.5,0,0.840236,0.840236,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,OV_2.5,+2.5,0,0.630353,0.65286,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,OV_3.5,+3.5,0,0.407216,0.407216,marche,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,OV_4.5,+4.5,0,0.228276,0.217588,calcul,gagne,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,UN_0.5,+0.5,1,0.043865,0.049078,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,UN_1.5,+1.5,1,0.159764,0.159764,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,UN_2.5,+2.5,1,0.369647,0.34714,calcul,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,UN_3.5,+3.5,1,0.592784,0.592784,marche,perdu,4.0.1
+L1:2026-11-22:marseille:le-mans,2026-11-22T19:45:00+00:00,L1,UN_4.5,+4.5,1,0.771724,0.782412,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,1X2_1,1,0,0.163761,0.163761,marche,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,1X2_2,2,0,0.642482,0.642482,marche,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,1X2_N,N,0,0.193757,0.193757,marche,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,BTTS_N,BTTS oui,1,0.372875,0.372875,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,BTTS_O,BTTS oui,0,0.627125,0.627125,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,DC_12,12,0,0.806243,0.806243,marche,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,DC_1X,1X,0,0.357518,0.357518,marche,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,DC_X2,X2,0,0.836239,0.836239,marche,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,DOM_2PLUS,dom +1.5,0,0.321097,0.321097,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,DOM_MARQUE,dom marque,0,0.684983,0.684983,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,EXT_2PLUS,ext +1.5,0,0.689835,0.708191,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,EXT_MARQUE,ext marque,0,0.908562,0.937028,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HCP_A_+1,HC dom +1,0,0.936974,0.944438,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HCP_H_+1,HC dom +1,0,0.572141,0.586411,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HT_1,MT 1,0,0.169548,0.170927,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HT_2,MT 2,0,0.47978,0.491229,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HT_N,MT N,0,0.350672,0.329985,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HT_OV_0.5,MT +0.5,0,0.784759,0.784759,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HT_OV_1.5,MT +1.5,0,0.471382,0.47464,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HT_UN_0.5,MT +0.5,1,0.215241,0.215241,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,HT_UN_1.5,MT +1.5,1,0.528618,0.52536,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,MRG_A_2,HC dom -1,0,0.427859,0.413589,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,MRG_A_3,HC dom -2,0,0.237891,0.224235,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,MRG_H_2,HC dom -1,0,0.063026,0.055321,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,OV_0.5,+0.5,0,0.96642,0.956224,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,OV_1.5,+1.5,0,0.873795,0.873795,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,OV_2.5,+2.5,0,0.687799,0.695884,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,OV_3.5,+3.5,0,0.473684,0.473684,marche,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,OV_4.5,+4.5,0,0.2835,0.295308,calcul,gagne,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,UN_0.5,+0.5,1,0.03358,0.043776,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,UN_1.5,+1.5,1,0.126205,0.126205,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,UN_2.5,+2.5,1,0.312201,0.304116,calcul,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,UN_3.5,+3.5,1,0.526316,0.526316,marche,perdu,4.0.1
+SA:2026-11-22:atalanta:inter,2026-11-22T19:45:00+00:00,SA,UN_4.5,+4.5,1,0.7165,0.704692,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,1X2_1,1,0,0.13023,0.13023,marche,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,1X2_2,2,0,0.63572,0.63572,marche,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,1X2_N,N,0,0.23405,0.23405,marche,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,BTTS_N,BTTS oui,1,0.58312,0.58312,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,BTTS_O,BTTS oui,0,0.41688,0.41688,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,DC_12,12,0,0.76595,0.76595,marche,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,DC_1X,1X,0,0.36428,0.36428,marche,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,DC_X2,X2,0,0.86977,0.86977,marche,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,DOM_2PLUS,dom +1.5,0,0.148356,0.148356,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,DOM_MARQUE,dom marque,0,0.492607,0.492607,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,EXT_2PLUS,ext +1.5,0,0.535484,0.566397,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,EXT_MARQUE,ext marque,0,0.833767,0.857307,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HCP_A_+1,HC dom +1,0,0.964423,0.968386,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HCP_H_+1,HC dom +1,0,0.622497,0.647745,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HT_1,MT 1,0,0.126207,0.126562,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HT_2,MT 2,0,0.444419,0.450822,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HT_N,MT N,0,0.429374,0.43214,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HT_OV_0.5,MT +0.5,0,0.660004,0.660004,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HT_OV_1.5,MT +1.5,0,0.303188,0.283259,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HT_UN_0.5,MT +0.5,1,0.339996,0.339996,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,HT_UN_1.5,MT +1.5,1,0.696812,0.716741,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,MRG_A_2,HC dom -1,0,0.377503,0.352255,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,MRG_A_3,HC dom -2,0,0.177513,0.161709,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,OV_0.5,+0.5,0,0.909493,0.930755,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,OV_1.5,+1.5,0,0.713243,0.713243,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,OV_2.5,+2.5,0,0.448819,0.448819,marche,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,OV_3.5,+3.5,0,0.236633,0.236633,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,OV_4.5,+4.5,0,0.105222,0.100429,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,UN_0.5,+0.5,1,0.090507,0.069245,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,UN_1.5,+1.5,1,0.286757,0.286757,calcul,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,UN_2.5,+2.5,1,0.551181,0.551181,marche,perdu,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,UN_3.5,+3.5,1,0.763367,0.763367,calcul,gagne,4.0.1
+LIGA:2026-11-22:getafe:atletico-madrid,2026-11-22T20:00:00+00:00,LIGA,UN_4.5,+4.5,1,0.894778,0.899571,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,1X2_1,1,0,0.057755,0.057755,marche,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,1X2_2,2,0,0.843385,0.843385,marche,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,1X2_N,N,0,0.09886,0.09886,marche,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,BTTS_N,BTTS oui,1,0.546938,0.546938,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,BTTS_O,BTTS oui,0,0.453062,0.453062,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,DC_12,12,0,0.90114,0.90114,marche,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,DC_1X,1X,0,0.156615,0.156615,marche,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,DC_X2,X2,0,0.942245,0.942245,marche,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,DOM_2PLUS,dom +1.5,0,0.135259,0.135259,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,DOM_MARQUE,dom marque,0,0.472737,0.472737,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,EXT_2PLUS,ext +1.5,0,0.806707,0.804152,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,EXT_MARQUE,ext marque,0,0.952152,0.970341,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HCP_A_+1,HC dom +1,0,0.988504,0.989108,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HCP_H_+1,HC dom +1,0,0.333197,0.355595,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HT_1,MT 1,0,0.072193,0.067858,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HT_2,MT 2,0,0.640072,0.655803,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HT_N,MT N,0,0.287735,0.296713,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HT_OV_0.5,MT +0.5,0,0.798894,0.798894,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HT_OV_1.5,MT +1.5,0,0.488062,0.492879,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HT_UN_0.5,MT +0.5,1,0.201106,0.201106,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,HT_UN_1.5,MT +1.5,1,0.511938,0.507121,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,MRG_A_2,HC dom -1,0,0.666803,0.644405,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,MRG_A_3,HC dom -2,0,0.453684,0.410995,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,OV_0.5,+0.5,0,0.971827,0.96014,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,OV_1.5,+1.5,0,0.884881,0.884881,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,OV_2.5,+2.5,0,0.711128,0.71484,calcul,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,OV_3.5,+3.5,0,0.5,0.5,marche,gagne,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,OV_4.5,+4.5,0,0.308872,0.333233,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,UN_0.5,+0.5,1,0.028173,0.03986,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,UN_1.5,+1.5,1,0.115119,0.115119,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,UN_2.5,+2.5,1,0.288872,0.28516,calcul,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,UN_3.5,+3.5,1,0.5,0.5,marche,perdu,4.0.1
+TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,UN_4.5,+4.5,1,0.691128,0.666767,calcul,gagne,4.0.1
