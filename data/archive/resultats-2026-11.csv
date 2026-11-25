@@ -329,3 +329,12 @@ TDP:2026-11-22:torreense:benfica,2026-11-22T20:45:00+00:00,TDP,torreense,benfica
 SA:2026-11-23:monza:fiorentina,2026-11-23T19:45:00+00:00,SA,monza,fiorentina,3,0,1,0
 LIGA:2026-11-23:levante:elche,2026-11-23T20:00:00+00:00,LIGA,levante,elche,1,1,0,0
 PL:2026-11-23:brentford:everton,2026-11-23T20:00:00+00:00,PL,brentford,everton,4,0,2,0
+UCL:2026-11-24:bodo-glimt:lask-linz,2026-11-24T17:45:00+00:00,UCL,bodo-glimt,lask-linz,1,0,0,0
+UCL:2026-11-24:galatasaray:aston-villa,2026-11-24T17:45:00+00:00,UCL,galatasaray,aston-villa,1,0,0,0
+UCL:2026-11-24:arsenal:borussia-dortmund,2026-11-24T20:00:00+00:00,UCL,arsenal,borussia-dortmund,1,1,1,0
+UCL:2026-11-24:como:aek-athens,2026-11-24T20:00:00+00:00,UCL,como,aek-athens,1,0,0,0
+UCL:2026-11-24:feyenoord:porto,2026-11-24T20:00:00+00:00,UCL,feyenoord,porto,0,1,,
+UCL:2026-11-24:manchester-city:naples,2026-11-24T20:00:00+00:00,UCL,manchester-city,naples,2,2,0,0
+UCL:2026-11-24:rb-leipzig:lens,2026-11-24T20:00:00+00:00,UCL,rb-leipzig,lens,3,1,2,0
+UCL:2026-11-24:real-madrid:psv-eindhoven,2026-11-24T20:00:00+00:00,UCL,real-madrid,psv-eindhoven,5,1,0,1
+UCL:2026-11-24:slovan-bratislava:real-betis,2026-11-24T20:00:00+00:00,UCL,slovan-bratislava,real-betis,0,2,0,1
