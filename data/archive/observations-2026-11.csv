@@ -7892,3 +7892,70 @@ UCL:2026-11-24:slovan-bratislava:real-betis,2026-11-24T20:00:00+00:00,UCL,UN_1.5
 UCL:2026-11-24:slovan-bratislava:real-betis,2026-11-24T20:00:00+00:00,UCL,UN_2.5,+2.5,1,0.294284,0.289558,calcul,gagne,4.0.1
 UCL:2026-11-24:slovan-bratislava:real-betis,2026-11-24T20:00:00+00:00,UCL,UN_3.5,+3.5,1,0.505319,0.505319,marche,gagne,4.0.1
 UCL:2026-11-24:slovan-bratislava:real-betis,2026-11-24T20:00:00+00:00,UCL,UN_4.5,+4.5,1,0.697179,0.675811,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,1X2_1,1,0,0.027353,0.027353,marche,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,1X2_2,2,0,0.924289,0.924289,marche,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,1X2_N,N,0,0.048358,0.048358,marche,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,BTTS_N,BTTS oui,1,0.530465,0.530465,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,BTTS_O,BTTS oui,0,0.469535,0.469535,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,DC_12,12,0,0.951642,0.951642,marche,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,DC_1X,1X,0,0.075711,0.075711,marche,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,DC_X2,X2,0,0.972647,0.972647,marche,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.137325,0.137325,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.475949,0.475949,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.916396,0.914724,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.983652,0.989208,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.995158,0.994833,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.181714,0.204421,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HT_1,MT 1,0,0.047369,0.044869,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HT_2,MT 2,0,0.751004,0.761579,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HT_N,MT N,0,0.201627,0.21396,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.874231,0.874231,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.625212,0.631651,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.125769,0.125769,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.374788,0.368349,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.818286,0.795579,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.655959,0.620495,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,OV_0.5,+0.5,0,0.990066,0.9607,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,OV_1.5,+1.5,0,0.952018,0.952018,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,OV_2.5,+2.5,0,0.853588,0.853026,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,OV_3.5,+3.5,0,0.699576,0.699576,calcul,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,OV_4.5,+4.5,0,0.515873,0.515873,marche,gagne,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,UN_0.5,+0.5,1,0.009934,0.0393,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,UN_1.5,+1.5,1,0.047982,0.047982,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,UN_2.5,+2.5,1,0.146412,0.146974,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,UN_3.5,+3.5,1,0.300424,0.300424,calcul,perdu,4.0.1
+UCL:2026-11-25:sabah:barcelona,2026-11-25T17:45:00+00:00,UCL,UN_4.5,+4.5,1,0.484127,0.484127,marche,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,1X2_1,1,0,0.30774,0.30774,marche,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,1X2_2,2,0,0.439869,0.439869,marche,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,1X2_N,N,0,0.252391,0.252391,marche,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,BTTS_N,BTTS oui,1,0.393538,0.393538,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,BTTS_O,BTTS oui,0,0.606462,0.606462,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,DC_12,12,0,0.747609,0.747609,marche,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,DC_1X,1X,0,0.560131,0.560131,marche,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,DC_X2,X2,0,0.69226,0.69226,marche,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,DOM_2PLUS,dom +1.5,0,0.391825,0.391825,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,DOM_MARQUE,dom marque,0,0.741529,0.741529,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,EXT_2PLUS,ext +1.5,0,0.492645,0.506509,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,EXT_MARQUE,ext marque,0,0.808905,0.836626,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HCP_A_+1,HC dom +1,0,0.86134,0.876187,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HCP_H_+1,HC dom +1,0,0.768288,0.794614,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HT_1,MT 1,0,0.25537,0.228939,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HT_2,MT 2,0,0.337092,0.371939,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HT_N,MT N,0,0.407538,0.399601,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HT_OV_0.5,MT +0.5,0,0.728449,0.728449,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HT_OV_1.5,MT +1.5,0,0.390542,0.386277,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HT_UN_0.5,MT +0.5,1,0.271551,0.271551,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,HT_UN_1.5,MT +1.5,1,0.609458,0.613723,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,MRG_A_2,HC dom -1,0,0.231712,0.205386,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,MRG_A_3,HC dom -2,0,0.097132,0.086494,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,MRG_H_2,HC dom -1,0,0.13866,0.123724,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,OV_0.5,+0.5,0,0.943971,0.95973,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,OV_1.5,+1.5,0,0.808672,0.808672,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,OV_2.5,+2.5,0,0.578406,0.578406,marche,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,OV_3.5,+3.5,0,0.35455,0.35455,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,OV_4.5,+4.5,0,0.186075,0.177864,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,UN_0.5,+0.5,1,0.056029,0.04027,calcul,perdu,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,UN_1.5,+1.5,1,0.191328,0.191328,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,UN_2.5,+2.5,1,0.421594,0.421594,marche,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,UN_3.5,+3.5,1,0.64545,0.64545,calcul,gagne,4.0.1
+UCL:2026-11-25:slavia-prague:villarreal,2026-11-25T17:45:00+00:00,UCL,UN_4.5,+4.5,1,0.813925,0.822136,calcul,gagne,4.0.1
